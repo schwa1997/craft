@@ -1,8 +1,6 @@
+import { NextResponse } from 'next/server';
 import { promises as fs } from 'fs';
 import path from 'path';
-import { NextResponse } from 'next/server';
-
-const todosPath = path.join(process.cwd(), 'data', 'todos.json');
 
 type Todo = {
   id: string;
@@ -12,72 +10,47 @@ type Todo = {
   updatedAt?: string;
 };
 
-// 辅助函数：读取todos
+const todosPath = path.join(process.cwd(), 'data', 'todos.json');
+
 async function readTodos(): Promise<Todo[]> {
+  const data = await fs.readFile(todosPath, 'utf8');
+  return JSON.parse(data);
+}
+
+export async function GET(): Promise<NextResponse> {
   try {
-    const data = await fs.readFile(todosPath, 'utf8');
-    return JSON.parse(data);
+    const todos = await readTodos();
+    return NextResponse.json(todos);
   } catch (error) {
-    return [];
+    console.error('GET error:', error);
+    return NextResponse.json(
+      { error: 'Internal server error' },
+      { status: 500 }
+    );
   }
 }
 
-// 辅助函数：写入todos
-async function writeTodos(todos: Todo[]): Promise<void> {
-  await fs.writeFile(todosPath, JSON.stringify(todos, null, 2));
-}
-
-export async function GET() {
-  const todos = await readTodos();
-  return NextResponse.json(todos);
-}
-
-export async function POST(request: Request) {
-  const { text, completed } = await request.json();
-  const todos = await readTodos();
-  
-  const newTodo: Todo = {
-    id: Date.now().toString(),
-    text,
-    completed: completed || false,
-    createdAt: new Date().toISOString()
-  };
-  
-  todos.push(newTodo);
-  await writeTodos(todos);
-  
-  return NextResponse.json(newTodo);
-}
-
-export async function PUT(request: Request, { params }: { params: { id: string } }) {
-  const { id } = params;
-  const updatedTodo = await request.json();
-  const todos = await readTodos();
-  
-  const index = todos.findIndex(todo => todo.id === id);
-  if (index === -1) {
-    return NextResponse.json({ error: 'Todo not found' }, { status: 404 });
+export async function POST(request: Request): Promise<NextResponse> {
+  try {
+    const todos = await readTodos();
+    const { text, completed = false } = await request.json();
+    
+    const newTodo: Todo = {
+      id: Date.now().toString(),
+      text,
+      completed,
+      createdAt: new Date().toISOString()
+    };
+    
+    todos.push(newTodo);
+    await fs.writeFile(todosPath, JSON.stringify(todos, null, 2));
+    return NextResponse.json(newTodo, { status: 201 });
+    
+  } catch (error) {
+    console.error('POST error:', error);
+    return NextResponse.json(
+      { error: 'Internal server error' },
+      { status: 500 }
+    );
   }
-  
-  todos[index] = {
-    ...todos[index],
-    ...updatedTodo,
-    updatedAt: new Date().toISOString()
-  };
-  
-  await writeTodos(todos);
-  return NextResponse.json(todos[index]);
-}
-
-export async function DELETE(request: Request, { params }: { params: { id: string } }) {
-  const { id } = params;
-  const todos = await readTodos();
-  
-  const filteredTodos = todos.filter(todo => todo.id !== id);
-  if (filteredTodos.length === todos.length) {
-    return NextResponse.json({ error: 'Todo not found' }, { status: 404 });
-  }
-  
-  await writeTodos(filteredTodos);
-  return NextResponse.json({ success: true });
 }
