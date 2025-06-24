@@ -83,11 +83,11 @@ export default function EnergyGarden() {
   const [selectedDay, setSelectedDay] = useState<number | null>(null);
   const [showWatering, setShowWatering] = useState(false);
   const [lastWatered, setLastWatered] = useState<EnergyType | null>(null);
-
   const [showModal, setShowModal] = useState(false);
   const [tempEnergy, setTempEnergy] = useState<EnergyData | null>(null);
   const [remainingEnergy, setRemainingEnergy] = useState(DAILY_ENERGY);
   const [showInfoModal, setShowInfoModal] = useState(false);
+  const [exportLoading, setExportLoading] = useState(false);
 
   useEffect(() => {
     const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
@@ -136,6 +136,51 @@ export default function EnergyGarden() {
     setCurrentMonth((prev) => (prev + increment + 12) % 12);
   };
 
+  const generateDailyCSV = (dayData: EnergyData) => {
+    const headers =
+      "Date,Work Energy,Side Projects Energy,Life Energy,Total Energy\n";
+    const dateStr = new Date(2023, currentMonth, dayData.day)
+      .toISOString()
+      .split("T")[0];
+    const row = [
+      dateStr,
+      dayData.work,
+      dayData.side,
+      dayData.life,
+      dayData.work + dayData.side + dayData.life,
+    ].join(",");
+
+    return headers + row;
+  };
+
+  const downloadCSV = () => {
+    if (!selectedDay) return;
+
+    setExportLoading(true);
+    const dayData = energyData.find((d) => d.day === selectedDay);
+    if (!dayData) return;
+
+    const csvContent = generateDailyCSV(dayData);
+    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+    link.setAttribute("href", url);
+    link.setAttribute(
+      "download",
+      `energy-garden-${
+        new Date(2023, currentMonth, selectedDay).toISOString().split("T")[0]
+      }.csv`
+    );
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    setTimeout(() => {
+      URL.revokeObjectURL(url);
+      setExportLoading(false);
+    }, 100);
+  };
   const waterPlant = (type: EnergyType) => {
     if (!selectedDay) return;
 
@@ -474,9 +519,24 @@ export default function EnergyGarden() {
             transition={{ delay: 0.3 }}
             className={`bg-white rounded-xl ${greenPalette.shadow} p-4`}
           >
-            <h3 className={`font-medium ${greenPalette.text.secondary} mb-3`}>
-              Energy for Day {selectedDay}
-            </h3>
+            <div className="flex justify-between items-center mb-3">
+              <h3 className={`font-medium ${greenPalette.text.secondary} mb-3`}>
+                Energy for Day {selectedDay}
+              </h3>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={downloadCSV}
+                disabled={exportLoading}
+                className={`px-3 py-1 text-sm rounded-lg ${
+                  exportLoading
+                    ? greenPalette.button.disabled
+                    : greenPalette.button.light
+                } ${greenPalette.text.secondary}`}
+              >
+                {exportLoading ? "Exporting..." : "Export CSV"}
+              </motion.button>
+            </div>
             <div className="grid grid-cols-3 gap-4">
               {(["work", "side", "life"] as EnergyType[]).map((type) => (
                 <div key={type} className="text-center">
