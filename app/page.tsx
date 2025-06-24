@@ -1,313 +1,708 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import Image from "next/image";
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
-type Todo = {
-  id: string;
-  text: string;
-  completed: boolean;
-  createdAt: string;
-  updatedAt?: string;
+type EnergyType = "work" | "side" | "life";
+type EnergyData = { day: number } & Record<EnergyType, number>;
+type MonthlyData = Record<number, EnergyData[]>; // key = month (0-11)
+
+const DAILY_ENERGY = 10;
+const MIN_ENERGY = 0;
+
+const generateMonthData = (month: number): EnergyData[] => {
+  const daysInMonth = new Date(2023, month + 1, 0).getDate();
+  return Array.from({ length: daysInMonth }, (_, i) => ({
+    day: i + 1,
+    work: MIN_ENERGY,
+    side: MIN_ENERGY,
+    life: MIN_ENERGY,
+  }));
 };
 
-export default function TodoApp() {
-  const [todos, setTodos] = useState<Todo[]>([]);
-  const [newTodo, setNewTodo] = useState('');
-  const [isLoading, setIsLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [editingId, setEditingId] = useState<string | null>(null);
-  const [editText, setEditText] = useState('');
+const monthNames = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
-  // 获取待办事项
-  const fetchTodos = async () => {
-    setIsLoading(true);
-    setError(null);
-    try {
-      const response = await fetch('/api/todos');
-      if (!response.ok) {
-        throw new Error('获取数据失败');
-      }
-      const data = await response.json();
-      setTodos(data);
-    } catch (err) {
-      console.error('获取待办事项失败:', err);
-      setError('无法加载待办事项');
-    } finally {
-      setIsLoading(false);
-    }
-  };
+const LOCAL_STORAGE_KEY = "energy_garden_data";
 
-  // 初始化加载数据
+// Green color palette
+const greenPalette = {
+  background: "bg-emerald-50",
+  text: {
+    primary: "text-emerald-900",
+    secondary: "text-emerald-700",
+    light: "text-emerald-600",
+  },
+  button: {
+    base: "bg-emerald-500 hover:bg-emerald-600",
+    light: "bg-emerald-100 hover:bg-emerald-200",
+    disabled: "bg-emerald-300 cursor-not-allowed",
+  },
+  energyTypes: {
+    work: {
+      light: "bg-emerald-300",
+      medium: "bg-emerald-500",
+      dark: "bg-emerald-700",
+    },
+    side: {
+      light: "bg-teal-300",
+      medium: "bg-teal-500",
+      dark: "bg-teal-700",
+    },
+    life: {
+      light: "bg-lime-300",
+      medium: "bg-lime-500",
+      dark: "bg-lime-700",
+    },
+  },
+  border: "border-emerald-200",
+  shadow: "shadow-md",
+  highlight: "ring-2 ring-emerald-500",
+};
+
+export default function EnergyGarden() {
+  const currentRealMonth = new Date().getMonth();
+  const currentRealDay = new Date().getDate();
+
+  const [currentMonth, setCurrentMonth] = useState(currentRealMonth);
+  const [monthlyData, setMonthlyData] = useState<MonthlyData>({});
+  const [goals] = useState({ work: 100, side: 60, life: 80 });
+  const [progress, setProgress] = useState({ work: 0, side: 0, life: 0 });
+  const [selectedDay, setSelectedDay] = useState<number | null>(null);
+  const [showWatering, setShowWatering] = useState(false);
+  const [lastWatered, setLastWatered] = useState<EnergyType | null>(null);
+
+  const [showModal, setShowModal] = useState(false);
+  const [tempEnergy, setTempEnergy] = useState<EnergyData | null>(null);
+  const [remainingEnergy, setRemainingEnergy] = useState(DAILY_ENERGY);
+  const [showInfoModal, setShowInfoModal] = useState(false);
+
   useEffect(() => {
-    fetchTodos();
+    const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
+    if (saved) {
+      setMonthlyData(JSON.parse(saved));
+    } else {
+      setMonthlyData({ [currentMonth]: generateMonthData(currentMonth) });
+    }
   }, []);
 
-  // 添加待办事项
-  const handleAddTodo = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!newTodo.trim()) {
-      setError('待办事项不能为空');
-      return;
+  useEffect(() => {
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(monthlyData));
+  }, [monthlyData]);
+
+  const energyData =
+    monthlyData[currentMonth] || generateMonthData(currentMonth);
+
+  useEffect(() => {
+    setMonthlyData((prev) => {
+      if (prev[currentMonth]) return prev;
+      return { ...prev, [currentMonth]: generateMonthData(currentMonth) };
+    });
+
+    const daysInMonth = new Date(2023, currentMonth + 1, 0).getDate();
+    if (selectedDay && selectedDay > daysInMonth) {
+      setSelectedDay(null);
     }
+  }, [currentMonth]);
 
-    setError(null);
-    try {
-      const response = await fetch('/api/todos', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ 
-          text: newTodo,
-          completed: false 
-        }),
-      });
+  useEffect(() => {
+    setProgress({
+      work: energyData.reduce((sum, day) => sum + day.work, 0),
+      side: energyData.reduce((sum, day) => sum + day.side, 0),
+      life: energyData.reduce((sum, day) => sum + day.life, 0),
+    });
+  }, [energyData]);
 
-      if (!response.ok) {
-        throw new Error('添加失败');
-      }
-
-      const createdTodo = await response.json();
-      setTodos(prev => [...prev, createdTodo]);
-      setNewTodo('');
-    } catch (err) {
-      console.error('添加待办事项失败:', err);
-      setError('添加待办事项失败');
+  useEffect(() => {
+    if (tempEnergy) {
+      const usedEnergy = tempEnergy.work + tempEnergy.side + tempEnergy.life;
+      setRemainingEnergy(DAILY_ENERGY - usedEnergy);
     }
+  }, [tempEnergy]);
+
+  const handleMonthChange = (increment: number) => {
+    setCurrentMonth((prev) => (prev + increment + 12) % 12);
   };
 
-  // 切换完成状态
-  const toggleTodo = async (id: string) => {
-    setError(null);
-    try {
-      const todoToUpdate = todos.find(todo => todo.id === id);
-      if (!todoToUpdate) return;
+  const waterPlant = (type: EnergyType) => {
+    if (!selectedDay) return;
 
-      const updatedTodo = {
-        ...todoToUpdate,
-        completed: !todoToUpdate.completed,
-        updatedAt: new Date().toISOString()
-      };
+    const selectedDayData = energyData.find((d) => d.day === selectedDay);
+    if (!selectedDayData) return;
 
-      const response = await fetch(`/api/todos/${id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(updatedTodo),
-      });
+    // Check if total energy would exceed limit
+    const currentTotal =
+      selectedDayData.work + selectedDayData.side + selectedDayData.life;
+    if (currentTotal >= DAILY_ENERGY) return;
 
-      if (!response.ok) {
-        throw new Error('更新失败');
+    setShowWatering(true);
+    setLastWatered(type);
+
+    setMonthlyData((prev) => {
+      const monthCopy = { ...prev };
+      const newData = [
+        ...(monthCopy[currentMonth] || generateMonthData(currentMonth)),
+      ];
+      const dayIndex = newData.findIndex((d) => d.day === selectedDay);
+      if (dayIndex >= 0) {
+        newData[dayIndex][type] += 1;
+        monthCopy[currentMonth] = newData;
       }
+      return monthCopy;
+    });
 
-      const data = await response.json();
-      setTodos(prev => prev.map(todo => todo.id === id ? data : todo));
-    } catch (err) {
-      console.error('更新待办事项失败:', err);
-      setError('更新状态失败');
-    }
+    setTimeout(() => setShowWatering(false), 1000);
   };
 
-  // 开始编辑
-  const startEditing = (id: string, text: string) => {
-    setEditingId(id);
-    setEditText(text);
+  const getPlantHeight = (type: EnergyType) => {
+    const ratio = progress[type] / goals[type];
+    return Math.min(100, ratio * 80 + 20);
   };
 
-  // 保存编辑
-  const saveEdit = async (id: string) => {
-    if (!editText.trim()) {
-      setError('待办事项不能为空');
-      return;
-    }
-
-    setError(null);
-    try {
-      const todoToUpdate = todos.find(todo => todo.id === id);
-      if (!todoToUpdate) return;
-
-      const updatedTodo = {
-        ...todoToUpdate,
-        text: editText,
-        updatedAt: new Date().toISOString()
-      };
-
-      const response = await fetch(`/api/todos/${id}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(updatedTodo),
-      });
-
-      if (!response.ok) {
-        throw new Error('更新失败');
-      }
-
-      const data = await response.json();
-      setTodos(prev => prev.map(todo => todo.id === id ? data : todo));
-      setEditingId(null);
-    } catch (err) {
-      console.error('更新待办事项失败:', err);
-      setError('更新内容失败');
-    }
+  const isCurrentMonth = currentMonth === currentRealMonth;
+  const isToday = (day: number) => isCurrentMonth && day === currentRealDay;
+  const selectedDayData = energyData.find((d) => d.day === selectedDay) || {
+    work: 0,
+    side: 0,
+    life: 0,
   };
 
-  // 删除待办事项
-  const deleteTodo = async (id: string) => {
-    setError(null);
-    try {
-      const response = await fetch(`/api/todos/${id}`, {
-        method: 'DELETE',
-      });
+  const getEnergyTypeColor = (
+    type: EnergyType,
+    shade: "light" | "medium" | "dark" = "medium"
+  ) => {
+    return greenPalette.energyTypes[type][shade];
+  };
 
-      if (!response.ok) {
-        throw new Error('删除失败');
-      }
+  const adjustEnergy = (type: EnergyType, delta: number) => {
+    if (!tempEnergy) return;
 
-      setTodos(prev => prev.filter(todo => todo.id !== id));
-    } catch (err) {
-      console.error('删除待办事项失败:', err);
-      setError('删除待办事项失败');
-    }
+    const current = tempEnergy[type];
+    const newTotal =
+      tempEnergy.work + tempEnergy.side + tempEnergy.life + delta;
+
+    if (delta > 0 && remainingEnergy <= 0) return;
+    if (delta < 0 && current <= MIN_ENERGY) return;
+
+    const newValue = current + delta;
+
+    setTempEnergy({
+      ...tempEnergy,
+      [type]: newValue,
+    });
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-900 p-4 md:p-8">
-      <div className="max-w-2xl mx-auto">
-        {/* 头部 */}
-        <header className="flex items-center justify-between mb-8">
-          <div className="flex items-center gap-4">
-            <h1 className="text-2xl font-bold text-gray-800 dark:text-white">待办事项</h1>
-          </div>
-          <div className="text-sm text-gray-500 dark:text-gray-400">
-            共 {todos.length} 项
-          </div>
+    <div
+      className={`min-h-screen ${greenPalette.background} p-4 font-sans relative`}
+    >
+      <div className="max-w-4xl mx-auto">
+        {/* Header */}
+        <header className="text-center mb-6 relative">
+          <motion.h1
+            initial={{ y: -20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            className={`text-3xl font-bold ${greenPalette.text.primary} mb-2`}
+          >
+            Energy Garden
+          </motion.h1>
+          <p className={greenPalette.text.light}>
+            Water your plants with energy to help them grow!
+          </p>
+          <button
+            onClick={() => setShowInfoModal(true)}
+            className="absolute top-0 right-0 p-2 text-emerald-500 hover:text-emerald-700"
+            aria-label="How to use"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+          </button>
         </header>
 
-        {/* 错误提示 */}
-        {error && (
-          <div className="mb-4 p-3 bg-red-100 text-red-700 rounded-md">
-            {error}
-          </div>
-        )}
-
-        {/* 添加表单 */}
-        <form onSubmit={handleAddTodo} className="mb-6">
-          <div className="flex gap-2">
-            <input
-              type="text"
-              value={newTodo}
-              onChange={(e) => setNewTodo(e.target.value)}
-              placeholder="添加新的待办事项..."
-              className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
-              disabled={isLoading}
-            />
-            <button
-              type="submit"
-              className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors disabled:opacity-50"
-              disabled={isLoading || !newTodo.trim()}
+        {/* Garden Section */}
+        <section className="grid grid-cols-3 gap-4 mb-8">
+          {(["work", "side", "life"] as EnergyType[]).map((type) => (
+            <motion.div
+              key={type}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.2 }}
+              className={`bg-white p-4 rounded-xl ${greenPalette.shadow} border ${greenPalette.border} text-center`}
             >
-              添加
-            </button>
-          </div>
-        </form>
+              <h3
+                className={`capitalize font-medium ${greenPalette.text.secondary} mb-2`}
+              >
+                {type} Tree
+              </h3>
 
-        {/* 待办事项列表 */}
-        {isLoading ? (
-          <div className="flex justify-center items-center h-32">
-            <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
+              {/* Progress */}
+              <div className="flex justify-between items-center mb-2 text-sm">
+                <span className={greenPalette.text.light}>
+                  Water: {progress[type]}/{goals[type]}
+                </span>
+                <span className={greenPalette.text.light}>
+                  {Math.min(
+                    100,
+                    Math.floor((progress[type] / goals[type]) * 100)
+                  )}
+                  % grown
+                </span>
+              </div>
+
+              {/* Plant Visualization */}
+              <div className="relative h-40 flex justify-center items-end mb-3">
+                <div className="absolute bottom-0 w-16 bg-amber-700 rounded-b-lg z-10" />
+
+                <motion.div
+                  animate={{ height: `${getPlantHeight(type)}px` }}
+                  transition={{ type: "spring", stiffness: 60 }}
+                  className="relative w-12 origin-bottom"
+                >
+                  <div
+                    className={`absolute bottom-0 left-1/2 transform -translate-x-1/2 w-3 ${
+                      progress[type] >= goals[type]
+                        ? getEnergyTypeColor(type, "dark")
+                        : getEnergyTypeColor(type, "medium")
+                    } h-full rounded-t-full`}
+                  />
+
+                  {progress[type] > 0 && (
+                    <div
+                      className={`absolute top-1/4 left-1/2 w-4 h-4 ${getEnergyTypeColor(
+                        type,
+                        "light"
+                      )} rounded-full transform -translate-x-1/2`}
+                    />
+                  )}
+                  {progress[type] > goals[type] * 0.3 && (
+                    <div
+                      className={`absolute top-1/2 left-1/4 w-3 h-3 ${getEnergyTypeColor(
+                        type,
+                        "light"
+                      )} rounded-full`}
+                    />
+                  )}
+                  {progress[type] > goals[type] * 0.6 && (
+                    <div
+                      className={`absolute top-1/2 right-1/4 w-3 h-3 ${getEnergyTypeColor(
+                        type,
+                        "light"
+                      )} rounded-full`}
+                    />
+                  )}
+
+                  {progress[type] >= goals[type] && (
+                    <motion.div
+                      initial={{ scale: 0 }}
+                      animate={{ scale: 1 }}
+                      className="absolute top-0 left-1/2 transform -translate-x-1/2"
+                    >
+                      <div className="w-6 h-6 bg-yellow-300 rounded-full" />
+                      <div className="absolute top-0 left-0 w-6 h-6 bg-yellow-200 rounded-full opacity-70" />
+                    </motion.div>
+                  )}
+                </motion.div>
+
+                <AnimatePresence>
+                  {showWatering && lastWatered === type && (
+                    <motion.div
+                      initial={{ y: -20, opacity: 1 }}
+                      animate={{ y: -60, opacity: 0 }}
+                      exit={{ opacity: 0 }}
+                      className="absolute top-0 text-emerald-400 text-2xl"
+                    >
+                      💧
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => waterPlant(type)}
+                disabled={!selectedDay}
+                className={`px-4 py-2 rounded-lg text-white ${
+                  !selectedDay
+                    ? greenPalette.button.disabled
+                    : getEnergyTypeColor(type, "medium")
+                } transition`}
+              >
+                Water {selectedDay ? `Day ${selectedDay}` : "Today"}
+              </motion.button>
+            </motion.div>
+          ))}
+        </section>
+
+        {/* Calendar */}
+        <section
+          className={`bg-white rounded-xl ${greenPalette.shadow} p-4 mb-6`}
+        >
+          <div className="flex justify-between items-center mb-4">
+            <h2
+              className={`text-xl font-semibold ${greenPalette.text.secondary}`}
+            >
+              {monthNames[currentMonth]} Garden
+            </h2>
+            <div className="flex gap-2">
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => handleMonthChange(-1)}
+                className={`px-3 py-1 ${greenPalette.button.light} ${greenPalette.text.secondary} rounded-lg transition`}
+              >
+                ←
+              </motion.button>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => handleMonthChange(1)}
+                className={`px-3 py-1 ${greenPalette.button.light} ${greenPalette.text.secondary} rounded-lg transition`}
+              >
+                →
+              </motion.button>
+            </div>
           </div>
-        ) : (
-          <ul className="space-y-2">
-            {todos.length === 0 ? (
-              <li className="text-center py-6 text-gray-500 dark:text-gray-400">
-                暂无待办事项，请添加
-              </li>
-            ) : (
-              todos.map((todo) => (
-                <li
-                  key={todo.id}
-                  className={`p-4 rounded-md transition-all ${
-                    todo.completed
-                      ? 'bg-gray-100 dark:bg-gray-800'
-                      : 'bg-white dark:bg-gray-800 shadow-sm'
+
+          <div className="grid grid-cols-7 gap-1">
+            {["S", "M", "T", "W", "T", "F", "S"].map((day, index) => (
+              <div
+                key={`${day}-${index}`}
+                className={`text-center text-sm font-medium ${greenPalette.text.light} p-1`}
+              >
+                {day}
+              </div>
+            ))}
+
+            {energyData.map((day) => {
+              const total = day.work + day.side + day.life;
+              const today = isToday(day.day);
+              const selected = selectedDay === day.day;
+              return (
+                <motion.div
+                  key={day.day}
+                  initial={{ scale: 0.9 }}
+                  animate={{ scale: 1 }}
+                  whileHover={{ scale: 1.05 }}
+                  onClick={() => {
+                    setSelectedDay(day.day);
+                    setTempEnergy({ ...day });
+                    setShowModal(true);
+                  }}
+                  className={`aspect-square rounded-lg cursor-pointer transition-all flex flex-col ${
+                    today ? greenPalette.highlight : ""
+                  } ${
+                    selected
+                      ? "bg-emerald-200"
+                      : total > 0
+                      ? "bg-emerald-100"
+                      : "bg-gray-50"
                   }`}
                 >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-3 flex-1">
-                      <input
-                        type="checkbox"
-                        checked={todo.completed}
-                        onChange={() => toggleTodo(todo.id)}
-                        className="h-5 w-5 rounded border-gray-300 text-blue-500 focus:ring-blue-500"
+                  <div
+                    className={`text-xs font-medium p-1 ${greenPalette.text.light}`}
+                  >
+                    {day.day}
+                  </div>
+                  <div className="flex-1 grid grid-cols-2 gap-0.5 p-0.5">
+                    {day.work > 0 && (
+                      <div
+                        className={`${getEnergyTypeColor(
+                          "work",
+                          "light"
+                        )} rounded-sm`}
+                        style={{
+                          gridColumn: "1 / 3",
+                          height: `${day.work * 5}%`,
+                        }}
                       />
-                      
-                      {editingId === todo.id ? (
-                        <input
-                          type="text"
-                          value={editText}
-                          onChange={(e) => setEditText(e.target.value)}
-                          className="flex-1 px-2 py-1 border-b border-gray-300 focus:outline-none focus:border-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white"
-                          autoFocus
-                        />
-                      ) : (
-                        <span
-                          className={`flex-1 ${todo.completed ? 'line-through text-gray-500' : 'text-gray-800 dark:text-white'}`}
-                        >
-                          {todo.text}
-                        </span>
-                      )}
-                    </div>
-                    
-                    <div className="flex items-center gap-2">
-                      {editingId === todo.id ? (
-                        <>
-                          <button
-                            onClick={() => saveEdit(todo.id)}
-                            className="px-2 py-1 text-sm text-white bg-green-500 rounded hover:bg-green-600"
-                          >
-                            保存
-                          </button>
-                          <button
-                            onClick={() => setEditingId(null)}
-                            className="px-2 py-1 text-sm text-gray-700 bg-gray-200 rounded hover:bg-gray-300 dark:text-gray-300 dark:bg-gray-700"
-                          >
-                            取消
-                          </button>
-                        </>
-                      ) : (
-                        <>
-                          <button
-                            onClick={() => startEditing(todo.id, todo.text)}
-                            className="px-2 py-1 text-sm text-blue-500 hover:text-blue-700"
-                            disabled={todo.completed}
-                          >
-                            编辑
-                          </button>
-                          <button
-                            onClick={() => deleteTodo(todo.id)}
-                            className="px-2 py-1 text-sm text-red-500 hover:text-red-700"
-                          >
-                            删除
-                          </button>
-                        </>
-                      )}
-                    </div>
+                    )}
+                    {day.side > 0 && (
+                      <div
+                        className={`${getEnergyTypeColor(
+                          "side",
+                          "light"
+                        )} rounded-sm`}
+                        style={{ height: `${day.side * 5}%` }}
+                      />
+                    )}
+                    {day.life > 0 && (
+                      <div
+                        className={`${getEnergyTypeColor(
+                          "life",
+                          "light"
+                        )} rounded-sm`}
+                        style={{ height: `${day.life * 5}%` }}
+                      />
+                    )}
                   </div>
-                  
-                  <div className="mt-2 text-xs text-gray-500 dark:text-gray-400">
-                    {new Date(todo.createdAt).toLocaleString()}
-                    {todo.updatedAt && ` • 更新于: ${new Date(todo.updatedAt).toLocaleString()}`}
+                </motion.div>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* Selected Day's Stats */}
+        {selectedDay && (
+          <motion.section
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.3 }}
+            className={`bg-white rounded-xl ${greenPalette.shadow} p-4`}
+          >
+            <h3 className={`font-medium ${greenPalette.text.secondary} mb-3`}>
+              Energy for Day {selectedDay}
+            </h3>
+            <div className="grid grid-cols-3 gap-4">
+              {(["work", "side", "life"] as EnergyType[]).map((type) => (
+                <div key={type} className="text-center">
+                  <div
+                    className={`h-3 rounded-full mb-2 ${getEnergyTypeColor(
+                      type,
+                      "light"
+                    )}`}
+                    style={{ width: `${selectedDayData[type] * 20}%` }}
+                  />
+                  <div
+                    className={`capitalize text-sm ${greenPalette.text.light}`}
+                  >
+                    {type}
                   </div>
-                </li>
-              ))
-            )}
-          </ul>
+                  <div className="text-lg font-bold text-green-500">
+                    {selectedDayData[type]}
+                    <span className="text-xs  ml-1">energy</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </motion.section>
         )}
+
+        <div className={`mt-6 text-center text-sm ${greenPalette.text.light}`}>
+          <p>
+            ✨ Select a day and water your plants to grow your energy garden!
+          </p>
+          <p className="mt-1">
+            🌱 Reach monthly goals to see your plants bloom
+          </p>
+        </div>
       </div>
+
+      {/* Modal - now appears without dimming the background */}
+      <AnimatePresence>
+        {showModal && tempEnergy && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20 }}
+            className="fixed bottom-4 right-4 bg-white rounded-xl p-6 w-[320px] shadow-lg z-50 border border-emerald-200"
+          >
+            <h2
+              className={`text-lg font-semibold mb-4 ${greenPalette.text.secondary}`}
+            >
+              Allocate Energy for Day {tempEnergy.day}
+            </h2>
+
+            <div className="mb-4">
+              <div className="flex justify-between items-center mb-2">
+                <span className={greenPalette.text.light}>
+                  Remaining Energy:
+                </span>
+                <span
+                  className={`font-bold ${
+                    remainingEnergy === 0
+                      ? "text-emerald-600"
+                      : "text-emerald-400"
+                  }`}
+                >
+                  {remainingEnergy} / {DAILY_ENERGY}
+                </span>
+              </div>
+              <div className="h-2 bg-emerald-100 rounded-full mb-4">
+                <div
+                  className={`h-full rounded-full ${
+                    remainingEnergy === 0 ? "bg-emerald-500" : "bg-emerald-300"
+                  }`}
+                  style={{
+                    width: `${
+                      ((DAILY_ENERGY - remainingEnergy) / DAILY_ENERGY) * 100
+                    }%`,
+                  }}
+                />
+              </div>
+            </div>
+
+            {(["work", "side", "life"] as EnergyType[]).map((type) => (
+              <div
+                key={type}
+                className="flex items-center justify-between mb-4"
+              >
+                <div className="flex items-center">
+                  <div
+                    className={`w-3 h-3 rounded-full mr-2 ${getEnergyTypeColor(
+                      type,
+                      "medium"
+                    )}`}
+                  />
+                  <span className={`capitalize ${greenPalette.text.secondary}`}>
+                    {type}
+                  </span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <button
+                    className={`px-3 py-1 rounded-lg ${
+                      tempEnergy[type] <= MIN_ENERGY
+                        ? "bg-gray-200 cursor-not-allowed"
+                        : greenPalette.button.light
+                    }`}
+                    onClick={() => adjustEnergy(type, -1)}
+                    disabled={tempEnergy[type] <= MIN_ENERGY}
+                  >
+                    -
+                  </button>
+                  <span className="w-8 text-center">{tempEnergy[type]}</span>
+                  <button
+                    className={`px-3 py-1 rounded-lg ${
+                      remainingEnergy <= 0
+                        ? "bg-gray-200 cursor-not-allowed"
+                        : greenPalette.button.light
+                    }`}
+                    onClick={() => adjustEnergy(type, 1)}
+                    disabled={remainingEnergy <= 0}
+                  >
+                    +
+                  </button>
+                </div>
+              </div>
+            ))}
+
+            <div className="mt-6 flex justify-between">
+              <button
+                className={`px-4 py-2 ${greenPalette.button.light} rounded-lg  text-white`}
+                onClick={() => setShowModal(false)}
+              >
+                Cancel
+              </button>
+              <button
+                className={`px-4 py-2 ${greenPalette.button.base} text-white rounded-lg`}
+                onClick={() => {
+                  setMonthlyData((prev) => {
+                    const updated = [...(prev[currentMonth] || [])];
+                    const index = updated.findIndex(
+                      (d) => d.day === tempEnergy.day
+                    );
+                    if (index !== -1) {
+                      updated[index] = { ...tempEnergy };
+                    }
+                    return { ...prev, [currentMonth]: updated };
+                  });
+                  setShowModal(false);
+                }}
+              >
+                Save Allocation
+              </button>
+            </div>
+          </motion.div>
+        )}
+        {showInfoModal && (
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 20 }}
+            className="fixed inset-0 flex items-center justify-center p-4 z-50"
+          >
+            <div
+              className="fixed inset-0 bg-black bg-opacity-30"
+              onClick={() => setShowInfoModal(false)}
+            />
+            <motion.div className="bg-white rounded-xl p-6 max-w-md w-full relative">
+              <h2
+                className={`text-xl font-semibold mb-4 ${greenPalette.text.secondary}`}
+              >
+                How to Use Energy Garden
+              </h2>
+
+              <div className="space-y-3">
+                <div className="flex items-start">
+                  <div
+                    className={`flex-shrink-0 h-5 w-5 rounded-full ${greenPalette.energyTypes.work.medium} mr-3 mt-1`}
+                  />
+                  <p className={greenPalette.text.light}>
+                    <strong>Work Tree:</strong> Represents your professional
+                    energy. Allocate energy to track your work focus.
+                  </p>
+                </div>
+
+                <div className="flex items-start">
+                  <div
+                    className={`flex-shrink-0 h-5 w-5 rounded-full ${greenPalette.energyTypes.side.medium} mr-3 mt-1`}
+                  />
+                  <p className={greenPalette.text.light}>
+                    <strong>Side Tree:</strong> Represents side projects or
+                    learning. Track your personal development energy.
+                  </p>
+                </div>
+
+                <div className="flex items-start">
+                  <div
+                    className={`flex-shrink-0 h-5 w-5 rounded-full ${greenPalette.energyTypes.life.medium} mr-3 mt-1`}
+                  />
+                  <p className={greenPalette.text.light}>
+                    <strong>Life Tree:</strong> Represents personal life energy.
+                    Balance your personal time and relationships.
+                  </p>
+                </div>
+
+                <div className="pt-3 border-t border-emerald-100">
+                  <p className={greenPalette.text.light}>
+                    <strong>Daily Energy:</strong> You have {DAILY_ENERGY}{" "}
+                    energy points to allocate each day. Distribute them across
+                    the three categories to grow your garden.
+                  </p>
+                </div>
+
+                <div className="pt-3 border-t border-emerald-100">
+                  <p className={greenPalette.text.light}>
+                    <strong>Goals:</strong> Each tree has a monthly growth goal.
+                    Reach the goal to see your tree flourish!
+                  </p>
+                </div>
+              </div>
+
+              <button
+                className={`mt-6 px-4 py-2 ${greenPalette.button.base} text-white rounded-lg w-full`}
+                onClick={() => setShowInfoModal(false)}
+              >
+                Got it!
+              </button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
