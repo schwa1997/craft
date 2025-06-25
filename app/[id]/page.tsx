@@ -6,6 +6,16 @@ import { ReflectionModal } from "./components/ReflectionModal";
 import { EnergyMomentModal } from "./components/EnergyMomentModal";
 import { GrowthPath } from "./components/GrowthPath";
 
+const statusOptions: Status[] = [
+  { id: "initial", text: "Initial", editable: false },
+  { id: "evolving", text: "Evolving", editable: true },
+  { id: "completed", text: "Completed", editable: true },
+  { id: "archived", text: "Archived", editable: true },
+  { id: "restarted", text: "Restarted", editable: true },
+  { id: "executed-well", text: "Executed well", editable: false },
+  { id: "needs-improvement", text: "Needs improvement", editable: false },
+];
+
 export default function GrowthTracker() {
   const { id } = useParams();
   const router = useRouter();
@@ -14,6 +24,7 @@ export default function GrowthTracker() {
   const [showGoalModal, setShowGoalModal] = useState(false);
   const [showReflectionModal, setShowReflectionModal] = useState(false);
   const [showEnergyModal, setShowEnergyModal] = useState(false);
+  const [showStatusSelector, setShowStatusSelector] = useState(false);
   const [newReflection, setNewReflection] = useState("");
   const [energyMoments, setEnergyMoments] = useState([]);
   const [expandedItem, setExpandedItem] = useState<number | null>(null);
@@ -38,8 +49,44 @@ export default function GrowthTracker() {
     fetchGoal();
   }, [id, router]);
 
+  const updateGoalStatus = async (newStatus: Status) => {
+    if (!currentGoal) return;
+
+    try {
+      const updatedGoal = {
+        ...currentGoal,
+        status: newStatus,
+      };
+
+      const response = await fetch(`/api/goals/${id}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(updatedGoal),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to update goal status");
+      }
+
+      setCurrentGoal(updatedGoal);
+      setShowStatusSelector(false);
+    } catch (error) {
+      console.error("Error updating goal status:", error);
+    }
+  };
+
   const saveReflection = async (reflection: string) => {
-    // Implementation
+    // Implementation with status
+    const newReflection: Reflection = {
+      date: new Date().toISOString().split("T")[0],
+      text: reflection,
+      status: statusOptions.find((s) => s.id === "executed-well")!,
+      metrics: [],
+    };
+
+    // Update state and API
     setShowReflectionModal(false);
   };
 
@@ -47,6 +94,7 @@ export default function GrowthTracker() {
     // Implementation
     setShowEnergyModal(false);
   };
+
   if (loading || !currentGoal) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-green-50 to-teal-50 p-6 flex items-center justify-center">
@@ -67,12 +115,60 @@ export default function GrowthTracker() {
       <section className="mb-10 p-6 bg-white rounded-2xl shadow-lg border border-green-100">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-semibold text-teal-800">Current Goal</h2>
-          <button
-            onClick={() => setShowGoalModal(true)}
-            className="px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-medium hover:bg-green-200 transition"
-          >
-            Evolve Goal
-          </button>
+          <div className="flex space-x-2">
+            <div className="relative">
+              <button
+                onClick={() => setShowStatusSelector(!showStatusSelector)}
+                className="px-3 py-1 bg-teal-100 text-teal-800 rounded-full text-sm font-medium hover:bg-teal-200 transition flex items-center"
+              >
+                {currentGoal.status.text}
+                <svg
+                  className="w-4 h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M19 9l-7 7-7-7"
+                  />
+                </svg>
+              </button>
+
+              {showStatusSelector && (
+                <div className="absolute right-0 mt-1 w-48 bg-white rounded-md shadow-lg z-10 border border-gray-200">
+                  <div className="py-1">
+                    {statusOptions
+                      .filter(
+                        (option) =>
+                          option.editable || option.id === currentGoal.status.id
+                      )
+                      .map((option) => (
+                        <button
+                          key={option.id}
+                          onClick={() => updateGoalStatus(option)}
+                          className={`block w-full text-left px-4 py-2 text-sm ${
+                            option.id === currentGoal.status.id
+                              ? "bg-teal-100 text-teal-900"
+                              : "text-gray-700 hover:bg-gray-100"
+                          }`}
+                        >
+                          {option.text}
+                        </button>
+                      ))}
+                  </div>
+                </div>
+              )}
+            </div>
+            <button
+              onClick={() => setShowGoalModal(true)}
+              className="px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-medium hover:bg-green-200 transition"
+            >
+              Evolve Goal
+            </button>
+          </div>
         </div>
 
         <div className="space-y-4">
@@ -81,6 +177,19 @@ export default function GrowthTracker() {
             <p className="text-sm text-teal-700 mt-1">
               {currentGoal.description}
             </p>
+            <div className="mt-2">
+              <span
+                className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                  currentGoal.status.id === "completed"
+                    ? "bg-green-100 text-green-800"
+                    : currentGoal.status.id === "archived"
+                    ? "bg-gray-100 text-gray-800"
+                    : "bg-blue-100 text-blue-800"
+                }`}
+              >
+                {currentGoal.status.text}
+              </span>
+            </div>
           </div>
 
           <div className="flex space-x-2">
@@ -120,7 +229,6 @@ export default function GrowthTracker() {
               min="1"
               max="10"
               value={currentGoal.feeling}
-              //   onChange={handleFeelingChange}
               className="w-full accent-teal-600"
             />
           </div>
@@ -137,9 +245,20 @@ export default function GrowthTracker() {
                     className="p-3 bg-green-50 rounded-lg border border-green-200"
                   >
                     <p className="text-sm text-green-800">{reflection.text}</p>
-                    <p className="text-xs text-green-600 mt-1">
-                      {reflection.date}
-                    </p>
+                    <div className="flex justify-between items-center mt-1">
+                      <p className="text-xs text-green-600">
+                        {reflection.date}
+                      </p>
+                      <span
+                        className={`inline-flex items-center px-2 py-0.5 rounded text-xs ${
+                          reflection.status.id === "executed-well"
+                            ? "bg-green-100 text-green-800"
+                            : "bg-yellow-100 text-yellow-800"
+                        }`}
+                      >
+                        {reflection.status.text}
+                      </span>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -148,7 +267,6 @@ export default function GrowthTracker() {
         </div>
       </section>
 
-      <GrowthPath timeline={currentGoal.timeline} />
 
       {/* Energy Moments */}
       <section className="p-6 bg-white rounded-2xl shadow-lg border border-green-100">
@@ -171,7 +289,10 @@ export default function GrowthTracker() {
           <p className="text-sm text-gray-500">No energy moments logged yet</p>
         )}
       </section>
-
+      {/* Timeline */}
+      <section >
+        <GrowthPath timeline={currentGoal.timeline} />
+      </section>
       {/* Modals */}
       {showGoalModal && (
         <GoalEvolutionModal

@@ -8,11 +8,32 @@
         "createdAt": "2023-01-01",
         "updatedAt": "2023-02-15",
         "current": true,
+        "status": {
+          "id": "evolving",  
+          "text": "Evolving", 
+          "editable": true  
+        },
         "reflections": [
           {
             "date": "2023-02-10",
             "text": "Today I craved my salad formula instead of junk food!",
-            "status": "Executed well"
+            "status": {
+              "id": "executed-well",
+              "text": "Executed well",
+              "editable": false  
+            },
+            "metrics": [
+              {
+                "type": "vegetable intake",
+                "value": 5,
+                "unit": "servings"
+              },
+              {
+                "type": "water consumption",
+                "value": 2,
+                "unit": "liters"
+              }
+            ]
           }
         ],
         "energyMoments": [
@@ -27,62 +48,72 @@
             "date": "2023-01-01",
             "title": "Initial Goal: Lose 10 pounds",
             "description": "I want to feel more confident in my body",
+            "status": {
+              "id": "initial",
+              "text": "Initial",
+              "editable": false
+            },
             "struggle": "16-8 fasting made me binge eat at night. Not sustainable for me."
           },
           {
             "date": "2023-01-15",
             "title": "Adjusted: 10-day movement challenge",
-            "description": "Found I really enjoy morning yoga flows"
+            "description": "Found I really enjoy morning yoga flows",
+            "status": {
+              "id": "evolving",
+              "text": "Evolving",
+              "editable": true
+            }
           },
           {
             "date": "2023-02-01",
             "title": "Current: Healthy eating habits",
             "description": "Created my own salad formula that I actually crave!",
+            "status": {
+              "id": "current",
+              "text": "Current",
+              "editable": false
+            },
             "current": true
           }
         ]
+      }
+    ],
+    "statusOptions": [ 
+      {
+        "id": "initial",
+        "text": "Initial",
+        "editable": false
       },
       {
-        "id": "2",
-        "title": "Healthy Eating Habits",
-        "description": "Evolved from 'Lose 10 pounds'",
-        "feeling": 5,
-        "createdAt": "2023-01-01",
-        "updatedAt": "2023-02-15",
-        "current": true,
-        "reflections": [
-          {
-            "date": "2023-02-10",
-            "text": "Today I craved my salad formula instead of junk food!",
-            "status": "Executed well"
-          }
-        ],
-        "energyMoments": [
-          {
-            "date": "2023-02-12",
-            "activity": "Creative cooking",
-            "type": "Creative flow"
-          }
-        ],
-        "timeline": [
-          {
-            "date": "2023-01-01",
-            "title": "Initial Goal: Lose 10 pounds",
-            "description": "I want to feel more confident in my body",
-            "struggle": "16-8 fasting made me binge eat at night. Not sustainable for me."
-          },
-          {
-            "date": "2023-01-15",
-            "title": "Adjusted: 10-day movement challenge",
-            "description": "Found I really enjoy morning yoga flows"
-          },
-          {
-            "date": "2023-02-01",
-            "title": "Current: Healthy eating habits",
-            "description": "Created my own salad formula that I actually crave!",
-            "current": true
-          }
-        ]
+        "id": "evolving",
+        "text": "Evolving",
+        "editable": true
+      },
+      {
+        "id": "completed",
+        "text": "Completed",
+        "editable": true
+      },
+      {
+        "id": "archived",
+        "text": "Archived",
+        "editable": true
+      },
+      {
+        "id": "restarted",
+        "text": "Restarted",
+        "editable": true
+      },
+      {
+        "id": "executed-well",
+        "text": "Executed well",
+        "editable": false
+      },
+      {
+        "id": "needs-improvement",
+        "text": "Needs improvement",
+        "editable": false
       }
     ]
   }
