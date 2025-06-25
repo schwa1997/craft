@@ -3,13 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-interface TimelineItem {
-  current: boolean;
-  title: string;
-  date: string;
-  description: string;
-  struggle?: string;
-}
+
 
 interface GrowthPathProps {
   timeline: TimelineItem[];

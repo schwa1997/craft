@@ -20,14 +20,13 @@ export default function GrowthTracker() {
   const { id } = useParams();
   const router = useRouter();
   const [loading, setLoading] = useState(true);
-  const [currentGoal, setCurrentGoal] = useState<Goal | null>(null);
+  const [currentGoal, setCurrentGoal] = useState<Goal| null>(null);
   const [showGoalModal, setShowGoalModal] = useState(false);
   const [showReflectionModal, setShowReflectionModal] = useState(false);
   const [showEnergyModal, setShowEnergyModal] = useState(false);
   const [showStatusSelector, setShowStatusSelector] = useState(false);
   const [newReflection, setNewReflection] = useState("");
-  const [energyMoments, setEnergyMoments] = useState([]);
-  const [expandedItem, setExpandedItem] = useState<number | null>(null);
+  const [energyMoments, setEnergyMoments] = useState<EnergyMoment[]>([]);
 
   useEffect(() => {
     const fetchGoal = async () => {
@@ -267,7 +266,6 @@ export default function GrowthTracker() {
         </div>
       </section>
 
-
       {/* Energy Moments */}
       <section className="p-6 bg-white rounded-2xl shadow-lg border border-green-100">
         <h2 className="text-xl font-semibold text-teal-800 mb-4">
@@ -290,7 +288,7 @@ export default function GrowthTracker() {
         )}
       </section>
       {/* Timeline */}
-      <section >
+      <section>
         <GrowthPath timeline={currentGoal.timeline} />
       </section>
       {/* Modals */}
