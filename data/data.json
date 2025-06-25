@@ -1,0 +1,88 @@
+{
+    "goals": [
+      {
+        "id": "1",
+        "title": "Healthy Eating Habits",
+        "description": "Evolved from 'Lose 10 pounds'",
+        "feeling": 5,
+        "createdAt": "2023-01-01",
+        "updatedAt": "2023-02-15",
+        "current": true,
+        "reflections": [
+          {
+            "date": "2023-02-10",
+            "text": "Today I craved my salad formula instead of junk food!",
+            "status": "Executed well"
+          }
+        ],
+        "energyMoments": [
+          {
+            "date": "2023-02-12",
+            "activity": "Creative cooking",
+            "type": "Creative flow"
+          }
+        ],
+        "timeline": [
+          {
+            "date": "2023-01-01",
+            "title": "Initial Goal: Lose 10 pounds",
+            "description": "I want to feel more confident in my body",
+            "struggle": "16-8 fasting made me binge eat at night. Not sustainable for me."
+          },
+          {
+            "date": "2023-01-15",
+            "title": "Adjusted: 10-day movement challenge",
+            "description": "Found I really enjoy morning yoga flows"
+          },
+          {
+            "date": "2023-02-01",
+            "title": "Current: Healthy eating habits",
+            "description": "Created my own salad formula that I actually crave!",
+            "current": true
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Healthy Eating Habits",
+        "description": "Evolved from 'Lose 10 pounds'",
+        "feeling": 5,
+        "createdAt": "2023-01-01",
+        "updatedAt": "2023-02-15",
+        "current": true,
+        "reflections": [
+          {
+            "date": "2023-02-10",
+            "text": "Today I craved my salad formula instead of junk food!",
+            "status": "Executed well"
+          }
+        ],
+        "energyMoments": [
+          {
+            "date": "2023-02-12",
+            "activity": "Creative cooking",
+            "type": "Creative flow"
+          }
+        ],
+        "timeline": [
+          {
+            "date": "2023-01-01",
+            "title": "Initial Goal: Lose 10 pounds",
+            "description": "I want to feel more confident in my body",
+            "struggle": "16-8 fasting made me binge eat at night. Not sustainable for me."
+          },
+          {
+            "date": "2023-01-15",
+            "title": "Adjusted: 10-day movement challenge",
+            "description": "Found I really enjoy morning yoga flows"
+          },
+          {
+            "date": "2023-02-01",
+            "title": "Current: Healthy eating habits",
+            "description": "Created my own salad formula that I actually crave!",
+            "current": true
+          }
+        ]
+      }
+    ]
+  }
