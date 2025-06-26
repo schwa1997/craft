@@ -34,8 +34,31 @@ export default function RootLayout({
               {/* Logo/Brand */}
               <div className="flex items-center">
                 <div className="flex items-center space-x-2">
+                  <svg
+                    width="45"
+                    height="45"
+                    viewBox="0 0 100 100"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M70 50a20 20 0 0 0-20-20 20 20 0 0 0-20 20 20 20 0 0 0 20 20"
+                      stroke="#2E8555"
+                      strokeWidth="12"
+                      fill="none"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                    <path
+                      d="M50 30a20 20 0 0 1 0 40"
+                      stroke="#2E8555"
+                      strokeWidth="4"
+                      fill="none"
+                      strokeDasharray="0, 5"
+                    />
+                  </svg>
+
                   <span className="text-xl font-bold text-green-800">
-                    Change Act V.
+                    ChangING
                   </span>
                 </div>
               </div>
@@ -44,28 +67,28 @@ export default function RootLayout({
               <div className="hidden md:flex items-center space-x-8">
                 <Link
                   href="/"
-                  className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors relative group"
+                  className="text-sm font-medium text-green-600 hover:text-green-600 transition-colors relative group"
                 >
                   Home
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
                 <Link
                   href="/energy"
-                  className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors relative group"
+                  className="text-sm font-medium text-green-600 hover:text-green-600 transition-colors relative group"
                 >
                   Energy
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
                 <Link
                   href="/goal"
-                  className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors relative group"
+                  className="text-sm font-medium text-green-600 hover:text-green-600 transition-colors relative group"
                 >
                   Goals
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
                 </Link>
                 <Link
                   href="/spanish"
-                  className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors relative group"
+                  className="text-sm font-medium text-green-600 hover:text-green-600 transition-colors relative group"
                 >
                   Spanish
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>

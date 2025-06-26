@@ -1,7 +1,7 @@
 "use client";
 
+import { Info } from "lucide-react";
 import { useState } from "react";
-
 
 interface PracticeCardProps {
   template: string;
@@ -22,13 +22,14 @@ export default function PracticeCard({
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
   const [attempts, setAttempts] = useState(0);
+  const [showExplanation, setShowExplanation] = useState(false);
 
   const handleOptionClick = (option: string) => {
     const correct = option === slots.correct;
     setSelectedOption(option);
     setIsCorrect(correct);
-    setAttempts(prev => prev + 1);
-    
+    setAttempts((prev) => prev + 1);
+
     if (correct) {
       setTimeout(() => {
         setIsFlipped(true);
@@ -46,6 +47,11 @@ export default function PracticeCard({
     }
   };
 
+  const toggleExplanation = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setShowExplanation(!showExplanation);
+  };
+
   const generateSentenceWithBlank = () => {
     return template.replace(`__${verb}__`, `[${verb}]`);
   };
@@ -53,21 +59,23 @@ export default function PracticeCard({
   const generateFullSentence = () => {
     const sentence = template.replace(`__${verb}__`, slots.correct);
     const translated = translation.replace(`__${verb}__`, slots.correct);
-    return { sentence, translation: translated };
+    const explanation = slots.explanation;
+    return { sentence, translation: translated,explanation };
   };
 
-  const { sentence: fullSentence, translation: fullTranslation } = generateFullSentence();
+  const { sentence: fullSentence, translation: fullTranslation,explanation } =
+    generateFullSentence();
   const sentenceWithBlank = generateSentenceWithBlank();
 
   // Bubble container styles
   const bubbleContainerClasses = `relative max-w-[85%] p-4 rounded-2xl shadow-sm transition-all duration-300 ${
-    isEven 
-      ? "bg-gradient-to-br from-green-100 to-green-50 rounded-br-none ml-auto" 
+    isEven
+      ? "bg-gradient-to-br from-green-100 to-green-50 rounded-br-none ml-auto"
       : "bg-gradient-to-br from-green-50 to-white rounded-bl-none mr-auto"
   } ${
     selectedOption !== null
-      ? isCorrect 
-        ? "ring-2 ring-green-300 shadow-md" 
+      ? isCorrect
+        ? "ring-2 ring-green-300 shadow-md"
         : "ring-2 ring-red-200 shadow-md"
       : "border border-green-100"
   }`;
@@ -98,21 +106,25 @@ export default function PracticeCard({
 
   return (
     <div className={`w-full mb-6 ${isEven ? "text-right" : "text-left"}`}>
-      <div 
-        className={bubbleContainerClasses} 
+      <div
+        className={bubbleContainerClasses}
         onClick={handleFlip}
         role="button"
         tabIndex={0}
         aria-label={isFlipped ? "Flip back to question" : "Flip to answer"}
       >
         <div className={arrowClasses}></div>
-        
+
         {!isFlipped ? (
           <div className="space-y-3">
-            <p className={`text-gray-800 mb-2 ${isEven ? "text-green-900" : "text-gray-800"}`}>
+            <p
+              className={`text-gray-800 mb-2 ${
+                isEven ? "text-green-900" : "text-gray-800"
+              }`}
+            >
               {sentenceWithBlank}
             </p>
-            
+
             <div className="flex flex-wrap gap-2 justify-start">
               {slots.options.map((option) => (
                 <button
@@ -121,7 +133,9 @@ export default function PracticeCard({
                     e.stopPropagation();
                     handleOptionClick(option);
                   }}
-                  className={`px-3 py-1.5 rounded-lg text-sm transition-all ${getOptionButtonClasses(option)}`}
+                  className={`px-3 py-1.5 rounded-lg text-sm transition-all ${getOptionButtonClasses(
+                    option
+                  )}`}
                   disabled={isCorrect === true}
                   aria-label={`Select option: ${option}`}
                 >
@@ -129,33 +143,60 @@ export default function PracticeCard({
                 </button>
               ))}
             </div>
-            
+
             {isCorrect === true && (
               <div className="flex items-center space-x-1 justify-end">
-                <span className="text-green-600 text-xs">✓ Correct! Click to see answer</span>
+                <span className="text-green-600 text-xs">
+                  ✓ Correct! Click to see answer
+                </span>
               </div>
             )}
-            
+
             {isCorrect === false && (
               <div className="flex items-center space-x-1 justify-end">
                 <span className="text-red-500 text-xs">
-                  {attempts > 1 ? "Try again" : "Not quite right, try another option"}
+                  {attempts > 1
+                    ? "Try again"
+                    : "Not quite right, try another option"}
                 </span>
               </div>
             )}
           </div>
         ) : (
           <div className="space-y-3">
-            <p className={`font-medium ${isEven ? "text-green-900" : "text-gray-800"}`}>
+            <p
+              className={`font-medium ${
+                isEven ? "text-green-900" : "text-gray-800"
+              }`}
+            >
               {fullSentence}
             </p>
-            
-            <div className={`p-2 rounded-lg ${isEven ? "bg-green-50" : "bg-white"} border border-green-100`}>
+
+            <div
+              className={`p-2 rounded-lg ${
+                isEven ? "bg-green-50" : "bg-white"
+              } border border-green-100`}
+            >
               <p className="text-green-700 text-sm italic">{fullTranslation}</p>
             </div>
-            
+
+            <button
+              onClick={toggleExplanation}
+              className="text-gray-400 hover:text-green-600 ml-2"
+              aria-label="Show explanation"
+            >
+              <Info size={16} />
+            </button>
+
+            {showExplanation && (
+              <div className="p-3 bg-green-50 rounded-lg text-sm text-green-800 mb-3">
+                {explanation}
+              </div>
+            )}
             <div className="flex items-center justify-end space-x-1">
-              <span className="text-green-500 text-xs">Click to practice again</span>
+              <span className="text-green-500 text-xs">
+                Click to practice again
+              </span>
             </div>
           </div>
         )}

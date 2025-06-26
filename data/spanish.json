@@ -459,6 +459,461 @@
           ]
         }
       }
+    },
+    {
+      "id": "2",
+      "infinitive": "hablar",
+      "translation": "to speak",
+      "difficulty": "A1",
+      "practice_scenarios": [
+        {
+          "scenario": "Language learning",
+          "description": "This scenario involves discussing language abilities and conversations. Pay attention to verb conjugations based on who is speaking and the context. Remember that adjectives describing languages should match the speaker's gender (e.g., 'Hablo español' is neutral, but 'Soy buena en español' vs 'Soy bueno en español').",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "¿Qué idiomas __hablar__?",
+              "slots": {
+                "options": ["hablas", "hablo", "habla", "hablan"],
+                "correct": "hablas",
+                "explanation": "Using 'hablas' (tú form) as it's asking about the other person's abilities"
+              },
+              "translation": "What languages do you speak?"
+            },
+            {
+              "id": 2,
+              "template": "__hablar__ español e inglés.",
+              "slots": {
+                "options": ["Hablo", "Hablas", "Hablamos", "Hablan"],
+                "correct": "Hablo",
+                "explanation": "'Hablo' is correct as the speaker is talking about themselves (yo form)"
+              },
+              "translation": "I speak Spanish and English."
+            },
+            {
+              "id": 3,
+              "template": "¿Con quién __hablar__ ayer por teléfono?",
+              "slots": {
+                "options": ["hablaste", "hablé", "hablaron", "hablamos"],
+                "correct": "hablaste",
+                "explanation": "'Hablaste' is the tú form, asking about who the listener spoke with"
+              },
+              "translation": "Who did you speak with on the phone yesterday?"
+            },
+            {
+              "id": 4,
+              "template": "__hablar__ con mi madre.",
+              "slots": {
+                "options": ["Hablé", "Hablaste", "Habló", "Hablaron"],
+                "correct": "Hablé",
+                "explanation": "'Hablé' is the yo form of past tense"
+              },
+              "translation": "I spoke with my mother."
+            }
+          ]
+        },
+        {
+          "scenario": "Workplace communication",
+          "description": "This scenario discusses professional communication. Note that while the verb conjugations don't change for gender, professional titles might need to match gender (e.g., 'hablé con el director' vs 'hablé con la directora').",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "Necesito __hablar__ con el jefe.",
+              "slots": {
+                "options": ["hablar", "hablo", "hablas", "hablamos"],
+                "correct": "hablar",
+                "explanation": "Infinitive form after 'necesito'"
+              },
+              "translation": "I need to speak with the boss."
+            },
+            {
+              "id": 2,
+              "template": "Ellos __hablar__ con los clientes mañana.",
+              "slots": {
+                "options": ["hablan", "hablarán", "hablaron", "hablaban"],
+                "correct": "hablarán",
+                "explanation": "'Hablarán' is future tense for 'ellos'"
+              },
+              "translation": "They will speak with the clients tomorrow."
+            },
+            {
+              "id": 3,
+              "template": "Nosotros __hablar__ en la reunión.",
+              "slots": {
+                "options": [
+                  "hablamos",
+                  "hablaremos",
+                  "hablábamos",
+                  "hablaríamos"
+                ],
+                "correct": "hablamos",
+                "explanation": "'Hablamos' is present tense for 'nosotros'"
+              },
+              "translation": "We speak in the meeting."
+            },
+            {
+              "id": 4,
+              "template": "¿__hablar__ ustedes con el departamento de ventas?",
+              "slots": {
+                "options": ["Hablan", "Hablarán", "Hablaron", "Hablaríais"],
+                "correct": "Hablan",
+                "explanation": "'Hablan' is present tense for 'ustedes'"
+              },
+              "translation": "Do you speak with the sales department?"
+            }
+          ]
+        }
+      ],
+      "conjugations": {
+        "present": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hablo",
+              "sentence": "Hablo tres idiomas.",
+              "translation": "I speak three languages."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hablas",
+              "sentence": "¿Tú hablas francés?",
+              "translation": "Do you speak French?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "habla",
+              "sentence": "Ella habla con claridad.",
+              "translation": "She speaks clearly."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hablamos",
+              "sentence": "Hablamos español en casa.",
+              "translation": "We speak Spanish at home."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "habláis",
+              "sentence": "Vosotros habláis muy rápido.",
+              "translation": "You all speak very fast."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hablan",
+              "sentence": "Los profesores hablan con los estudiantes.",
+              "translation": "The teachers speak with the students."
+            }
+          ]
+        },
+        "past": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hablé",
+              "sentence": "Hablé con el director ayer.",
+              "translation": "I spoke with the director yesterday."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hablaste",
+              "sentence": "¿Hablaste con María?",
+              "translation": "Did you speak with María?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "habló",
+              "sentence": "El presidente habló por una hora.",
+              "translation": "The president spoke for an hour."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hablamos",
+              "sentence": "Hablamos sobre el proyecto.",
+              "translation": "We talked about the project."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hablasteis",
+              "sentence": "¿Hablasteis con los vecinos?",
+              "translation": "Did you all speak with the neighbors?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hablaron",
+              "sentence": "Los niños hablaron con sus padres.",
+              "translation": "The children spoke with their parents."
+            }
+          ]
+        },
+        "future": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hablaré",
+              "sentence": "Hablaré con él mañana.",
+              "translation": "I will speak with him tomorrow."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hablarás",
+              "sentence": "¿Hablarás en la conferencia?",
+              "translation": "Will you speak at the conference?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hablará",
+              "sentence": "La profesora hablará sobre gramática.",
+              "translation": "The teacher will speak about grammar."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hablaremos",
+              "sentence": "Hablaremos con el cliente el lunes.",
+              "translation": "We will speak with the client on Monday."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hablaréis",
+              "sentence": "¿Hablaréis en la reunión?",
+              "translation": "Will you all speak at the meeting?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hablarán",
+              "sentence": "Los expertos hablarán sobre el tema.",
+              "translation": "The experts will speak about the topic."
+            }
+          ]
+        },
+        "imperfect": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hablaba",
+              "sentence": "De niño, hablaba mucho en clase.",
+              "translation": "As a child, I used to talk a lot in class."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hablabas",
+              "sentence": "¿Tú hablabas con ella todos los días?",
+              "translation": "Did you used to talk with her every day?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hablaba",
+              "sentence": "Mi abuelo hablaba de sus viajes.",
+              "translation": "My grandfather used to talk about his travels."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hablábamos",
+              "sentence": "Hablábamos por horas cuando éramos jóvenes.",
+              "translation": "We used to talk for hours when we were young."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hablabais",
+              "sentence": "Vosotros hablabais mucho en las reuniones.",
+              "translation": "You all used to talk a lot in meetings."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hablaban",
+              "sentence": "Los políticos hablaban sin parar.",
+              "translation": "The politicians used to talk nonstop."
+            }
+          ]
+        },
+        "conditional": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hablaría",
+              "sentence": "Hablaría con él si estuviera aquí.",
+              "translation": "I would speak with him if he were here."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hablarías",
+              "sentence": "¿Hablarías en público si te lo pidieran?",
+              "translation": "Would you speak in public if they asked you?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hablaría",
+              "sentence": "Ella hablaría con el director si fuera necesario.",
+              "translation": "She would speak with the director if it were necessary."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hablaríamos",
+              "sentence": "Hablaríamos más español si viviéramos en México.",
+              "translation": "We would speak more Spanish if we lived in Mexico."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hablaríais",
+              "sentence": "¿Hablaríais con los medios de comunicación?",
+              "translation": "Would you all speak with the media?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hablarían",
+              "sentence": "Ellos hablarían con nosotros si hubiera tiempo.",
+              "translation": "They would speak with us if there were time."
+            }
+          ]
+        },
+        "present_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hable",
+              "sentence": "Es importante que hable con claridad.",
+              "translation": "It's important that I speak clearly."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hables",
+              "sentence": "Quiero que hables con el profesor.",
+              "translation": "I want you to speak with the teacher."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hable",
+              "sentence": "Es necesario que él hable la verdad.",
+              "translation": "It's necessary that he speaks the truth."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hablemos",
+              "sentence": "Es mejor que hablemos directamente.",
+              "translation": "It's better that we speak directly."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "habléis",
+              "sentence": "Dudo que vosotros habléis con el jefe.",
+              "translation": "I doubt you all will speak with the boss."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hablen",
+              "sentence": "Espero que ellos hablen pronto.",
+              "translation": "I hope they speak soon."
+            }
+          ]
+        },
+        "imperfect_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hablara",
+              "sentence": "Si yo hablara mejor inglés, viajaría más.",
+              "translation": "If I spoke better English, I would travel more."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hablaras",
+              "sentence": "Ojalá que tú hablaras con ella.",
+              "translation": "I wish you would speak with her."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hablara",
+              "sentence": "Era posible que él hablara con el director.",
+              "translation": "It was possible that he spoke with the director."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "habláramos",
+              "sentence": "Si habláramos el mismo idioma, sería más fácil.",
+              "translation": "If we spoke the same language, it would be easier."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hablarais",
+              "sentence": "Dudaba que vosotros hablarais con ellos.",
+              "translation": "I doubted that you all would speak with them."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hablaran",
+              "sentence": "Era improbable que ellos hablaran en público.",
+              "translation": "It was unlikely that they would speak in public."
+            }
+          ]
+        },
+        "affirmative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "habla",
+              "sentence": "¡Habla más despacio, por favor!",
+              "translation": "Speak more slowly, please!"
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "hable",
+              "sentence": "Hable con el gerente, por favor.",
+              "translation": "Speak with the manager, please."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hablemos",
+              "sentence": "¡Hablemos de este problema!",
+              "translation": "Let's talk about this problem!"
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hablad",
+              "sentence": "¡Hablad con vuestros padres!",
+              "translation": "Talk with your parents!"
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "hablen",
+              "sentence": "Hablen con claridad, por favor.",
+              "translation": "Speak clearly, please."
+            }
+          ]
+        },
+        "negative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "no hables",
+              "sentence": "No hables con la boca llena.",
+              "translation": "Don't speak with your mouth full."
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "no hable",
+              "sentence": "No hable tan alto, por favor.",
+              "translation": "Don't speak so loudly, please."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "no hablemos",
+              "sentence": "No hablemos de eso ahora.",
+              "translation": "Let's not talk about that now."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "no habléis",
+              "sentence": "No habléis durante la película.",
+              "translation": "Don't talk during the movie."
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "no hablen",
+              "sentence": "No hablen todos a la vez.",
+              "translation": "Don't all speak at once."
+            }
+          ]
+        }
+      }
     }
   ]
 }
