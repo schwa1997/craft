@@ -97,7 +97,7 @@ export default function HappinessDashboard() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-teal-50 p-6">
+    <div className="min-h-screen bg-gradient-to-b from-green-50 to-white p-6">
       {/* Header */}
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-green-900">Happiness Tracker</h1>

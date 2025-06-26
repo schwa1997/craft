@@ -251,7 +251,7 @@ export default function EnergyGarden() {
 
   return (
     <div
-      className={`min-h-screen ${greenPalette.background} p-4 font-sans relative`}
+      className={`min-h-screen ${greenPalette.background} p-4 font-sans relative bg-gradient-to-b from-green-50 to-white`}
     >
       <div className="max-w-4xl mx-auto">
         {/* Header */}

@@ -28,7 +28,7 @@ export default async function Home() {
   }
 
   return (
-    <div className="container mx-auto p-4 min-h-screen bg-green-50">
+    <div className="container mx-auto p-4 min-h-screen bg-gradient-to-b from-green-50 to-white">
       <h1 className="text-3xl font-bold mb-8 text-green-800 border-b-2 border-green-200 pb-2">
         Spanish Verb Conjugations
       </h1>
