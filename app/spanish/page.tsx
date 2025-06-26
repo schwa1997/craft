@@ -1,31 +1,8 @@
 import Link from "next/link";
-
-async function getVerbs() {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/spanish`, {
-    next: { revalidate: 3600 }, // Revalidate data every hour
-  });
-
-  if (!res.ok) {
-    throw new Error("Failed to fetch verbs");
-  }
-
-  return res.json() as Promise<VerbData[]>;
-}
+import data from "../../data/spanish.json";
 
 export default async function Home() {
-  let verbs: VerbData[] = [];
-
-  try {
-    verbs = await getVerbs();
-  } catch (error) {
-    return (
-      <div className="container mx-auto p-4">
-        <div className="text-red-500">
-          Error loading verbs. Please try again later.
-        </div>
-      </div>
-    );
-  }
+  const verbs = data.verbs;
 
   return (
     <div className="container mx-auto p-4 min-h-screen bg-gradient-to-b from-green-50 to-white">
@@ -41,7 +18,7 @@ export default async function Home() {
             <Link
               key={verb.id}
               href={`/spanish/${verb.id}`}
-              className="block transition-transform hover:scale-105" // 添加悬停放大效果
+              className="block transition-transform hover:scale-105" 
             >
               <div className="bg-white p-4 rounded-lg shadow-md hover:shadow-lg transition-all h-full border-l-4 border-green-400 hover:border-green-600">
                 <h2 className="text-xl font-semibold text-green-600 hover:text-green-800">

@@ -1,43 +1,33 @@
 "use client";
 
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import LoadingSpinner from "../components/LoadingSpinner";
 import ScenarioCard from "../components/ScenarioCard";
 import ConjugationsSection from "../components/ConjugationsSection";
+import data from '../../../data/spanish.json';
 
 export default function VerbPage() {
-  const params = useParams();
-  const [verb, setVerb] = useState<VerbData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState("");
+  const { id } = useParams<{ id: string }>();
+  const router = useRouter();
+  const [verb, setVerb] = useState<VerbData>();
   const [activeTab, setActiveTab] = useState<"practice" | "conjugations">(
     "practice"
   );
   const [currentScenarioIndex, setCurrentScenarioIndex] = useState(0);
 
   useEffect(() => {
-    const fetchVerb = async () => {
-      try {
-        const response = await fetch(`/api/spanish/${params.id}`);
-        if (!response.ok) throw new Error("Verb not found");
-        const data = await response.json();
-        setVerb(data);
-      } catch (err) {
-        setError(
-          err instanceof Error ? err.message : "Failed to fetch verb data"
-        );
-      } finally {
-        setLoading(false);
-      }
-    };
+    const foundVerb = data.verbs.find((v: VerbData) => v.id === id);
+    
+    if (!foundVerb) {
+      router.push("/");
+      return;
+    }
+    
+    setVerb(foundVerb);
+  }, [id, router]);
 
-    fetchVerb();
-  }, [params.id]);
-
-  if (loading) return <LoadingSpinner />;
-  if (error) return <div className="text-red-500 p-4">Error: {error}</div>;
-  if (!verb) return <div className="p-4">No verb found</div>;
+  if (!verb) return <LoadingSpinner />;
 
   const currentScenario = verb.practice_scenarios[currentScenarioIndex];
 

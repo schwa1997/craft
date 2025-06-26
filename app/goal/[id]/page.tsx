@@ -2,32 +2,27 @@
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { GrowthPath } from "../components/GrowthPath";
-
+import data from '../../../data/goals.json';
 
 export default function GrowthTracker() {
-  const { id } = useParams();
+  const { id } = useParams<{ id: string }>();
   const router = useRouter();
-  const [loading, setLoading] = useState(true);
   const [currentGoal, setCurrentGoal] = useState<Goal | null>(null);
 
   useEffect(() => {
-    const fetchGoal = async () => {
-      try {
-        const response = await fetch(`/api/goals/${id}`);
-        if (!response.ok) throw new Error("Failed to fetch goal");
-        setCurrentGoal(await response.json());
-      } catch (error) {
-        console.error("Error fetching goal:", error);
-        router.push("/");
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchGoal();
+    const goal = data.goals.find((g: Goal) => g.id === id);
+    
+    if (!goal) {
+      console.error("Goal not found");
+      router.push("/");
+      return;
+    }
+    
+    setCurrentGoal(goal);
   }, [id, router]);
 
-  if (loading || !currentGoal) {
+
+  if (!currentGoal) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-green-50 to-teal-50 p-6 flex items-center justify-center">
         <div className="animate-pulse text-teal-600">Loading...</div>

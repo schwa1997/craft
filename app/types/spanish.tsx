@@ -35,7 +35,7 @@ interface VerbConjugations {
 }
 
 interface VerbData {
-  id: number;
+  id: string;
   infinitive: string;
   translation: string;
   difficulty: string;
