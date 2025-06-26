@@ -1,10 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { GoalEvolutionModal } from "./components/GoalEvolutionModal";
-import { ReflectionModal } from "./components/ReflectionModal";
-import { EnergyMomentModal } from "./components/EnergyMomentModal";
-import { GrowthPath } from "./components/GrowthPath";
+import { GoalEvolutionModal } from "../components/GoalEvolutionModal";
+import { ReflectionModal } from "../components/ReflectionModal";
+import { EnergyMomentModal } from "../components/EnergyMomentModal";
+import { GrowthPath } from "../components/GrowthPath";
 
 const statusOptions: Status[] = [
   { id: "initial", text: "Initial", editable: false },

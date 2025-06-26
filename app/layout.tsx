@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Link from "next/link";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,7 +28,43 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <header className="border-b border-green-200 bg-white/80 backdrop-blur-sm">
+          <nav className="container mx-auto px-4 py-3 flex items-center justify-between">
+            <div className="flex items-center space-x-1">
+              <span className="text-lg font-semibold text-green-800 hidden sm:inline">
+                My Green Hub
+              </span>
+            </div>
+
+            <div className="flex space-x-6">
+              <Link
+                href="/"
+                className="text-sm font-medium text-green-700 px-3 py-2 rounded-md transition-colors hover:bg-green-50 hover:text-green-600"
+              >
+                Home
+              </Link>
+              <Link
+                href="/energy"
+                className="text-sm font-medium text-green-700 px-3 py-2 rounded-md transition-colors hover:bg-green-50 hover:text-green-600"
+              >
+                Energy
+              </Link>
+              <Link
+                href="/goal"
+                className="text-sm font-medium text-green-700 px-3 py-2 rounded-md transition-colors hover:bg-green-50 hover:text-green-600"
+              >
+                Goals
+              </Link>
+              <Link
+                href="/spanish"
+                className="text-sm font-medium text-green-700 px-3 py-2 rounded-md transition-colors hover:bg-green-50 hover:text-green-600"
+              >
+                Spanish
+              </Link>
+            </div>
+          </nav>
+        </header>
+        <main>{children}</main>
       </body>
     </html>
   );

@@ -1,0 +1,62 @@
+{
+    "verbs": [
+      {
+        "id": 1,
+        "infinitive": "ir",
+        "translation": "to go",
+        "difficulty": "A1",
+        "practice_scenarios": [
+          {
+            "scenario": "Making weekend plans",
+            "sentences": [
+              {
+                "id": 1,
+                "template": "¿Quieres __ir__ al cine conmigo el __time__?",
+                "slots": {
+                  "time": ["sábado", "domingo", "fin de semana"]
+                },
+                "translation": "Do you want to go to the cinema with me on __time__?"
+              },
+              {
+                "id": 2,
+                "template": "Voy a __ir__ de compras para comprar __item__.",
+                "slots": {
+                  "item": ["ropa", "comida", "regalos"]
+                },
+                "translation": "I'm going shopping to buy __item__."
+              }
+            ]
+          }
+        ],
+        "conjugations": {
+          "present": {
+            "examples": [
+              {
+                "pronoun": "yo",
+                "conjugation": "voy",
+                "sentence": "Voy al mercado los lunes.",
+                "translation": "I go to the market on Mondays."
+              },
+              {
+                "pronoun": "tú",
+                "conjugation": "vas",
+                "sentence": "¿Adónde vas este verano?",
+                "translation": "Where are you going this summer?"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "practice_patterns": [
+      {
+        "name": "Weekend plans",
+        "template": "Este fin de semana voy a __verb__ para __purpose__.",
+        "slots": {
+          "verb": ["ir", "comprar", "visitar"],
+          "purpose": ["relajarme", "divertirme", "ver amigos"]
+        },
+        "difficulty": "A1"
+      }
+    ]
+  }
