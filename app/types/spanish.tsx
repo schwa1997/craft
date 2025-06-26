@@ -12,6 +12,7 @@ interface ConjugationTense {
 interface SlotData {
   options: string[];
   correct: string;
+  explanation: string;
 }
 
 interface PracticeSentence {

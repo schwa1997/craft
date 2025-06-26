@@ -123,6 +123,338 @@
               "conjugation": "vas",
               "sentence": "¿Adónde vas este verano?",
               "translation": "Where are you going this summer?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "va",
+              "sentence": "Ella va a la universidad.",
+              "translation": "She goes to the university."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "vamos",
+              "sentence": "Vamos al cine esta noche.",
+              "translation": "We're going to the cinema tonight."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "vais",
+              "sentence": "¿Vais a la fiesta?",
+              "translation": "Are you all going to the party?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "van",
+              "sentence": "Ellos van al parque los domingos.",
+              "translation": "They go to the park on Sundays."
+            }
+          ]
+        },
+        "past": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "fui",
+              "sentence": "Fui al médico ayer.",
+              "translation": "I went to the doctor yesterday."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "fuiste",
+              "sentence": "¿Fuiste a la reunión?",
+              "translation": "Did you go to the meeting?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "fue",
+              "sentence": "Él fue al banco esta mañana.",
+              "translation": "He went to the bank this morning."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "fuimos",
+              "sentence": "Fuimos de vacaciones el mes pasado.",
+              "translation": "We went on vacation last month."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "fuisteis",
+              "sentence": "¿Fuisteis al concierto?",
+              "translation": "Did you all go to the concert?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "fueron",
+              "sentence": "Ellos fueron al estadio ayer.",
+              "translation": "They went to the stadium yesterday."
+            }
+          ]
+        },
+        "future": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "iré",
+              "sentence": "Iré a España el próximo año.",
+              "translation": "I will go to Spain next year."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "irás",
+              "sentence": "¿Irás a la graduación?",
+              "translation": "Will you go to the graduation?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "irá",
+              "sentence": "Mi hermana irá a la universidad.",
+              "translation": "My sister will go to the university."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "iremos",
+              "sentence": "Iremos de viaje en diciembre.",
+              "translation": "We will go on a trip in December."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "iréis",
+              "sentence": "¿Iréis al partido el sábado?",
+              "translation": "Will you all go to the game on Saturday?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "irán",
+              "sentence": "Los turistas irán al museo mañana.",
+              "translation": "The tourists will go to the museum tomorrow."
+            }
+          ]
+        },
+        "imperfect": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "iba",
+              "sentence": "De niño, iba al parque todos los días.",
+              "translation": "As a child, I used to go to the park every day."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "ibas",
+              "sentence": "¿Tú ibas a esa escuela?",
+              "translation": "Did you used to go to that school?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "iba",
+              "sentence": "Mi abuela iba al mercado temprano.",
+              "translation": "My grandmother used to go to the market early."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "íbamos",
+              "sentence": "Íbamos a la playa cada verano.",
+              "translation": "We used to go to the beach every summer."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "ibais",
+              "sentence": "¿Vosotros ibais al mismo colegio?",
+              "translation": "Did you all used to go to the same school?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "iban",
+              "sentence": "Ellos iban al centro los fines de semana.",
+              "translation": "They used to go downtown on weekends."
+            }
+          ]
+        },
+        "conditional": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "iría",
+              "sentence": "Iría contigo si tuviera tiempo.",
+              "translation": "I would go with you if I had time."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "irías",
+              "sentence": "¿Irías a Japón si pudieras?",
+              "translation": "Would you go to Japan if you could?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "iría",
+              "sentence": "Ella iría a la fiesta si la invitaran.",
+              "translation": "She would go to the party if they invited her."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "iríamos",
+              "sentence": "Iríamos al concierto si tuviéramos entradas.",
+              "translation": "We would go to the concert if we had tickets."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "iríais",
+              "sentence": "¿Iríais al extranjero a estudiar?",
+              "translation": "Would you all go abroad to study?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "irían",
+              "sentence": "Ellos irían de excursión si hiciera buen tiempo.",
+              "translation": "They would go hiking if the weather were nice."
+            }
+          ]
+        },
+        "present_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "vaya",
+              "sentence": "Espero que vaya bien en el examen.",
+              "translation": "I hope I do well on the exam."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "vayas",
+              "sentence": "Quiero que vayas al médico.",
+              "translation": "I want you to go to the doctor."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "vaya",
+              "sentence": "Es importante que ella vaya a la reunión.",
+              "translation": "It's important that she goes to the meeting."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "vayamos",
+              "sentence": "Es mejor que vayamos temprano.",
+              "translation": "It's better that we go early."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "vayáis",
+              "sentence": "Dudo que vosotros vayáis a la excursión.",
+              "translation": "I doubt you all will go on the field trip."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "vayan",
+              "sentence": "Es necesario que vayan a la oficina.",
+              "translation": "It's necessary that they go to the office."
+            }
+          ]
+        },
+        "imperfect_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "fuera",
+              "sentence": "Si yo fuera a la fiesta, me divertiría.",
+              "translation": "If I went to the party, I would have fun."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "fueras",
+              "sentence": "Ojalá que tú fueras con nosotros.",
+              "translation": "I wish you would go with us."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "fuera",
+              "sentence": "Era posible que él fuera el culpable.",
+              "translation": "It was possible that he was the culprit."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "fuéramos",
+              "sentence": "Si fuéramos al concierto, sería genial.",
+              "translation": "If we went to the concert, it would be great."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "fuerais",
+              "sentence": "Dudaba que vosotros fuerais al evento.",
+              "translation": "I doubted that you all would go to the event."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "fueran",
+              "sentence": "Era improbable que ellos fueran al norte.",
+              "translation": "It was unlikely that they would go north."
+            }
+          ]
+        },
+        "affirmative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "ve",
+              "sentence": "¡Ve a tu habitación ahora mismo!",
+              "translation": "Go to your room right now!"
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "vaya",
+              "sentence": "Vaya a la recepción, por favor.",
+              "translation": "Go to the reception, please."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "vamos",
+              "sentence": "¡Vamos a bailar!",
+              "translation": "Let's go dance!"
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "id",
+              "sentence": "¡Id a jugar afuera!",
+              "translation": "Go play outside!"
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "vayan",
+              "sentence": "Vayan a sus casas.",
+              "translation": "Go to your homes."
+            }
+          ]
+        },
+        "negative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "no vayas",
+              "sentence": "No vayas a ese lugar peligroso.",
+              "translation": "Don't go to that dangerous place."
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "no vaya",
+              "sentence": "No vaya por ese camino.",
+              "translation": "Don't go that way."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "no vayamos",
+              "sentence": "No vayamos a la playa hoy.",
+              "translation": "Let's not go to the beach today."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "no vayáis",
+              "sentence": "No vayáis a molestar a los vecinos.",
+              "translation": "Don't go bother the neighbors."
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "no vayan",
+              "sentence": "No vayan sin permiso.",
+              "translation": "Don't go without permission."
             }
           ]
         }

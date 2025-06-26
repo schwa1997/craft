@@ -1,48 +1,41 @@
 "use client";
 
+import { useState } from "react";
 import ConjugationTable from "./ConjugationTable";
 
 interface ConjugationsSectionProps {
   conjugations: VerbConjugations;
 }
 
-export default function ConjugationsSection({ conjugations }: ConjugationsSectionProps) {
-  return (
-    <div className="space-y-8">
-      {Object.entries(conjugations).map(([tense, conjugations]) => (
-        <div
-          key={tense}
-          className="bg-white p-6 rounded-lg shadow-md border border-green-100"
-        >
-          <h3 className="text-xl font-semibold mb-4 capitalize text-green-700">
-            {tense} tense
-          </h3>
-          <ConjugationTable conjugations={conjugations} />
+export default function ConjugationsSection({
+  conjugations,
+}: ConjugationsSectionProps) {
+  const [activeTense, setActiveTense] = useState<string>(Object.keys(conjugations)[0]);
 
-          <div className="mt-6">
-            <h4 className="font-medium mb-3 text-green-700">
-              Example Sentences
-            </h4>
-            <div className="space-y-4">
-              {Object.values(conjugations).flatMap((examples) =>
-                examples.map((example, idx) => (
-                  <div
-                    key={idx}
-                    className="border-l-4 border-green-200 pl-4 py-2 bg-green-50"
-                  >
-                    <p className="font-medium text-green-800">
-                      {example.sentence}
-                    </p>
-                    <p className="text-green-600 text-sm">
-                      {example.translation}
-                    </p>
-                  </div>
-                ))
-              )}
-            </div>
-          </div>
-        </div>
-      ))}
+  return (
+    <div className="bg-white p-6 rounded-lg shadow-md border border-green-100">
+      <div className="flex mb-6 border-b border-green-200">
+        {Object.keys(conjugations).map((tense) => (
+          <button
+            key={tense}
+            className={`px-4 py-2 font-medium ${
+              activeTense === tense
+                ? "text-green-700 border-b-2 border-green-600"
+                : "text-green-500 hover:text-green-700"
+            }`}
+            onClick={() => setActiveTense(tense)}
+          >
+            {tense.charAt(0).toUpperCase() + tense.slice(1)} 
+          </button>
+        ))}
+      </div>
+
+      <div className="mt-4">
+        <h3 className="text-xl font-semibold mb-4 text-green-700">
+          {activeTense.charAt(0).toUpperCase() + activeTense.slice(1)} Tense
+        </h3>
+        <ConjugationTable conjugations={conjugations[activeTense].examples} />
+      </div>
     </div>
   );
 }

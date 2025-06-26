@@ -62,3 +62,6 @@ interface GoalTimelineItem {
 }
 
 
+interface GoalsData {
+  goals: Goal[];
+}
