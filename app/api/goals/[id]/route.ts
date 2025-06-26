@@ -7,7 +7,7 @@ export async function GET(
 ) {
   const { id } = context.params;
 
-  const goal = data.goals.find((g) => g.id === id);
+  const goal = data.goals.find(g => g.id === id);
 
   if (!goal) {
     return NextResponse.json({ error: 'Goal not found' }, { status: 404 });

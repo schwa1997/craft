@@ -1,62 +1,132 @@
 {
-    "verbs": [
-      {
-        "id": 1,
-        "infinitive": "ir",
-        "translation": "to go",
-        "difficulty": "A1",
-        "practice_scenarios": [
-          {
-            "scenario": "Making weekend plans",
-            "sentences": [
-              {
-                "id": 1,
-                "template": "¿Quieres __ir__ al cine conmigo el __time__?",
-                "slots": {
-                  "time": ["sábado", "domingo", "fin de semana"]
-                },
-                "translation": "Do you want to go to the cinema with me on __time__?"
+  "verbs": [
+    {
+      "id": 1,
+      "infinitive": "ir",
+      "translation": "to go",
+      "difficulty": "A1",
+      "practice_scenarios": [
+        {
+          "scenario": "Making weekend plans",
+          "description": "This scenario involves making plans with friends or family. Pay attention to verb conjugations based on who is speaking (yo, tú, nosotros) and who you're talking to. The subject's gender doesn't affect the verb conjugation for 'ir', but noun agreements in responses might need to match gender (e.g., 'Vamos al parque' vs 'Vamos a la playa').",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "¿Qué planes tienes? ¿__ir__ a algún lugar?",
+              "slots": {
+                "options": ["Vas", "Voy", "Va", "Vamos"],
+                "correct": "Vas",
+                "explanation": "Using 'Vas' (tú form) as it's asking about the other person's plans"
               },
-              {
-                "id": 2,
-                "template": "Voy a __ir__ de compras para comprar __item__.",
-                "slots": {
-                  "item": ["ropa", "comida", "regalos"]
-                },
-                "translation": "I'm going shopping to buy __item__."
-              }
-            ]
-          }
-        ],
-        "conjugations": {
-          "present": {
-            "examples": [
-              {
-                "pronoun": "yo",
-                "conjugation": "voy",
-                "sentence": "Voy al mercado los lunes.",
-                "translation": "I go to the market on Mondays."
+              "translation": "What are your plans? Are you going somewhere?"
+            },
+            {
+              "id": 2,
+              "template": "Sí, __ir__ al cine. ¿Quieres venir?",
+              "slots": {
+                "options": ["voy", "vas", "vamos", "van"],
+                "correct": "voy",
+                "explanation": "'Voy' is correct as the speaker is talking about themselves (yo form)"
               },
-              {
-                "pronoun": "tú",
-                "conjugation": "vas",
-                "sentence": "¿Adónde vas este verano?",
-                "translation": "Where are you going this summer?"
-              }
-            ]
-          }
+              "translation": "Yes, I'm going to the cinema. Do you want to come?"
+            },
+            {
+              "id": 3,
+              "template": "¡Claro! ¿A qué hora __ir__?",
+              "slots": {
+                "options": ["vas", "vamos", "van", "va"],
+                "correct": "vamos",
+                "explanation": "'Vamos' is correct as it's now about the group (nosotros form) going together"
+              },
+              "translation": "Of course! What time are we going?"
+            },
+            {
+              "id": 4,
+              "template": "__ir__ a las tres.",
+              "slots": {
+                "options": ["Voy", "Vamos", "Vas", "Van"],
+                "correct": "Vamos",
+                "explanation": "'Vamos' continues the nosotros form from the previous question"
+              },
+              "translation": "We're going at three."
+            }
+          ]
+        },
+        {
+          "scenario": "Talking about past outings",
+          "description": "This scenario discusses past activities with different groups. Note that while the verb conjugations don't change for gender, the articles and adjectives referring to places/activities might need to match gender (e.g., 'fui al parque' vs 'fui a la piscina'). For mixed groups, use masculine plural forms.",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "Ayer __ir__ al centro comercial.",
+              "slots": {
+                "options": ["fui", "fuiste", "fue", "fuimos"],
+                "correct": "fui",
+                "explanation": "'Fui' is the yo form of past tense"
+              },
+              "translation": "Yesterday I went to the mall."
+            },
+            {
+              "id": 2,
+              "template": "¿Adónde __ir__ el fin de semana pasado?",
+              "slots": {
+                "options": ["fuiste", "fue", "fueron", "fui"],
+                "correct": "fuiste",
+                "explanation": "'Fuiste' is the tú form, asking about the listener's past activity"
+              },
+              "translation": "Where did you go last weekend?"
+            },
+            {
+              "id": 3,
+              "template": "Mis amigos __ir__ a la playa.",
+              "slots": {
+                "options": ["fueron", "fue", "fuimos", "fui"],
+                "correct": "fueron",
+                "explanation": "'Fueron' is the ellos/ellas form for a group of friends"
+              },
+              "translation": "My friends went to the beach."
+            },
+            {
+              "id": 4,
+              "template": "Nosotros __ir__ de compras.",
+              "slots": {
+                "options": ["fuimos", "fui", "fueron", "fue"],
+                "correct": "fuimos",
+                "explanation": "'Fuimos' is the nosotros form"
+              },
+              "translation": "We went shopping."
+            },
+            {
+              "id": 5,
+              "template": "¿A qué hora __ir__ a casa ayer?",
+              "slots": {
+                "options": ["fuiste", "fue", "volviste", "regresaste"],
+                "correct": "fuiste",
+                "explanation": "While 'volviste/regresaste' could work, 'fuiste' is the expected simple past form here"
+              },
+              "translation": "What time did you go home yesterday?"
+            }
+          ]
+        }
+      ],
+      "conjugations": {
+        "present": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "voy",
+              "sentence": "Voy al mercado los lunes.",
+              "translation": "I go to the market on Mondays."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "vas",
+              "sentence": "¿Adónde vas este verano?",
+              "translation": "Where are you going this summer?"
+            }
+          ]
         }
       }
-    ],
-    "practice_patterns": [
-      {
-        "name": "Weekend plans",
-        "template": "Este fin de semana voy a __verb__ para __purpose__.",
-        "slots": {
-          "verb": ["ir", "comprar", "visitar"],
-          "purpose": ["relajarme", "divertirme", "ver amigos"]
-        },
-        "difficulty": "A1"
-      }
-    ]
-  }
+    }
+  ]
+}

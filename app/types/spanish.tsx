@@ -4,18 +4,33 @@ interface ExampleSentence {
   sentence: string;
   translation: string;
 }
-interface Verb {
+
+interface ConjugationTense {
+  examples: ExampleSentence[];
+}
+
+interface SlotData {
+  options: string[];
+  correct: string;
+}
+
+interface PracticeSentence {
   id: number;
-  infinitive: string;
+  template: string;
+  slots: SlotData;
   translation: string;
 }
+
 interface PracticeScenario {
   scenario: string;
-  sentences: {
-    template: string;
-    slots: Record<string, string[]>;
-    translation: string;
-  }[];
+  description: string;
+  sentences: PracticeSentence[];
+}
+
+interface VerbConjugations {
+  [tense: string]: {
+    examples: ExampleSentence[];
+  };
 }
 
 interface VerbData {
@@ -24,6 +39,9 @@ interface VerbData {
   translation: string;
   difficulty: string;
   practice_scenarios: PracticeScenario[];
-  conjugations: Record<string, Record<string, ExampleSentence[]>>;
+  conjugations: VerbConjugations;
 }
 
+interface LanguageData {
+  verbs: VerbData[];
+}

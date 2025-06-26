@@ -9,11 +9,11 @@ async function getVerbs() {
     throw new Error("Failed to fetch verbs");
   }
 
-  return res.json() as Promise<Verb[]>;
+  return res.json() as Promise<VerbData[]>;
 }
 
 export default async function Home() {
-  let verbs: Verb[] = [];
+  let verbs: VerbData[] = [];
 
   try {
     verbs = await getVerbs();

@@ -35,7 +35,7 @@ export default function RootLayout({
               <div className="flex items-center">
                 <div className="flex items-center space-x-2">
                   <span className="text-xl font-bold text-green-800">
-                    GreenHub
+                    Change Act V.
                   </span>
                 </div>
               </div>
