@@ -11,7 +11,7 @@ export function Navigation() {
 
     <html lang="en">
       
-        <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
+        <header className="sticky top-0 z-50 bg-white backdrop-blur-sm shadow-sm">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="flex h-16 items-center justify-between">
               {/* Logo/Brand */}
