@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import { useState } from "react";
+import { Menu, X } from "lucide-react"; // You'll need to install lucide-react
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ChanGing",
-  description: "ChanGing-Make it Done Happily",
+  description: "ChanGing - Make it Done Happily",
 };
 
 export default function RootLayout({
@@ -23,82 +25,124 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <header className="sticky top-0 z-50 bg-white shadow-sm">
-          <nav className="container mx-auto px-6">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
+          <div className="container mx-auto px-4 sm:px-6">
             <div className="flex h-16 items-center justify-between">
               {/* Logo/Brand */}
-              <div className="flex items-center">
+              <Link href="/" className="flex items-center group">
                 <div className="flex items-center space-x-2">
-                  <svg
-                    width="45"
-                    height="45"
-                    viewBox="0 0 100 100"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M70 50a20 20 0 0 0-20-20 20 20 0 0 0-20 20 20 20 0 0 0 20 20"
-                      stroke="#2E8555"
-                      strokeWidth="12"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M50 30a20 20 0 0 1 0 40"
-                      stroke="#2E8555"
-                      strokeWidth="4"
-                      fill="none"
-                      strokeDasharray="0, 5"
-                    />
-                  </svg>
-
-                  <span className="text-xl font-bold text-green-800">
+                  <div className="relative group-hover:rotate-12 transition-transform">
+                    <svg
+                      width="40"
+                      height="40"
+                      viewBox="0 0 100 100"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="text-green-600"
+                    >
+                      <path
+                        d="M70 50a20 20 0 0 0-20-20 20 20 0 0 0-20 20 20 20 0 0 0 20 20"
+                        stroke="currentColor"
+                        strokeWidth="12"
+                        fill="none"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M50 30a20 20 0 0 1 0 40"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                        fill="none"
+                        strokeDasharray="0, 5"
+                      />
+                    </svg>
+                  </div>
+                  <span className="text-xl font-bold text-green-800 group-hover:text-green-600 transition-colors">
                     ChanGing
                   </span>
                 </div>
-              </div>
+              </Link>
 
               {/* Desktop Navigation */}
-              <div className="hidden md:flex items-center space-x-8">
-                <Link
-                  href="/"
-                  className="text-sm font-medium text-green-600 hover:text-green-600 transition-colors relative group"
-                >
-                  Home
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
-                </Link>
-                <Link
-                  href="/energy"
-                  className="text-sm font-medium text-green-600 hover:text-green-600 transition-colors relative group"
-                >
-                  Energy
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
-                </Link>
-                <Link
-                  href="/goal"
-                  className="text-sm font-medium text-green-600 hover:text-green-600 transition-colors relative group"
-                >
-                  Goals
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
-                </Link>
-                <Link
-                  href="/spanish"
-                  className="text-sm font-medium text-green-600 hover:text-green-600 transition-colors relative group"
-                >
-                  Spanish
-                  <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-full"></span>
-                </Link>
-              </div>
+              <nav className="hidden md:flex items-center space-x-6">
+                <NavLink href="/">Home</NavLink>
+                <NavLink href="/energy">Energy</NavLink>
+                <NavLink href="/goal">Goals</NavLink>
+                <NavLink href="/spanish">Spanish</NavLink>
+              </nav>
+
+              {/* Mobile menu button */}
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="md:hidden p-2 rounded-lg text-green-600 hover:bg-green-50 hover:text-green-800 transition-colors"
+                aria-expanded={mobileMenuOpen}
+                aria-label="Toggle menu"
+              >
+                {mobileMenuOpen ? (
+                  <X className="h-6 w-6" />
+                ) : (
+                  <Menu className="h-6 w-6" />
+                )}
+              </button>
             </div>
-          </nav>
+          </div>
+
+          {/* Mobile Navigation */}
+          <div
+            className={`md:hidden ${mobileMenuOpen ? 'block' : 'hidden'} bg-white shadow-lg`}
+          >
+            <div className="container mx-auto px-4 py-2 space-y-2">
+              <MobileNavLink href="/" onClick={() => setMobileMenuOpen(false)}>
+                Home
+              </MobileNavLink>
+              <MobileNavLink href="/energy" onClick={() => setMobileMenuOpen(false)}>
+                Energy
+              </MobileNavLink>
+              <MobileNavLink href="/goal" onClick={() => setMobileMenuOpen(false)}>
+                Goals
+              </MobileNavLink>
+              <MobileNavLink href="/spanish" onClick={() => setMobileMenuOpen(false)}>
+                Spanish
+              </MobileNavLink>
+            </div>
+          </div>
         </header>
         <main>{children}</main>
       </body>
     </html>
+  );
+}
+
+// Reusable NavLink component for desktop
+function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
+  return (
+    <Link
+      href={href}
+      className="relative px-3 py-1.5 text-sm font-medium text-green-600 hover:text-green-800 transition-colors group"
+    >
+      {children}
+      <span className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-green-600 transition-all duration-300 group-hover:w-[calc(100%-0.75rem)] group-hover:left-3"></span>
+    </Link>
+  );
+}
+
+// Reusable MobileNavLink component
+function MobileNavLink({ href, children, onClick }: { 
+  href: string; 
+  children: React.ReactNode;
+  onClick: () => void;
+}) {
+  return (
+    <Link
+      href={href}
+      onClick={onClick}
+      className="block px-4 py-3 rounded-lg text-base font-medium text-green-700 hover:bg-green-50 hover:text-green-900 transition-colors"
+    >
+      {children}
+    </Link>
   );
 }
