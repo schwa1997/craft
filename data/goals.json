@@ -77,6 +77,84 @@
             "current": true
           }
         ]
+      },
+      {
+        "id": "2",
+        "title": "July-Sep Workout AirCon+Spanish",
+        "description": "3 month workout + Spanish = new me",
+        "feeling": 5,
+        "createdAt": "2025-07-01",
+        "updatedAt": "2025-07-01",
+        "current": true,
+        "status": {
+          "id": "current",  
+          "text": "Current", 
+          "editable": true  
+        },
+        "reflections": [
+          {
+            "date": "2025-07-01",
+            "text": "Today I did my first workout in 2 years!",
+            "status": {
+              "id": "executed-well",
+              "text": "Executed well",
+              "editable": false  
+            },
+            "metrics": [
+              {
+                "type": "workout",
+                "value": 2,
+                "unit": "times"
+              },
+              {
+                "type": "Spanish",
+                "value": 1,
+                "unit": "verbs"
+              }
+            ]
+          }
+        ],
+        "energyMoments": [
+          {
+            "date": "2025-07-01",
+            "activity": "Workout",
+            "type": "Workout"
+          }
+        ],
+        "timeline": [
+          {
+            "date": "2025-07-01",
+            "title": "Initial Goal: 3 month workout + Spanish = new me",
+            "description": "I want to feel more confident in my body",
+            "status": {
+              "id": "initial",
+              "text": "Initial",
+              "editable": false
+            },
+            "struggle": "I'm not sure if I can stick to this goal."
+          },
+          {
+            "date": "2025-07-01",
+            "title": "Adjusted: 3 month workout + Spanish = new me",
+            "description": "I'm not sure if I can stick to this goal.",
+            "status": {
+              "id": "evolving",
+              "text": "Evolving",
+              "editable": true
+            }
+          },
+          {
+            "date": "2023-02-01",
+            "title": "Current: 3 month workout + Spanish = new me",
+            "description": "I'm not sure if I can stick to this goal.",
+            "status": {
+              "id": "current",
+              "text": "Current",
+              "editable": false
+            },
+            "current": true
+          }
+        ]
       }
     ],
     "statusOptions": [ 
