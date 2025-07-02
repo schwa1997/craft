@@ -914,6 +914,1361 @@
           ]
         }
       }
+    },
+    {
+      "id": "3",
+      "infinitive": "comer",
+      "translation": "to eat",
+      "difficulty": "A1",
+      "practice_scenarios": [
+        {
+          "scenario": "Dining out",
+          "description": "This scenario involves ordering food and discussing meals. Pay attention to verb conjugations based on who is speaking. Note that food items have gender (e.g., 'el pan' vs 'la fruta') which affects adjective agreement.",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "¿Qué __comer__ para cenar?",
+              "slots": {
+                "options": ["comes", "como", "come", "comen"],
+                "correct": "comes",
+                "explanation": "Using 'comes' (tú form) as it's asking about the other person's dinner"
+              },
+              "translation": "What are you eating for dinner?"
+            },
+            {
+              "id": 2,
+              "template": "__comer__ una ensalada.",
+              "slots": {
+                "options": ["Como", "Comes", "Comemos", "Comen"],
+                "correct": "Como",
+                "explanation": "'Como' is correct as the speaker is talking about themselves (yo form)"
+              },
+              "translation": "I'm eating a salad."
+            },
+            {
+              "id": 3,
+              "template": "¿Dónde __comer__ ayer?",
+              "slots": {
+                "options": ["comiste", "comí", "comieron", "comimos"],
+                "correct": "comiste",
+                "explanation": "'Comiste' is the tú form, asking about where the listener ate"
+              },
+              "translation": "Where did you eat yesterday?"
+            },
+            {
+              "id": 4,
+              "template": "__comer__ en un restaurante italiano.",
+              "slots": {
+                "options": ["Comí", "Comiste", "Comió", "Comieron"],
+                "correct": "Comí",
+                "explanation": "'Comí' is the yo form of past tense"
+              },
+              "translation": "I ate at an Italian restaurant."
+            }
+          ]
+        },
+        {
+          "scenario": "Healthy eating habits",
+          "description": "This scenario discusses dietary habits and preferences. Remember that food-related adjectives must match the gender of the noun they describe (e.g., 'fruta fresca' vs 'pan integral').",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "Normalmente __comer__ frutas para el desayuno.",
+              "slots": {
+                "options": ["como", "comes", "come", "comen"],
+                "correct": "como",
+                "explanation": "'Como' is present tense for 'yo' describing a habitual action"
+              },
+              "translation": "I normally eat fruits for breakfast."
+            },
+            {
+              "id": 2,
+              "template": "Mis hermanos __comer__ demasiados dulces.",
+              "slots": {
+                "options": ["comen", "comieron", "comerán", "comían"],
+                "correct": "comen",
+                "explanation": "'Comen' is present tense for 'ellos'"
+              },
+              "translation": "My brothers eat too many sweets."
+            },
+            {
+              "id": 3,
+              "template": "Nosotros __comer__ más verduras la semana pasada.",
+              "slots": {
+                "options": ["comimos", "comemos", "comeremos", "comíamos"],
+                "correct": "comimos",
+                "explanation": "'Comimos' is past tense for 'nosotros'"
+              },
+              "translation": "We ate more vegetables last week."
+            },
+            {
+              "id": 4,
+              "template": "¿__comer__ ustedes comida picante?",
+              "slots": {
+                "options": ["Comen", "Comieron", "Comerán", "Comerían"],
+                "correct": "Comen",
+                "explanation": "'Comen' is present tense for 'ustedes'"
+              },
+              "translation": "Do you eat spicy food?"
+            }
+          ]
+        }
+      ],
+      "conjugations": {
+        "present": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "como",
+              "sentence": "Como una manzana cada mañana.",
+              "translation": "I eat an apple every morning."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "comes",
+              "sentence": "¿Tú comes carne?",
+              "translation": "Do you eat meat?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "come",
+              "sentence": "Mi abuela come muy saludable.",
+              "translation": "My grandmother eats very healthy."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "comemos",
+              "sentence": "Comemos juntos los domingos.",
+              "translation": "We eat together on Sundays."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "coméis",
+              "sentence": "Vosotros coméis muy tarde.",
+              "translation": "You all eat very late."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "comen",
+              "sentence": "Los niños comen en la escuela.",
+              "translation": "The children eat at school."
+            }
+          ]
+        },
+        "past": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "comí",
+              "sentence": "Comí demasiado ayer.",
+              "translation": "I ate too much yesterday."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "comiste",
+              "sentence": "¿Comiste pescado en el restaurante?",
+              "translation": "Did you eat fish at the restaurant?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "comió",
+              "sentence": "El bebé comió toda su comida.",
+              "translation": "The baby ate all his food."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "comimos",
+              "sentence": "Comimos en un lugar nuevo.",
+              "translation": "We ate at a new place."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "comisteis",
+              "sentence": "¿Comisteis paella en Valencia?",
+              "translation": "Did you all eat paella in Valencia?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "comieron",
+              "sentence": "Los invitados comieron todo el pastel.",
+              "translation": "The guests ate all the cake."
+            }
+          ]
+        },
+        "future": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "comeré",
+              "sentence": "Comeré más verduras este año.",
+              "translation": "I will eat more vegetables this year."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "comerás",
+              "sentence": "¿Comerás con nosotros mañana?",
+              "translation": "Will you eat with us tomorrow?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "comerá",
+              "sentence": "Mi hermana comerá con sus amigas.",
+              "translation": "My sister will eat with her friends."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "comeremos",
+              "sentence": "Comeremos mariscos en la costa.",
+              "translation": "We will eat seafood on the coast."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "comeréis",
+              "sentence": "¿Comeréis temprano esta noche?",
+              "translation": "Will you all eat early tonight?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "comerán",
+              "sentence": "Los deportistas comerán proteínas después del entrenamiento.",
+              "translation": "The athletes will eat protein after training."
+            }
+          ]
+        },
+        "imperfect": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "comía",
+              "sentence": "De niño, comía muchos dulces.",
+              "translation": "As a child, I used to eat many sweets."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "comías",
+              "sentence": "¿Tú comías vegetales cuando eras pequeño?",
+              "translation": "Did you used to eat vegetables when you were little?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "comía",
+              "sentence": "Mi abuela comía muy despacio.",
+              "translation": "My grandmother used to eat very slowly."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "comíamos",
+              "sentence": "Comíamos en ese restaurante todos los viernes.",
+              "translation": "We used to eat at that restaurant every Friday."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "comíais",
+              "sentence": "Vosotros comíais mucho pan antes.",
+              "translation": "You all used to eat a lot of bread before."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "comían",
+              "sentence": "Los campesinos comían lo que cultivaban.",
+              "translation": "The farmers used to eat what they grew."
+            }
+          ]
+        },
+        "conditional": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "comería",
+              "sentence": "Comería sushi todos los días si pudiera.",
+              "translation": "I would eat sushi every day if I could."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "comerías",
+              "sentence": "¿Comerías insectos si fueran nutritivos?",
+              "translation": "Would you eat insects if they were nutritious?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "comería",
+              "sentence": "Él comería más si no estuviera a dieta.",
+              "translation": "He would eat more if he weren't on a diet."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "comeríamos",
+              "sentence": "Comeríamos afuera más seguido si tuviéramos dinero.",
+              "translation": "We would eat out more often if we had money."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "comeríais",
+              "sentence": "¿Comeríais comida cruda?",
+              "translation": "Would you all eat raw food?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "comerían",
+              "sentence": "Ellos comerían cualquier cosa cuando tenían hambre.",
+              "translation": "They would eat anything when they were hungry."
+            }
+          ]
+        },
+        "present_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "coma",
+              "sentence": "Es importante que coma más frutas.",
+              "translation": "It's important that I eat more fruits."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "comas",
+              "sentence": "Quiero que comas más despacio.",
+              "translation": "I want you to eat more slowly."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "coma",
+              "sentence": "Es necesario que el niño coma sus verduras.",
+              "translation": "It's necessary that the child eats his vegetables."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "comamos",
+              "sentence": "Es mejor que comamos en casa hoy.",
+              "translation": "It's better that we eat at home today."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "comáis",
+              "sentence": "Dudo que vosotros comáis temprano.",
+              "translation": "I doubt you all will eat early."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "coman",
+              "sentence": "Espero que ellos coman saludable.",
+              "translation": "I hope they eat healthy."
+            }
+          ]
+        },
+        "imperfect_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "comiera",
+              "sentence": "Si yo comiera menos azúcar, estaría más saludable.",
+              "translation": "If I ate less sugar, I would be healthier."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "comieras",
+              "sentence": "Ojalá que tú comieras con nosotros.",
+              "translation": "I wish you would eat with us."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "comiera",
+              "sentence": "Era importante que él comiera proteínas.",
+              "translation": "It was important that he ate protein."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "comiéramos",
+              "sentence": "Si comiéramos juntos más seguido, sería agradable.",
+              "translation": "If we ate together more often, it would be nice."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "comierais",
+              "sentence": "Dudaba que vosotros comierais eso.",
+              "translation": "I doubted that you all would eat that."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "comieran",
+              "sentence": "Era raro que ellos no comieran carne.",
+              "translation": "It was strange that they didn't eat meat."
+            }
+          ]
+        },
+        "affirmative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "come",
+              "sentence": "¡Come tus verduras!",
+              "translation": "Eat your vegetables!"
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "coma",
+              "sentence": "Coma más despacio, por favor.",
+              "translation": "Eat more slowly, please."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "comamos",
+              "sentence": "¡Comamos algo!",
+              "translation": "Let's eat something!"
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "comed",
+              "sentence": "¡Comed lo que queráis!",
+              "translation": "Eat whatever you want!"
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "coman",
+              "sentence": "Coman todo lo que deseen.",
+              "translation": "Eat all you want."
+            }
+          ]
+        },
+        "negative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "no comas",
+              "sentence": "No comas tan rápido.",
+              "translation": "Don't eat so fast."
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "no coma",
+              "sentence": "No coma demasiado azúcar.",
+              "translation": "Don't eat too much sugar."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "no comamos",
+              "sentence": "No comamos aquí otra vez.",
+              "translation": "Let's not eat here again."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "no comáis",
+              "sentence": "No comáis antes de nadar.",
+              "translation": "Don't eat before swimming."
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "no coman",
+              "sentence": "No coman con la boca abierta.",
+              "translation": "Don't eat with your mouth open."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "4",
+      "infinitive": "vivir",
+      "translation": "to live",
+      "difficulty": "A1",
+      "practice_scenarios": [
+        {
+          "scenario": "Discussing living situations",
+          "description": "This scenario involves talking about where people live. Pay attention to verb conjugations based on who is speaking. Note that city/country names may require different prepositions (e.g., 'vivo en Madrid' vs 'vivo en España').",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "¿Dónde __vivir__?",
+              "slots": {
+                "options": ["vives", "vivo", "vive", "viven"],
+                "correct": "vives",
+                "explanation": "Using 'vives' (tú form) as it's asking about where the other person lives"
+              },
+              "translation": "Where do you live?"
+            },
+            {
+              "id": 2,
+              "template": "__vivir__ en un apartamento pequeño.",
+              "slots": {
+                "options": ["Vivo", "Vives", "Vivimos", "Viven"],
+                "correct": "Vivo",
+                "explanation": "'Vivo' is correct as the speaker is talking about themselves (yo form)"
+              },
+              "translation": "I live in a small apartment."
+            },
+            {
+              "id": 3,
+              "template": "¿Cuánto tiempo __vivir__ en esa ciudad?",
+              "slots": {
+                "options": ["viviste", "viví", "vivieron", "vivimos"],
+                "correct": "viviste",
+                "explanation": "'Viviste' is the tú form, asking about how long the listener lived somewhere"
+              },
+              "translation": "How long did you live in that city?"
+            },
+            {
+              "id": 4,
+              "template": "__vivir__ allí por cinco años.",
+              "slots": {
+                "options": ["Viví", "Viviste", "Vivió", "Vivieron"],
+                "correct": "Viví",
+                "explanation": "'Viví' is the yo form of past tense"
+              },
+              "translation": "I lived there for five years."
+            }
+          ]
+        },
+        {
+          "scenario": "Future living plans",
+          "description": "This scenario discusses plans for future living arrangements. Note that while the verb conjugations don't change for gender, housing-related nouns might (e.g., 'un piso nuevo' vs 'una casa nueva').",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "El año que viene __vivir__ en el extranjero.",
+              "slots": {
+                "options": ["viviré", "vivirás", "vivirá", "viviremos"],
+                "correct": "viviré",
+                "explanation": "'Viviré' is future tense for 'yo'"
+              },
+              "translation": "Next year I will live abroad."
+            },
+            {
+              "id": 2,
+              "template": "Mis padres __vivir__ en la playa cuando se retiren.",
+              "slots": {
+                "options": ["vivirán", "viven", "vivían", "vivieron"],
+                "correct": "vivirán",
+                "explanation": "'Vivirán' is future tense for 'ellos'"
+              },
+              "translation": "My parents will live at the beach when they retire."
+            },
+            {
+              "id": 3,
+              "template": "Nosotros __vivir__ juntos algún día.",
+              "slots": {
+                "options": ["viviremos", "vivimos", "vivíamos", "viviríamos"],
+                "correct": "viviremos",
+                "explanation": "'Viviremos' is future tense for 'nosotros'"
+              },
+              "translation": "We will live together someday."
+            },
+            {
+              "id": 4,
+              "template": "¿__vivir__ ustedes en una casa o un apartamento?",
+              "slots": {
+                "options": ["Vivirán", "Viven", "Vivían", "Vivieron"],
+                "correct": "Vivirán",
+                "explanation": "'Vivirán' is future tense for 'ustedes'"
+              },
+              "translation": "Will you live in a house or an apartment?"
+            }
+          ]
+        }
+      ],
+      "conjugations": {
+        "present": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "vivo",
+              "sentence": "Vivo en el centro de la ciudad.",
+              "translation": "I live in the city center."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "vives",
+              "sentence": "¿Tú vives cerca de aquí?",
+              "translation": "Do you live near here?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "vive",
+              "sentence": "Mi jefe vive en las afueras.",
+              "translation": "My boss lives in the suburbs."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "vivimos",
+              "sentence": "Vivimos en un barrio tranquilo.",
+              "translation": "We live in a quiet neighborhood."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "vivís",
+              "sentence": "Vosotros vivís en un lugar hermoso.",
+              "translation": "You all live in a beautiful place."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "viven",
+              "sentence": "Mis abuelos viven en el campo.",
+              "translation": "My grandparents live in the countryside."
+            }
+          ]
+        },
+        "past": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "viví",
+              "sentence": "Viví en México por dos años.",
+              "translation": "I lived in Mexico for two years."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "viviste",
+              "sentence": "¿Viviste en esta calle antes?",
+              "translation": "Did you live on this street before?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "vivió",
+              "sentence": "Mi tío vivió en Italia cuando era joven.",
+              "translation": "My uncle lived in Italy when he was young."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "vivimos",
+              "sentence": "Vivimos en ese apartamento el año pasado.",
+              "translation": "We lived in that apartment last year."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "vivisteis",
+              "sentence": "¿Vivisteis en el extranjero alguna vez?",
+              "translation": "Have you all ever lived abroad?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "vivieron",
+              "sentence": "Mis padres vivieron en varias ciudades.",
+              "translation": "My parents lived in several cities."
+            }
+          ]
+        },
+        "future": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "viviré",
+              "sentence": "Viviré en una casa más grande algún día.",
+              "translation": "I will live in a bigger house someday."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "vivirás",
+              "sentence": "¿Vivirás cerca de tu familia?",
+              "translation": "Will you live near your family?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "vivirá",
+              "sentence": "Mi hermana vivirá en el extranjero.",
+              "translation": "My sister will live abroad."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "viviremos",
+              "sentence": "Viviremos juntos cuando nos casemos.",
+              "translation": "We will live together when we get married."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "viviréis",
+              "sentence": "¿Viviréis en esta ciudad para siempre?",
+              "translation": "Will you all live in this city forever?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "vivirán",
+              "sentence": "Los recién casados vivirán en París.",
+              "translation": "The newlyweds will live in Paris."
+            }
+          ]
+        },
+        "imperfect": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "vivía",
+              "sentence": "De niño, vivía en una granja.",
+              "translation": "As a child, I used to live on a farm."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "vivías",
+              "sentence": "¿Tú vivías en este barrio antes?",
+              "translation": "Did you used to live in this neighborhood before?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "vivía",
+              "sentence": "Mi abuela vivía sola antes de mudarse con nosotros.",
+              "translation": "My grandmother used to live alone before moving in with us."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "vivíamos",
+              "sentence": "Vivíamos en una casa más pequeña antes.",
+              "translation": "We used to live in a smaller house before."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "vivíais",
+              "sentence": "Vosotros vivíais cerca de la playa, ¿verdad?",
+              "translation": "You all used to live near the beach, right?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "vivían",
+              "sentence": "Los indígenas vivían en armonía con la naturaleza.",
+              "translation": "The indigenous people used to live in harmony with nature."
+            }
+          ]
+        },
+        "conditional": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "viviría",
+              "sentence": "Viviría en el campo si tuviera trabajo allí.",
+              "translation": "I would live in the countryside if I had work there."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "vivirías",
+              "sentence": "¿Vivirías en otro país si pudieras?",
+              "translation": "Would you live in another country if you could?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "viviría",
+              "sentence": "Él viviría con sus padres si necesitaran ayuda.",
+              "translation": "He would live with his parents if they needed help."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "viviríamos",
+              "sentence": "Viviríamos en una isla si fuéramos ricos.",
+              "translation": "We would live on an island if we were rich."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "viviríais",
+              "sentence": "¿Viviríais en una casa flotante?",
+              "translation": "Would you all live in a houseboat?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "vivirían",
+              "sentence": "Ellos vivirían donde sus hijos vivan.",
+              "translation": "They would live wherever their children live."
+            }
+          ]
+        },
+        "present_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "viva",
+              "sentence": "Espero que viva muchos años más.",
+              "translation": "I hope I live many more years."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "vivas",
+              "sentence": "Quiero que vivas cerca de mí.",
+              "translation": "I want you to live near me."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "viva",
+              "sentence": "Es importante que ella viva independiente.",
+              "translation": "It's important that she lives independently."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "vivamos",
+              "sentence": "Es mejor que vivamos juntos.",
+              "translation": "It's better that we live together."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "viváis",
+              "sentence": "Dudo que vosotros viváis aquí mucho tiempo.",
+              "translation": "I doubt you all will live here for long."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "vivan",
+              "sentence": "Espero que ellos vivan felices.",
+              "translation": "I hope they live happily."
+            }
+          ]
+        },
+        "imperfect_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "viviera",
+              "sentence": "Si yo viviera en la montaña, tendría más paz.",
+              "translation": "If I lived in the mountains, I would have more peace."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "vivieras",
+              "sentence": "Ojalá que tú vivieras más cerca.",
+              "translation": "I wish you lived closer."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "viviera",
+              "sentence": "Era necesario que él viviera con su familia.",
+              "translation": "It was necessary that he lived with his family."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "viviéramos",
+              "sentence": "Si viviéramos en el mismo edificio, sería práctico.",
+              "translation": "If we lived in the same building, it would be convenient."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "vivierais",
+              "sentence": "Dudaba que vosotros vivierais aquí antes.",
+              "translation": "I doubted that you all lived here before."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "vivieran",
+              "sentence": "Era imposible que ellos vivieran sin electricidad.",
+              "translation": "It was impossible that they lived without electricity."
+            }
+          ]
+        },
+        "affirmative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "vive",
+              "sentence": "¡Vive tu vida al máximo!",
+              "translation": "Live your life to the fullest!"
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "viva",
+              "sentence": "Viva según sus principios.",
+              "translation": "Live according to your principles."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "vivamos",
+              "sentence": "¡Vivamos el presente!",
+              "translation": "Let's live in the present!"
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "vivid",
+              "sentence": "¡Vivid como queráis!",
+              "translation": "Live as you please!"
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "vivan",
+              "sentence": "Vivan en armonía con la naturaleza.",
+              "translation": "Live in harmony with nature."
+            }
+          ]
+        },
+        "negative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "no vivas",
+              "sentence": "No vivas con miedo.",
+              "translation": "Don't live in fear."
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "no viva",
+              "sentence": "No viva solo si no quiere.",
+              "translation": "Don't live alone if you don't want to."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "no vivamos",
+              "sentence": "No vivamos con rencor.",
+              "translation": "Let's not live with resentment."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "no viváis",
+              "sentence": "No viváis lejos de vuestra familia.",
+              "translation": "Don't live far from your family."
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "no vivan",
+              "sentence": "No vivan en el pasado.",
+              "translation": "Don't live in the past."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "5",
+      "infinitive": "tener",
+      "translation": "to have",
+      "difficulty": "A1",
+      "practice_scenarios": [
+        {
+          "scenario": "Possessions and characteristics",
+          "description": "This scenario involves discussing what people have or possess, including physical characteristics. Remember that adjectives must match the gender of the subject (e.g., 'Tengo el pelo largo' for female vs 'Tengo el pelo corto' for male).",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "¿__tener__ hermanos?",
+              "slots": {
+                "options": ["Tienes", "Tengo", "Tiene", "Tienen"],
+                "correct": "Tienes",
+                "explanation": "Using 'Tienes' (tú form) as it's asking about the other person's siblings"
+              },
+              "translation": "Do you have siblings?"
+            },
+            {
+              "id": 2,
+              "template": "__tener__ dos hermanos y una hermana.",
+              "slots": {
+                "options": ["Tengo", "Tienes", "Tenemos", "Tienen"],
+                "correct": "Tengo",
+                "explanation": "'Tengo' is correct as the speaker is talking about themselves (yo form)"
+              },
+              "translation": "I have two brothers and one sister."
+            },
+            {
+              "id": 3,
+              "template": "¿Qué características __tener__ tu apartamento?",
+              "slots": {
+                "options": ["tiene", "tienes", "tengo", "tenemos"],
+                "correct": "tiene",
+                "explanation": "'Tiene' is the él/ella/usted form, asking about the apartment's characteristics"
+              },
+              "translation": "What characteristics does your apartment have?"
+            },
+            {
+              "id": 4,
+              "template": "__tener__ tres habitaciones y una cocina grande.",
+              "slots": {
+                "options": ["Tiene", "Tienes", "Tengo", "Tienen"],
+                "correct": "Tiene",
+                "explanation": "'Tiene' continues referring to the apartment"
+              },
+              "translation": "It has three bedrooms and a large kitchen."
+            }
+          ]
+        },
+        {
+          "scenario": "Expressing needs and obligations",
+          "description": "This scenario uses 'tener' to express needs or obligations (tener que). Note that the following verb remains in infinitive form regardless of gender.",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "Hoy __tener__ que trabajar hasta tarde.",
+              "slots": {
+                "options": ["tengo", "tienes", "tiene", "tenemos"],
+                "correct": "tengo",
+                "explanation": "'Tengo' is present tense for 'yo' expressing obligation"
+              },
+              "translation": "Today I have to work late."
+            },
+            {
+              "id": 2,
+              "template": "Mis hijos __tener__ que estudiar para el examen.",
+              "slots": {
+                "options": ["tienen", "tienen que", "tienen de", "tienen a"],
+                "correct": "tienen que",
+                "explanation": "'Tienen que' is the correct phrase for obligation (ellos form)"
+              },
+              "translation": "My children have to study for the test."
+            },
+            {
+              "id": 3,
+              "template": "Nosotros __tener__ que comprar comida.",
+              "slots": {
+                "options": [
+                  "tenemos",
+                  "tenemos que",
+                  "tenemos de",
+                  "tenemos a"
+                ],
+                "correct": "tenemos que",
+                "explanation": "'Tenemos que' is the correct phrase for obligation (nosotros form)"
+              },
+              "translation": "We have to buy food."
+            },
+            {
+              "id": 4,
+              "template": "¿__tener__ que ir al banco hoy?",
+              "slots": {
+                "options": ["Tienes", "Tienes que", "Tienes de", "Tienes a"],
+                "correct": "Tienes que",
+                "explanation": "'Tienes que' is the correct phrase for obligation (tú form)"
+              },
+              "translation": "Do you have to go to the bank today?"
+            }
+          ]
+        }
+      ],
+      "conjugations": {
+        "present": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "tengo",
+              "sentence": "Tengo un perro y dos gatos.",
+              "translation": "I have a dog and two cats."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "tienes",
+              "sentence": "¿Tienes tiempo para hablar?",
+              "translation": "Do you have time to talk?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "tiene",
+              "sentence": "Ella tiene los ojos verdes.",
+              "translation": "She has green eyes."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "tenemos",
+              "sentence": "Tenemos una reunión a las tres.",
+              "translation": "We have a meeting at three."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "tenéis",
+              "sentence": "Vosotros tenéis mucha suerte.",
+              "translation": "You all have a lot of luck."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "tienen",
+              "sentence": "Mis padres tienen una casa en la playa.",
+              "translation": "My parents have a house at the beach."
+            }
+          ]
+        },
+        "past": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "tuve",
+              "sentence": "Tuve un accidente ayer.",
+              "translation": "I had an accident yesterday."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "tuviste",
+              "sentence": "¿Tuviste problemas con el coche?",
+              "translation": "Did you have problems with the car?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "tuvo",
+              "sentence": "El bebé tuvo fiebre anoche.",
+              "translation": "The baby had a fever last night."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "tuvimos",
+              "sentence": "Tuvimos una discusión seria.",
+              "translation": "We had a serious discussion."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "tuvisteis",
+              "sentence": "¿Tuvisteis dificultades con el proyecto?",
+              "translation": "Did you all have difficulties with the project?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "tuvieron",
+              "sentence": "Los estudiantes tuvieron un examen difícil.",
+              "translation": "The students had a difficult exam."
+            }
+          ]
+        },
+        "future": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "tendré",
+              "sentence": "Tendré una entrevista de trabajo mañana.",
+              "translation": "I will have a job interview tomorrow."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "tendrás",
+              "sentence": "¿Tendrás tiempo para ayudarme?",
+              "translation": "Will you have time to help me?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "tendrá",
+              "sentence": "Mi hermana tendrá un bebé en junio.",
+              "translation": "My sister will have a baby in June."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "tendremos",
+              "sentence": "Tendremos visitas este fin de semana.",
+              "translation": "We will have visitors this weekend."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "tendréis",
+              "sentence": "¿Tendréis vacaciones en verano?",
+              "translation": "Will you all have vacation in summer?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "tendrán",
+              "sentence": "Ellos tendrán una gran fiesta de aniversario.",
+              "translation": "They will have a big anniversary party."
+            }
+          ]
+        },
+        "imperfect": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "tenía",
+              "sentence": "De niño, tenía muchos juguetes.",
+              "translation": "As a child, I used to have many toys."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "tenías",
+              "sentence": "¿Tú tenías un perro cuando eras pequeño?",
+              "translation": "Did you used to have a dog when you were little?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "tenía",
+              "sentence": "Mi abuelo tenía una gran biblioteca.",
+              "translation": "My grandfather used to have a large library."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "teníamos",
+              "sentence": "Teníamos una cabaña en las montañas.",
+              "translation": "We used to have a cabin in the mountains."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "teníais",
+              "sentence": "Vosotros teníais un coche rojo, ¿verdad?",
+              "translation": "You all used to have a red car, right?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "tenían",
+              "sentence": "Los reyes tenían muchos sirvientes.",
+              "translation": "The kings used to have many servants."
+            }
+          ]
+        },
+        "conditional": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "tendría",
+              "sentence": "Tendría más dinero si ahorrara.",
+              "translation": "I would have more money if I saved."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "tendrías",
+              "sentence": "¿Tendrías más energía si durmieras más?",
+              "translation": "Would you have more energy if you slept more?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "tendría",
+              "sentence": "Él tendría más éxito si trabajara más.",
+              "translation": "He would have more success if he worked more."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "tendríamos",
+              "sentence": "Tendríamos una casa más grande si ganáramos más.",
+              "translation": "We would have a bigger house if we earned more."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "tendríais",
+              "sentence": "¿Tendríais más tiempo si os organizarais mejor?",
+              "translation": "Would you all have more time if you organized yourselves better?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "tendrían",
+              "sentence": "Ellos tendrían menos problemas si escucharan.",
+              "translation": "They would have fewer problems if they listened."
+            }
+          ]
+        },
+        "present_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "tenga",
+              "sentence": "Espero que tenga buena salud.",
+              "translation": "I hope I have good health."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "tengas",
+              "sentence": "Quiero que tengas éxito.",
+              "translation": "I want you to have success."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "tenga",
+              "sentence": "Es importante que ella tenga confianza.",
+              "translation": "It's important that she has confidence."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "tengamos",
+              "sentence": "Es mejor que tengamos paciencia.",
+              "translation": "It's better that we have patience."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "tengáis",
+              "sentence": "Dudo que vosotros tengáis razón.",
+              "translation": "I doubt you all are right."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "tengan",
+              "sentence": "Espero que ellos tengan suerte.",
+              "translation": "I hope they have luck."
+            }
+          ]
+        },
+        "imperfect_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "tuviera",
+              "sentence": "Si yo tuviera más tiempo, viajaría más.",
+              "translation": "If I had more time, I would travel more."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "tuvieras",
+              "sentence": "Ojalá que tú tuvieras mi número.",
+              "translation": "I wish you had my number."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "tuviera",
+              "sentence": "Era necesario que él tuviera cuidado.",
+              "translation": "It was necessary that he had caution."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "tuviéramos",
+              "sentence": "Si tuviéramos más dinero, compraríamos una casa.",
+              "translation": "If we had more money, we would buy a house."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "tuvierais",
+              "sentence": "Dudaba que vosotros tuvierais la respuesta.",
+              "translation": "I doubted that you all had the answer."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "tuvieran",
+              "sentence": "Era imposible que ellos tuvieran esa información.",
+              "translation": "It was impossible that they had that information."
+            }
+          ]
+        },
+        "affirmative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "ten",
+              "sentence": "¡Ten cuidado!",
+              "translation": "Be careful!"
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "tenga",
+              "sentence": "Tenga paciencia, por favor.",
+              "translation": "Have patience, please."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "tengamos",
+              "sentence": "¡Tengamos fe!",
+              "translation": "Let's have faith!"
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "tened",
+              "sentence": "¡Tened buen viaje!",
+              "translation": "Have a good trip!"
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "tengan",
+              "sentence": "Tengan un buen día.",
+              "translation": "Have a good day."
+            }
+          ]
+        },
+        "negative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "no tengas",
+              "sentence": "No tengas miedo.",
+              "translation": "Don't be afraid."
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "no tenga",
+              "sentence": "No tenga dudas.",
+              "translation": "Don't have doubts."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "no tengamos",
+              "sentence": "No tengamos prisa.",
+              "translation": "Let's not be in a hurry."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "no tengáis",
+              "sentence": "No tengáis celos.",
+              "translation": "Don't be jealous."
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "no tengan",
+              "sentence": "No tengan pena.",
+              "translation": "Don't be shy."
+            }
+          ]
+        }
+      }
     }
   ]
 }
