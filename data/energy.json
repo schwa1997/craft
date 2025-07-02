@@ -1,0 +1,14 @@
+{
+    "energy": {
+      "6": [
+        { "day": 1, "work": 2, "side": 3, "life": 5 },
+        { "day": 2, "work": 1, "side": 2, "life": 2 },
+        { "day": 3, "work": 4, "side": 1, "life": 0 }
+      ],
+      "7": [
+        { "day": 1, "work": 1, "side": 1, "life": 1 },
+        { "day": 2, "work": 2, "side": 2, "life": 2 }
+      ]
+    }
+  }
+  
