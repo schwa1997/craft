@@ -32,9 +32,8 @@ export default function StaticEnergyGarden() {
   };
 
   return (
-    <div className="p-8">
-      <h1 className="text-2xl font-bold mb-4">Energy Garden (Static)</h1>
-
+    <div className="p-8 bg-gradient-to-b from-green-50 to-white">
+      <h1 className="text-2xl font-bold mb-4">Energy Garden</h1>
       {/* Trees */}
       <div className="grid grid-cols-3 gap-4 mb-8">
         {(["work", "side", "life"] as EnergyType[]).map((type) => (

@@ -1,13 +1,36 @@
 {
     "energy": {
-      "6": [
-        { "day": 1, "work": 2, "side": 3, "life": 5 },
-        { "day": 2, "work": 1, "side": 2, "life": 2 },
-        { "day": 3, "work": 4, "side": 1, "life": 0 }
-      ],
       "7": [
-        { "day": 1, "work": 1, "side": 1, "life": 1 },
-        { "day": 2, "work": 2, "side": 2, "life": 2 }
+        { "day": 1, "work": 3, "side": 0, "life": 7},
+        { "day": 2, "work": 0, "side": 0, "life": 0 },
+        { "day": 3, "work": 0, "side": 0, "life": 0 },
+        { "day": 4, "work": 0, "side": 0, "life": 0 },
+        { "day": 5, "work": 0, "side": 0, "life": 0 },
+        { "day": 6, "work": 0, "side": 0, "life": 0 },
+        { "day": 7, "work": 0, "side": 0, "life": 0 },
+        { "day": 8, "work": 0, "side": 0, "life": 0 },
+        { "day": 9, "work": 0, "side": 0, "life": 0 },
+        { "day": 10, "work": 0, "side": 0, "life": 0 },
+        { "day": 11, "work": 0, "side": 0, "life": 0 },
+        { "day": 12, "work": 0, "side": 0, "life": 0 },
+        { "day": 13, "work": 0, "side": 0, "life": 0 },
+        { "day": 14, "work": 0, "side": 0, "life": 0 },
+        { "day": 15, "work": 0, "side": 0, "life": 0 },
+        { "day": 16, "work": 0, "side": 0, "life": 0 },
+        { "day": 17, "work": 0, "side": 0, "life": 0 },
+        { "day": 18, "work": 0, "side": 0, "life": 0 },
+        { "day": 19, "work": 0, "side": 0, "life": 0 },
+        { "day": 20, "work": 0, "side": 0, "life": 0 },
+        { "day": 21, "work": 0, "side": 0, "life": 0 },
+        { "day": 22, "work": 0, "side": 0, "life": 0 },
+        { "day": 23, "work": 0, "side": 0, "life": 0 },
+        { "day": 24, "work": 0, "side": 0, "life": 0 },
+        { "day": 25, "work": 0, "side": 0, "life": 0 },
+        { "day": 26, "work": 0, "side": 0, "life": 0 },
+        { "day": 27, "work": 0, "side": 0, "life": 0 },
+        { "day": 28, "work": 0, "side": 0, "life": 0 },
+        { "day": 29, "work": 0, "side": 0, "life": 0 },
+        { "day": 30, "work": 0, "side": 0, "life": 0 }
       ]
     }
   }
