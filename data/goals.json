@@ -52,7 +52,7 @@
       "id": 2,
       "title": "July-Sep Gym",
       "description": "This 3 month, I wanna rebuild my posture.",
-      "feeling": 8,
+      "feeling": 6,
       "createdAt": "2025-07-01",
       "updatedAt": "2025-07-06",
       "status": "going",
@@ -85,7 +85,7 @@
       "id": 3,
       "title": "Content-Creation Challenge",
       "description": "Make 10 videos of AI tools",
-      "feeling": 8,
+      "feeling": 2,
       "createdAt": "2025-07-06",
       "updatedAt": "2025-07-06",
       "status": "going",
@@ -106,6 +106,18 @@
           "title": "Initial Goal: 10 videos",
           "description": "Make some videos"
         }
+      ]
+    },   
+    {"id": 4,
+      "title": "Spanish Learning",
+      "description": "A2 Spanish level",
+      "feeling": 4,
+      "createdAt": "2025-07-06",
+      "updatedAt": "2025-07-06",
+      "status": "going",
+      "reflections": [
+      ],
+      "timeline": [
       ]
     }
   ]
