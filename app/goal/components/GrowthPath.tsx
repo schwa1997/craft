@@ -8,7 +8,7 @@ interface GrowthPathProps {
 }
 
 export function GrowthPath({ timeline }: GrowthPathProps) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   return (
     <section className="mb-10">

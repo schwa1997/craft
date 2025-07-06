@@ -97,20 +97,14 @@
             "id": "executed-well",
             "text": "Executed well"
           },
-          "metrics": [
-            {
-              "type": "workout times",
-              "value": 5,
-              "unit": "times"
-            }
-          ]
+          "metrics": []
         }
       ],
       "timeline": [
         {
           "date": "2025-07-01",
-          "title": "Initial Goal: Posture",
-          "description": "Correct the posture and rebuild the lifestyle"
+          "title": "Initial Goal: 10 videos",
+          "description": "Make some videos"
         }
       ]
     }
