@@ -7,17 +7,16 @@
     },
     "subcategories": {
       "work": [
-        { "name": "coding", "color": "#2563eb" },
-        { "name": "meetings", "color": "#1d4ed8" },
-        { "name": "planning", "color": "#1e40af" }
+        { "name": "Work", "color": "#2563eb" },
+        { "name": "Side-Work", "color": "#1d4ed8" }
       ],
       "life": [
-        { "name": "family", "color": "#059669" },
-        { "name": "hobbies", "color": "#047857" }
+        { "name": "Chill", "color": "#059669" },
+        { "name": "Diet", "color": "#047857" }
       ],
       "goals": [
-        { "name": "gym", "color": "#7c3aed" },
-        { "name": "spanish", "color": "#6d28d9" }
+        { "name": "Gym", "color": "#7c3aed" },
+        { "name": "Spanish", "color": "#6d28d9" }
       ]
     }
   },
@@ -27,16 +26,76 @@
         {
           "date": "2025-07-01",
           "work": {
-            "coding": { "value": 8 },
-            "meetings": { "value": 3 }
+            "Work": { "value": 5 },
+            "Side-Work": { "value": 0 }
           },
           "life": {
-            "family": { "value": 5 },
-            "hobbies": { "value": 2 }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 }
           },
           "goals": {
-            "gym": { "value": 7 },
-            "spanish": { "value": 4 }
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
+          }
+        },
+        {
+          "date": "2025-07-02",
+          "work": {
+            "Work": { "value": 5 },
+            "Side-Work": { "value": 0 }
+          },
+          "life": {
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 }
+          },
+          "goals": {
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
+          }
+        },
+        {
+          "date": "2025-07-03",
+          "work": {
+            "Work": { "value": 5 },
+            "Side-Work": { "value": 0 }
+          },
+          "life": {
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 }
+          },
+          "goals": {
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
+          }
+        },
+        {
+          "date": "2025-07-04",
+          "work": {
+            "Work": { "value": 5 },
+            "Side-Work": { "value": 0 }
+          },
+          "life": {
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 }
+          },
+          "goals": {
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
+          }
+        },
+        {
+          "date": "2025-07-05",
+          "work": {
+            "Work": { "value": 0 },
+            "Side-Work": { "value": 0 }
+          },
+          "life": {
+            "Chill": { "value": 2 },
+            "Diet": { "value": 3 }
+          },
+          "goals": {
+            "Gym": { "value": 4 },
+            "Spanish": { "value": 1 }
           }
         }
       ]
@@ -44,15 +103,10 @@
   },
   "monthlyGoals": {
     "2025": {
-      "6": {
-        "work": 100,
-        "life": 80,
-        "goals": 60
-      },
       "7": {
-        "work": 90,
-        "life": 85,
-        "goals": 70
+        "work": 100,
+        "life": 100,
+        "goals": 110
       }
     }
   }
