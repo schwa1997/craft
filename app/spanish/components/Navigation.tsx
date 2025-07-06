@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -80,13 +80,22 @@ export function Navigation() {
             <MobileNavLink href="/" onClick={() => setMobileMenuOpen(false)}>
               Home
             </MobileNavLink>
-            <MobileNavLink href="/energy" onClick={() => setMobileMenuOpen(false)}>
+            <MobileNavLink
+              href="/energy"
+              onClick={() => setMobileMenuOpen(false)}
+            >
               Energy
             </MobileNavLink>
-            <MobileNavLink href="/goal" onClick={() => setMobileMenuOpen(false)}>
+            <MobileNavLink
+              href="/goal"
+              onClick={() => setMobileMenuOpen(false)}
+            >
               Goals
             </MobileNavLink>
-            <MobileNavLink href="/spanish" onClick={() => setMobileMenuOpen(false)}>
+            <MobileNavLink
+              href="/spanish"
+              onClick={() => setMobileMenuOpen(false)}
+            >
               Spanish
             </MobileNavLink>
           </div>
@@ -96,7 +105,13 @@ export function Navigation() {
   );
 }
 
-function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
+function NavLink({
+  href,
+  children,
+}: {
+  href: string;
+  children: React.ReactNode;
+}) {
   return (
     <Link
       href={href}
@@ -109,8 +124,12 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
 }
 
 // Reusable MobileNavLink component
-function MobileNavLink({ href, children, onClick }: { 
-  href: string; 
+function MobileNavLink({
+  href,
+  children,
+  onClick,
+}: {
+  href: string;
   children: React.ReactNode;
   onClick: () => void;
 }) {
