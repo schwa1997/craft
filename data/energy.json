@@ -23,9 +23,9 @@
   },
   "records": {
     "2025": {
-      "6": [
+      "7": [
         {
-          "date": "2025-06-01",
+          "date": "2025-07-01",
           "work": {
             "coding": { "value": 8 },
             "meetings": { "value": 3 }
@@ -37,23 +37,6 @@
           "goals": {
             "gym": { "value": 7 },
             "spanish": { "value": 4 }
-          }
-        }
-      ],
-      "7": [
-        {
-          "date": "2025-07-01",
-          "work": {
-            "coding": { "value": 5 },
-            "meetings": { "value": 2 }
-          },
-          "life": {
-            "family": { "value": 6 },
-            "hobbies": { "value": 3 }
-          },
-          "goals": {
-            "gym": { "value": 8 },
-            "spanish": { "value": 5 }
           }
         }
       ]

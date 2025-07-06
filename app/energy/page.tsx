@@ -13,11 +13,24 @@ type DailyEnergyRecord = {
   goals: Record<string, EnergyEntry>;
 };
 type YearlyEnergyData = Record<number, Record<number, DailyEnergyRecord[]>>;
-type MonthlyGoals = Record<number, Record<number, Record<EnergyCategory, number>>>;
+type MonthlyGoals = Record<
+  number,
+  Record<number, Record<EnergyCategory, number>>
+>;
 
 const monthNames = [
-  "January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
 ];
 
 const daysInMonth = (year: number, month: number) => {
@@ -32,7 +45,9 @@ export default function StaticEnergyGarden() {
   const currentDate = new Date();
   const [currentYear, setCurrentYear] = useState(currentDate.getFullYear());
   const [currentMonth, setCurrentMonth] = useState(currentDate.getMonth());
-  const [selectedDay, setSelectedDay] = useState<DailyEnergyRecord | null>(null);
+  const [selectedDay, setSelectedDay] = useState<DailyEnergyRecord | null>(
+    null
+  );
 
   const yearlyData: YearlyEnergyData = data.records;
   const yearlyGoals: MonthlyGoals = data.monthlyGoals;
@@ -42,20 +57,38 @@ export default function StaticEnergyGarden() {
   const currentMonthGoal = yearlyGoals[currentYear]?.[currentMonth] || {
     work: 0,
     life: 0,
-    goals: 0
+    goals: 0,
   };
 
   // Calculate progress for each main category
   const progress = {
     work: energyData.reduce((sum, day) => {
-      return sum + Object.values(day.work).reduce((subSum, entry) => subSum + entry.value, 0);
+      return (
+        sum +
+        Object.values(day.work).reduce(
+          (subSum, entry) => subSum + entry.value,
+          0
+        )
+      );
     }, 0),
     life: energyData.reduce((sum, day) => {
-      return sum + Object.values(day.life).reduce((subSum, entry) => subSum + entry.value, 0);
+      return (
+        sum +
+        Object.values(day.life).reduce(
+          (subSum, entry) => subSum + entry.value,
+          0
+        )
+      );
     }, 0),
     goals: energyData.reduce((sum, day) => {
-      return sum + Object.values(day.goals).reduce((subSum, entry) => subSum + entry.value, 0);
-    }, 0)
+      return (
+        sum +
+        Object.values(day.goals).reduce(
+          (subSum, entry) => subSum + entry.value,
+          0
+        )
+      );
+    }, 0),
   };
 
   const getPlantHeight = (type: EnergyCategory) => {
@@ -69,12 +102,16 @@ export default function StaticEnergyGarden() {
   };
 
   const getSubcategoryColor = (type: EnergyCategory, subcategory: string) => {
-    const sub = settings.subcategories[type].find(s => s.name === subcategory);
+    const sub = settings.subcategories[type].find(
+      (s) => s.name === subcategory
+    );
     return sub?.color || "#cccccc";
   };
 
   const getSubcategoryName = (type: EnergyCategory, subcategory: string) => {
-    const sub = settings.subcategories[type].find(s => s.name === subcategory);
+    const sub = settings.subcategories[type].find(
+      (s) => s.name === subcategory
+    );
     return sub?.name || subcategory;
   };
 
@@ -87,14 +124,25 @@ export default function StaticEnergyGarden() {
   }
 
   for (let day = 1; day <= totalDays; day++) {
-    const dayData = energyData.find(d => new Date(d.date).getDate() === day) || {
-      date: `${currentYear}-${currentMonth + 1}-${day}`,
+    // Update the day data lookup to properly handle month indexing:
+    const dayData = energyData.find((d) => {
+      const date = new Date(d.date);
+      return (
+        date.getDate() === day &&
+        date.getMonth() === currentMonth &&
+        date.getFullYear() === currentYear
+      );
+    }) || {
+      date: `${currentYear}-${String(currentMonth + 1).padStart(
+        2,
+        "0"
+      )}-${String(day).padStart(2, "0")}`,
       work: {},
       life: {},
-      goals: {}
+      goals: {},
     };
 
-    const totalEnergy = 
+    const totalEnergy =
       Object.values(dayData.work).reduce((sum, e) => sum + e.value, 0) +
       Object.values(dayData.life).reduce((sum, e) => sum + e.value, 0) +
       Object.values(dayData.goals).reduce((sum, e) => sum + e.value, 0);
@@ -108,13 +156,16 @@ export default function StaticEnergyGarden() {
         onClick={() => setSelectedDay(dayData)}
       >
         <span className="text-xs text-emerald-700">{day}</span>
-        
+
         {totalEnergy > 0 ? (
           <div className="w-full flex flex-col gap-1 mt-1">
             {/* Work Energy */}
             {Object.entries(dayData.work).length > 0 && (
               <div className="flex items-center gap-1">
-                <div className="w-2 h-2 rounded-full" style={{ backgroundColor: getCategoryColor("work") }} />
+                <div
+                  className="w-2 h-2 rounded-full"
+                  style={{ backgroundColor: getCategoryColor("work") }}
+                />
                 <div className="flex-1 flex gap-0.5">
                   {Object.entries(dayData.work).map(([subcategory, entry]) => (
                     <div
@@ -122,7 +173,10 @@ export default function StaticEnergyGarden() {
                       className="rounded-sm h-2 transition-all relative group"
                       style={{
                         width: `${Math.min(entry.value * 10, 100)}%`,
-                        backgroundColor: getSubcategoryColor("work", subcategory)
+                        backgroundColor: getSubcategoryColor(
+                          "work",
+                          subcategory
+                        ),
                       }}
                     >
                       <div className="absolute hidden group-hover:block z-10 bottom-full mb-1 left-1/2 transform -translate-x-1/2 px-2 py-1 text-xs rounded bg-gray-800 text-white whitespace-nowrap">
@@ -133,11 +187,14 @@ export default function StaticEnergyGarden() {
                 </div>
               </div>
             )}
-            
+
             {/* Life Energy */}
             {Object.entries(dayData.life).length > 0 && (
               <div className="flex items-center gap-1">
-                <div className="w-2 h-2 rounded-full" style={{ backgroundColor: getCategoryColor("life") }} />
+                <div
+                  className="w-2 h-2 rounded-full"
+                  style={{ backgroundColor: getCategoryColor("life") }}
+                />
                 <div className="flex-1 flex gap-0.5">
                   {Object.entries(dayData.life).map(([subcategory, entry]) => (
                     <div
@@ -145,7 +202,10 @@ export default function StaticEnergyGarden() {
                       className="rounded-sm h-2 transition-all relative group"
                       style={{
                         width: `${Math.min(entry.value * 10, 100)}%`,
-                        backgroundColor: getSubcategoryColor("life", subcategory)
+                        backgroundColor: getSubcategoryColor(
+                          "life",
+                          subcategory
+                        ),
                       }}
                     >
                       <div className="absolute hidden group-hover:block z-10 bottom-full mb-1 left-1/2 transform -translate-x-1/2 px-2 py-1 text-xs rounded bg-gray-800 text-white whitespace-nowrap">
@@ -156,11 +216,14 @@ export default function StaticEnergyGarden() {
                 </div>
               </div>
             )}
-            
+
             {/* Goals Energy */}
             {Object.entries(dayData.goals).length > 0 && (
               <div className="flex items-center gap-1">
-                <div className="w-2 h-2 rounded-full" style={{ backgroundColor: getCategoryColor("goals") }} />
+                <div
+                  className="w-2 h-2 rounded-full"
+                  style={{ backgroundColor: getCategoryColor("goals") }}
+                />
                 <div className="flex-1 flex gap-0.5">
                   {Object.entries(dayData.goals).map(([subcategory, entry]) => (
                     <div
@@ -168,11 +231,15 @@ export default function StaticEnergyGarden() {
                       className="rounded-sm h-2 transition-all relative group"
                       style={{
                         width: `${Math.min(entry.value * 10, 100)}%`,
-                        backgroundColor: getSubcategoryColor("goals", subcategory)
+                        backgroundColor: getSubcategoryColor(
+                          "goals",
+                          subcategory
+                        ),
                       }}
                     >
                       <div className="absolute hidden group-hover:block z-10 bottom-full mb-1 left-1/2 transform -translate-x-1/2 px-2 py-1 text-xs rounded bg-gray-800 text-white whitespace-nowrap">
-                        {getSubcategoryName("goals", subcategory)}: {entry.value}
+                        {getSubcategoryName("goals", subcategory)}:{" "}
+                        {entry.value}
                       </div>
                     </div>
                   ))}
@@ -211,8 +278,8 @@ export default function StaticEnergyGarden() {
       <div className="flex flex-wrap gap-4 mb-6 justify-center">
         {Object.entries(settings.categories).map(([type, category]) => (
           <div key={type} className="flex items-center">
-            <div 
-              className="w-4 h-4 rounded-full mr-2" 
+            <div
+              className="w-4 h-4 rounded-full mr-2"
               style={{ backgroundColor: category.color }}
             />
             <span className="text-sm font-medium text-gray-700">
@@ -225,19 +292,25 @@ export default function StaticEnergyGarden() {
       {/* Subcategory Legend */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8 w-full max-w-4xl">
         {(["work", "life", "goals"] as EnergyCategory[]).map((type) => (
-          <div key={type} className="bg-white p-3 rounded-lg shadow-sm border border-emerald-100">
+          <div
+            key={type}
+            className="bg-white p-3 rounded-lg shadow-sm border border-emerald-100"
+          >
             <h3 className="font-semibold text-emerald-700 mb-2 flex items-center">
-              <div 
-                className="w-3 h-3 rounded-full mr-2" 
+              <div
+                className="w-3 h-3 rounded-full mr-2"
                 style={{ backgroundColor: getCategoryColor(type) }}
               />
               {settings.categories[type].name} Subcategories
             </h3>
             <div className="flex flex-wrap gap-2">
               {settings.subcategories[type].map((sub) => (
-                <div key={sub.name} className="flex items-center text-sm">
-                  <div 
-                    className="w-2 h-2 rounded-full mr-1" 
+                <div
+                  key={sub.name}
+                  className="flex items-center text-sm text-gray-600"
+                >
+                  <div
+                    className="w-2 h-2 rounded-full mr-1"
                     style={{ backgroundColor: sub.color }}
                   />
                   {sub.name}
@@ -266,26 +339,41 @@ export default function StaticEnergyGarden() {
                 className="absolute bottom-0 w-full rounded-full transition-all duration-700 ease-out"
                 style={{
                   height: `${getPlantHeight(type)}%`,
-                  backgroundColor: getCategoryColor(type)
+                  backgroundColor: getCategoryColor(type),
                 }}
               />
             </div>
             <div className="mt-3 w-full">
-              <h3 className="text-xs font-medium text-gray-500 mb-1">Subcategory Progress</h3>
+              <h3 className="text-xs font-medium text-gray-500 mb-1">
+                Subcategory Progress
+              </h3>
               <div className="space-y-1">
                 {settings.subcategories[type].map((sub) => {
                   const subProgress = energyData.reduce((sum, day) => {
                     return sum + (day[type][sub.name]?.value || 0);
                   }, 0);
-                  const subGoal = currentMonthGoal[type] / settings.subcategories[type].length;
-                  const percentage = Math.min(100, (subProgress / subGoal) * 100);
-                  
+                  const subGoal =
+                    currentMonthGoal[type] /
+                    settings.subcategories[type].length;
+                  const percentage = Math.min(
+                    100,
+                    (subProgress / subGoal) * 100
+                  );
+
                   return (
                     <div key={sub.name} className="flex items-center">
-                      <div className="w-2 h-2 rounded-full mr-2" style={{ backgroundColor: sub.color }} />
-                      <div className="flex-1 text-xs text-gray-700">{sub.name}</div>
+                      <div
+                        className="w-2 h-2 rounded-full mr-2"
+                        style={{ backgroundColor: sub.color }}
+                      />
+                      <div className="flex-1 text-xs text-gray-700">
+                        {sub.name}
+                      </div>
                       <div className="text-xs font-medium">
-                        {subProgress} <span className="text-gray-400">/ {Math.round(subGoal)}</span>
+                        {subProgress}{" "}
+                        <span className="text-gray-400">
+                          / {Math.round(subGoal)}
+                        </span>
                       </div>
                     </div>
                   );
@@ -334,58 +422,74 @@ export default function StaticEnergyGarden() {
           <div className="bg-white rounded-xl p-6 max-w-md w-full max-h-[80vh] overflow-y-auto">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-lg font-bold text-emerald-700">
-                {new Date(selectedDay.date).toLocaleDateString('en-US', {
-                  weekday: 'long',
-                  month: 'long',
-                  day: 'numeric'
+                {new Date(selectedDay.date).toLocaleDateString("en-US", {
+                  weekday: "long",
+                  month: "long",
+                  day: "numeric",
                 })}
               </h3>
-              <button 
+              <button
                 onClick={() => setSelectedDay(null)}
                 className="text-gray-500 hover:text-gray-700"
               >
                 ✕
               </button>
             </div>
-            
+
             {(["work", "life", "goals"] as EnergyCategory[]).map((type) => (
               <div key={type} className="mb-4">
                 <h4 className="font-medium text-emerald-700 flex items-center mb-2">
-                  <div 
-                    className="w-3 h-3 rounded-full mr-2" 
+                  <div
+                    className="w-3 h-3 rounded-full mr-2"
                     style={{ backgroundColor: getCategoryColor(type) }}
                   />
                   {settings.categories[type].name}
                 </h4>
-                
+
                 {Object.entries(selectedDay[type]).length > 0 ? (
                   <div className="space-y-2">
-                    {Object.entries(selectedDay[type]).map(([subcategory, entry]) => (
-                      <div key={subcategory} className="flex items-center">
-                        <div 
-                          className="w-2 h-2 rounded-full mr-2" 
-                          style={{ backgroundColor: getSubcategoryColor(type, subcategory) }}
-                        />
-                        <div className="flex-1">
-                          <div className="flex justify-between text-sm">
-                            <span className="font-medium">{getSubcategoryName(type, subcategory)}</span>
-                            <span className="text-gray-600">{entry.value} energy</span>
-                          </div>
-                          <div className="w-full bg-gray-100 rounded-full h-2 mt-1">
-                            <div 
-                              className="h-2 rounded-full" 
-                              style={{
-                                width: `${Math.min(entry.value * 10, 100)}%`,
-                                backgroundColor: getSubcategoryColor(type, subcategory)
-                              }}
-                            />
+                    {Object.entries(selectedDay[type]).map(
+                      ([subcategory, entry]) => (
+                        <div key={subcategory} className="flex items-center">
+                          <div
+                            className="w-2 h-2 rounded-full mr-2"
+                            style={{
+                              backgroundColor: getSubcategoryColor(
+                                type,
+                                subcategory
+                              ),
+                            }}
+                          />
+                          <div className="flex-1">
+                            <div className="flex justify-between text-sm">
+                              <span className="font-medium">
+                                {getSubcategoryName(type, subcategory)}
+                              </span>
+                              <span className="text-gray-600">
+                                {entry.value} energy
+                              </span>
+                            </div>
+                            <div className="w-full bg-gray-100 rounded-full h-2 mt-1">
+                              <div
+                                className="h-2 rounded-full"
+                                style={{
+                                  width: `${Math.min(entry.value * 10, 100)}%`,
+                                  backgroundColor: getSubcategoryColor(
+                                    type,
+                                    subcategory
+                                  ),
+                                }}
+                              />
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    ))}
+                      )
+                    )}
                   </div>
                 ) : (
-                  <p className="text-sm text-gray-400">No {type.toLowerCase()} recorded</p>
+                  <p className="text-sm text-gray-400">
+                    No {type.toLowerCase()} recorded
+                  </p>
                 )}
               </div>
             ))}
