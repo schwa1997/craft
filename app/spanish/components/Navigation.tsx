@@ -9,8 +9,6 @@ export function Navigation() {
 
   return (
 
-    <html lang="en">
-      
         <header className="sticky top-0 z-50 bg-white backdrop-blur-sm shadow-sm">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="flex h-16 items-center justify-between">
@@ -92,7 +90,6 @@ export function Navigation() {
             </div>
           </div>
         </header>
-    </html>
   );
 }
 

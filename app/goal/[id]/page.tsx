@@ -4,13 +4,19 @@ import { useParams, useRouter } from "next/navigation";
 import { GrowthPath } from "../components/GrowthPath";
 import data from '../../../data/goals.json';
 
+
+
 export default function GrowthTracker() {
   const { id } = useParams<{ id: string }>();
   const router = useRouter();
   const [currentGoal, setCurrentGoal] = useState<Goal | null>(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const goal = data.goals.find((g: Goal) => g.id === id);
+    const goalId = Number(id);
+    const goal = data.goals.find((g: any) => 
+      typeof g.id === 'number' ? g.id === goalId : g.id === id
+    );
     
     if (!goal) {
       console.error("Goal not found");
@@ -18,82 +24,73 @@ export default function GrowthTracker() {
       return;
     }
     
-    setCurrentGoal(goal);
+    setCurrentGoal(goal as Goal);
+    setLoading(false);
   }, [id, router]);
 
-
-  if (!currentGoal) {
-    return (
-      <div className="min-h-screen bg-gradient-to-b from-green-50 to-teal-50 p-6 flex items-center justify-center">
-        <div className="animate-pulse text-teal-600">Loading...</div>
-      </div>
-    );
+  if (loading || !currentGoal) {
+    return <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white p-4 flex items-center justify-center">Loading...</div>;
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-white p-6">
-      <header className="mb-8">
-        <h1 className="text-3xl font-bold text-green-900">Growth Garden</h1>
-        <p className="text-green-700">Nurture your evolving goals</p>
+    <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white p-4 flex flex-col items-center">
+      <header className="mb-6 text-center w-full max-w-5xl">
+        <h1 className="text-3xl font-bold text-emerald-700">🌱 {currentGoal.title}</h1>
+        <p className="text-emerald-600">{currentGoal.description}</p>
+        <div className="mt-2 flex justify-center items-center gap-2">
+          <span className={`px-3 py-1 rounded-full text-xs font-medium ${
+            currentGoal.status === "completed" 
+              ? "bg-emerald-100 text-emerald-800" 
+              : "bg-amber-100 text-amber-800"
+          }`}>
+            {currentGoal.status}
+          </span>
+          <span className="text-xs text-emerald-500">
+            {new Date(currentGoal.updatedAt).toLocaleDateString()}
+          </span>
+        </div>
       </header>
 
-      <section className="mb-10 p-6 bg-white rounded-2xl shadow-lg border border-green-100">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-xl font-semibold text-teal-800">Current Goal</h2>
-          <button className="px-4 py-2 bg-green-100 text-green-700 rounded-full text-sm font-medium hover:bg-green-200 transition">
-            Edit Goal
-          </button>
-        </div>
+      {/* Metrics Summary */}
+      {currentGoal.reflections?.[0]?.metrics && (
+        <section className="w-full max-w-5xl mb-6 grid grid-cols-2 sm:grid-cols-3 gap-3">
+          {currentGoal.reflections[0].metrics.map((metric, index) => (
+            <div key={index} className="bg-white p-3 rounded-lg shadow-sm border border-emerald-100">
+              <p className="text-xs text-emerald-500">{metric.type}</p>
+              <p className="text-lg font-bold text-emerald-700">
+                {metric.value} <span className="text-sm font-normal">{metric.unit}</span>
+              </p>
+            </div>
+          ))}
+        </section>
+      )}
 
-        <div className="space-y-4">
-          <div className="p-4 bg-teal-50 rounded-xl border border-green-200">
-            <h3 className="font-medium text-teal-900">{currentGoal.title}</h3>
-            <p className="text-sm text-teal-700 mt-1">
-              {currentGoal.description}
-            </p>
-            <div className="mt-2">
-              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                {currentGoal.status.text}
+      {/* Latest Reflection */}
+      {currentGoal.reflections?.length > 0 && (
+        <section className="w-full max-w-5xl mb-6 p-5 bg-white rounded-xl shadow-sm border border-emerald-100">
+          <h2 className="text-lg font-semibold text-emerald-800 mb-3">Latest Note</h2>
+          <div className="p-3 bg-emerald-50 rounded-lg">
+            <p className="text-emerald-800">{currentGoal.reflections[0].text}</p>
+            <div className="mt-2 flex items-center justify-between">
+              <span className="text-xs text-emerald-500">
+                {new Date(currentGoal.reflections[0].date).toLocaleDateString()}
+              </span>
+              <span className="text-xs px-2 py-1 bg-emerald-100 text-emerald-700 rounded">
+                {currentGoal.reflections[0].status.text}
               </span>
             </div>
           </div>
+        </section>
+      )}
+
+      {/* Timeline Section */}
+      <section className="w-full max-w-5xl">
+        <div className="flex items-center justify-between mb-3">
+          <h2 className="text-xl font-semibold text-emerald-800">Growth Journey</h2>
+          <span className="text-xs text-emerald-500">
+            Created: {new Date(currentGoal.createdAt).toLocaleDateString()}
+          </span>
         </div>
-      </section>
-
-      <section className="mb-10 p-6 bg-white rounded-2xl shadow-lg border border-green-100">
-        <h2 className="text-xl font-semibold text-teal-800 mb-4">
-          Progress Tracking
-        </h2>
-
-        <div className="space-y-4">
-          {currentGoal.reflections?.length > 0 && (
-            <div className="mt-4">
-              <h3 className="text-sm font-medium text-teal-800 mb-2">
-                Recent Notes
-              </h3>
-              <div className="space-y-2">
-                {currentGoal.reflections
-                  .slice(0, 2)
-                  .map((reflection, index) => (
-                    <div
-                      key={index}
-                      className="p-3 bg-green-50 rounded-lg border border-green-200"
-                    >
-                      <p className="text-sm text-green-800">
-                        {reflection.text}
-                      </p>
-                      <p className="text-xs text-green-600 mt-1">
-                        {reflection.date}
-                      </p>
-                    </div>
-                  ))}
-              </div>
-            </div>
-          )}
-        </div>
-      </section>
-
-      <section>
         <GrowthPath timeline={currentGoal.timeline} />
       </section>
     </div>

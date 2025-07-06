@@ -1,197 +1,84 @@
 {
-    "goals": [
-      {
-        "id": "1",
-        "title": "Healthy Eating Habits",
-        "description": "Evolved from 'Lose 10 pounds'",
-        "feeling": 5,
-        "createdAt": "2023-01-01",
-        "updatedAt": "2023-02-15",
-        "current": true,
-        "status": {
-          "id": "evolving",  
-          "text": "Evolving", 
-          "editable": true  
-        },
-        "reflections": [
-          {
-            "date": "2023-02-10",
-            "text": "Today I craved my salad formula instead of junk food!",
-            "status": {
-              "id": "executed-well",
-              "text": "Executed well",
-              "editable": false  
-            },
-            "metrics": [
-              {
-                "type": "vegetable intake",
-                "value": 5,
-                "unit": "servings"
-              },
-              {
-                "type": "water consumption",
-                "value": 2,
-                "unit": "liters"
-              }
-            ]
-          }
-        ],
-        "energyMoments": [
-          {
-            "date": "2023-02-12",
-            "activity": "Creative cooking",
-            "type": "Creative flow"
-          }
-        ],
-        "timeline": [
-          {
-            "date": "2023-01-01",
-            "title": "Initial Goal: Lose 10 pounds",
-            "description": "I want to feel more confident in my body",
-            "status": {
-              "id": "initial",
-              "text": "Initial",
-              "editable": false
-            },
-            "struggle": "16-8 fasting made me binge eat at night. Not sustainable for me."
+  "goals": [
+    {
+      "id": 1,
+      "title": "Healthy Eating Habits",
+      "description": "Evolved from 'Lose 10 pounds'",
+      "feeling": 8,
+      "createdAt": "2025-04-01",
+      "updatedAt": "2025-06-30",
+      "status": "completed",
+      "reflections": [
+        {
+          "date": "2025-04-01",
+          "text": "Today I craved my salad formula instead of junk food!",
+          "status": {
+            "id": "executed-well",
+            "text": "Executed well"
           },
-          {
-            "date": "2023-01-15",
-            "title": "Adjusted: 10-day movement challenge",
-            "description": "Found I really enjoy morning yoga flows",
-            "status": {
-              "id": "evolving",
-              "text": "Evolving",
-              "editable": true
+          "metrics": [
+            {
+              "type": "vegetable intake",
+              "value": 5,
+              "unit": "servings"
+            },
+            {
+              "type": "water consumption",
+              "value": 2,
+              "unit": "liters"
             }
-          },
-          {
-            "date": "2023-02-01",
-            "title": "Current: Healthy eating habits",
-            "description": "Created my own salad formula that I actually crave!",
-            "status": {
-              "id": "current",
-              "text": "Current",
-              "editable": false
-            },
-            "current": true
-          }
-        ]
-      },
-      {
-        "id": "2",
-        "title": "July-Sep Workout AirCon+Spanish",
-        "description": "3 month workout + Spanish = new me",
-        "feeling": 5,
-        "createdAt": "2025-07-01",
-        "updatedAt": "2025-07-01",
-        "current": true,
-        "status": {
-          "id": "current",  
-          "text": "Current", 
-          "editable": true  
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2025-04-01",
+          "title": "Initial Goal: Lose 10 pounds",
+          "description": "I want to feel more confident in my body"
         },
-        "reflections": [
-          {
-            "date": "2025-07-01",
-            "text": "Today I did my first workout in 2 years!",
-            "status": {
-              "id": "executed-well",
-              "text": "Executed well",
-              "editable": false  
-            },
-            "metrics": [
-              {
-                "type": "workout",
-                "value": 2,
-                "unit": "times"
-              },
-              {
-                "type": "Spanish",
-                "value": 1,
-                "unit": "verbs"
-              }
-            ]
-          }
-        ],
-        "energyMoments": [
-          {
-            "date": "2025-07-01",
-            "activity": "Workout",
-            "type": "Workout"
-          }
-        ],
-        "timeline": [
-          {
-            "date": "2025-07-01",
-            "title": "Initial Goal: 3 month workout + Spanish = new me",
-            "description": "I want to feel more confident in my body",
-            "status": {
-              "id": "initial",
-              "text": "Initial",
-              "editable": false
-            },
-            "struggle": "I'm not sure if I can stick to this goal."
+        {
+          "date": "2025-05-01",
+          "title": "Adjusted: 10-day movement challenge",
+          "description": "Found I really enjoy morning yoga flows"
+        },
+        {
+          "date": "2025-06-01",
+          "title": "Current: Healthy eating habits",
+          "description": "Created my own salad formula that I actually crave!"
+        }
+      ]
+    },  {
+      "id": 2,
+      "title": "July-Sep Gym",
+      "description": "This 3 month, I wanna rebuild my posture. Get over the 骨盆前移 etc",
+      "feeling": 8,
+      "createdAt": "2025-07-01",
+      "updatedAt": "2025-07-06",
+      "status": "going",
+      "reflections": [
+        {
+          "date": "2025-07-06",
+          "text": "First week reflection: Good start!",
+          "status": {
+            "id": "executed-well",
+            "text": "Executed well"
           },
-          {
-            "date": "2025-07-01",
-            "title": "Adjusted: 3 month workout + Spanish = new me",
-            "description": "I'm not sure if I can stick to this goal.",
-            "status": {
-              "id": "evolving",
-              "text": "Evolving",
-              "editable": true
+          "metrics": [
+            {
+              "type": "workout times",
+              "value": 5,
+              "unit": "times"
             }
-          },
-          {
-            "date": "2023-02-01",
-            "title": "Current: 3 month workout + Spanish = new me",
-            "description": "I'm not sure if I can stick to this goal.",
-            "status": {
-              "id": "current",
-              "text": "Current",
-              "editable": false
-            },
-            "current": true
-          }
-        ]
-      }
-    ],
-    "statusOptions": [ 
-      {
-        "id": "initial",
-        "text": "Initial",
-        "editable": false
-      },
-      {
-        "id": "evolving",
-        "text": "Evolving",
-        "editable": true
-      },
-      {
-        "id": "completed",
-        "text": "Completed",
-        "editable": true
-      },
-      {
-        "id": "archived",
-        "text": "Archived",
-        "editable": true
-      },
-      {
-        "id": "restarted",
-        "text": "Restarted",
-        "editable": true
-      },
-      {
-        "id": "executed-well",
-        "text": "Executed well",
-        "editable": false
-      },
-      {
-        "id": "needs-improvement",
-        "text": "Needs improvement",
-        "editable": false
-      }
-    ]
-  }
+          ]
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2025-07-01",
+          "title": "Initial Goal: Posture",
+          "description": "Correct the posture and rebuild the lifestyle"
+        }
+      ]
+    }
+  ]
+}

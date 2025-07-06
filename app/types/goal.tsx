@@ -1,44 +1,30 @@
-type Status = {
+interface Status {
   id: string;
   text: string;
-  editable: boolean;
-};
+  editable?: boolean; // Made optional since not all status objects need it
+}
 
-type Metric = {
+interface Metric {
   type: string;
-  value: number;
+  value: number | string;
   unit: string;
-};
+}
 
-type Reflection = {
+interface Reflection {
   date: string;
   text: string;
   status: Status;
   metrics?: Metric[];
-};
+}
 
-type TimelineItem = {
+interface TimelineItem {
   date: string;
   title: string;
   description: string;
-  status: Status;
-  struggle?: string;
-  current?: boolean;
-};
-
-type Goal = {
-  id: string;
-  title: string;
-  description: string;
-  feeling: number;
-  createdAt: string;
-  updatedAt: string;
-  current: boolean;
-  status: Status;
-  reflections: Reflection[];
-  energyMoments: any[];
-  timeline: TimelineItem[];
-};
+  status?: Status;       // Made optional since your JSON doesn't show status in timeline items
+  struggle?: string;      // Optional field
+  current?: boolean;      // Optional field
+}
 
 interface EnergyMoment {
   date: string;
@@ -53,14 +39,20 @@ interface Milestone {
   targetDate: string;
 }
 
-interface GoalTimelineItem {
-  date: string;
+interface Goal {
+  id: number | string;
   title: string;
   description: string;
-  struggle?: string;
-  current?: boolean;
+  feeling?: number;       // Made optional since not all goals might have this
+  createdAt: string;
+  updatedAt: string;
+  status: "completed" | "in-progress" | string;
+  reflections: Reflection[];
+  energyMoments?: EnergyMoment[];  // Made optional and corrected typo (should be moments)
+  timeline: TimelineItem[];
+  milestones?: Milestone[];        // Made optional
+  current?: boolean;               // Made optional
 }
-
 
 interface GoalsData {
   goals: Goal[];

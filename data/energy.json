@@ -1,37 +1,76 @@
 {
-    "energy": {
-      "7": [
-        { "day": 1, "work": 3, "side": 0, "life": 7},
-        { "day": 2, "work": 0, "side": 0, "life": 0 },
-        { "day": 3, "work": 0, "side": 0, "life": 0 },
-        { "day": 4, "work": 0, "side": 0, "life": 0 },
-        { "day": 5, "work": 0, "side": 0, "life": 0 },
-        { "day": 6, "work": 0, "side": 0, "life": 0 },
-        { "day": 7, "work": 0, "side": 0, "life": 0 },
-        { "day": 8, "work": 0, "side": 0, "life": 0 },
-        { "day": 9, "work": 0, "side": 0, "life": 0 },
-        { "day": 10, "work": 0, "side": 0, "life": 0 },
-        { "day": 11, "work": 0, "side": 0, "life": 0 },
-        { "day": 12, "work": 0, "side": 0, "life": 0 },
-        { "day": 13, "work": 0, "side": 0, "life": 0 },
-        { "day": 14, "work": 0, "side": 0, "life": 0 },
-        { "day": 15, "work": 0, "side": 0, "life": 0 },
-        { "day": 16, "work": 0, "side": 0, "life": 0 },
-        { "day": 17, "work": 0, "side": 0, "life": 0 },
-        { "day": 18, "work": 0, "side": 0, "life": 0 },
-        { "day": 19, "work": 0, "side": 0, "life": 0 },
-        { "day": 20, "work": 0, "side": 0, "life": 0 },
-        { "day": 21, "work": 0, "side": 0, "life": 0 },
-        { "day": 22, "work": 0, "side": 0, "life": 0 },
-        { "day": 23, "work": 0, "side": 0, "life": 0 },
-        { "day": 24, "work": 0, "side": 0, "life": 0 },
-        { "day": 25, "work": 0, "side": 0, "life": 0 },
-        { "day": 26, "work": 0, "side": 0, "life": 0 },
-        { "day": 27, "work": 0, "side": 0, "life": 0 },
-        { "day": 28, "work": 0, "side": 0, "life": 0 },
-        { "day": 29, "work": 0, "side": 0, "life": 0 },
-        { "day": 30, "work": 0, "side": 0, "life": 0 }
+  "settings": {
+    "categories": {
+      "work": { "name": "Work", "color": "#3b82f6", "weight": 0.4 },
+      "life": { "name": "Life", "color": "#10b981", "weight": 0.3 },
+      "goals": { "name": "Goals", "color": "#8b5cf6", "weight": 0.3 }
+    },
+    "subcategories": {
+      "work": [
+        { "name": "coding", "color": "#2563eb" },
+        { "name": "meetings", "color": "#1d4ed8" },
+        { "name": "planning", "color": "#1e40af" }
+      ],
+      "life": [
+        { "name": "family", "color": "#059669" },
+        { "name": "hobbies", "color": "#047857" }
+      ],
+      "goals": [
+        { "name": "gym", "color": "#7c3aed" },
+        { "name": "spanish", "color": "#6d28d9" }
       ]
     }
+  },
+  "records": {
+    "2025": {
+      "6": [
+        {
+          "date": "2025-06-01",
+          "work": {
+            "coding": { "value": 8 },
+            "meetings": { "value": 3 }
+          },
+          "life": {
+            "family": { "value": 5 },
+            "hobbies": { "value": 2 }
+          },
+          "goals": {
+            "gym": { "value": 7 },
+            "spanish": { "value": 4 }
+          }
+        }
+      ],
+      "7": [
+        {
+          "date": "2025-07-01",
+          "work": {
+            "coding": { "value": 5 },
+            "meetings": { "value": 2 }
+          },
+          "life": {
+            "family": { "value": 6 },
+            "hobbies": { "value": 3 }
+          },
+          "goals": {
+            "gym": { "value": 8 },
+            "spanish": { "value": 5 }
+          }
+        }
+      ]
+    }
+  },
+  "monthlyGoals": {
+    "2025": {
+      "6": {
+        "work": 100,
+        "life": 80,
+        "goals": 60
+      },
+      "7": {
+        "work": 90,
+        "life": 85,
+        "goals": 70
+      }
+    }
   }
-  
+}
