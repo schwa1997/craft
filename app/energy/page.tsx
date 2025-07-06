@@ -486,7 +486,6 @@ export default function StaticEnergyGarden() {
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-xl p-6 max-w-md w-full max-h-[80vh] overflow-y-auto">
             <div className="flex justify-between items-center mb-4">
-              // In the day detail modal:
               <h3 className="text-lg font-bold text-emerald-700">
                 {new Date(selectedDay.date).toLocaleDateString("en-US", {
                   weekday: "long",
@@ -497,7 +496,7 @@ export default function StaticEnergyGarden() {
               </h3>
               <button
                 onClick={() => setSelectedDay(null)}
-                className="text-gray-500 hover:text-gray-700"
+                className="text-gray-600 hover:text-gray-700"
               >
                 ✕
               </button>
