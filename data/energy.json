@@ -1,22 +1,23 @@
 {
   "settings": {
     "categories": {
-      "work": { "name": "Work", "color": "#3b82f6", "weight": 0.4 },
-      "life": { "name": "Life", "color": "#10b981", "weight": 0.3 },
-      "goals": { "name": "Goals", "color": "#8b5cf6", "weight": 0.3 }
+      "work": { "name": "Work", "color": "#7FB8FF", "weight": 0.4 },
+      "life": { "name": "Life", "color": "#88E8C0", "weight": 0.3 },
+      "goals": { "name": "Goals", "color": "#FFA5D8", "weight": 0.3 }
     },
     "subcategories": {
       "work": [
-        { "name": "Work", "color": "#2563eb" },
-        { "name": "Side-Work", "color": "#1d4ed8" }
+        { "name": "Work", "color": "#5C9EFF" },
+        { "name": "Chen-Project", "color": "#3A7BD5" }
       ],
       "life": [
-        { "name": "Chill", "color": "#059669" },
-        { "name": "Diet", "color": "#047857" }
+        { "name": "Chill", "color": "#5CD4A3" },
+        { "name": "Diet", "color": "#38B584" }
       ],
       "goals": [
-        { "name": "Gym", "color": "#7c3aed" },
-        { "name": "Spanish", "color": "#6d28d9" }
+        { "name": "Content-Creation", "color": "#FFA3D7" },
+        { "name": "Gym", "color": "#FF85C0" },
+        { "name": "Spanish", "color": "#E672B0" }
       ]
     }
   },
@@ -27,7 +28,7 @@
           "date": "2025-07-01",
           "work": {
             "Work": { "value": 5 },
-            "Side-Work": { "value": 0 }
+            "Chen-Project": { "value": 0 }
           },
           "life": {
             "Chill": { "value": 0 },
@@ -35,14 +36,15 @@
           },
           "goals": {
             "Gym": { "value": 5 },
-            "Spanish": { "value": 0 }
+            "Spanish": { "value": 0 },
+            "Content-Creation": { "value": 0 }
           }
         },
         {
           "date": "2025-07-02",
           "work": {
             "Work": { "value": 5 },
-            "Side-Work": { "value": 0 }
+            "Chen-Project": { "value": 0 }
           },
           "life": {
             "Chill": { "value": 0 },
@@ -50,14 +52,15 @@
           },
           "goals": {
             "Gym": { "value": 5 },
-            "Spanish": { "value": 0 }
+            "Spanish": { "value": 0 },
+            "Content-Creation": { "value": 0 }
           }
         },
         {
           "date": "2025-07-03",
           "work": {
             "Work": { "value": 5 },
-            "Side-Work": { "value": 0 }
+            "Chen-Project": { "value": 0 }
           },
           "life": {
             "Chill": { "value": 0 },
@@ -65,14 +68,15 @@
           },
           "goals": {
             "Gym": { "value": 5 },
-            "Spanish": { "value": 0 }
+            "Spanish": { "value": 0 },
+            "Content-Creation": { "value": 0 }
           }
         },
         {
           "date": "2025-07-04",
           "work": {
             "Work": { "value": 5 },
-            "Side-Work": { "value": 0 }
+            "Chen-Project": { "value": 0 }
           },
           "life": {
             "Chill": { "value": 0 },
@@ -80,14 +84,15 @@
           },
           "goals": {
             "Gym": { "value": 5 },
-            "Spanish": { "value": 0 }
+            "Spanish": { "value": 0 },
+            "Content-Creation": { "value": 0 }
           }
         },
         {
           "date": "2025-07-05",
           "work": {
             "Work": { "value": 0 },
-            "Side-Work": { "value": 0 }
+            "Chen-Project": { "value": 0 }
           },
           "life": {
             "Chill": { "value": 2 },
@@ -95,7 +100,24 @@
           },
           "goals": {
             "Gym": { "value": 4 },
-            "Spanish": { "value": 1 }
+            "Spanish": { "value": 1 },
+            "Content-Creation": { "value": 0 }
+          }
+        },
+        {
+          "date": "2025-07-06",
+          "work": {
+            "Work": { "value": 0 },
+            "Chen-Project": { "value": 2 }
+          },
+          "life": {
+            "Chill": { "value": 2 },
+            "Diet": { "value": 2 }
+          },
+          "goals": {
+            "Gym": { "value": 4 },
+            "Spanish": { "value": 0 },
+            "Content-Creation": { "value": 0 }
           }
         }
       ]
