@@ -1,24 +1,11 @@
 {
-  "settings": {
-    "categories": {
-      "work": { "name": "Work", "color": "#7FB8FF", "weight": 0.4 },
-      "life": { "name": "Life", "color": "#88E8C0", "weight": 0.3 },
-      "goals": { "name": "Goals", "color": "#FFA5D8", "weight": 0.3 }
-    },
-    "subcategories": {
-      "work": [
-        { "name": "Work", "color": "#5C9EFF" },
-        { "name": "Chen-Project", "color": "#3A7BD5" }
-      ],
-      "life": [
-        { "name": "Chill", "color": "#5CD4A3" },
-        { "name": "Diet", "color": "#38B584" }
-      ],
-      "goals": [
-        { "name": "Content-Creation", "color": "#FFA3D7" },
-        { "name": "Gym", "color": "#FF85C0" },
-        { "name": "Spanish", "color": "#E672B0" }
-      ]
+  "monthlyGoals": {
+    "2025": {
+      "7": {
+        "goals": 110,
+        "life": 100,
+        "work": 100
+      }
     }
   },
   "records": {
@@ -26,110 +13,990 @@
       "7": [
         {
           "date": "2025-07-01",
-          "work": {
-            "Work": { "value": 5 },
-            "Chen-Project": { "value": 0 }
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 5
+            },
+            "Spanish": {
+              "value": 0
+            }
           },
           "life": {
-            "Chill": { "value": 0 },
-            "Diet": { "value": 0 }
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
           },
-          "goals": {
-            "Gym": { "value": 5 },
-            "Spanish": { "value": 0 },
-            "Content-Creation": { "value": 0 }
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 5
+            }
           }
         },
         {
           "date": "2025-07-02",
-          "work": {
-            "Work": { "value": 5 },
-            "Chen-Project": { "value": 0 }
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 5
+            },
+            "Spanish": {
+              "value": 0
+            }
           },
           "life": {
-            "Chill": { "value": 0 },
-            "Diet": { "value": 0 }
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
           },
-          "goals": {
-            "Gym": { "value": 5 },
-            "Spanish": { "value": 0 },
-            "Content-Creation": { "value": 0 }
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 5
+            }
           }
         },
         {
           "date": "2025-07-03",
-          "work": {
-            "Work": { "value": 5 },
-            "Chen-Project": { "value": 0 }
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 5
+            },
+            "Spanish": {
+              "value": 0
+            }
           },
           "life": {
-            "Chill": { "value": 0 },
-            "Diet": { "value": 0 }
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
           },
-          "goals": {
-            "Gym": { "value": 5 },
-            "Spanish": { "value": 0 },
-            "Content-Creation": { "value": 0 }
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 5
+            }
           }
         },
         {
           "date": "2025-07-04",
-          "work": {
-            "Work": { "value": 5 },
-            "Chen-Project": { "value": 0 }
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 5
+            },
+            "Spanish": {
+              "value": 0
+            }
           },
           "life": {
-            "Chill": { "value": 0 },
-            "Diet": { "value": 0 }
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
           },
-          "goals": {
-            "Gym": { "value": 5 },
-            "Spanish": { "value": 0 },
-            "Content-Creation": { "value": 0 }
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 5
+            }
           }
         },
         {
           "date": "2025-07-05",
-          "work": {
-            "Work": { "value": 0 },
-            "Chen-Project": { "value": 0 }
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 4
+            },
+            "Spanish": {
+              "value": 1
+            }
           },
           "life": {
-            "Chill": { "value": 2 },
-            "Diet": { "value": 3 }
+            "Chill": {
+              "value": 2
+            },
+            "Diet": {
+              "value": 3
+            }
           },
-          "goals": {
-            "Gym": { "value": 4 },
-            "Spanish": { "value": 1 },
-            "Content-Creation": { "value": 0 }
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
           }
         },
         {
           "date": "2025-07-06",
-          "work": {
-            "Work": { "value": 0 },
-            "Chen-Project": { "value": 2 }
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 4
+            },
+            "Spanish": {
+              "value": 0
+            }
           },
           "life": {
-            "Chill": { "value": 2 },
-            "Diet": { "value": 2 }
+            "Chill": {
+              "value": 2
+            },
+            "Diet": {
+              "value": 2
+            }
           },
+          "work": {
+            "Chen-Project": {
+              "value": 2
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-07",
           "goals": {
-            "Gym": { "value": 4 },
-            "Spanish": { "value": 0 },
-            "Content-Creation": { "value": 0 }
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-08",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-09",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-10",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-11",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-12",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-13",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-14",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-15",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-16",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-17",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-18",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-19",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-20",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-21",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-22",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-23",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-24",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-25",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-26",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-27",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-28",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-29",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-30",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
+          }
+        },
+        {
+          "date": "2025-07-31",
+          "goals": {
+            "Content-Creation": {
+              "value": 0
+            },
+            "Gym": {
+              "value": 0
+            },
+            "Spanish": {
+              "value": 0
+            }
+          },
+          "life": {
+            "Chill": {
+              "value": 0
+            },
+            "Diet": {
+              "value": 0
+            }
+          },
+          "work": {
+            "Chen-Project": {
+              "value": 0
+            },
+            "Work": {
+              "value": 0
+            }
           }
         }
       ]
     }
   },
-  "monthlyGoals": {
-    "2025": {
-      "7": {
-        "work": 100,
-        "life": 100,
-        "goals": 110
+  "settings": {
+    "categories": {
+      "goals": {
+        "color": "#FFA5D8",
+        "name": "Goals",
+        "weight": 0.3
+      },
+      "life": {
+        "color": "#88E8C0",
+        "name": "Life",
+        "weight": 0.3
+      },
+      "work": {
+        "color": "#7FB8FF",
+        "name": "Work",
+        "weight": 0.4
       }
+    },
+    "subcategories": {
+      "goals": [
+        {
+          "color": "#FFA3D7",
+          "name": "Content-Creation"
+        },
+        {
+          "color": "#FF85C0",
+          "name": "Gym"
+        },
+        {
+          "color": "#E672B0",
+          "name": "Spanish"
+        }
+      ],
+      "life": [
+        {
+          "color": "#5CD4A3",
+          "name": "Chill"
+        },
+        {
+          "color": "#38B584",
+          "name": "Diet"
+        }
+      ],
+      "work": [
+        {
+          "color": "#5C9EFF",
+          "name": "Work"
+        },
+        {
+          "color": "#3A7BD5",
+          "name": "Chen-Project"
+        }
+      ]
     }
   }
 }

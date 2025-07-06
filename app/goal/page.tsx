@@ -16,7 +16,9 @@ export default function HappinessDashboard() {
         <h1 className="text-3xl md:text-4xl font-bold text-emerald-700 mb-2">
           🌈 Goals Tracker
         </h1>
-        <p className="text-emerald-600 text-base md:text-lg">Track your happiness journey</p>
+        <p className="text-emerald-600 text-base md:text-lg">
+          Track your happiness journey
+        </p>
       </header>
 
       {/* Main Content - Responsive Layout */}
@@ -200,7 +202,7 @@ function GoalCard({
             isCompleted ? "text-gray-400" : "text-emerald-500"
           }`}
         >
-          {new Date(goal.createdAt).toLocaleDateString()}
+          {goal.createdAt}
         </span>
       </div>
     </Link>
