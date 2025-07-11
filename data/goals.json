@@ -84,8 +84,8 @@
     {
       "id": 3,
       "title": "Content-Creation Challenge",
-      "description": "Make 10 videos of AI tools",
-      "feeling": 2,
+      "description": "Make videos of AI product/AI agent",
+      "feeling": 4,
       "createdAt": "2025-07-06",
       "updatedAt": "2025-07-06",
       "status": "going",

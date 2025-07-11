@@ -2270,5 +2270,56 @@
         }
       }
     }
-  ]
+  ],
+ "nouns": [
+    {
+      "id": "food-1",
+      "category": "food",
+      "flashcards": [
+        {
+          "id": "card-1",
+          "word": "manzana",
+          "translation": "apple",
+          "gender": "f",
+          "plural": "manzanas",
+          "image": "../public/image/apple.png",
+          "audio": "/audio/manzana.mp3",
+          "hint": "常见水果，红色或绿色",
+          "example": "Como una manzana cada mañana.",
+          "explanation": "阴性名词，通常以 -a 结尾"
+        },
+        {
+          "id": "card-2",
+          "word": "queso",
+          "translation": "cheese",
+          "gender": "m",
+          "image": "/images/cheese.jpg",
+          "example": "El queso español es muy famoso."
+        }
+      ]
+    },
+    {
+      "id": "animals-1",
+      "category": "animals",
+      "flashcards": [
+        {
+          "id": "card-3",
+          "word": "perro",
+          "translation": "dog",
+          "gender": "m",
+          "plural": "perros",
+          "hint": "人类最好的朋友"
+        }
+      ]
+    }
+  ],
+  "userStats": {
+    "dailyStreak": 0,
+    "totalVerbsMastered": 1,
+    "totalNounsMastered": 1,
+    "weakPoints": {
+      "verbs": ["3", "2"],
+      "nouns": ["1"]
+    }
+  }
 }

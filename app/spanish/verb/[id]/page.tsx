@@ -2,10 +2,10 @@
 
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import LoadingSpinner from "../components/LoadingSpinner";
-import ScenarioCard from "../components/ScenarioCard";
-import ConjugationsSection from "../components/ConjugationsSection";
-import data from '../../../data/spanish.json';
+import LoadingSpinner from "../../components/LoadingSpinner";
+import ScenarioCard from "../../components/ScenarioCard";
+import ConjugationsSection from "../../components/ConjugationsSection";
+import data from '../../../../data/spanish.json';
 
 export default function VerbPage() {
   const { id } = useParams<{ id: string }>();
@@ -32,7 +32,7 @@ export default function VerbPage() {
   const currentScenario = verb.practice_scenarios[currentScenarioIndex];
 
   return (
-    <div className="container mx-auto p-4 min-h-screen bg-green-50">
+    <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white p-4 md:p-6">
       <h1 className="text-3xl font-bold mb-6 text-green-800">
         {verb.infinitive}{" "}
         <span className="text-green-600">({verb.translation})</span>
