@@ -16,7 +16,7 @@
             "id": "executed-well",
             "text": "Executed well"
           },
-          "metrics": [
+          "metric": [
             {
               "type": "vegetable intake",
               "value": 5,
@@ -58,26 +58,46 @@
       "status": "going",
       "reflections": [
         {
-          "date": "2025-07-06",
-          "text": "First week reflection: Good start!",
+          "date": "2025-07-07",
+          "text": "Two week reflection: Good Girl!",
           "status": {
             "id": "executed-well",
             "text": "Executed well"
           },
-          "metrics": [
+          "metric": 
             {
-              "type": "workout times",
-              "value": 5,
-              "unit": "times"
+              "type": "workout strike",
+              "value": 7,
+              "unit": "days"
             }
-          ]
+          
+        },
+        {
+          "date": "2025-07-13",
+          "text": "Second week reflection: feet matters!",
+          "status": {
+            "id": "executed-well",
+            "text": "Executed well"
+          },
+          "metric": 
+          {
+            "type": "workout strike",
+            "value": 13,
+            "unit": "days"
+          }
+          
         }
       ],
       "timeline": [
         {
           "date": "2025-07-06",
           "title": "Week 1: Good Start!",
-          "description": "This week, gym is my second home. Good side is I did lots of workout sessions including training and treadmill exercise. I also corrected my posture a lot! Mamamia, life change! However, the bad side is I don't enjoy the diet most of the evenings and I don't the posture correction process which is painful to me."
+          "description": "**The Good:**\n- Gym became my second home\n- Completed many workout sessions (training + treadmill)\n- Made significant posture corrections\n- Feeling life-changing progress!\n\n**The Bad:**\n- Didn't enjoy the diet most evenings\n- Posture correction process was painful"
+        },
+        {
+          "date": "2025-07-13",
+          "title": "Week 2: Problem found!",
+          "description": "**Progress:**\n- Identified my posture problems\n- Feel like the universe is helping me reach my goal\n- My gym is perfect for my needs:\n  - Great for Pilates training\n  - Ideal for posture correction\n- Showing strong workout commitment\n\n**Observations:**\n- Less tiring than Week 1\n- Body is adapting to the soreness"
         }
       ]
     },
@@ -97,7 +117,7 @@
             "id": "executed-well",
             "text": "Executed well"
           },
-          "metrics": []
+          "metric": []
         }
       ],
       "timeline": [
@@ -107,18 +127,17 @@
           "description": "Make some videos"
         }
       ]
-    },   
-    {"id": 4,
+    },
+    {
+      "id": 4,
       "title": "Spanish Learning",
       "description": "A2 Spanish level",
       "feeling": 4,
       "createdAt": "2025-07-06",
       "updatedAt": "2025-07-06",
       "status": "going",
-      "reflections": [
-      ],
-      "timeline": [
-      ]
+      "reflections": [],
+      "timeline": []
     }
   ]
 }

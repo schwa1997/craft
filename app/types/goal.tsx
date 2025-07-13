@@ -14,7 +14,7 @@ interface Reflection {
   date: string;
   text: string;
   status: Status;
-  metrics?: Metric[];
+  metric: Metric;
 }
 
 interface TimelineItem {
