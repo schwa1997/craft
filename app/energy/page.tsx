@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import data from "../../data/energy.json";
+import ReactMarkdown from "react-markdown";
 
 // Type definitions
 type EnergyCategory = "work" | "life" | "goals";
@@ -47,14 +48,15 @@ export default function StaticEnergyGarden() {
   const currentDate = new Date();
   const [currentYear, setCurrentYear] = useState(currentDate.getFullYear());
   const [currentMonth, setCurrentMonth] = useState(currentDate.getMonth());
-  const [selectedDay, setSelectedDay] = useState<DailyEnergyRecord | null>(
-    null
-  );
+  const [selectedDay, setSelectedDay] = useState<{
+    date: string;
+    data?: DailyEnergyRecord;
+  } | null>(null);
 
   const yearlyData: YearlyEnergyData = data.records;
   const yearlyGoals: MonthlyGoals = data.monthlyGoals;
+  const weeklyReport: WeeklyReport = data.weeklyReport || {};
   const settings = data.settings;
-
   const energyData = yearlyData[currentYear]?.[currentMonth + 1] || []; // Month is 1-indexed in JSON
   const currentMonthGoal = yearlyGoals[currentYear]?.[currentMonth + 1] || {
     work: 0,
@@ -155,7 +157,12 @@ export default function StaticEnergyGarden() {
         className={`bg-white rounded-lg shadow-sm border border-emerald-100 p-1 flex flex-col items-center justify-between h-20 hover:shadow-md transition cursor-pointer ${
           totalEnergy > 0 ? "opacity-100" : "opacity-60"
         }`}
-        onClick={() => setSelectedDay(dayData)}
+        onClick={() => {
+          setSelectedDay({
+            date: dayData.date,
+            data: dayData,
+          });
+        }}
       >
         <span className="text-xs text-emerald-700">{day}</span>
 
@@ -273,6 +280,19 @@ export default function StaticEnergyGarden() {
     setSelectedDay(null);
   };
 
+  // Helper function to get Monday of the week for a given date string
+  const getMondayOfWeek = (dateString: string) => {
+    const date = new Date(dateString);
+    const day = date.getDay();
+    const diff = date.getDate() - day + (day === 0 ? -6 : 1); // adjust when day is Sunday
+    return new Date(date.setDate(diff));
+  };
+
+  // Helper function to get the Monday date string in YYYY-MM-DD format
+  const getMondayString = (dateString: string) => {
+    const monday = getMondayOfWeek(dateString);
+    return monday.toISOString().split("T")[0];
+  };
   return (
     <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white p-4 md:p-6">
       {/* Header Section */}
@@ -481,14 +501,14 @@ export default function StaticEnergyGarden() {
         </div>
       </div>
 
-      {/* Day Detail Modal */}
+      {/* Weekly Report Modal */}
       {selectedDay && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+        <div className="fixed inset-0 bg-transparent flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-xl p-6 max-w-md w-full max-h-[80vh] overflow-y-auto">
             <div className="flex justify-between items-center mb-4">
               <h3 className="text-lg font-bold text-emerald-700">
-                {new Date(selectedDay.date).toLocaleDateString("en-US", {
-                  weekday: "long",
+                Weekly Report - Week of{" "}
+                {getMondayOfWeek(selectedDay.date).toLocaleDateString("en-US", {
                   year: "numeric",
                   month: "long",
                   day: "numeric",
@@ -502,63 +522,134 @@ export default function StaticEnergyGarden() {
               </button>
             </div>
 
-            {(["work", "life", "goals"] as EnergyCategory[]).map((type) => (
-              <div key={type} className="mb-4">
-                <h4 className="font-medium text-emerald-700 flex items-center mb-2">
-                  <div
-                    className="w-3 h-3 rounded-full mr-2"
-                    style={{ backgroundColor: getCategoryColor(type) }}
-                  />
-                  {settings.categories[type].name}
-                </h4>
+            {/* Weekly Report Modal */}
+            {selectedDay && (
+              <div className="fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+                <div className="bg-white/90 backdrop-blur-lg rounded-xl p-6 w-full max-w-md max-h-[80vh] overflow-y-auto border border-white/20 shadow-xl">
+                  <div className="flex justify-between items-center mb-4">
+                    <div>
+                      <h3 className="text-lg font-bold text-emerald-800">
+                        Weekly Report
+                      </h3>
+                      <p className="text-sm text-emerald-600">
+                        Week of{" "}
+                        {getMondayOfWeek(selectedDay.date).toLocaleDateString(
+                          "en-US",
+                          {
+                            year: "numeric",
+                            month: "long",
+                            day: "numeric",
+                          }
+                        )}
+                      </p>
+                    </div>
+                    <button
+                      onClick={() => setSelectedDay(null)}
+                      className="p-1 rounded-full hover:bg-emerald-50 transition-colors"
+                      aria-label="Close"
+                    >
+                      <svg
+                        className="w-5 h-5 text-emerald-600"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M6 18L18 6M6 6l12 12"
+                        />
+                      </svg>
+                    </button>
+                  </div>
 
-                {Object.entries(selectedDay[type]).length > 0 ? (
-                  <div className="space-y-2">
-                    {Object.entries(selectedDay[type]).map(
-                      ([subcategory, entry]) => (
-                        <div key={subcategory} className="flex items-center">
-                          <div
-                            className="w-2 h-2 rounded-full mr-2"
-                            style={{
-                              backgroundColor: getSubcategoryColor(
-                                type,
-                                subcategory
-                              ),
-                            }}
-                          />
-                          <div className="flex-1">
-                            <div className="flex justify-between text-sm">
-                              <span className="font-medium">
-                                {getSubcategoryName(type, subcategory)}
-                              </span>
-                              <span className="text-gray-600">
-                                {entry.value} energy
-                              </span>
-                            </div>
-                            <div className="w-full bg-gray-100 rounded-full h-2 mt-1">
-                              <div
-                                className="h-2 rounded-full"
-                                style={{
-                                  width: `${Math.min(entry.value * 10, 100)}%`,
-                                  backgroundColor: getSubcategoryColor(
-                                    type,
-                                    subcategory
-                                  ),
-                                }}
+                  {/* 内容区 */}
+                  <div className="space-y-6">
+                    {weeklyReport[getMondayString(selectedDay.date)] ? (
+                      <>
+                        <div className="bg-white/70 p-4 rounded-lg border border-white shadow-sm">
+                          <h4 className="font-semibold text-emerald-700 mb-3 flex items-center">
+                            <svg
+                              className="w-4 h-4 mr-2"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
                               />
-                            </div>
+                            </svg>
+                            Plan
+                          </h4>
+                          <div className="prose prose-sm max-w-none text-gray-700 pl-6">
+                            <ReactMarkdown>
+                              {
+                                weeklyReport[getMondayString(selectedDay.date)]
+                                  .plan
+                              }
+                            </ReactMarkdown>
                           </div>
                         </div>
-                      )
+
+                        {weeklyReport[getMondayString(selectedDay.date)]
+                          .review && (
+                          <div className="bg-white/70 p-4 rounded-lg border border-white shadow-sm">
+                            <h4 className="font-semibold text-emerald-700 mb-3 flex items-center">
+                              <svg
+                                className="w-4 h-4 mr-2"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                                />
+                              </svg>
+                              Review
+                            </h4>
+                            <div className="prose prose-sm max-w-none text-gray-700 pl-6">
+                              <ReactMarkdown>
+                                {
+                                  weeklyReport[
+                                    getMondayString(selectedDay.date)
+                                  ].review
+                                }
+                              </ReactMarkdown>
+                            </div>
+                          </div>
+                        )}
+                      </>
+                    ) : (
+                      <div className="text-center py-8">
+                        <svg
+                          className="w-12 h-12 mx-auto text-emerald-200"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={1}
+                            d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                          />
+                        </svg>
+                        <p className="mt-3 text-gray-500">
+                          No weekly report found for this week.
+                        </p>
+                      </div>
                     )}
                   </div>
-                ) : (
-                  <p className="text-sm text-gray-400">
-                    No {type.toLowerCase()} recorded
-                  </p>
-                )}
+                </div>
               </div>
-            ))}
+            )}
           </div>
         </div>
       )}

@@ -64,13 +64,11 @@
             "id": "executed-well",
             "text": "Executed well"
           },
-          "metric": 
-            {
-              "type": "workout strike",
-              "value": 7,
-              "unit": "days"
-            }
-          
+          "metric": {
+            "type": "workout strike",
+            "value": 7,
+            "unit": "days"
+          }
         },
         {
           "date": "2025-07-13",
@@ -79,13 +77,11 @@
             "id": "executed-well",
             "text": "Executed well"
           },
-          "metric": 
-          {
+          "metric": {
             "type": "workout strike",
             "value": 13,
             "unit": "days"
           }
-          
         }
       ],
       "timeline": [
@@ -130,14 +126,20 @@
     },
     {
       "id": 4,
-      "title": "Spanish Learning",
-      "description": "A2 Spanish level",
+      "title": "Spanish: July challenge",
+      "description": "A2 Spanish level and August travel usage",
       "feeling": 4,
-      "createdAt": "2025-07-06",
-      "updatedAt": "2025-07-06",
+      "createdAt": "2025-07-14",
+      "updatedAt": "2025-07-14",
       "status": "going",
       "reflections": [],
-      "timeline": []
+      "timeline": [
+        {
+          "date": "2025-07-14",
+          "title": "Initail Goal: 1 week strike",
+          "description": "Practice makes perfect! Lets start!"
+        }
+      ]
     }
   ]
 }

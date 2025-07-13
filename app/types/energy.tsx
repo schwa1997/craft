@@ -35,7 +35,11 @@ interface EnergyCategory {
       goals: EnergyCategory[]; // predefined goals like gym, spanish
     };
   }
-  
+  interface WeeklyPlan {
+    plan: string;
+    review: string;
+  }
+  type WeeklyReport = Record<string, WeeklyPlan>;
   interface EnergyData {
     settings: EnergySettings;
     records: {
@@ -43,6 +47,9 @@ interface EnergyCategory {
         [month: string]: DailyEnergyRecord[];
       };
     };
+    weeklyReport?: {
+      [date: string]: WeeklyPlan;  
+    }
     monthlySummaries: {
       [year: string]: {
         [month: string]: {

@@ -2271,44 +2271,221 @@
       }
     }
   ],
- "nouns": [
+  "nouns": [
     {
       "id": "food-1",
       "category": "food",
       "flashcards": [
         {
           "id": "card-1",
-          "word": "manzana",
-          "translation": "apple",
+          "word": "apple",
+          "translation": "manzana",
           "gender": "f",
           "plural": "manzanas",
-          "image": "../public/image/apple.png",
-          "audio": "/audio/manzana.mp3",
-          "hint": "常见水果，红色或绿色",
+          "image": "https://example.com/apple.jpg",
+          "hint": "Common fruit, red or green",
           "example": "Como una manzana cada mañana.",
-          "explanation": "阴性名词，通常以 -a 结尾"
+          "explanation": "Feminine noun, typically ends with -a"
         },
         {
           "id": "card-2",
-          "word": "queso",
-          "translation": "cheese",
+          "word": "banana",
+          "translation": "plátano",
           "gender": "m",
-          "image": "/images/cheese.jpg",
-          "example": "El queso español es muy famoso."
+          "plural": "plátanos",
+          "image": "https://example.com/banana.jpg",
+          "example": "Los plátanos son ricos en potasio."
+        },
+        {
+          "id": "card-3",
+          "word": "bread",
+          "translation": "pan",
+          "gender": "m",
+          "plural": "panes",
+          "example": "Compré pan fresco en la panadería."
+        },
+        {
+          "id": "card-4",
+          "word": "milk",
+          "translation": "leche",
+          "gender": "f",
+          "example": "La leche es buena para los huesos."
+        },
+        {
+          "id": "card-5",
+          "word": "egg",
+          "translation": "huevo",
+          "gender": "m",
+          "plural": "huevos",
+          "example": "Como dos huevos para el desayuno."
+        },
+        {
+          "id": "card-6",
+          "word": "chicken",
+          "translation": "pollo",
+          "gender": "m",
+          "example": "El pollo asado es mi favorito."
+        },
+        {
+          "id": "card-7",
+          "word": "fish",
+          "translation": "pescado",
+          "gender": "m",
+          "example": "El pescado es saludable para el corazón."
+        },
+        {
+          "id": "card-8",
+          "word": "rice",
+          "translation": "arroz",
+          "gender": "m",
+          "example": "El arroz con pollo es un plato típico."
+        },
+        {
+          "id": "card-9",
+          "word": "pasta",
+          "translation": "pasta",
+          "gender": "f",
+          "example": "La pasta italiana es muy popular."
+        },
+        {
+          "id": "card-10",
+          "word": "coffee",
+          "translation": "café",
+          "gender": "m",
+          "example": "Tomo café todas las mañanas."
         }
       ]
     },
     {
-      "id": "animals-1",
-      "category": "animals",
+      "id": "gym-1",
+      "category": "gym",
       "flashcards": [
         {
-          "id": "card-3",
-          "word": "perro",
-          "translation": "dog",
+          "id": "card-11",
+          "word": "dumbbell",
+          "translation": "mancuerna",
+          "gender": "f",
+          "plural": "mancuernas",
+          "example": "Levanto mancuernas para fortalecer los brazos."
+        },
+        {
+          "id": "card-12",
+          "word": "treadmill",
+          "translation": "cinta de correr",
+          "gender": "f",
+          "example": "Corro en la cinta de correr durante 30 minutos."
+        },
+        {
+          "id": "card-13",
+          "word": "weight",
+          "translation": "peso",
           "gender": "m",
-          "plural": "perros",
-          "hint": "人类最好的朋友"
+          "example": "Aumenté el peso en mis ejercicios."
+        },
+        {
+          "id": "card-14",
+          "word": "barbell",
+          "translation": "barra",
+          "gender": "f",
+          "example": "Hago sentadillas con la barra."
+        },
+        {
+          "id": "card-15",
+          "word": "exercise",
+          "translation": "ejercicio",
+          "gender": "m",
+          "example": "Hago ejercicio cinco veces por semana."
+        },
+        {
+          "id": "card-16",
+          "word": "muscle",
+          "translation": "músculo",
+          "gender": "m",
+          "example": "El descanso es importante para el crecimiento muscular."
+        },
+        {
+          "id": "card-17",
+          "word": "protein",
+          "translation": "proteína",
+          "gender": "f",
+          "example": "Consumo proteína después del entrenamiento."
+        },
+        {
+          "id": "card-18",
+          "word": "pull-up",
+          "translation": "dominada",
+          "gender": "f",
+          "example": "Hago diez dominadas cada día."
+        },
+        {
+          "id": "card-19",
+          "word": "push-up",
+          "translation": "flexión",
+          "gender": "f",
+          "plural": "flexiones",
+          "example": "Las flexiones fortalecen el pecho."
+        },
+        {
+          "id": "card-20",
+          "word": "squat",
+          "translation": "sentadilla",
+          "gender": "f",
+          "example": "Las sentadillas son buenas para las piernas."
+        },
+        {
+          "id": "card-21",
+          "word": "trainer",
+          "translation": "entrenador/entrenadora",
+          "gender": "m/f",
+          "example": "Mi entrenadora me ayuda con la técnica."
+        },
+        {
+          "id": "card-22",
+          "word": "workout",
+          "translation": "entrenamiento",
+          "gender": "m",
+          "example": "Hoy tuve un entrenamiento intenso."
+        }
+      ]
+    },
+    {
+      "id": "food-2",
+      "category": "food",
+      "flashcards": [
+        {
+          "id": "card-23",
+          "word": "vegetables",
+          "translation": "verduras",
+          "gender": "f",
+          "example": "Las verduras son esenciales para una dieta saludable."
+        },
+        {
+          "id": "card-24",
+          "word": "fruit",
+          "translation": "fruta",
+          "gender": "f",
+          "example": "Como fruta como postre."
+        },
+        {
+          "id": "card-25",
+          "word": "water",
+          "translation": "agua",
+          "gender": "f",
+          "example": "Bebo mucha agua durante el día."
+        },
+        {
+          "id": "card-26",
+          "word": "meat",
+          "translation": "carne",
+          "gender": "f",
+          "example": "La carne roja debe consumirse con moderación."
+        },
+        {
+          "id": "card-27",
+          "word": "salad",
+          "translation": "ensalada",
+          "gender": "f",
+          "example": "Pido una ensalada para el almuerzo."
         }
       ]
     }
