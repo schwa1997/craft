@@ -2833,12 +2833,6 @@
     }
   ],
   "userStats": {
-    "dailyStreak": 0,
-    "totalVerbsMastered": 1,
-    "totalNounsMastered": 1,
-    "weakPoints": {
-      "verbs": ["3", "2"],
-      "nouns": ["1"]
-    }
+    "dailyStreak": 1
   }
 }

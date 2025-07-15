@@ -45,7 +45,7 @@ interface Goal {
   description: string;
   feeling?: number;       // Made optional since not all goals might have this
   createdAt: string;
-  updatedAt: string;
+  endedAt: string;
   status: "completed" | "in-progress" | string;
   reflections: Reflection[];
   energyMoments?: EnergyMoment[];  // Made optional and corrected typo (should be moments)

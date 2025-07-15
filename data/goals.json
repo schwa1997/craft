@@ -6,7 +6,7 @@
       "description": "Evolved from 'Lose 10 pounds'",
       "feeling": 8,
       "createdAt": "2025-04-01",
-      "updatedAt": "2025-06-30",
+      "endedAt": "2025-06-30",
       "status": "completed",
       "reflections": [
         {
@@ -54,7 +54,7 @@
       "description": "Focus on posture rebuild.",
       "feeling": 6,
       "createdAt": "2025-07-01",
-      "updatedAt": "2025-07-06",
+      "endedAt": "2025-09-30",
       "status": "going",
       "reflections": [
         {
@@ -103,7 +103,7 @@
       "description": "Learn and output the learning",
       "feeling": 4,
       "createdAt": "2025-07-06",
-      "updatedAt": "2025-07-06",
+      "endedAt": "2025-12-31",
       "status": "going",
       "reflections": [
         {
@@ -130,7 +130,7 @@
       "description": "A2 Spanish level and August travel usage",
       "feeling": 4,
       "createdAt": "2025-07-14",
-      "updatedAt": "2025-07-14",
+      "endedAt": "2025-08-01",
       "status": "going",
       "reflections": [],
       "timeline": [
@@ -147,7 +147,7 @@
       "description": "Watch less videos and read more about Posture and Physiotherapy systematically",
       "feeling": 9,
       "createdAt": "2025-07-15",
-      "updatedAt": "2025-07-15",
+      "endedAt": "2025-10-15",
       "status": "going",
       "reflections": [
         {

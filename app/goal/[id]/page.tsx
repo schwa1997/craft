@@ -55,7 +55,7 @@ export default function GrowthTracker() {
             {currentGoal.status}
           </span>
           <span className="text-xs md:text-sm text-emerald-500">
-            Last updated: {new Date(currentGoal.updatedAt).toLocaleDateString()}
+            Expected Ended at: {new Date(currentGoal.endedAt).toLocaleDateString()}
           </span>
         </div>
       </header>

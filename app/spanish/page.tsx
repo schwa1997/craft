@@ -59,54 +59,6 @@ export default function Home() {
               <div className="p-4 md:p-6 pt-0 space-y-4">
                 {/* Summary Cards */}
                 <div className="space-y-3 md:space-y-4">
-                  <div className="bg-emerald-50 rounded-lg p-3 md:p-4 border border-emerald-200">
-                    <div className="flex justify-between items-center mb-1">
-                      <span className="text-xs md:text-sm font-medium text-emerald-700">
-                        Verbs Mastered
-                      </span>
-                      <span className="text-xs px-2 py-1 rounded-full bg-emerald-100 text-emerald-800">
-                        {userStats.totalVerbsMastered} learned
-                      </span>
-                    </div>
-                    <p className="text-2xl md:text-3xl font-bold text-emerald-700">
-                      {verbs.length}
-                    </p>
-                    <div className="w-full bg-emerald-100 rounded-full h-1.5 md:h-2 mt-2">
-                      <div
-                        className="h-1.5 md:h-2 rounded-full bg-emerald-500"
-                        style={{
-                          width: `${
-                            (userStats.totalVerbsMastered / verbs.length) * 100
-                          }%`,
-                        }}
-                      />
-                    </div>
-                  </div>
-
-                  <div className="bg-amber-50 rounded-lg p-3 md:p-4 border border-amber-200">
-                    <div className="flex justify-between items-center mb-1">
-                      <span className="text-xs md:text-sm font-medium text-amber-700">
-                        Nouns Mastered
-                      </span>
-                      <span className="text-xs px-2 py-1 rounded-full bg-amber-100 text-amber-800">
-                        {userStats.totalNounsMastered} learned
-                      </span>
-                    </div>
-                    <p className="text-2xl md:text-3xl font-bold text-amber-700">
-                      {words.length}
-                    </p>
-                    <div className="w-full bg-amber-100 rounded-full h-1.5 md:h-2 mt-2">
-                      <div
-                        className="h-1.5 md:h-2 rounded-full bg-amber-500"
-                        style={{
-                          width: `${
-                            (userStats.totalNounsMastered / words.length) * 100
-                          }%`,
-                        }}
-                      />
-                    </div>
-                  </div>
-
                   <div className="bg-blue-50 rounded-lg p-3 md:p-4 border border-blue-200">
                     <div className="flex justify-between items-center mb-1">
                       <span className="text-xs md:text-sm font-medium text-blue-700">
@@ -123,77 +75,14 @@ export default function Home() {
                       <div
                         className="h-1.5 md:h-2 rounded-full bg-blue-500"
                         style={{
-                          width: `${Math.min(userStats.dailyStreak, 100)}%`,
+                          width: `${Math.min(userStats.dailyStreak, 21)}%`,
                         }}
                       />
                     </div>
                   </div>
                 </div>
 
-                {/* Weak Points Section */}
-                {userStats.weakPoints.verbs.length > 0 ||
-                userStats.weakPoints.nouns.length > 0 ? (
-                  <div className="bg-white rounded-xl shadow-sm p-4 md:p-6 border border-red-100">
-                    <h3 className="font-semibold text-red-700 mb-3 text-sm md:text-base">
-                      Need Practice
-                    </h3>
-                    <div className="space-y-2">
-                      {userStats.weakPoints.verbs.length > 0 && (
-                        <div>
-                          <h4 className="text-xs font-medium text-red-600 mb-1">
-                            Verbs:
-                          </h4>
-                          <div className="flex flex-wrap gap-1">
-                            {userStats.weakPoints.verbs
-                              .slice(0, 5)
-                              .map((verbId) => {
-                                const verb = verbs.find((v) => v.id === verbId);
-                                return verb ? (
-                                  <span
-                                    key={verbId}
-                                    className="text-xs px-2 py-1 rounded-full bg-red-50 text-red-700 border border-red-100"
-                                  >
-                                    {verb.infinitive}
-                                  </span>
-                                ) : null;
-                              })}
-                          </div>
-                        </div>
-                      )}
-                      {userStats.weakPoints.nouns.length > 0 && (
-                        <div>
-                          <h4 className="text-xs font-medium text-red-600 mb-1">
-                            Nouns:
-                          </h4>
-                          <div className="flex flex-wrap gap-1">
-                            {userStats.weakPoints.nouns
-                              .slice(0, 5)
-                              .map((wordId) => {
-                                const noun = words.find((w) => w.id === wordId);
-                                return noun ? (
-                                  <span
-                                    key={wordId}
-                                    className="text-xs px-2 py-1 rounded-full bg-red-50 text-red-700 border border-red-100"
-                                  >
-                                    {noun.category}
-                                  </span>
-                                ) : null;
-                              })}
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                ) : (
-                  <div className="bg-white rounded-xl shadow-sm p-4 md:p-6 border border-emerald-100">
-                    <h3 className="font-semibold text-emerald-700 mb-2 text-sm md:text-base">
-                      Great Job!
-                    </h3>
-                    <p className="text-xs text-emerald-600">
-                      No weak points detected. Keep up the good work!
-                    </p>
-                  </div>
-                )}
+             
               </div>
             )}
           </section>
