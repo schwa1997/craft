@@ -14,1127 +14,543 @@
         {
           "date": "2025-07-01",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 5
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 5
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 5 } }
         },
         {
           "date": "2025-07-02",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 5
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 5
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 5 } }
         },
         {
           "date": "2025-07-03",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 5
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 5
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 5 } }
         },
         {
           "date": "2025-07-04",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 5
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 5
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 5 } }
         },
         {
           "date": "2025-07-05",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 4
-            },
-            "Spanish": {
-              "value": 1
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 4 },
+            "Spanish": { "value": 1 }
           },
-          "life": {
-            "Chill": {
-              "value": 2
-            },
-            "Diet": {
-              "value": 3
-            }
-          },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "life": { "Chill": { "value": 2 }, "Diet": { "value": 3 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-06",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 4
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 4 },
+            "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": {
-              "value": 2
-            },
-            "Diet": {
-              "value": 2
-            }
-          },
-          "work": {
-            "Chen-Project": {
-              "value": 2
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "life": { "Chill": { "value": 2 }, "Diet": { "value": 2 } },
+          "work": { "Chen-Project": { "value": 2 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-07",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 3
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 3 },
+            "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 2
-            }
-          },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 5
-            }
-          }
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 2 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 5 } }
         },
         {
           "date": "2025-07-08",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 3
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 3 },
+            "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 2
-            }
-          },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 5
-            }
-          }
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 2 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 5 } }
         },
         {
           "date": "2025-07-09",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 3
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 3 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 1
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 1 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 6
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 6 } }
         },
         {
           "date": "2025-07-10",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 3
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 3 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 7
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 7 } }
         },
         {
           "date": "2025-07-11",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 3
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 3 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 7
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 7 } }
         },
         {
           "date": "2025-07-12",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 5
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 3
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 3 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 2
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 2 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-13",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 5
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 5 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 2
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 2 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 3
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 3 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-14",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 2
-            },
-            "Spanish": {
-              "value": 1
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 2 },
+            "Spanish": { "value": 1 }
           },
           "life": {
-            "Chill": {
-              "value": 1
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 1 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 2
-            },
-            "Work": {
-              "value": 4
-            }
-          }
+          "work": { "Chen-Project": { "value": 2 }, "Work": { "value": 4 } }
         },
         {
           "date": "2025-07-15",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 2
-            },
-            "Spanish": {
-              "value": 1
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 2 },
+            "Spanish": { "value": 1 }
           },
           "life": {
-            "Chill": {
-              "value": 1
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 1 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 2
-            },
-            "Work": {
-              "value": 4
-            }
-          }
+          "work": { "Chen-Project": { "value": 2 }, "Work": { "value": 4 } }
         },
         {
           "date": "2025-07-16",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 2
-            },
-            "Spanish": {
-              "value": 1
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 2 },
+            "Spanish": { "value": 1 }
           },
           "life": {
-            "Chill": {
-              "value": 1
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 1 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 2
-            },
-            "Work": {
-              "value": 4
-            }
-          }
+          "work": { "Chen-Project": { "value": 2 }, "Work": { "value": 4 } }
         },
         {
           "date": "2025-07-17",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 2
-            },
-            "Spanish": {
-              "value": 1
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 2 },
+            "Spanish": { "value": 1 }
           },
           "life": {
-            "Chill": {
-              "value": 1
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 1 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 2
-            },
-            "Work": {
-              "value": 4
-            }
-          }
+          "work": { "Chen-Project": { "value": 2 }, "Work": { "value": 4 } }
         },
         {
           "date": "2025-07-18",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 2
-            },
-            "Spanish": {
-              "value": 1
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 2 },
+            "Spanish": { "value": 1 }
           },
           "life": {
-            "Chill": {
-              "value": 2
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 2 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 1
-            },
-            "Work": {
-              "value": 4
-            }
-          }
+          "work": { "Chen-Project": { "value": 1 }, "Work": { "value": 4 } }
         },
         {
           "date": "2025-07-19",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 3
-            },
-            "Spanish": {
-              "value": 2
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 3 },
+            "Spanish": { "value": 2 }
           },
           "life": {
-            "Chill": {
-              "value": 2
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 2 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 3
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 3 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-20",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 3
-            },
-            "Spanish": {
-              "value": 2
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 3 },
+            "Spanish": { "value": 2 }
           },
           "life": {
-            "Chill": {
-              "value": 2
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 2 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 3
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 3 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-21",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 1
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 1 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-22",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 1
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 1 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-23",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-24",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-25",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-26",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-27",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-28",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-29",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-30",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-07-31",
           "goals": {
-            "Content-Creation": {
-              "value": 0
-            },
-            "Gym": {
-              "value": 0
-            },
-            "Spanish": {
-              "value": 0
-            }
+            "AI-Agent": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": {
-              "value": 0
-            },
-            "Diet": {
-              "value": 0
-            }
+            "Chill": { "value": 0 },
+            "Diet": { "value": 0 },
+            "Reading": { "value": 0 }
           },
-          "work": {
-            "Chen-Project": {
-              "value": 0
-            },
-            "Work": {
-              "value": 0
-            }
-          }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         }
       ],
       "8": [
         {
           "date": "2025-08-01",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 0 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-02",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 10 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-03",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 10 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-04",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 10 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-05",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 10 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-06",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 10 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-07",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 10 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-08",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 10 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-09",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 10 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-10",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 10 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-11",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 0 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         },
 
         {
           "date": "2025-08-31",
           "goals": {
-            "Content-Creation": { "value": 0 },
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": {
-            "Chill": { "value": 0 },
-            "Diet": { "value": 0 }
-          },
-          "work": {
-            "Chen-Project": { "value": 0 },
-            "Work": { "value": 0 }
-          }
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
         }
       ]
     }
@@ -1171,7 +587,7 @@
       "goals": [
         {
           "color": "#FFA3D7",
-          "name": "Content-Creation"
+          "name": "AI-Agent"
         },
         {
           "color": "#FF85C0",
@@ -1190,6 +606,10 @@
         {
           "color": "#38B584",
           "name": "Diet"
+        },
+        {
+          "color": "#3ea87f",
+          "name": "Reading"
         }
       ],
       "work": [

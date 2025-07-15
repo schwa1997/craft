@@ -4,21 +4,6 @@ import { useState } from "react";
 import data from "../../data/energy.json";
 import ReactMarkdown from "react-markdown";
 
-// Type definitions
-type EnergyCategory = "work" | "life" | "goals";
-type EnergyEntry = { value: number; notes?: string };
-type DailyEnergyRecord = {
-  date: string;
-  work: Record<string, EnergyEntry>;
-  life: Record<string, EnergyEntry>;
-  goals: Record<string, EnergyEntry>;
-};
-type YearlyEnergyData = Record<number, Record<number, DailyEnergyRecord[]>>;
-type MonthlyGoals = Record<
-  number,
-  Record<number, Record<EnergyCategory, number>>
->;
-
 const monthNames = [
   "January",
   "February",
@@ -53,12 +38,22 @@ export default function StaticEnergyGarden() {
     data?: DailyEnergyRecord;
   } | null>(null);
 
-  const yearlyData: YearlyEnergyData = data.records;
-  const yearlyGoals: MonthlyGoals = data.monthlyGoals;
+  const yearlyData: any = data.records;
+  const yearlyGoals: Record<
+    number,
+    Record<number, MonthlyGoals>
+  > = data.monthlyGoals || {};
   const weeklyReport: WeeklyReport = data.weeklyReport || {};
-  const settings = data.settings;
-  const energyData = yearlyData[currentYear]?.[currentMonth + 1] || []; // Month is 1-indexed in JSON
-  const currentMonthGoal = yearlyGoals[currentYear]?.[currentMonth + 1] || {
+  const settings: EnergySettings = data.settings;
+
+  // Get current month's energy data (month is 1-indexed in JSON)
+  const energyData: DailyEnergyRecord[] =
+    yearlyData[currentYear]?.[currentMonth + 1] || [];
+
+  // Get current month's goals with proper fallback
+  const currentMonthGoal: MonthlyGoals = yearlyGoals[currentYear]?.[
+    currentMonth + 1
+  ] || {
     work: 0,
     life: 0,
     goals: 0,

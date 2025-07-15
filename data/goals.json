@@ -51,7 +51,7 @@
     {
       "id": 2,
       "title": "July-Sep Gym",
-      "description": "This 3 month, I wanna rebuild my posture.",
+      "description": "Focus on posture rebuild.",
       "feeling": 6,
       "createdAt": "2025-07-01",
       "updatedAt": "2025-07-06",
@@ -99,8 +99,8 @@
     },
     {
       "id": 3,
-      "title": "Content-Creation Challenge",
-      "description": "Make videos of AI product/AI agent",
+      "title": "Fun Coding: AI agent",
+      "description": "Learn and output the learning",
       "feeling": 4,
       "createdAt": "2025-07-06",
       "updatedAt": "2025-07-06",
@@ -126,7 +126,7 @@
     },
     {
       "id": 4,
-      "title": "Spanish: July challenge",
+      "title": "Spanish: Daily learning",
       "description": "A2 Spanish level and August travel usage",
       "feeling": 4,
       "createdAt": "2025-07-14",
@@ -138,6 +138,33 @@
           "date": "2025-07-14",
           "title": "Initail Goal: 1 week strike",
           "description": "Practice makes perfect! Lets start!"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Reading Challenge",
+      "description": "Watch less videos and read more about Posture and Physiotherapy systematically",
+      "feeling": 9,
+      "createdAt": "2025-07-15",
+      "updatedAt": "2025-07-15",
+      "status": "going",
+      "reflections": [
+        {
+          "date": "2025-07-15",
+          "text": "To watch less videos, I decided to read more books about physiotherapy to learn more knowledge",
+          "status": {
+            "id": "just-started",
+            "text": "Executed well"
+          },
+          "metric": []
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2025-07-15",
+          "title": "First Book",
+          "description": "Read first book and take notes"
         }
       ]
     }
