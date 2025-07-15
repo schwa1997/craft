@@ -124,7 +124,7 @@ export default function NounPage() {
   const currentCard = selectedCategory.flashcards[currentCardIndex];
 
   return (
-    <div className="min-h-screen flex flex-col items-start md:justify-center justify-start bg-gray-50 p-4">
+    <div className="min-h-screen flex flex-col items-start  md:items-center md:justify-center justify-start bg-gray-50 p-4">
       <div className="w-full max-w-2xl">
         <div className="flex justify-between items-center mb-6">
           <button
