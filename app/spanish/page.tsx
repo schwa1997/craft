@@ -4,7 +4,7 @@ import Link from "next/link";
 import data from "../../data/spanish.json";
 
 export default function Home() {
-  const { verbs, nouns, userStats } = data;
+  const { verbs, words, userStats } = data;
   const [showVerbs, setShowVerbs] = useState(true);
   const [showNouns, setShowNouns] = useState(true);
   const [showStats, setShowStats] = useState(true);
@@ -39,12 +39,19 @@ export default function Home() {
                 </span>
               </div>
               <svg
-                className={`w-5 h-5 text-emerald-600 transition-transform ${showStats ? 'rotate-180' : ''}`}
+                className={`w-5 h-5 text-emerald-600 transition-transform ${
+                  showStats ? "rotate-180" : ""
+                }`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </button>
 
@@ -68,7 +75,9 @@ export default function Home() {
                       <div
                         className="h-1.5 md:h-2 rounded-full bg-emerald-500"
                         style={{
-                          width: `${(userStats.totalVerbsMastered / verbs.length) * 100}%`,
+                          width: `${
+                            (userStats.totalVerbsMastered / verbs.length) * 100
+                          }%`,
                         }}
                       />
                     </div>
@@ -84,13 +93,15 @@ export default function Home() {
                       </span>
                     </div>
                     <p className="text-2xl md:text-3xl font-bold text-amber-700">
-                      {nouns.length}
+                      {words.length}
                     </p>
                     <div className="w-full bg-amber-100 rounded-full h-1.5 md:h-2 mt-2">
                       <div
                         className="h-1.5 md:h-2 rounded-full bg-amber-500"
                         style={{
-                          width: `${(userStats.totalNounsMastered / nouns.length) * 100}%`,
+                          width: `${
+                            (userStats.totalNounsMastered / words.length) * 100
+                          }%`,
                         }}
                       />
                     </div>
@@ -120,7 +131,8 @@ export default function Home() {
                 </div>
 
                 {/* Weak Points Section */}
-                {userStats.weakPoints.verbs.length > 0 || userStats.weakPoints.nouns.length > 0 ? (
+                {userStats.weakPoints.verbs.length > 0 ||
+                userStats.weakPoints.nouns.length > 0 ? (
                   <div className="bg-white rounded-xl shadow-sm p-4 md:p-6 border border-red-100">
                     <h3 className="font-semibold text-red-700 mb-3 text-sm md:text-base">
                       Need Practice
@@ -128,31 +140,45 @@ export default function Home() {
                     <div className="space-y-2">
                       {userStats.weakPoints.verbs.length > 0 && (
                         <div>
-                          <h4 className="text-xs font-medium text-red-600 mb-1">Verbs:</h4>
+                          <h4 className="text-xs font-medium text-red-600 mb-1">
+                            Verbs:
+                          </h4>
                           <div className="flex flex-wrap gap-1">
-                            {userStats.weakPoints.verbs.slice(0, 5).map((verbId) => {
-                              const verb = verbs.find(v => v.id === verbId);
-                              return verb ? (
-                                <span key={verbId} className="text-xs px-2 py-1 rounded-full bg-red-50 text-red-700 border border-red-100">
-                                  {verb.infinitive}
-                                </span>
-                              ) : null;
-                            })}
+                            {userStats.weakPoints.verbs
+                              .slice(0, 5)
+                              .map((verbId) => {
+                                const verb = verbs.find((v) => v.id === verbId);
+                                return verb ? (
+                                  <span
+                                    key={verbId}
+                                    className="text-xs px-2 py-1 rounded-full bg-red-50 text-red-700 border border-red-100"
+                                  >
+                                    {verb.infinitive}
+                                  </span>
+                                ) : null;
+                              })}
                           </div>
                         </div>
                       )}
                       {userStats.weakPoints.nouns.length > 0 && (
                         <div>
-                          <h4 className="text-xs font-medium text-red-600 mb-1">Nouns:</h4>
+                          <h4 className="text-xs font-medium text-red-600 mb-1">
+                            Nouns:
+                          </h4>
                           <div className="flex flex-wrap gap-1">
-                            {userStats.weakPoints.nouns.slice(0, 5).map((nounId) => {
-                              const noun = nouns.find(n => n.id === nounId);
-                              return noun ? (
-                                <span key={nounId} className="text-xs px-2 py-1 rounded-full bg-red-50 text-red-700 border border-red-100">
-                                  {noun.category}
-                                </span>
-                              ) : null;
-                            })}
+                            {userStats.weakPoints.nouns
+                              .slice(0, 5)
+                              .map((wordId) => {
+                                const noun = words.find((w) => w.id === wordId);
+                                return noun ? (
+                                  <span
+                                    key={wordId}
+                                    className="text-xs px-2 py-1 rounded-full bg-red-50 text-red-700 border border-red-100"
+                                  >
+                                    {noun.category}
+                                  </span>
+                                ) : null;
+                              })}
                           </div>
                         </div>
                       )}
@@ -190,12 +216,19 @@ export default function Home() {
                 </span>
               </div>
               <svg
-                className={`w-5 h-5 text-emerald-600 transition-transform ${showVerbs ? 'rotate-180' : ''}`}
+                className={`w-5 h-5 text-emerald-600 transition-transform ${
+                  showVerbs ? "rotate-180" : ""
+                }`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </button>
 
@@ -212,7 +245,9 @@ export default function Home() {
                         <h3 className="font-semibold text-emerald-600 hover:text-emerald-800">
                           {verb.infinitive}
                         </h3>
-                        <p className="text-emerald-500 text-sm mt-1 italic">{verb.translation}</p>
+                        <p className="text-emerald-500 text-sm mt-1 italic">
+                          {verb.translation}
+                        </p>
                       </div>
                     </Link>
                   ))}
@@ -229,35 +264,42 @@ export default function Home() {
             >
               <div className="flex items-center">
                 <h2 className="text-lg md:text-xl font-bold text-amber-700">
-                  Spanish Nouns
+                  Vocaburary Anki
                 </h2>
                 <span className="ml-2 px-2 py-1 md:px-3 md:py-1 rounded-full text-xs md:text-sm font-medium bg-amber-100 text-amber-800">
-                  {nouns.length} Total
+                  {words.length} Total
                 </span>
               </div>
               <svg
-                className={`w-5 h-5 text-amber-600 transition-transform ${showNouns ? 'rotate-180' : ''}`}
+                className={`w-5 h-5 text-amber-600 transition-transform ${
+                  showNouns ? "rotate-180" : ""
+                }`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
               </svg>
             </button>
 
             {showNouns && (
               <div className="p-4 md:p-6 pt-0">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
-                  {nouns.map((noun) => (
+                  {words.map((word) => (
                     <Link
-                      key={noun.id}
-                      href={`/spanish/noun/${noun.id}`}
+                      key={word.id}
+                      href={`/spanish/word/${word.id}`}
                       className="block transition-transform hover:scale-105"
                     >
                       <div className="bg-white p-3 rounded-lg shadow-sm hover:shadow-md transition-all h-full border-l-4 border-amber-300 hover:border-amber-500">
                         <div className="flex items-start justify-between">
                           <h3 className="font-semibold text-amber-600 hover:text-amber-800">
-                            {noun.category}
+                            {word.category}
                           </h3>
                         </div>
                       </div>

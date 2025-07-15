@@ -55,7 +55,7 @@ interface Flashcard {
   explanation?: string;    // 语法解释（如 "阴性名词，以-a结尾"）
 }
 
-interface NounData {
+interface WordData {
   id: string;             // 分类ID
   category: string;       // 分类名称（如 "food", "animals"）
   flashcards: Flashcard[]; // 该分类下的卡片数组
@@ -64,15 +64,15 @@ interface NounData {
 interface UserStats {
   dailyStreak: number;
   totalVerbsMastered: number;
-  totalNounsMastered: number;
+  totalWordsMastered: number;
   weakPoints: {
     verbs: string[]; 
-    nouns: string[];  
+    words: string[];  
   };
 }
 
 interface LanguageData {
   verbs: VerbData[];
-  nouns: NounData[];
+  words: WordData[];
   userStats: UserStats; 
 }

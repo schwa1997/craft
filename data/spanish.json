@@ -2271,10 +2271,10 @@
       }
     }
   ],
-  "nouns": [
+  "words": [
     {
       "id": "food-1",
-      "category": "food",
+      "category": "noun-food",
       "flashcards": [
         {
           "id": "card-1",
@@ -2358,7 +2358,7 @@
     },
     {
       "id": "gym-1",
-      "category": "gym",
+      "category": "noun-gym",
       "flashcards": [
         {
           "id": "card-11",
@@ -2450,7 +2450,7 @@
     },
     {
       "id": "food-2",
-      "category": "food",
+      "category": "noun-food",
       "flashcards": [
         {
           "id": "card-23",
@@ -2486,6 +2486,348 @@
           "translation": "ensalada",
           "gender": "f",
           "example": "Pido una ensalada para el almuerzo."
+        }
+      ]
+    },
+    {
+      "id": "adjectives-1",
+      "category": "adjectives-mood-weather",
+      "flashcards": [
+        {
+          "id": "card-23",
+          "word": "happy",
+          "translation": "feliz",
+          "gender": "m/f",
+          "example": "Estoy feliz después de mi entrenamiento."
+        },
+        {
+          "id": "card-24",
+          "word": "energetic",
+          "translation": "enérgico/enérgica",
+          "gender": "m/f",
+          "example": "Me siento enérgico por la mañana."
+        },
+        {
+          "id": "card-25",
+          "word": "tired",
+          "translation": "cansado/cansada",
+          "gender": "m/f",
+          "example": "Estoy cansado después del gimnasio."
+        },
+        {
+          "id": "card-26",
+          "word": "motivated",
+          "translation": "motivado/motivada",
+          "gender": "m/f",
+          "example": "Estoy motivada para alcanzar mis metas."
+        },
+        {
+          "id": "card-27",
+          "word": "stressed",
+          "translation": "estresado/estresada",
+          "gender": "m/f",
+          "example": "El ejercicio reduce cuando estoy estresado."
+        },
+        {
+          "id": "card-28",
+          "word": "sunny",
+          "translation": "soleado/soleada",
+          "gender": "m/f",
+          "example": "Hace un día soleado para correr afuera."
+        },
+        {
+          "id": "card-29",
+          "word": "rainy",
+          "translation": "lluvioso/lluviosa",
+          "gender": "m/f",
+          "example": "Los días lluviosos entreno en casa."
+        },
+        {
+          "id": "card-30",
+          "word": "windy",
+          "translation": "ventoso/ventosa",
+          "gender": "m/f",
+          "example": "Está ventoso para hacer ejercicio al aire libre."
+        },
+        {
+          "id": "card-31",
+          "word": "hot",
+          "translation": "caluroso/calurosa",
+          "gender": "m/f",
+          "example": "En días calurosos bebo más agua."
+        },
+        {
+          "id": "card-32",
+          "word": "cold",
+          "translation": "frío/fría",
+          "gender": "m/f",
+          "example": "Hace frío temprano por la mañana."
+        },
+        {
+          "id": "card-33",
+          "word": "humid",
+          "translation": "húmedo/húmeda",
+          "gender": "m/f",
+          "example": "El clima húmedo hace el ejercicio más difícil."
+        },
+        {
+          "id": "card-34",
+          "word": "foggy",
+          "translation": "neblinoso/neblinosa",
+          "gender": "m/f",
+          "example": "Está neblinoso en la mañana."
+        }
+      ]
+    },
+    {
+      "id": "daily-oral-1",
+      "category": "daily-conversation",
+      "flashcards": [
+        {
+          "id": "card-35",
+          "word": "Bueno",
+          "translation": "Well/Good",
+          "example": "Bueno, vamos a empezar. (Well, let's get started.)"
+        },
+        {
+          "id": "card-36",
+          "word": "Vale",
+          "translation": "Okay",
+          "example": "¿Quedamos a las 5? ¡Vale! (Meet at 5? Okay!)"
+        },
+        {
+          "id": "card-37",
+          "word": "Claro",
+          "translation": "Of course/Clear",
+          "example": "¿Puedes ayudarme? ¡Claro que sí! (Can you help me? Of course!)"
+        },
+        {
+          "id": "card-38",
+          "word": "Venga",
+          "translation": "Come on/Let's go",
+          "example": "¡Venga, date prisa! (Come on, hurry up!)"
+        },
+        {
+          "id": "card-39",
+          "word": "Oye",
+          "translation": "Hey/Listen",
+          "example": "Oye, ¿qué tal? (Hey, what's up?)"
+        },
+        {
+          "id": "card-40",
+          "word": "Hombre",
+          "translation": "Man/Of course (expression)",
+          "example": "¡Hombre! ¿Tú por aquí? (Hey man! You around here?)"
+        },
+        {
+          "id": "card-41",
+          "word": "Pues",
+          "translation": "Well/Then",
+          "example": "Pues no lo sé. (Well, I don't know.)"
+        },
+        {
+          "id": "card-42",
+          "word": "A ver",
+          "translation": "Let's see",
+          "example": "A ver qué pasa. (Let's see what happens.)"
+        },
+        {
+          "id": "card-43",
+          "word": "Guay",
+          "translation": "Cool",
+          "example": "¡Qué guay tu nuevo coche! (Your new car is so cool!)"
+        },
+        {
+          "id": "card-44",
+          "word": "Tío/Tía",
+          "translation": "Dude/Guy/Girl",
+          "example": "¿Qué pasa, tío? (What's up, dude?)"
+        },
+        {
+          "id": "card-45",
+          "word": "Jo",
+          "translation": "Wow/Darn (expression)",
+          "example": "¡Jo, qué calor hace! (Wow, it's so hot!)"
+        },
+        {
+          "id": "card-46",
+          "word": "Anda",
+          "translation": "Wow/Really (expression)",
+          "example": "¡Anda! No me lo esperaba. (Wow! I wasn't expecting that.)"
+        },
+        {
+          "id": "card-47",
+          "word": "Basta",
+          "translation": "Enough",
+          "example": "¡Basta ya de quejarse! (Enough complaining already!)"
+        },
+        {
+          "id": "card-48",
+          "word": "Ojalá",
+          "translation": "I hope/If only",
+          "example": "Ojalá llueva mañana. (I hope it rains tomorrow.)"
+        },
+        {
+          "id": "card-49",
+          "word": "Chao",
+          "translation": "Bye",
+          "example": "Me voy, ¡chao! (I'm leaving, bye!)"
+        }
+      ]
+    },
+    {
+      "id": "daily-phrases-1",
+      "category": "daily-expressions",
+      "flashcards": [
+        {
+          "id": "card-50",
+          "word": "Hasta luego",
+          "translation": "See you later",
+          "example": "Me voy al trabajo, ¡hasta luego! (I'm going to work, see you later!)"
+        },
+        {
+          "id": "card-51",
+          "word": "¿Qué tal?",
+          "translation": "What's up?/How's it going?",
+          "example": "¡Hola Juan! ¿Qué tal? (Hi Juan! How's it going?)"
+        },
+        {
+          "id": "card-52",
+          "word": "No pasa nada",
+          "translation": "No problem/Don't worry about it",
+          "example": "¿Perdón por llegar tarde? No pasa nada. (Sorry I'm late? No problem.)"
+        },
+        {
+          "id": "card-53",
+          "word": "¿En serio?",
+          "translation": "Seriously?",
+          "example": "Aprobé el examen. ¿En serio? ¡Felicidades! (I passed the exam. Seriously? Congrats!)"
+        },
+        {
+          "id": "card-54",
+          "word": "¡Qué bien!",
+          "translation": "How great!/That's great!",
+          "example": "Mañana no trabajo. ¡Qué bien! (I'm not working tomorrow. That's great!)"
+        },
+        {
+          "id": "card-55",
+          "word": "¡Qué pena!",
+          "translation": "What a shame!",
+          "example": "Se canceló el concierto. ¡Qué pena! (The concert was canceled. What a shame!)"
+        },
+        {
+          "id": "card-56",
+          "word": "Dame un segundo",
+          "translation": "Give me a second",
+          "example": "Dame un segundo mientras termino esto. (Give me a sec while I finish this.)"
+        },
+        {
+          "id": "card-57",
+          "word": "¡Fíjate!",
+          "translation": "Look!/Check this out",
+          "example": "¡Fíjate qué foto más bonita saqué! (Look at this beautiful photo I took!)"
+        },
+        {
+          "id": "card-58",
+          "word": "¡Ni loco/a!",
+          "translation": "No way! (literally 'Not even crazy')",
+          "example": "¿Vas a saltar en paracaídas? ¡Ni loco! (You're going skydiving? No way!)"
+        },
+        {
+          "id": "card-59",
+          "word": "¡Qué va!",
+          "translation": "No way!/Not at all!",
+          "example": "¿Te gusta el fútbol? ¡Qué va! (Do you like soccer? Not at all!)"
+        },
+        {
+          "id": "card-60",
+          "word": "¡Menos mal!",
+          "translation": "Thank goodness!",
+          "example": "Llegaste a tiempo. ¡Menos mal! (You arrived on time. Thank goodness!)"
+        },
+        {
+          "id": "card-61",
+          "word": "¡Ojo!",
+          "translation": "Watch out!/Heads up!",
+          "example": "¡Ojo! El suelo está mojado. (Watch out! The floor is wet.)"
+        },
+        {
+          "id": "card-62",
+          "word": "¡Ánimo!",
+          "translation": "Cheer up!/You can do it!",
+          "example": "Sé que el examen fue difícil, ¡ánimo! (I know the test was hard, cheer up!)"
+        },
+        {
+          "id": "card-63",
+          "word": "¡Buena suerte!",
+          "translation": "Good luck!",
+          "example": "Mañana es tu entrevista, ¡buena suerte! (Your interview is tomorrow, good luck!)"
+        },
+        {
+          "id": "card-64",
+          "word": "¡Cuídate!",
+          "translation": "Take care!",
+          "example": "Que te mejores, ¡cuídate! (Get well soon, take care!)"
+        },
+        {
+          "id": "card-65",
+          "word": "¡Disfruta!",
+          "translation": "Enjoy!",
+          "example": "Te vas de vacaciones, ¡disfruta! (You're going on vacation, enjoy!)"
+        },
+        {
+          "id": "card-66",
+          "word": "¡Buen provecho!",
+          "translation": "Enjoy your meal!",
+          "example": "Veo que ya tienes comida, ¡buen provecho! (I see you have food already, enjoy your meal!)"
+        },
+        {
+          "id": "card-67",
+          "word": "¡Qué lío!",
+          "translation": "What a mess!",
+          "example": "Perdí mis llaves otra vez. ¡Qué lío! (I lost my keys again. What a mess!)"
+        },
+        {
+          "id": "card-68",
+          "word": "¡Ya voy!",
+          "translation": "I'm coming! (response when someone calls you)",
+          "example": "¡Marta! - ¡Ya voy! (Marta! - I'm coming!)"
+        },
+        {
+          "id": "card-69",
+          "word": "¡Vaya!",
+          "translation": "Wow!/Oh no! (multi-purpose reaction)",
+          "example": "¡Vaya! No sabía eso. (Wow! I didn't know that.)"
+        },
+        {
+          "id": "card-70",
+          "word": "¡Faltaría más!",
+          "translation": "Of course!/It's the least I could do",
+          "example": "¿Me ayudas? ¡Faltaría más! (Will you help me? Of course!)"
+        },
+        {
+          "id": "card-71",
+          "word": "¡No me digas!",
+          "translation": "You don't say!/Really?",
+          "example": "Me voy a mudar a Japón. ¡No me digas! (I'm moving to Japan. You don't say!)"
+        },
+        {
+          "id": "card-72",
+          "word": "¡Qué fuerte!",
+          "translation": "That's crazy!/That's intense!",
+          "example": "Se casaron después de un mes. ¡Qué fuerte! (They got married after one month. That's crazy!)"
+        },
+        {
+          "id": "card-73",
+          "word": "¡Qué mono!",
+          "translation": "How cute!",
+          "example": "Mira al bebé durmiendo. ¡Qué mono! (Look at the baby sleeping. How cute!)"
+        },
+        {
+          "id": "card-74",
+          "word": "¡Mejor que sobre!",
+          "translation": "Better to have too much than too little",
+          "example": "¿Pongo más comida? Sí, mejor que sobre. (Should I put more food? Yes, better to have extra.)"
         }
       ]
     }

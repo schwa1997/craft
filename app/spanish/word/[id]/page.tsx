@@ -1,26 +1,27 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import data from '../../../../data/spanish.json';
-
+import data from "../../../../data/spanish.json";
 
 export default function NounPage() {
-  const [categories, setCategories] = useState<NounData[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState<NounData | null>(null);
+  const [categories, setCategories] = useState<WordData[]>([]);
+  const [selectedCategory, setSelectedCategory] = useState<WordData | null>(
+    null
+  );
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [sessionComplete, setSessionComplete] = useState(false);
 
   useEffect(() => {
     // Load all categories initially
-    setCategories(data.nouns);
+    setCategories(data.words);
   }, []);
 
-  const handleCategorySelect = (category: NounData) => {
+  const handleCategorySelect = (category: WordData) => {
     // Shuffle flashcards for random order
     setSelectedCategory({
       ...category,
-      flashcards: [...category.flashcards].sort(() => Math.random() - 0.5)
+      flashcards: [...category.flashcards].sort(() => Math.random() - 0.5),
     });
     setCurrentCardIndex(0);
     setIsFlipped(false);
@@ -54,11 +55,13 @@ export default function NounPage() {
   if (!selectedCategory) {
     return (
       <div className="min-h-screen bg-gray-50 p-6">
-        <h1 className="text-3xl font-bold text-emerald-700 mb-8 text-center">Spanish Nouns Practice</h1>
-        
+        <h1 className="text-3xl font-bold text-emerald-700 mb-8 text-center">
+          Spanish Nouns Practice
+        </h1>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {categories.map((category) => (
-            <div 
+            <div
               key={category.id}
               onClick={() => handleCategorySelect(category)}
               className="bg-white rounded-xl shadow-md overflow-hidden cursor-pointer transition-transform hover:scale-105 hover:shadow-lg"
@@ -74,7 +77,7 @@ export default function NounPage() {
                 </p>
                 <div className="mt-2 flex flex-wrap gap-1">
                   {category.flashcards.slice(0, 3).map((card) => (
-                    <span 
+                    <span
                       key={card.id}
                       className="bg-emerald-50 text-emerald-700 text-xs px-2 py-1 rounded"
                     >
@@ -82,7 +85,9 @@ export default function NounPage() {
                     </span>
                   ))}
                   {category.flashcards.length > 3 && (
-                    <span className="text-gray-400 text-xs">+{category.flashcards.length - 3} more</span>
+                    <span className="text-gray-400 text-xs">
+                      +{category.flashcards.length - 3} more
+                    </span>
                   )}
                 </div>
               </div>
@@ -97,10 +102,14 @@ export default function NounPage() {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50">
         <div className="bg-white p-8 rounded-lg shadow-md max-w-md w-full text-center">
-          <h2 className="text-2xl font-bold text-emerald-700 mb-4">Session Complete!</h2>
+          <h2 className="text-2xl font-bold text-emerald-700 mb-4">
+            Session Complete!
+          </h2>
           <p className="mb-6">
-            You've reviewed all {selectedCategory.flashcards.length} cards in the{" "}
-            <span className="font-semibold">{selectedCategory.category}</span> category.
+            You've reviewed all {selectedCategory.flashcards.length} cards in
+            the{" "}
+            <span className="font-semibold">{selectedCategory.category}</span>{" "}
+            category.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <button
@@ -147,7 +156,8 @@ export default function NounPage() {
             Back to Categories
           </button>
           <span className="bg-emerald-100 text-emerald-800 px-3 py-1 rounded-full text-sm">
-            {selectedCategory.category} - Card {currentCardIndex + 1} of {selectedCategory.flashcards.length}
+            {selectedCategory.category} - Card {currentCardIndex + 1} of{" "}
+            {selectedCategory.flashcards.length}
           </span>
         </div>
 
