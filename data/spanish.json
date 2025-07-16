@@ -2269,6 +2269,476 @@
           ]
         }
       }
+    },
+    {
+      "id": "6",
+      "infinitive": "hacer",
+      "translation": "to do/make",
+      "difficulty": "A1",
+      "practice_scenarios": [
+        {
+          "scenario": "Daily activities and tasks",
+          "description": "This scenario involves discussing everyday actions and tasks. Remember that 'hacer' can mean both 'to do' and 'to make' depending on context.",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "Hoy __hacer__ mucho frío.",
+              "slots": {
+                "options": ["hace", "hago", "haces", "hacen"],
+                "correct": "hace",
+                "explanation": "Weather expressions always use third person singular 'hace'"
+              },
+              "translation": "Today it's very cold."
+            },
+            {
+              "id": 2,
+              "template": "En verano __hacer__ mucho calor aquí.",
+              "slots": {
+                "options": ["hace", "hacen", "hago", "haces"],
+                "correct": "hace",
+                "explanation": "Weather expressions always use third person singular 'hace'"
+              },
+              "translation": "In summer it's very hot here."
+            },
+            {
+              "id": 3,
+              "template": "¿Qué __hacer__ después del trabajo?",
+              "slots": {
+                "options": ["haces", "hago", "hace", "hacen"],
+                "correct": "haces",
+                "explanation": "Using 'haces' (tú form) as it's asking about the other person's plans"
+              },
+              "translation": "What do you do after work?"
+            },
+            {
+              "id": 4,
+              "template": "__hacer__ ejercicio todas las mañanas.",
+              "slots": {
+                "options": ["Hago", "Haces", "Hace", "Hacen"],
+                "correct": "Hago",
+                "explanation": "'Hago' is correct as the speaker is talking about themselves (yo form)"
+              },
+              "translation": "I exercise every morning."
+            },
+            {
+              "id": 5,
+              "template": "Mi hermano __hacer__ la cena los viernes.",
+              "slots": {
+                "options": ["hace", "haces", "hago", "hacen"],
+                "correct": "hace",
+                "explanation": "'Hace' is the él/ella/usted form, referring to the brother"
+              },
+              "translation": "My brother makes dinner on Fridays."
+            },
+            {
+              "id": 6,
+              "template": "Nosotros __hacer__ los deberes juntos.",
+              "slots": {
+                "options": ["hacemos", "hacéis", "hacen", "hago"],
+                "correct": "hacemos",
+                "explanation": "'Hacemos' is the nosotros form for 'we do/make'"
+              },
+              "translation": "We do homework together."
+            }
+          ]
+        },
+        {
+          "scenario": "Weather expressions",
+          "description": "This scenario uses 'hacer' in common weather expressions. Note that these are fixed phrases where 'hacer' doesn't conjugate by subject.",
+          "sentences": [
+            {
+              "id": 1,
+              "template": "Hoy __hacer__ mucho frío.",
+              "slots": {
+                "options": ["hace", "hago", "haces", "hacen"],
+                "correct": "hace",
+                "explanation": "Weather expressions always use third person singular 'hace'"
+              },
+              "translation": "Today it's very cold."
+            },
+            {
+              "id": 2,
+              "template": "En verano __hacer__ mucho calor aquí.",
+              "slots": {
+                "options": ["hace", "hacen", "hago", "haces"],
+                "correct": "hace",
+                "explanation": "Weather expressions always use third person singular 'hace'"
+              },
+              "translation": "In summer it's very hot here."
+            },
+            {
+              "id": 3,
+              "template": "¿__hacer__ sol en tu ciudad hoy?",
+              "slots": {
+                "options": ["Hace", "Haces", "Hago", "Hacen"],
+                "correct": "Hace",
+                "explanation": "Weather questions also use third person singular 'hace'"
+              },
+              "translation": "Is it sunny in your city today?"
+            },
+            {
+              "id": 4,
+              "template": "Ayer __hacer__ viento todo el día.",
+              "slots": {
+                "options": ["hizo", "hice", "hiciste", "hicieron"],
+                "correct": "hizo",
+                "explanation": "Past tense weather expressions use 'hizo' (pretérito)"
+              },
+              "translation": "Yesterday it was windy all day."
+            }
+          ]
+        }
+      ],
+      "conjugations": {
+        "present": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hago",
+              "sentence": "Hago mi tarea por la tarde.",
+              "translation": "I do my homework in the afternoon."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "haces",
+              "sentence": "¿Qué haces los fines de semana?",
+              "translation": "What do you do on weekends?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hace",
+              "sentence": "Ella hace un pastel para la fiesta.",
+              "translation": "She makes a cake for the party."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hacemos",
+              "sentence": "Hacemos ejercicio en el parque.",
+              "translation": "We exercise in the park."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hacéis",
+              "sentence": "Vosotros hacéis un buen trabajo.",
+              "translation": "You all do a good job."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hacen",
+              "sentence": "Ellos hacen preguntas interesantes.",
+              "translation": "They ask interesting questions."
+            }
+          ]
+        },
+        "past": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hice",
+              "sentence": "Hice mi mejor esfuerzo.",
+              "translation": "I did my best."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hiciste",
+              "sentence": "¿Qué hiciste ayer por la noche?",
+              "translation": "What did you do last night?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hizo",
+              "sentence": "Él hizo un gran descubrimiento.",
+              "translation": "He made a great discovery."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hicimos",
+              "sentence": "Hicimos un viaje inolvidable.",
+              "translation": "We took an unforgettable trip."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hicisteis",
+              "sentence": "¿Vosotros hicisteis las reservas?",
+              "translation": "Did you all make the reservations?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hicieron",
+              "sentence": "Los estudiantes hicieron su presentación.",
+              "translation": "The students did their presentation."
+            }
+          ]
+        },
+        "future": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "haré",
+              "sentence": "Mañana haré las compras.",
+              "translation": "Tomorrow I will do the shopping."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "harás",
+              "sentence": "¿Qué harás este verano?",
+              "translation": "What will you do this summer?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hará",
+              "sentence": "Mi madre hará una fiesta sorpresa.",
+              "translation": "My mother will throw a surprise party."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "haremos",
+              "sentence": "Haremos un proyecto juntos.",
+              "translation": "We will do a project together."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "haréis",
+              "sentence": "¿Vosotros haréis el informe?",
+              "translation": "Will you all do the report?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "harán",
+              "sentence": "Ellos harán arreglos en la casa.",
+              "translation": "They will make repairs to the house."
+            }
+          ]
+        },
+        "imperfect": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hacía",
+              "sentence": "De niño, hacía manualidades.",
+              "translation": "As a child, I used to do crafts."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hacías",
+              "sentence": "¿Tú hacías deporte en la escuela?",
+              "translation": "Did you used to play sports in school?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hacía",
+              "sentence": "Mi abuela hacía el mejor pan.",
+              "translation": "My grandmother used to make the best bread."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hacíamos",
+              "sentence": "Hacíamos picnic los domingos.",
+              "translation": "We used to have picnics on Sundays."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hacíais",
+              "sentence": "Vosotros hacíais teatro, ¿verdad?",
+              "translation": "You all used to do theater, right?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hacían",
+              "sentence": "Los artesanos hacían todo a mano.",
+              "translation": "Artisans used to make everything by hand."
+            }
+          ]
+        },
+        "conditional": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "haría",
+              "sentence": "Haría ejercicio si tuviera tiempo.",
+              "translation": "I would exercise if I had time."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "harías",
+              "sentence": "¿Qué harías en mi lugar?",
+              "translation": "What would you do in my place?"
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "haría",
+              "sentence": "Ella haría un pastel si tuviera ingredientes.",
+              "translation": "She would make a cake if she had ingredients."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "haríamos",
+              "sentence": "Haríamos un viaje si ahorráramos dinero.",
+              "translation": "We would take a trip if we saved money."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "haríais",
+              "sentence": "¿Vosotros haríais el trabajo voluntario?",
+              "translation": "Would you all do volunteer work?"
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "harían",
+              "sentence": "Ellos harían cambios si pudieran.",
+              "translation": "They would make changes if they could."
+            }
+          ]
+        },
+        "present_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "haga",
+              "sentence": "Espero que haga buen tiempo mañana.",
+              "translation": "I hope the weather is nice tomorrow."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hagas",
+              "sentence": "Quiero que hagas tu mejor esfuerzo.",
+              "translation": "I want you to do your best."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "haga",
+              "sentence": "Es importante que él haga ejercicio.",
+              "translation": "It's important that he exercises."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hagamos",
+              "sentence": "Es necesario que hagamos algo.",
+              "translation": "It's necessary that we do something."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hagáis",
+              "sentence": "Dudo que vosotros hagáis eso.",
+              "translation": "I doubt you all would do that."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hagan",
+              "sentence": "Prefiero que hagan silencio.",
+              "translation": "I prefer that they be quiet."
+            }
+          ]
+        },
+        "imperfect_subjunctive": {
+          "examples": [
+            {
+              "pronoun": "yo",
+              "conjugation": "hiciera",
+              "sentence": "Si yo hiciera más ejercicio, estaría en forma.",
+              "translation": "If I exercised more, I would be in shape."
+            },
+            {
+              "pronoun": "tú",
+              "conjugation": "hicieras",
+              "sentence": "Ojalá que tú hicieras el intento.",
+              "translation": "I wish you would try."
+            },
+            {
+              "pronoun": "él/ella/usted",
+              "conjugation": "hiciera",
+              "sentence": "Era mejor que él hiciera su trabajo.",
+              "translation": "It was better that he did his work."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hiciéramos",
+              "sentence": "Si hiciéramos un esfuerzo, lo lograríamos.",
+              "translation": "If we made an effort, we would achieve it."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "hicierais",
+              "sentence": "Dudaba que vosotros hicierais la tarea.",
+              "translation": "I doubted that you all did the homework."
+            },
+            {
+              "pronoun": "ellos/ustedes",
+              "conjugation": "hicieran",
+              "sentence": "Era imposible que ellos hicieran eso.",
+              "translation": "It was impossible that they did that."
+            }
+          ]
+        },
+        "affirmative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "haz",
+              "sentence": "¡Haz tu cama!",
+              "translation": "Make your bed!"
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "haga",
+              "sentence": "Haga el favor de esperar.",
+              "translation": "Please wait."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "hagamos",
+              "sentence": "¡Hagamos algo diferente hoy!",
+              "translation": "Let's do something different today!"
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "haced",
+              "sentence": "¡Haced silencio!",
+              "translation": "Be quiet!"
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "hagan",
+              "sentence": "Hagan una fila, por favor.",
+              "translation": "Form a line, please."
+            }
+          ]
+        },
+        "negative_imperative": {
+          "examples": [
+            {
+              "pronoun": "tú",
+              "conjugation": "no hagas",
+              "sentence": "No hagas ruido.",
+              "translation": "Don't make noise."
+            },
+            {
+              "pronoun": "usted",
+              "conjugation": "no haga",
+              "sentence": "No haga preguntas personales.",
+              "translation": "Don't ask personal questions."
+            },
+            {
+              "pronoun": "nosotros",
+              "conjugation": "no hagamos",
+              "sentence": "No hagamos suposiciones.",
+              "translation": "Let's not make assumptions."
+            },
+            {
+              "pronoun": "vosotros",
+              "conjugation": "no hagáis",
+              "sentence": "No hagáis trampa.",
+              "translation": "Don't cheat."
+            },
+            {
+              "pronoun": "ustedes",
+              "conjugation": "no hagan",
+              "sentence": "No hagan daño a nadie.",
+              "translation": "Don't hurt anyone."
+            }
+          ]
+        }
+      }
     }
   ],
   "words": [
@@ -2445,6 +2915,96 @@
           "translation": "entrenamiento",
           "gender": "m",
           "example": "Hoy tuve un entrenamiento intenso."
+        }
+      ]
+    },
+    {
+      "id": "pilates-1",
+      "category": "noun-pilates",
+      "flashcards": [
+        {
+          "id": "card-1",
+          "word": "mat",
+          "translation": "colchoneta",
+          "gender": "f",
+          "example": "Hago Pilates en la colchoneta para mayor comodidad."
+        },
+        {
+          "id": "card-2",
+          "word": "reformer",
+          "translation": "reformer",
+          "gender": "m",
+          "example": "El reformer es una máquina esencial en Pilates."
+        },
+        {
+          "id": "card-3",
+          "word": "core",
+          "translation": "centro/core",
+          "gender": "m",
+          "example": "Pilates fortalece mucho el centro del cuerpo."
+        },
+        {
+          "id": "card-4",
+          "word": "breath",
+          "translation": "respiración",
+          "gender": "f",
+          "example": "La respiración controlada es clave en Pilates."
+        },
+        {
+          "id": "card-5",
+          "word": "alignment",
+          "translation": "alineación",
+          "gender": "f",
+          "example": "El instructor corrigió mi alineación durante el ejercicio."
+        },
+        {
+          "id": "card-6",
+          "word": "roll-up",
+          "translation": "enrollamiento",
+          "gender": "m",
+          "example": "El enrollamiento es un ejercicio clásico de Pilates."
+        },
+        {
+          "id": "card-7",
+          "word": "Cadillac",
+          "translation": "Cadillac (máquina de Pilates)",
+          "gender": "m",
+          "example": "Hoy probé ejercicios avanzados en el Cadillac."
+        },
+        {
+          "id": "card-8",
+          "word": "spine",
+          "translation": "columna vertebral",
+          "gender": "f",
+          "example": "Pilates mejora la flexibilidad de la columna vertebral."
+        },
+        {
+          "id": "card-9",
+          "word": "hundred",
+          "translation": "el cien (ejercicio)",
+          "gender": "m",
+          "example": "El cien es un ejercicio de calentamiento en Pilates."
+        },
+        {
+          "id": "card-10",
+          "word": "flexibility",
+          "translation": "flexibilidad",
+          "gender": "f",
+          "example": "Practico Pilates para mejorar mi flexibilidad."
+        },
+        {
+          "id": "card-11",
+          "word": "control",
+          "translation": "control",
+          "gender": "m",
+          "example": "Pilates se enfoca en el control de los movimientos."
+        },
+        {
+          "id": "card-12",
+          "word": "balance",
+          "translation": "equilibrio",
+          "gender": "m",
+          "example": "Los ejercicios de equilibrio son fundamentales en Pilates."
         }
       ]
     },
@@ -2833,6 +3393,6 @@
     }
   ],
   "userStats": {
-    "dailyStreak": 1
+    "dailyStreak": 2
   }
 }

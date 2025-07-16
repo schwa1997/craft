@@ -194,7 +194,7 @@
         {
           "date": "2025-07-15",
           "goals": {
-            "AI-Agent": { "value":  0},
+            "AI-Agent": { "value": 0 },
             "Gym": { "value": 3 },
             "Spanish": { "value": 1 }
           },
@@ -203,21 +203,21 @@
             "Diet": { "value": 0 },
             "Reading": { "value": 2 }
           },
-          "work": { "Chen-Project": { "value": 1 }, "Work": { "value": 32} }
+          "work": { "Chen-Project": { "value": 1 }, "Work": { "value": 32 } }
         },
         {
           "date": "2025-07-16",
           "goals": {
-            "AI-Agent": { "value": 0 },
+            "AI-Agent": { "value": 2 },
             "Gym": { "value": 2 },
             "Spanish": { "value": 1 }
           },
           "life": {
             "Chill": { "value": 1 },
             "Diet": { "value": 0 },
-            "Reading": { "value": 0 }
+            "Reading": { "value": 1 }
           },
-          "work": { "Chen-Project": { "value": 2 }, "Work": { "value": 4 } }
+          "work": { "Chen-Project": { "value": 1 }, "Work": { "value": 2 } }
         },
         {
           "date": "2025-07-17",
