@@ -104,7 +104,7 @@
     },
     {
       "id": 3,
-      "title": "Fun Coding: AI agent",
+      "title": "AI Knowledge pool",
       "description": "Learn and output the learning",
       "feeling": 4,
       "createdAt": "2025-07-06",
@@ -115,8 +115,8 @@
           "date": "2025-07-06",
           "text": "First week reflection: Good start!",
           "status": {
-            "id": "executed-well",
-            "text": "Executed well"
+            "id": "only start",
+            "text": "only start"
           },
           "metric": []
         }
@@ -131,6 +131,16 @@
           "date": "2025-07-16",
           "title": "Being pushed: to do something RIGHT NOW",
           "description": "今天和3r聊天了又，还是得push自己去激发自己的内驱！加油啊！希望mindset越来越强烈"
+        },
+        {
+          "date": "2025-07-17",
+          "title": "find my motivation",
+          "description": "finding by doing first! dont overthink!"
+        },
+        {
+          "date": "2025-07-23",
+          "title": "found the content creation method working for me",
+          "description": "Finally! I have found my favorite way of doing my AI content"
         }
       ]
     },
