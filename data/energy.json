@@ -306,16 +306,16 @@
         {
           "date": "2025-07-23",
           "goals": {
-            "AI-Agent": { "value": 0 },
-            "Gym": { "value": 0 },
-            "Spanish": { "value": 0 }
+            "AI-Agent": { "value": 1 },
+            "Gym": { "value": 2 },
+            "Spanish": { "value": 1 }
           },
           "life": {
             "Chill": { "value": 0 },
             "Diet": { "value": 0 },
-            "Reading": { "value": 0 }
+            "Reading": { "value": 1 }
           },
-          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 0 } }
+          "work": { "Chen-Project": { "value": 0 }, "Work": { "value": 5 } }
         },
         {
           "date": "2025-07-24",

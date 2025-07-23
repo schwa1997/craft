@@ -193,14 +193,27 @@
             "id": "just-started",
             "text": "Executed well"
           },
-          "metric": []
+          "metric": {}
+        },
+        {
+          "date": "2025-07-24",
+          "text": "I have more passion in the physio area than i thought! Actions speak louder!",
+          "status": {
+            "id": "Executed well",
+            "text": "Executed well"
+          },
+          "metric": {
+            "type": "Reading Days",
+            "value": 5,
+            "unit": "days"
+          }
         }
       ],
       "timeline": [
         {
           "date": "2025-07-15",
           "title": "First Book",
-          "description": "Read first book and take notes"
+          "description": "Read first book and take notes:Price Strecthing"
         }
       ]
     }
