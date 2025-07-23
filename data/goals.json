@@ -142,15 +142,16 @@
           "title": "find my motivation",
           "description": "finding by doing first! dont overthink!"
         },
-        {
-          "date": "2025-07-23",
-          "title": "found the content creation method working for me",
-          "description": "Finally! I have found my favorite way of doing my AI content"
-        },
+
         {
           "date": "2025-07-22",
           "title": "Action and mindset on",
           "description": "I am now directing myself to read more content about AI and i would like to know deeply and widely"
+        },
+        {
+          "date": "2025-07-23",
+          "title": "found the content creation method working for me",
+          "description": "Finally! I have found my favorite way of doing my AI content"
         }
       ]
     },
