@@ -3390,6 +3390,192 @@
           "example": "¿Pongo más comida? Sí, mejor que sobre. (Should I put more food? Yes, better to have extra.)"
         }
       ]
+    },
+    {
+      "id": "body-pump",
+      "category": "gym-instructions",
+      "flashcards": [
+        {
+          "id": "bp-1",
+          "word": "¡Vamos allá!",
+          "translation": "Let's go!",
+          "example": "¡Preparados para el track de piernas, vamos allá! / Ready for the leg track, let's go!"
+        },
+        {
+          "id": "bp-2",
+          "word": "Posición inicial: pies ancho de cadera",
+          "translation": "Starting position: feet hip-width apart",
+          "example": "Colócate en posición inicial: pies ancho de cadera / Get in starting position: feet hip-width apart"
+        },
+        {
+          "id": "bp-3",
+          "word": "Mantén tu columna recta",
+          "translation": "Keep your spine straight",
+          "example": "Flexiona rodillas manteniendo tu columna recta / Bend knees keeping your spine straight"
+        },
+        {
+          "id": "bp-4",
+          "word": "Eleva esos codos horizontalmente",
+          "translation": "Lift those elbows horizontally",
+          "example": "En el remo vertical, eleva esos codos horizontalmente / In upright row, lift those elbows horizontally"
+        },
+        {
+          "id": "bp-5",
+          "word": "No te apures",
+          "translation": "Don't rush",
+          "example": "Hazlo lentamente, no te apures / Do it slowly, don't rush"
+        },
+        {
+          "id": "bp-6",
+          "word": "De simple pasamos a triple",
+          "translation": "From single we move to triple",
+          "example": "Ahora cambiamos: de simple pasamos a triple / Now we change: from single we move to triple"
+        },
+        {
+          "id": "bp-7",
+          "word": "Barra por detrás, abres piernas",
+          "translation": "Bar behind, open your legs",
+          "example": "Siguiente movimiento: barra por detrás, abres piernas / Next move: bar behind, open your legs"
+        },
+        {
+          "id": "bp-8",
+          "word": "Recuerda que son ocho repeticiones",
+          "translation": "Remember it's eight repetitions",
+          "example": "Contamos las repeticiones: recuerda que son ocho / Counting reps: remember it's eight repetitions"
+        },
+        {
+          "id": "bp-9",
+          "word": "Prepárate para dos discos de dos y medio",
+          "translation": "Get ready for two 2.5kg plates",
+          "example": "Cambio de peso: prepárate para dos discos de dos y medio / Weight change: get ready for two 2.5kg plates"
+        },
+        {
+          "id": "bp-10",
+          "word": "Flexiona rodillas 45 grados",
+          "translation": "Bend knees 45 degrees",
+          "example": "Para peso muerto: flexiona rodillas 45 grados / For deadlift: bend knees 45 degrees"
+        },
+        {
+          "id": "bp-11",
+          "word": "Tira cadera hacia atrás",
+          "translation": "Push hips back",
+          "example": "Al bajar, tira cadera hacia atrás / When lowering, push hips back"
+        },
+        {
+          "id": "bp-12",
+          "word": "Mantén el control",
+          "translation": "Maintain control",
+          "example": "En el movimiento, mantén el control / During movement, maintain control"
+        },
+        {
+          "id": "bp-13",
+          "word": "Síguelo, no pares",
+          "translation": "Keep going, don't stop",
+          "example": "En las últimas repeticiones: síguelo, no pares / In final reps: keep going, don't stop"
+        },
+        {
+          "id": "bp-14",
+          "word": "Abre piernas un poco más",
+          "translation": "Open legs a bit wider",
+          "example": "Para mayor estabilidad: abre piernas un poco más / For more stability: open legs a bit wider"
+        },
+        {
+          "id": "bp-15",
+          "word": "Recupera la posición",
+          "translation": "Recover position",
+          "example": "Después del ejercicio: recupera la posición / After exercise: recover position"
+        },
+        {
+          "id": "bp-16",
+          "word": "Vuelve arriba lentamente",
+          "translation": "Come up slowly",
+          "example": "En la fase concéntrica: vuelve arriba lentamente / In concentric phase: come up slowly"
+        },
+        {
+          "id": "bp-17",
+          "word": "Busca la activación muscular",
+          "translation": "Focus on muscle activation",
+          "example": "En cada repetición: busca la activación muscular / In each rep: focus on muscle activation"
+        },
+        {
+          "id": "bp-18",
+          "word": "Agarre totalmente abierto",
+          "translation": "Fully open grip",
+          "example": "Para press pectoral: agarre totalmente abierto / For chest press: fully open grip"
+        },
+        {
+          "id": "bp-19",
+          "word": "Ángulo de 90 grados",
+          "translation": "90-degree angle",
+          "example": "En las piernas: mantén ángulo de 90 grados / In legs: maintain 90-degree angle"
+        },
+        {
+          "id": "bp-20",
+          "word": "No sobrepases el step",
+          "translation": "Don't go beyond the step",
+          "example": "En remo: no sobrepases el step con los codos / In rows: don't go beyond the step with elbows"
+        },
+        {
+          "id": "bp-21",
+          "word": "Dos simples y tres rebotes",
+          "translation": "Two singles and three pulses",
+          "example": "Combo especial: dos simples y tres rebotes / Special combo: two singles and three pulses"
+        },
+        {
+          "id": "bp-22",
+          "word": "Rebotes de mitad hacia arriba",
+          "translation": "Pulses from halfway up",
+          "example": "En bíceps: rebotes de mitad hacia arriba / In biceps: pulses from halfway up"
+        },
+        {
+          "id": "bp-23",
+          "word": "Codos pegados al cuerpo",
+          "translation": "Elbows tight to body",
+          "example": "Para curl: codos pegados al cuerpo / For curls: elbows tight to body"
+        },
+        {
+          "id": "bp-24",
+          "word": "Manos a altura de hombros",
+          "translation": "Hands at shoulder height",
+          "example": "En flexiones: manos a altura de hombros / In push-ups: hands at shoulder height"
+        },
+        {
+          "id": "bp-25",
+          "word": "Codos en diagonal",
+          "translation": "Elbows at diagonal",
+          "example": "Técnica de flexión: codos en diagonal / Push-up technique: elbows at diagonal"
+        },
+        {
+          "id": "bp-26",
+          "word": "Flexión mitad-arriba",
+          "translation": "Half-up push-up",
+          "example": "Variación: flexión mitad-arriba / Variation: half-up push-up"
+        },
+        {
+          "id": "bp-27",
+          "word": "Aperturas con codos horizontales",
+          "translation": "Openings with horizontal elbows",
+          "example": "Para hombros: aperturas con codos horizontales / For shoulders: openings with horizontal elbows"
+        },
+        {
+          "id": "bp-28",
+          "word": "Activa el core",
+          "translation": "Engage core",
+          "example": "En todos los ejercicios: activa el core / In all exercises: engage core"
+        },
+        {
+          "id": "bp-29",
+          "word": "Respiración controlada",
+          "translation": "Controlled breathing",
+          "example": "Importante: mantén respiración controlada / Important: maintain controlled breathing"
+        },
+        {
+          "id": "bp-30",
+          "word": "Última repetición",
+          "translation": "Last repetition",
+          "example": "Esfuérzate en la última repetición / Push in the last repetition"
+        }
+      ]
     }
   ],
   "userStats": {
