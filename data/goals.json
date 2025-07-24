@@ -179,7 +179,7 @@
     },
     {
       "id": 5,
-      "title": "Reading Challenge",
+      "title": "Learning4Passion Challenge",
       "description": "Watch less videos and read more about Posture and Physiotherapy systematically",
       "feeling": 9,
       "createdAt": "2025-07-15",
@@ -214,6 +214,11 @@
           "date": "2025-07-15",
           "title": "First Book",
           "description": "Read first book and take notes:Price Strecthing"
+        },
+        {
+          "date": "2025-07-25",
+          "title": "First Course",
+          "description": "Found a new roadmap for my learning journey"
         }
       ]
     }
