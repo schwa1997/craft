@@ -354,11 +354,11 @@
           "goals": {
             "Physiology": { "value": 0 },
             "AI": { "value": 0 },
-            "Gym": { "value": 0 },
+            "Gym": { "value": 2 },
             "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": { "value": 0 },
+            "Chill": { "value": 8 },
             "Diet": { "value": 0 }
           },
           "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
@@ -366,13 +366,13 @@
         {
           "date": "2025-07-27",
           "goals": {
-            "Physiology": { "value": 0 },
+            "Physiology": { "value": 3 },
             "AI": { "value": 0 },
-            "Gym": { "value": 0 },
+            "Gym": { "value": 2 },
             "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": { "value": 0 },
+            "Chill": { "value": 2 },
             "Diet": { "value": 0 }
           },
           "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
@@ -583,6 +583,10 @@
     "2025-07-21": {
       "plan": "Full Commitment to workout\n- Learning and output\n-",
       "review": "Full Commitment to workout\n- Weekend treat\n-"
+    },
+    "2025-07-27": {
+      "plan": "Holiday to chill\n- Posture case study\n-",
+      "review": "workout is life now\n- I feel good and pretty happy about myself\n- I love myself\n"
     }
   },
   "settings": {

@@ -104,6 +104,11 @@
           "date": "2025-07-20",
           "title": "Week 3: Routine is built happily!",
           "description": "Now its comfortable and easy for me to have a heavy cardio session such as bodu Pump + pilates for my core\n- I also am reading some theories about body posture.\n"
+        },
+        {
+          "date": "2025-07-27",
+          "title": "Week 4: Gym is my happyland!",
+          "description": "Its so easy to be commited to workout\n I wanna add some diet into weekly life and treat day during weekend, i dont think it would work out easily, but at least i will try\n"
         }
       ]
     },
@@ -179,11 +184,11 @@
     },
     {
       "id": 5,
-      "title": "Learning4Passion Challenge",
+      "title": "Posture Case Study",
       "description": "Watch less videos and read more about Posture and Physiotherapy systematically",
       "feeling": 9,
       "createdAt": "2025-07-15",
-      "endedAt": "2025-10-15",
+      "endedAt": "2025-09-15",
       "status": "going",
       "reflections": [
         {
@@ -218,7 +223,12 @@
         {
           "date": "2025-07-25",
           "title": "First Course",
-          "description": "Found a new roadmap for my learning journey"
+          "description": "Introductory Human Physiology by Duke University"
+        },
+        {
+          "date": "2025-07-27",
+          "title": "New Learning Plan",
+          "description": "I will use the stratagy of my full-stack plan, and start learning this. The key is learning by doing. I will use the"
         }
       ]
     }
