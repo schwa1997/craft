@@ -3695,6 +3695,153 @@
           "example": "Esfuérzate en la última repetición / Push in the last repetition"
         }
       ]
+    },
+    {
+      "id": "bus-1",
+      "category": "expression-transportation",
+      "flashcards": [
+        {
+          "id": "card-1",
+          "word": "bus stop",
+          "translation": "parada de autobús",
+          "gender": "f",
+          "plural": "paradas de autobús",
+          "example": "La parada de autobús está al final de la calle."
+        },
+        {
+          "id": "card-2",
+          "word": "bus ticket",
+          "translation": "billete de autobús",
+          "gender": "m",
+          "example": "¿Dónde puedo comprar un billete de autobús?"
+        },
+        {
+          "id": "card-3",
+          "word": "bus driver",
+          "translation": "conductor/conductora de autobús",
+          "gender": "m/f",
+          "example": "El conductor de autobús fue muy amable."
+        },
+        {
+          "id": "card-4",
+          "word": "next stop",
+          "translation": "próxima parada",
+          "gender": "f",
+          "example": "La próxima parada es el centro."
+        },
+        {
+          "id": "card-5",
+          "word": "transfer",
+          "translation": "transbordo",
+          "gender": "m",
+          "example": "Necesito hacer un transbordo para llegar al aeropuerto."
+        },
+        {
+          "id": "card-6",
+          "word": "taxi stand",
+          "translation": "parada de taxis",
+          "gender": "f",
+          "example": "Hay una parada de taxis frente al hotel."
+        },
+        {
+          "id": "card-7",
+          "word": "taxi fare",
+          "translation": "tarifa de taxi",
+          "gender": "f",
+          "example": "La tarifa de taxi al aeropuerto es fija."
+        },
+        {
+          "id": "card-8",
+          "word": "airport terminal",
+          "translation": "terminal del aeropuerto",
+          "gender": "f",
+          "example": "La terminal internacional está muy lejos."
+        },
+        {
+          "id": "card-9",
+          "word": "boarding pass",
+          "translation": "tarjeta de embarque",
+          "gender": "f",
+          "example": "Muestra tu tarjeta de embarque en la puerta."
+        },
+        {
+          "id": "card-10",
+          "word": "luggage",
+          "translation": "equipaje",
+          "gender": "m",
+          "example": "Dejé mi equipaje en la consigna."
+        },
+        {
+          "id": "card-11",
+          "word": "departures",
+          "translation": "salidas",
+          "gender": "f",
+          "example": "Las salidas están en el segundo piso."
+        },
+        {
+          "id": "card-12",
+          "word": "arrivals",
+          "translation": "llegadas",
+          "gender": "f",
+          "example": "Esperaré en la zona de llegadas."
+        },
+        {
+          "id": "card-13",
+          "word": "passport control",
+          "translation": "control de pasaportes",
+          "gender": "m",
+          "example": "El control de pasaportes fue rápido."
+        },
+        {
+          "id": "card-14",
+          "word": "customs",
+          "translation": "aduana",
+          "gender": "f",
+          "example": "Tienes que declarar productos en la aduana."
+        },
+        {
+          "id": "card-15",
+          "word": "shuttle bus",
+          "translation": "autobús lanzadera",
+          "gender": "m",
+          "example": "El autobús lanzadera va al centro cada hora."
+        },
+        {
+          "id": "card-16",
+          "word": "public transport",
+          "translation": "transporte público",
+          "gender": "m",
+          "example": "Prefiero el transporte público en la ciudad."
+        },
+        {
+          "id": "card-17",
+          "word": "schedule",
+          "translation": "horario",
+          "gender": "m",
+          "example": "Consulta el horario de autobuses en la app."
+        },
+        {
+          "id": "card-18",
+          "word": "delay",
+          "translation": "retraso",
+          "gender": "m",
+          "example": "Hay un retraso de 20 minutos en el vuelo."
+        },
+        {
+          "id": "card-19",
+          "word": "platform",
+          "translation": "andén",
+          "gender": "m",
+          "example": "El tren sale del andén número 3."
+        },
+        {
+          "id": "card-20",
+          "word": "one-way ticket",
+          "translation": "billete de ida",
+          "gender": "m",
+          "example": "Compré un billete de ida al centro."
+        }
+      ]
     }
   ],
   "userStats": {
