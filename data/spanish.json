@@ -2827,6 +2827,125 @@
       ]
     },
     {
+      "id": "spanish-food-1",
+      "category": "noun-food-daily",
+      "flashcards": [
+        {
+          "id": "card-1",
+          "word": "jamón",
+          "translation": "火腿",
+          "gender": "m",
+          "plural": "jamones",
+          "image": "https://example.com/jamon.jpg",
+          "hint": "西班牙国宝级食物，常配面包",
+          "example": "Me encanta el jamón ibérico con pan con tomate.",
+          "explanation": "阳性名词，特指西班牙伊比利亚火腿"
+        },
+        {
+          "id": "card-2",
+          "word": "bocadillo",
+          "translation": "三明治",
+          "gender": "m",
+          "plural": "bocadillos",
+          "example": "Voy a tomar un bocadillo de tortilla en el café."
+        },
+        {
+          "id": "card-3",
+          "word": "tortilla española",
+          "translation": "西班牙土豆饼",
+          "gender": "f",
+          "example": "La tortilla española con cebolla es mi favorita."
+        },
+        {
+          "id": "card-4",
+          "word": "churros",
+          "translation": "油条",
+          "gender": "m",
+          "plural": "churros",
+          "example": "Los churros con chocolate son típicos para desayunar."
+        },
+        {
+          "id": "card-5",
+          "word": "paella",
+          "translation": "海鲜饭",
+          "gender": "f",
+          "example": "Vamos a comer paella valenciana este domingo."
+        },
+        {
+          "id": "card-6",
+          "word": "croquetas",
+          "translation": "炸丸子",
+          "gender": "f",
+          "plural": "croquetas",
+          "example": "Las croquetas de jamón son muy populares en los bares."
+        },
+        {
+          "id": "card-7",
+          "word": "pulpo a la gallega",
+          "translation": "加利西亚式章鱼",
+          "gender": "m",
+          "example": "El pulpo a la gallega se sirve con patatas y pimentón."
+        },
+        {
+          "id": "card-8",
+          "word": "café con leche",
+          "translation": "拿铁咖啡",
+          "gender": "m",
+          "example": "Siempre pido un café con leche después de comer."
+        },
+        {
+          "id": "card-9",
+          "word": "tapa",
+          "translation": "小吃",
+          "gender": "f",
+          "example": "Vamos de tapas esta noche por el barrio de La Latina."
+        },
+        {
+          "id": "card-10",
+          "word": "sangría",
+          "translation": "桑格利亚酒",
+          "gender": "f",
+          "example": "En verano siempre bebemos sangría en las terrazas."
+        },
+        {
+          "id": "card-11",
+          "word": "pan con tomate",
+          "translation": "番茄面包",
+          "gender": "m",
+          "example": "El pan con tomate es un desayuno típico en Cataluña."
+        },
+        {
+          "id": "card-12",
+          "word": "gazpacho",
+          "translation": "冷汤",
+          "gender": "m",
+          "example": "El gazpacho es perfecto para los días calurosos de verano."
+        },
+        {
+          "id": "card-13",
+          "word": "patatas bravas",
+          "translation": "辣味土豆块",
+          "gender": "f",
+          "plural": "patatas bravas",
+          "example": "Las patatas bravas con salsa picante son imprescindibles."
+        },
+        {
+          "id": "card-14",
+          "word": "pincho de tortilla",
+          "translation": "土豆饼小块",
+          "gender": "m",
+          "example": "Pido un pincho de tortilla y una caña en el bar."
+        },
+        {
+          "id": "card-15",
+          "word": "horchata",
+          "translation": "杏仁奶",
+          "gender": "f",
+          "example": "En Valencia toman horchata con fartons."
+        }
+      ]
+    },
+    {
       "id": "gym-1",
       "category": "noun-gym",
       "flashcards": [

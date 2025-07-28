@@ -380,16 +380,16 @@
         {
           "date": "2025-07-28",
           "goals": {
-            "Physiology": { "value": 0 },
+            "Physiology": { "value": 2 },
             "AI": { "value": 0 },
-            "Gym": { "value": 0 },
+            "Gym": { "value": 3 },
             "Spanish": { "value": 0 }
           },
           "life": {
             "Chill": { "value": 0 },
-            "Diet": { "value": 0 }
+            "Diet": { "value": 1 }
           },
-          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 4 } }
         },
         {
           "date": "2025-07-29",
