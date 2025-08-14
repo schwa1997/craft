@@ -1,0 +1,67 @@
+{
+    "dogMembers": [
+      {
+        "id": "dog1",
+        "name": "陈米米",
+        "location": "芬兰",
+        "profession": "IT建筑",
+        "avatar": "/dogs/chen-mimi.png",
+        "characteristics": ["喜欢交互", "注重成长启发", "相信一切皆有可能"]
+      },
+      {
+        "id": "dog2",
+        "name": "健身小狗",
+        "location": "未知",
+        "profession": "健身教练",
+        "avatar": "/dogs/fitness-dog.png",
+        "characteristics": ["需要结构化大纲", "活泼好动", "喜欢填空题"]
+      },
+      {
+        "id": "dog3",
+        "name": "琉璃菱心",
+        "location": "上海",
+        "profession": "检测生物心理",
+        "avatar": "/dogs/liuli-lingxin.png",
+        "characteristics": ["喜欢八卦", "擅长心理学", "话多"]
+      },
+      {
+        "id": "dog4",
+        "name": "每天都要888",
+        "location": "杭州",
+        "profession": "外贸",
+        "avatar": "/dogs/888-dog.png",
+        "characteristics": ["INFJ", "注重筹备", "允许适度休息"]
+      }
+    ],
+    "meetingNotes": [
+      {
+        "id": "1",
+        "meetingId": "1",
+        "meetingTitle": "第一次复盘大会",
+        "meetingDate": "2023-10-15",
+        "participants": ["dog1", "dog2", "dog3", "dog4"],
+        "notes": [
+          {
+            "dogId": "dog1",
+            "content": "做一件事要有信念感，相信一切皆有可能。做事之前要有前期的筹备，但是允许自己适度休息。",
+            "suggestions": ["需要更多交互，不能一直一个人讲", "可以适时的插话", "分享成长/对他人有益的启发或思考"]
+          },
+          {
+            "dogId": "dog2",
+            "content": "我需要一个填空题作为大纲，不然我不知道讲啥哈哈哈哈哈",
+            "suggestions": ["提供结构化模板", "会前分享大纲", "设置引导性问题"]
+          },
+          {
+            "dogId": "dog3",
+            "content": "八卦没讲完大家是不是很遗憾hhh，还有有关心理以及兴趣的没说，独角戏会讲很多",
+            "suggestions": ["留出八卦时间", "设置心理学分享环节", "控制每人发言时间"]
+          },
+          {
+            "dogId": "dog4",
+            "content": "分享前可以列个大概的提纲，分享完感悟，可以向大家抛出疑问，进行即时或者会后讨论",
+            "suggestions": ["会前收集提纲", "设置Q&A环节", "会后延续讨论"]
+          }
+        ]
+      }
+    ]
+  }

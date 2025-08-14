@@ -396,28 +396,28 @@
           "goals": {
             "Physiology": { "value": 0 },
             "AI": { "value": 0 },
-            "Gym": { "value": 0 },
+            "Gym": { "value": 4 },
             "Spanish": { "value": 0 }
           },
           "life": {
             "Chill": { "value": 0 },
             "Diet": { "value": 0 }
           },
-          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 6 } }
         },
         {
           "date": "2025-07-30",
           "goals": {
             "Physiology": { "value": 0 },
             "AI": { "value": 0 },
-            "Gym": { "value": 0 },
+            "Gym": { "value": 2 },
             "Spanish": { "value": 0 }
           },
           "life": {
             "Chill": { "value": 0 },
             "Diet": { "value": 0 }
           },
-          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+          "work": { "Side-work": { "value": 2 }, "Work": { "value": 6 } }
         },
         {
           "date": "2025-07-31",
@@ -428,10 +428,10 @@
             "Spanish": { "value": 0 }
           },
           "life": {
-            "Chill": { "value": 0 },
+            "Chill": { "value": 2 },
             "Diet": { "value": 0 }
           },
-          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+          "work": { "Side-work": { "value": 2 }, "Work": { "value": 6 } }
         }
       ],
       "8": [
@@ -443,8 +443,8 @@
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
-          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+          "life": { "Chill": { "value": 3 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 7 } }
         },
         {
           "date": "2025-08-02",
@@ -509,8 +509,8 @@
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
-          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+          "life": { "Chill": { "value": 8 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 2 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-08",
@@ -520,30 +520,30 @@
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
-          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+          "life": { "Chill": { "value": 8 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 2 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-09",
           "goals": {
             "Physiology": { "value": 0 },
             "AI": { "value": 0 },
-            "Gym": { "value": 0 },
+            "Gym": { "value": 2 },
             "Spanish": { "value": 0 }
           },
-          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
-          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+          "life": { "Chill": { "value": 5 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 3 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-10",
           "goals": {
             "Physiology": { "value": 0 },
             "AI": { "value": 0 },
-            "Gym": { "value": 0 },
+            "Gym": { "value": 4 },
             "Spanish": { "value": 0 }
           },
-          "life": { "Chill": { "value": 10 }, "Diet": { "value": 0 } },
-          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+          "life": { "Chill": { "value": 2 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 6 }, "Work": { "value": 0 } }
         },
         {
           "date": "2025-08-11",
@@ -556,7 +556,215 @@
           "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
           "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
         },
-
+        {
+          "date": "2025-08-12",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-13",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-14",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-15",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-16",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-17",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-18",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-19",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-20",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-21",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-22",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-23",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-24",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-25",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-26",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-27",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-28",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-29",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
+        {
+          "date": "2025-08-30",
+          "goals": {
+            "Physiology": { "value": 0 },
+            "AI": { "value": 0 },
+            "Gym": { "value": 0 },
+            "Spanish": { "value": 0 }
+          },
+          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
+          "work": { "Side-work": { "value": 0 }, "Work": { "value": 0 } }
+        },
         {
           "date": "2025-08-31",
           "goals": {
@@ -587,6 +795,14 @@
     "2025-07-27": {
       "plan": "Holiday to chill\n- Posture case study\n-",
       "review": "workout is life now\n- I feel good and pretty happy about myself\n- I love myself\n"
+    },
+    "2025-08-03": {
+      "review": "Last week before my holiday\n- Holiday kick off\n-",
+      "plan": "Holiday\n- Chill\n-"
+    },
+    "2025-08-10": {
+      "review": "I had a wonderful holiday in Valencia, Seville, and Malaga, solo trip is getting better and better. I am so good at planning\n I also started my Avocado side-work",
+      "plan": "I will hustle on my side work, and try to balance the diet \n"
     }
   },
   "settings": {
