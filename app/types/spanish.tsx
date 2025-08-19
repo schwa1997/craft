@@ -70,15 +70,18 @@ interface UserStats {
     words: string[];
   };
 }
+//dairy data
+interface FormatedContent {
+  foodOfTheDay: string;
+  thingOfTheDay: string;
+  moodOfTheDay: string;
+}
+
 interface DairyData {
-  id: string;
+  id: number;
   date: string;
   freeContent: string;
-  formatedContent: {
-    foodOfTheDay: string,
-    thingOfTheDay: string,
-    moodOfTheDay: string
-  }
+  formatedContent: FormatedContent;
 }
 
 interface LanguageData {
