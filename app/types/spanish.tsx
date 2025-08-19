@@ -66,13 +66,24 @@ interface UserStats {
   totalVerbsMastered: number;
   totalWordsMastered: number;
   weakPoints: {
-    verbs: string[]; 
-    words: string[];  
+    verbs: string[];
+    words: string[];
   };
+}
+interface DairyData {
+  id: string;
+  date: string;
+  freeContent: string;
+  formatedContent: {
+    foodOfTheDay: string,
+    thingOfTheDay: string,
+    moodOfTheDay: string
+  }
 }
 
 interface LanguageData {
   verbs: VerbData[];
   words: WordData[];
-  userStats: UserStats; 
+  diaries: DairyData[];
+  userStats: UserStats;
 }

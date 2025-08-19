@@ -4,9 +4,10 @@ import Link from "next/link";
 import data from "../../data/spanish.json";
 
 export default function Home() {
-  const { verbs, words, userStats } = data;
+  const { verbs, words, diaries, userStats } = data;
   const [showVerbs, setShowVerbs] = useState(true);
   const [showNouns, setShowNouns] = useState(true);
+  const [showDiaries, setShowDiaries] = useState(true);
   const [showStats, setShowStats] = useState(true);
 
   return (
@@ -189,6 +190,60 @@ export default function Home() {
                         <div className="flex items-start justify-between">
                           <h3 className="font-semibold text-amber-600 hover:text-amber-800">
                             {word.category}
+                          </h3>
+                        </div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+          </section>
+
+           {/* Diaries Section */}
+          <section className="bg-white rounded-xl shadow-sm border border-amber-100 overflow-hidden">
+            <button
+              onClick={() => setShowDiaries(!showDiaries)}
+              className="w-full flex items-center justify-between p-4 md:p-6 hover:bg-amber-50 transition-colors"
+            >
+              <div className="flex items-center">
+                <h2 className="text-lg md:text-xl font-bold text-amber-700">
+                 Diaries En Espanol
+                </h2>
+                <span className="ml-2 px-2 py-1 md:px-3 md:py-1 rounded-full text-xs md:text-sm font-medium bg-amber-100 text-amber-800">
+                  {diaries.length} Total
+                </span>
+              </div>
+              <svg
+                className={`w-5 h-5 text-amber-600 transition-transform ${
+                  showDiaries ? "rotate-180" : ""
+                }`}
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 9l-7 7-7-7"
+                />
+              </svg>
+            </button>
+
+            {showNouns && (
+              <div className="p-4 md:p-6 pt-0">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+                  {diaries.map((diary) => (
+                    <Link
+                      key={diary.id}
+                      href={`/spanish/dairy/${diary.id}`}
+                      className="block transition-transform hover:scale-105"
+                    >
+                      <div className="bg-white p-3 rounded-lg shadow-sm hover:shadow-md transition-all h-full border-l-4 border-amber-300 hover:border-amber-500">
+                        <div className="flex items-start justify-between">
+                          <h3 className="font-semibold text-amber-600 hover:text-amber-800">
+                            {diary.date}
                           </h3>
                         </div>
                       </div>

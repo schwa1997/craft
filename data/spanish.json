@@ -14,7 +14,12 @@
               "id": 1,
               "template": "¿Qué planes tienes? ¿__ir__ a algún lugar?",
               "slots": {
-                "options": ["Vas", "Voy", "Va", "Vamos"],
+                "options": [
+                  "Vas",
+                  "Voy",
+                  "Va",
+                  "Vamos"
+                ],
                 "correct": "Vas",
                 "explanation": "Using 'Vas' (tú form) as it's asking about the other person's plans"
               },
@@ -24,7 +29,12 @@
               "id": 2,
               "template": "Sí, __ir__ al cine. ¿Quieres venir?",
               "slots": {
-                "options": ["voy", "vas", "vamos", "van"],
+                "options": [
+                  "voy",
+                  "vas",
+                  "vamos",
+                  "van"
+                ],
                 "correct": "voy",
                 "explanation": "'Voy' is correct as the speaker is talking about themselves (yo form)"
               },
@@ -34,7 +44,12 @@
               "id": 3,
               "template": "¡Claro! ¿A qué hora __ir__?",
               "slots": {
-                "options": ["vas", "vamos", "van", "va"],
+                "options": [
+                  "vas",
+                  "vamos",
+                  "van",
+                  "va"
+                ],
                 "correct": "vamos",
                 "explanation": "'Vamos' is correct as it's now about the group (nosotros form) going together"
               },
@@ -44,7 +59,12 @@
               "id": 4,
               "template": "__ir__ a las tres.",
               "slots": {
-                "options": ["Voy", "Vamos", "Vas", "Van"],
+                "options": [
+                  "Voy",
+                  "Vamos",
+                  "Vas",
+                  "Van"
+                ],
                 "correct": "Vamos",
                 "explanation": "'Vamos' continues the nosotros form from the previous question"
               },
@@ -60,7 +80,12 @@
               "id": 1,
               "template": "Ayer __ir__ al centro comercial.",
               "slots": {
-                "options": ["fui", "fuiste", "fue", "fuimos"],
+                "options": [
+                  "fui",
+                  "fuiste",
+                  "fue",
+                  "fuimos"
+                ],
                 "correct": "fui",
                 "explanation": "'Fui' is the yo form of past tense"
               },
@@ -70,7 +95,12 @@
               "id": 2,
               "template": "¿Adónde __ir__ el fin de semana pasado?",
               "slots": {
-                "options": ["fuiste", "fue", "fueron", "fui"],
+                "options": [
+                  "fuiste",
+                  "fue",
+                  "fueron",
+                  "fui"
+                ],
                 "correct": "fuiste",
                 "explanation": "'Fuiste' is the tú form, asking about the listener's past activity"
               },
@@ -80,7 +110,12 @@
               "id": 3,
               "template": "Mis amigos __ir__ a la playa.",
               "slots": {
-                "options": ["fueron", "fue", "fuimos", "fui"],
+                "options": [
+                  "fueron",
+                  "fue",
+                  "fuimos",
+                  "fui"
+                ],
                 "correct": "fueron",
                 "explanation": "'Fueron' is the ellos/ellas form for a group of friends"
               },
@@ -90,7 +125,12 @@
               "id": 4,
               "template": "Nosotros __ir__ de compras.",
               "slots": {
-                "options": ["fuimos", "fui", "fueron", "fue"],
+                "options": [
+                  "fuimos",
+                  "fui",
+                  "fueron",
+                  "fue"
+                ],
                 "correct": "fuimos",
                 "explanation": "'Fuimos' is the nosotros form"
               },
@@ -100,7 +140,12 @@
               "id": 5,
               "template": "¿A qué hora __ir__ a casa ayer?",
               "slots": {
-                "options": ["fuiste", "fue", "volviste", "regresaste"],
+                "options": [
+                  "fuiste",
+                  "fue",
+                  "volviste",
+                  "regresaste"
+                ],
                 "correct": "fuiste",
                 "explanation": "While 'volviste/regresaste' could work, 'fuiste' is the expected simple past form here"
               },
@@ -474,7 +519,12 @@
               "id": 1,
               "template": "¿Qué idiomas __hablar__?",
               "slots": {
-                "options": ["hablas", "hablo", "habla", "hablan"],
+                "options": [
+                  "hablas",
+                  "hablo",
+                  "habla",
+                  "hablan"
+                ],
                 "correct": "hablas",
                 "explanation": "Using 'hablas' (tú form) as it's asking about the other person's abilities"
               },
@@ -484,7 +534,12 @@
               "id": 2,
               "template": "__hablar__ español e inglés.",
               "slots": {
-                "options": ["Hablo", "Hablas", "Hablamos", "Hablan"],
+                "options": [
+                  "Hablo",
+                  "Hablas",
+                  "Hablamos",
+                  "Hablan"
+                ],
                 "correct": "Hablo",
                 "explanation": "'Hablo' is correct as the speaker is talking about themselves (yo form)"
               },
@@ -494,7 +549,12 @@
               "id": 3,
               "template": "¿Con quién __hablar__ ayer por teléfono?",
               "slots": {
-                "options": ["hablaste", "hablé", "hablaron", "hablamos"],
+                "options": [
+                  "hablaste",
+                  "hablé",
+                  "hablaron",
+                  "hablamos"
+                ],
                 "correct": "hablaste",
                 "explanation": "'Hablaste' is the tú form, asking about who the listener spoke with"
               },
@@ -504,7 +564,12 @@
               "id": 4,
               "template": "__hablar__ con mi madre.",
               "slots": {
-                "options": ["Hablé", "Hablaste", "Habló", "Hablaron"],
+                "options": [
+                  "Hablé",
+                  "Hablaste",
+                  "Habló",
+                  "Hablaron"
+                ],
                 "correct": "Hablé",
                 "explanation": "'Hablé' is the yo form of past tense"
               },
@@ -520,7 +585,12 @@
               "id": 1,
               "template": "Necesito __hablar__ con el jefe.",
               "slots": {
-                "options": ["hablar", "hablo", "hablas", "hablamos"],
+                "options": [
+                  "hablar",
+                  "hablo",
+                  "hablas",
+                  "hablamos"
+                ],
                 "correct": "hablar",
                 "explanation": "Infinitive form after 'necesito'"
               },
@@ -530,7 +600,12 @@
               "id": 2,
               "template": "Ellos __hablar__ con los clientes mañana.",
               "slots": {
-                "options": ["hablan", "hablarán", "hablaron", "hablaban"],
+                "options": [
+                  "hablan",
+                  "hablarán",
+                  "hablaron",
+                  "hablaban"
+                ],
                 "correct": "hablarán",
                 "explanation": "'Hablarán' is future tense for 'ellos'"
               },
@@ -555,7 +630,12 @@
               "id": 4,
               "template": "¿__hablar__ ustedes con el departamento de ventas?",
               "slots": {
-                "options": ["Hablan", "Hablarán", "Hablaron", "Hablaríais"],
+                "options": [
+                  "Hablan",
+                  "Hablarán",
+                  "Hablaron",
+                  "Hablaríais"
+                ],
                 "correct": "Hablan",
                 "explanation": "'Hablan' is present tense for 'ustedes'"
               },
@@ -929,7 +1009,12 @@
               "id": 1,
               "template": "¿Qué __comer__ para cenar?",
               "slots": {
-                "options": ["comes", "como", "come", "comen"],
+                "options": [
+                  "comes",
+                  "como",
+                  "come",
+                  "comen"
+                ],
                 "correct": "comes",
                 "explanation": "Using 'comes' (tú form) as it's asking about the other person's dinner"
               },
@@ -939,7 +1024,12 @@
               "id": 2,
               "template": "__comer__ una ensalada.",
               "slots": {
-                "options": ["Como", "Comes", "Comemos", "Comen"],
+                "options": [
+                  "Como",
+                  "Comes",
+                  "Comemos",
+                  "Comen"
+                ],
                 "correct": "Como",
                 "explanation": "'Como' is correct as the speaker is talking about themselves (yo form)"
               },
@@ -949,7 +1039,12 @@
               "id": 3,
               "template": "¿Dónde __comer__ ayer?",
               "slots": {
-                "options": ["comiste", "comí", "comieron", "comimos"],
+                "options": [
+                  "comiste",
+                  "comí",
+                  "comieron",
+                  "comimos"
+                ],
                 "correct": "comiste",
                 "explanation": "'Comiste' is the tú form, asking about where the listener ate"
               },
@@ -959,7 +1054,12 @@
               "id": 4,
               "template": "__comer__ en un restaurante italiano.",
               "slots": {
-                "options": ["Comí", "Comiste", "Comió", "Comieron"],
+                "options": [
+                  "Comí",
+                  "Comiste",
+                  "Comió",
+                  "Comieron"
+                ],
                 "correct": "Comí",
                 "explanation": "'Comí' is the yo form of past tense"
               },
@@ -975,7 +1075,12 @@
               "id": 1,
               "template": "Normalmente __comer__ frutas para el desayuno.",
               "slots": {
-                "options": ["como", "comes", "come", "comen"],
+                "options": [
+                  "como",
+                  "comes",
+                  "come",
+                  "comen"
+                ],
                 "correct": "como",
                 "explanation": "'Como' is present tense for 'yo' describing a habitual action"
               },
@@ -985,7 +1090,12 @@
               "id": 2,
               "template": "Mis hermanos __comer__ demasiados dulces.",
               "slots": {
-                "options": ["comen", "comieron", "comerán", "comían"],
+                "options": [
+                  "comen",
+                  "comieron",
+                  "comerán",
+                  "comían"
+                ],
                 "correct": "comen",
                 "explanation": "'Comen' is present tense for 'ellos'"
               },
@@ -995,7 +1105,12 @@
               "id": 3,
               "template": "Nosotros __comer__ más verduras la semana pasada.",
               "slots": {
-                "options": ["comimos", "comemos", "comeremos", "comíamos"],
+                "options": [
+                  "comimos",
+                  "comemos",
+                  "comeremos",
+                  "comíamos"
+                ],
                 "correct": "comimos",
                 "explanation": "'Comimos' is past tense for 'nosotros'"
               },
@@ -1005,7 +1120,12 @@
               "id": 4,
               "template": "¿__comer__ ustedes comida picante?",
               "slots": {
-                "options": ["Comen", "Comieron", "Comerán", "Comerían"],
+                "options": [
+                  "Comen",
+                  "Comieron",
+                  "Comerán",
+                  "Comerían"
+                ],
                 "correct": "Comen",
                 "explanation": "'Comen' is present tense for 'ustedes'"
               },
@@ -1379,7 +1499,12 @@
               "id": 1,
               "template": "¿Dónde __vivir__?",
               "slots": {
-                "options": ["vives", "vivo", "vive", "viven"],
+                "options": [
+                  "vives",
+                  "vivo",
+                  "vive",
+                  "viven"
+                ],
                 "correct": "vives",
                 "explanation": "Using 'vives' (tú form) as it's asking about where the other person lives"
               },
@@ -1389,7 +1514,12 @@
               "id": 2,
               "template": "__vivir__ en un apartamento pequeño.",
               "slots": {
-                "options": ["Vivo", "Vives", "Vivimos", "Viven"],
+                "options": [
+                  "Vivo",
+                  "Vives",
+                  "Vivimos",
+                  "Viven"
+                ],
                 "correct": "Vivo",
                 "explanation": "'Vivo' is correct as the speaker is talking about themselves (yo form)"
               },
@@ -1399,7 +1529,12 @@
               "id": 3,
               "template": "¿Cuánto tiempo __vivir__ en esa ciudad?",
               "slots": {
-                "options": ["viviste", "viví", "vivieron", "vivimos"],
+                "options": [
+                  "viviste",
+                  "viví",
+                  "vivieron",
+                  "vivimos"
+                ],
                 "correct": "viviste",
                 "explanation": "'Viviste' is the tú form, asking about how long the listener lived somewhere"
               },
@@ -1409,7 +1544,12 @@
               "id": 4,
               "template": "__vivir__ allí por cinco años.",
               "slots": {
-                "options": ["Viví", "Viviste", "Vivió", "Vivieron"],
+                "options": [
+                  "Viví",
+                  "Viviste",
+                  "Vivió",
+                  "Vivieron"
+                ],
                 "correct": "Viví",
                 "explanation": "'Viví' is the yo form of past tense"
               },
@@ -1425,7 +1565,12 @@
               "id": 1,
               "template": "El año que viene __vivir__ en el extranjero.",
               "slots": {
-                "options": ["viviré", "vivirás", "vivirá", "viviremos"],
+                "options": [
+                  "viviré",
+                  "vivirás",
+                  "vivirá",
+                  "viviremos"
+                ],
                 "correct": "viviré",
                 "explanation": "'Viviré' is future tense for 'yo'"
               },
@@ -1435,7 +1580,12 @@
               "id": 2,
               "template": "Mis padres __vivir__ en la playa cuando se retiren.",
               "slots": {
-                "options": ["vivirán", "viven", "vivían", "vivieron"],
+                "options": [
+                  "vivirán",
+                  "viven",
+                  "vivían",
+                  "vivieron"
+                ],
                 "correct": "vivirán",
                 "explanation": "'Vivirán' is future tense for 'ellos'"
               },
@@ -1445,7 +1595,12 @@
               "id": 3,
               "template": "Nosotros __vivir__ juntos algún día.",
               "slots": {
-                "options": ["viviremos", "vivimos", "vivíamos", "viviríamos"],
+                "options": [
+                  "viviremos",
+                  "vivimos",
+                  "vivíamos",
+                  "viviríamos"
+                ],
                 "correct": "viviremos",
                 "explanation": "'Viviremos' is future tense for 'nosotros'"
               },
@@ -1455,7 +1610,12 @@
               "id": 4,
               "template": "¿__vivir__ ustedes en una casa o un apartamento?",
               "slots": {
-                "options": ["Vivirán", "Viven", "Vivían", "Vivieron"],
+                "options": [
+                  "Vivirán",
+                  "Viven",
+                  "Vivían",
+                  "Vivieron"
+                ],
                 "correct": "Vivirán",
                 "explanation": "'Vivirán' is future tense for 'ustedes'"
               },
@@ -1829,7 +1989,12 @@
               "id": 1,
               "template": "¿__tener__ hermanos?",
               "slots": {
-                "options": ["Tienes", "Tengo", "Tiene", "Tienen"],
+                "options": [
+                  "Tienes",
+                  "Tengo",
+                  "Tiene",
+                  "Tienen"
+                ],
                 "correct": "Tienes",
                 "explanation": "Using 'Tienes' (tú form) as it's asking about the other person's siblings"
               },
@@ -1839,7 +2004,12 @@
               "id": 2,
               "template": "__tener__ dos hermanos y una hermana.",
               "slots": {
-                "options": ["Tengo", "Tienes", "Tenemos", "Tienen"],
+                "options": [
+                  "Tengo",
+                  "Tienes",
+                  "Tenemos",
+                  "Tienen"
+                ],
                 "correct": "Tengo",
                 "explanation": "'Tengo' is correct as the speaker is talking about themselves (yo form)"
               },
@@ -1849,7 +2019,12 @@
               "id": 3,
               "template": "¿Qué características __tener__ tu apartamento?",
               "slots": {
-                "options": ["tiene", "tienes", "tengo", "tenemos"],
+                "options": [
+                  "tiene",
+                  "tienes",
+                  "tengo",
+                  "tenemos"
+                ],
                 "correct": "tiene",
                 "explanation": "'Tiene' is the él/ella/usted form, asking about the apartment's characteristics"
               },
@@ -1859,7 +2034,12 @@
               "id": 4,
               "template": "__tener__ tres habitaciones y una cocina grande.",
               "slots": {
-                "options": ["Tiene", "Tienes", "Tengo", "Tienen"],
+                "options": [
+                  "Tiene",
+                  "Tienes",
+                  "Tengo",
+                  "Tienen"
+                ],
                 "correct": "Tiene",
                 "explanation": "'Tiene' continues referring to the apartment"
               },
@@ -1875,7 +2055,12 @@
               "id": 1,
               "template": "Hoy __tener__ que trabajar hasta tarde.",
               "slots": {
-                "options": ["tengo", "tienes", "tiene", "tenemos"],
+                "options": [
+                  "tengo",
+                  "tienes",
+                  "tiene",
+                  "tenemos"
+                ],
                 "correct": "tengo",
                 "explanation": "'Tengo' is present tense for 'yo' expressing obligation"
               },
@@ -1885,7 +2070,12 @@
               "id": 2,
               "template": "Mis hijos __tener__ que estudiar para el examen.",
               "slots": {
-                "options": ["tienen", "tienen que", "tienen de", "tienen a"],
+                "options": [
+                  "tienen",
+                  "tienen que",
+                  "tienen de",
+                  "tienen a"
+                ],
                 "correct": "tienen que",
                 "explanation": "'Tienen que' is the correct phrase for obligation (ellos form)"
               },
@@ -1910,7 +2100,12 @@
               "id": 4,
               "template": "¿__tener__ que ir al banco hoy?",
               "slots": {
-                "options": ["Tienes", "Tienes que", "Tienes de", "Tienes a"],
+                "options": [
+                  "Tienes",
+                  "Tienes que",
+                  "Tienes de",
+                  "Tienes a"
+                ],
                 "correct": "Tienes que",
                 "explanation": "'Tienes que' is the correct phrase for obligation (tú form)"
               },
@@ -2284,7 +2479,12 @@
               "id": 1,
               "template": "Hoy __hacer__ mucho frío.",
               "slots": {
-                "options": ["hace", "hago", "haces", "hacen"],
+                "options": [
+                  "hace",
+                  "hago",
+                  "haces",
+                  "hacen"
+                ],
                 "correct": "hace",
                 "explanation": "Weather expressions always use third person singular 'hace'"
               },
@@ -2294,7 +2494,12 @@
               "id": 2,
               "template": "En verano __hacer__ mucho calor aquí.",
               "slots": {
-                "options": ["hace", "hacen", "hago", "haces"],
+                "options": [
+                  "hace",
+                  "hacen",
+                  "hago",
+                  "haces"
+                ],
                 "correct": "hace",
                 "explanation": "Weather expressions always use third person singular 'hace'"
               },
@@ -2304,7 +2509,12 @@
               "id": 3,
               "template": "¿Qué __hacer__ después del trabajo?",
               "slots": {
-                "options": ["haces", "hago", "hace", "hacen"],
+                "options": [
+                  "haces",
+                  "hago",
+                  "hace",
+                  "hacen"
+                ],
                 "correct": "haces",
                 "explanation": "Using 'haces' (tú form) as it's asking about the other person's plans"
               },
@@ -2314,7 +2524,12 @@
               "id": 4,
               "template": "__hacer__ ejercicio todas las mañanas.",
               "slots": {
-                "options": ["Hago", "Haces", "Hace", "Hacen"],
+                "options": [
+                  "Hago",
+                  "Haces",
+                  "Hace",
+                  "Hacen"
+                ],
                 "correct": "Hago",
                 "explanation": "'Hago' is correct as the speaker is talking about themselves (yo form)"
               },
@@ -2324,7 +2539,12 @@
               "id": 5,
               "template": "Mi hermano __hacer__ la cena los viernes.",
               "slots": {
-                "options": ["hace", "haces", "hago", "hacen"],
+                "options": [
+                  "hace",
+                  "haces",
+                  "hago",
+                  "hacen"
+                ],
                 "correct": "hace",
                 "explanation": "'Hace' is the él/ella/usted form, referring to the brother"
               },
@@ -2334,7 +2554,12 @@
               "id": 6,
               "template": "Nosotros __hacer__ los deberes juntos.",
               "slots": {
-                "options": ["hacemos", "hacéis", "hacen", "hago"],
+                "options": [
+                  "hacemos",
+                  "hacéis",
+                  "hacen",
+                  "hago"
+                ],
                 "correct": "hacemos",
                 "explanation": "'Hacemos' is the nosotros form for 'we do/make'"
               },
@@ -2350,7 +2575,12 @@
               "id": 1,
               "template": "Hoy __hacer__ mucho frío.",
               "slots": {
-                "options": ["hace", "hago", "haces", "hacen"],
+                "options": [
+                  "hace",
+                  "hago",
+                  "haces",
+                  "hacen"
+                ],
                 "correct": "hace",
                 "explanation": "Weather expressions always use third person singular 'hace'"
               },
@@ -2360,7 +2590,12 @@
               "id": 2,
               "template": "En verano __hacer__ mucho calor aquí.",
               "slots": {
-                "options": ["hace", "hacen", "hago", "haces"],
+                "options": [
+                  "hace",
+                  "hacen",
+                  "hago",
+                  "haces"
+                ],
                 "correct": "hace",
                 "explanation": "Weather expressions always use third person singular 'hace'"
               },
@@ -2370,7 +2605,12 @@
               "id": 3,
               "template": "¿__hacer__ sol en tu ciudad hoy?",
               "slots": {
-                "options": ["Hace", "Haces", "Hago", "Hacen"],
+                "options": [
+                  "Hace",
+                  "Haces",
+                  "Hago",
+                  "Hacen"
+                ],
                 "correct": "Hace",
                 "explanation": "Weather questions also use third person singular 'hace'"
               },
@@ -2380,7 +2620,12 @@
               "id": 4,
               "template": "Ayer __hacer__ viento todo el día.",
               "slots": {
-                "options": ["hizo", "hice", "hiciste", "hicieron"],
+                "options": [
+                  "hizo",
+                  "hice",
+                  "hiciste",
+                  "hicieron"
+                ],
                 "correct": "hizo",
                 "explanation": "Past tense weather expressions use 'hizo' (pretérito)"
               },
@@ -3842,6 +4087,58 @@
           "example": "Compré un billete de ida al centro."
         }
       ]
+    }
+  ],
+  "diaries": [
+    {
+      "id": 1,
+      "date": "2025-08-19",
+      "freeContent": "Me gusta vida",
+      "formatedContent": {
+        "foodOfTheDay": "Hoy comi pollo y estaba delicioso, tambien he comido cafe con leche y estaba requisimo",
+        "thingOfTheDay": "Tuce un dia excelente: complete todos mis proyectos de trabojo y termine mi planificacion",
+        "moodOfTheDay": "muy feliz"
+      }
+    },
+    {
+      "id": 2,
+      "date": "2025-08-20",
+      "freeContent": "",
+      "formatedContent": {
+        "foodOfTheDay": "",
+        "thingOfTheDay": "",
+        "moodOfTheDay": ""
+      }
+    },
+    {
+      "id": 3,
+      "date": "2025-08-21",
+      "freeContent": "",
+      "formatedContent": {
+        "foodOfTheDay": "",
+        "thingOfTheDay": "",
+        "moodOfTheDay": ""
+      }
+    },
+    {
+      "id": 4,
+      "date": "2025-08-22",
+      "freeContent": "",
+      "formatedContent": {
+        "foodOfTheDay": "",
+        "thingOfTheDay": "",
+        "moodOfTheDay": ""
+      }
+    },
+    {
+      "id": 5,
+      "date": "2025-08-23",
+      "freeContent": "",
+      "formatedContent": {
+        "foodOfTheDay": "",
+        "thingOfTheDay": "",
+        "moodOfTheDay": ""
+      }
     }
   ],
   "userStats": {

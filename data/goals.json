@@ -82,6 +82,19 @@
             "value": 13,
             "unit": "days"
           }
+        },
+        {
+          "date": "2025-08-19",
+          "text": "Mid-August conquer: gym is my second home!",
+          "status": {
+            "id": "executed-well",
+            "text": "Executed well"
+          },
+          "metric": {
+            "type": "workout strike",
+            "value": 1.5,
+            "unit": "months"
+          }
         }
       ],
       "timeline": [
@@ -103,18 +116,23 @@
         {
           "date": "2025-07-20",
           "title": "Week 3: Routine is built happily!",
-          "description": "Now its comfortable and easy for me to have a heavy cardio session such as bodu Pump + pilates for my core\n- I also am reading some theories about body posture.\n"
+          "description": "**Progress:**\n-Now its comfortable and easy for me to have a heavy cardio session such as bodu Pump + pilates for my core\n- I also am reading some theories about body posture.\n"
         },
         {
           "date": "2025-07-27",
           "title": "Week 4: Gym is my happyland!",
-          "description": "Its so easy to be commited to workout\n I wanna add some diet into weekly life and treat day during weekend, i dont think it would work out easily, but at least i will try\n"
+          "description": "**Progress:**\n-Its so easy to be commited to workout\n- I wanna add some diet into weekly life and treat day during weekend, i dont think it would work out easily, but at least i will try\n"
+        },
+        {
+          "date": "2025-08-19",
+          "title": "Mid-August conquer: gym is my second home!",
+          "description": "**Progress:**\n- I love workout, workout loves me \n- Posture much better than before,esp core and feet \n- **Plan:**\n- I still need to work on correcting the alignment of my lower body with better balanced core (such as Pilates.\n- The alignment in the upper half of my body is also poor; my thoracic posture is compromised. I need to learn how to properly expand my ribcage (open my chest) while maintaining the natural curves of my spine.\n "
         }
       ]
     },
     {
       "id": 3,
-      "title": "AI Knowledge pool",
+      "title": "AI pool --> Avocado",
       "description": "Learn and output the learning",
       "feeling": 4,
       "createdAt": "2025-07-06",
@@ -122,13 +140,30 @@
       "status": "going",
       "reflections": [
         {
-          "date": "2025-07-06",
-          "text": "First week reflection: Good start!",
+          "date": "2025-08-06",
+          "text": "Avocado Camp starting",
           "status": {
-            "id": "only start",
-            "text": "only start"
+            "id": "executed-well",
+            "text": "Executed well"
           },
-          "metric": []
+          "metric": {
+            "type": "Students",
+            "value": 8,
+            "unit": "person"
+          }
+        },
+        {
+          "date": "2025-08-19",
+          "text": "Avocado Camp Running happily",
+          "status": {
+            "id": "executed-well",
+            "text": "Executed well"
+          },
+          "metric": {
+            "type": "Online teaching",
+            "value": 1,
+            "unit": "week"
+          }
         }
       ],
       "timeline": [
@@ -147,7 +182,6 @@
           "title": "find my motivation",
           "description": "finding by doing first! dont overthink!"
         },
-
         {
           "date": "2025-07-22",
           "title": "Action and mindset on",
@@ -157,6 +191,16 @@
           "date": "2025-07-23",
           "title": "found the content creation method working for me",
           "description": "Finally! I have found my favorite way of doing my AI content"
+        },
+        {
+          "date": "2025-08-01",
+          "title": "I have changed the direction to oral english online courses",
+          "description": "Finally! I have found my favorite way of doing my AI content"
+        },
+        {
+          "date": "2025-08-19",
+          "title": "Acocado Camp is Running",
+          "description": "One week DONE! I think its going to be promising. Gonna start doing content creation for oral English with target audidence "
         }
       ]
     },
@@ -167,7 +211,7 @@
       "feeling": 4,
       "createdAt": "2025-07-14",
       "endedAt": "2025-08-01",
-      "status": "going",
+      "status": "completed",
       "reflections": [],
       "timeline": [
         {
@@ -179,13 +223,18 @@
           "date": "2025-07-22",
           "title": "Its starting hard",
           "description": "Started with verbs and nouns flashcard practive daily. \n I think i can hear more words but its so far away from what i wanna achieve.\n "
+        },
+        {
+          "date": "2025-07-31",
+          "title": "Time for traveling test",
+          "description": "I used spanish for traveling\n I think its progressing~ better than i thought~.\n "
         }
       ]
     },
     {
       "id": 5,
-      "title": "Posture Case Study",
-      "description": "Watch less videos and read more about Posture and Physiotherapy systematically",
+      "title": "Posture Study: ‘体态太太’运营",
+      "description": "Learn and apply: Posture and Physiotherapy",
       "feeling": 9,
       "createdAt": "2025-07-15",
       "endedAt": "2025-09-15",
@@ -212,6 +261,19 @@
             "value": 5,
             "unit": "days"
           }
+        },
+        {
+          "date": "2025-08-19",
+          "text": "Summarize and post content on Red",
+          "status": {
+            "id": "Executed well",
+            "text": "Executed well"
+          },
+          "metric": {
+            "type": "Posts",
+            "value": 4,
+            "unit": "Posts"
+          }
         }
       ],
       "timeline": [
@@ -229,8 +291,34 @@
           "date": "2025-07-27",
           "title": "New Learning Plan",
           "description": "I will use the stratagy of my full-stack plan, and start learning this. The key is learning by doing. I will use the"
+        },
+        {
+          "date": "2025-08-19",
+          "title": "Learning by doing and sharing",
+          "description": "I think the best way is to apply what i know to my daily correction routine"
         }
       ]
+    },
+    {
+      "id": 6,
+      "title": "Conversación diaria en español",
+      "description": "Practicar español hablando al menos una vez al día.",
+      "feeling": 9,
+      "createdAt": "2025-08-20",
+      "endedAt": "2025-09-30",
+      "status": "going",
+      "reflections": [
+        {
+          "date": "2025-08-19",
+          "text": "Tengo al menos una conversacion sencilla en espanol cada dia",
+          "status": {
+            "id": "Acabo de...",
+            "text": "Acabo de empezar este plan"
+          },
+          "metric": {}
+        }
+      ],
+      "timeline": []
     }
   ]
 }
