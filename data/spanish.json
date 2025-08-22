@@ -4099,49 +4099,10 @@
         "thingOfTheDay": "Tuce un dia excelente: complete todos mis proyectos de trabojo y termine mi planificacion",
         "moodOfTheDay": "muy feliz"
       }
-    },
-    {
-      "id": 2,
-      "date": "2025-08-20",
-      "freeContent": "",
-      "formatedContent": {
-        "foodOfTheDay": "",
-        "thingOfTheDay": "",
-        "moodOfTheDay": ""
-      }
-    },
-    {
-      "id": 3,
-      "date": "2025-08-21",
-      "freeContent": "",
-      "formatedContent": {
-        "foodOfTheDay": "",
-        "thingOfTheDay": "",
-        "moodOfTheDay": ""
-      }
-    },
-    {
-      "id": 4,
-      "date": "2025-08-22",
-      "freeContent": "",
-      "formatedContent": {
-        "foodOfTheDay": "",
-        "thingOfTheDay": "",
-        "moodOfTheDay": ""
-      }
-    },
-    {
-      "id": 5,
-      "date": "2025-08-23",
-      "freeContent": "",
-      "formatedContent": {
-        "foodOfTheDay": "",
-        "thingOfTheDay": "",
-        "moodOfTheDay": ""
-      }
     }
   ],
   "userStats": {
-    "dailyStreak": 5
+    "dailyStreak": 5,
+    "Dairies": 3
   }
 }
