@@ -638,11 +638,11 @@
           "goals": {
             "Physiology": { "value": 0 },
             "AI-vocado": { "value": 0 },
-            "Gym": { "value": 0 },
+            "Gym": { "value": 3 },
             "Spanish": { "value": 0 }
           },
           "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
-          "work": { "Avocado Camp": { "value": 0 }, "Work": { "value": 0 } }
+          "work": { "Avocado Camp": { "value": 3 }, "Work": { "value": 4} }
         },
         {
           "date": "2025-08-20",
@@ -652,19 +652,19 @@
             "Gym": { "value": 0 },
             "Spanish": { "value": 0 }
           },
-          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
-          "work": { "Avocado Camp": { "value": 0 }, "Work": { "value": 0 } }
+          "life": { "Chill": { "value": 5 }, "Diet": { "value": 0 } },
+          "work": { "Avocado Camp": { "value": 2 }, "Work": { "value": 5 } }
         },
         {
           "date": "2025-08-21",
           "goals": {
             "Physiology": { "value": 0 },
             "AI-vocado": { "value": 0 },
-            "Gym": { "value": 0 },
+            "Gym": { "value": 2 },
             "Spanish": { "value": 0 }
           },
-          "life": { "Chill": { "value": 0 }, "Diet": { "value": 0 } },
-          "work": { "Avocado Camp": { "value": 0 }, "Work": { "value": 0 } }
+          "life": { "Chill": { "value": 2 }, "Diet": { "value": 0 } },
+          "work": { "Avocado Camp": { "value": 2 }, "Work": { "value": 4 } }
         },
         {
           "date": "2025-08-22",
