@@ -95,21 +95,21 @@ export default function PeriodStats({ data }: PeriodStatsProps) {
                     <Card className="p-6 rounded-2xl shadow-lg text-center">
                         <CardContent>
                             <p className="text-sm text-pink-400">Average Cycle</p>
-                            <p className="text-2xl font-extrabold text-pink-500">{avgCycle} days</p>
+                            <p className="text-2xl font-bold text-pink-500">{avgCycle} days</p>
                         </CardContent>
                     </Card>
 
                     <Card className="p-6 rounded-2xl shadow-lg text-center">
                         <CardContent>
                             <p className="text-sm text-pink-400">Shortest Cycle</p>
-                            <p className="text-2xl font-extrabold text-pink-500">{minCycle} days</p>
+                            <p className="text-2xl font-bold text-pink-500">{minCycle} days</p>
                         </CardContent>
                     </Card>
 
                     <Card className="p-6 rounded-2xl shadow-lg text-center">
                         <CardContent>
                             <p className="text-sm text-pink-400">Longest Cycle</p>
-                            <p className="text-2xl font-extrabold text-pink-500">{maxCycle} days</p>
+                            <p className="text-2xl font-bold text-pink-500">{maxCycle} days</p>
                         </CardContent>
                     </Card>
                 </div>

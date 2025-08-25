@@ -2,10 +2,15 @@ type FlowLevel = "spotting" | "light" | "medium" | "heavy";
 
 interface DayEntry {
   date: string;
-  flow?: string;
+  flow?: FlowLevel;
   mood?: string;
-  notes?: string;
+  backPain?: boolean;
+  hasPMS?: boolean;
+  cramps?: boolean;
+  recentChange?: string;
+  energyLevel?: 1 | 2 | 3 | 4 | 5;
 }
+
 
 export interface PeriodRecord {
   start: string;
