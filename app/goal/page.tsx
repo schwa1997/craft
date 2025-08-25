@@ -6,9 +6,12 @@ import { GoalCard } from "./components/GoalCard";
 
 export default function HappinessDashboard() {
   // Separate goals by status
-  const activeGoals = data.goals.filter((goal) => goal.status !== "completed");
+  const activeGoals = data.goals.filter((goal) => goal.status === "going");
   const completedGoals = data.goals.filter(
     (goal) => goal.status === "completed"
+  );
+  const ClosedGoals = data.goals.filter(
+    (goal) => goal.status === "closed"
   );
 
   return (
@@ -49,11 +52,10 @@ export default function HappinessDashboard() {
                   <div
                     className="h-1.5 md:h-2 rounded-full bg-emerald-500"
                     style={{
-                      width: `${
-                        (activeGoals.length /
-                          (activeGoals.length + completedGoals.length)) *
+                      width: `${(activeGoals.length /
+                        (activeGoals.length + completedGoals.length + ClosedGoals.length)) *
                         100
-                      }%`,
+                        }%`,
                     }}
                   />
                 </div>
@@ -75,11 +77,34 @@ export default function HappinessDashboard() {
                   <div
                     className="h-1.5 md:h-2 rounded-full bg-gray-500"
                     style={{
-                      width: `${
-                        (completedGoals.length /
-                          (activeGoals.length + completedGoals.length)) *
+                      width: `${(completedGoals.length /
+                        (activeGoals.length + completedGoals.length + ClosedGoals.length)) *
                         100
-                      }%`,
+                        }%`,
+                    }}
+                  />
+                </div>
+              </div>
+              <div className="bg-gray-50 rounded-lg p-3 md:p-4 border border-gray-200">
+                <div className="flex justify-between items-center mb-1">
+                  <span className="text-xs md:text-sm font-medium text-gray-700">
+                    Closed Goals
+                  </span>
+                  <span className="text-xs px-2 py-1 rounded-full bg-gray-100 text-gray-800">
+                    Achieved
+                  </span>
+                </div>
+                <p className="text-2xl md:text-3xl font-bold text-gray-700">
+                  {ClosedGoals.length}
+                </p>
+                <div className="w-full bg-gray-200 rounded-full h-1.5 md:h-2 mt-2">
+                  <div
+                    className="h-1.5 md:h-2 rounded-full bg-gray-500"
+                    style={{
+                      width: `${(ClosedGoals.length /
+                        (activeGoals.length + completedGoals.length + ClosedGoals.length)) *
+                        100
+                        }%`,
                     }}
                   />
                 </div>
@@ -124,6 +149,25 @@ export default function HappinessDashboard() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
                 {completedGoals.map((goal) => (
+                  <GoalCard key={goal.id} goal={goal} isCompleted={true} />
+                ))}
+              </div>
+            </section>
+          )}
+
+          {ClosedGoals.length > 0 && (
+            <section className="bg-white rounded-xl shadow-sm p-4 md:p-6 border border-emerald-100">
+              <div className="flex items-center justify-between mb-4 md:mb-6">
+                <h2 className="text-lg md:text-xl font-bold text-gray-700">
+                  ClosedGoals Goals
+                </h2>
+                <span className="px-2 py-1 md:px-3 md:py-1 rounded-full text-xs md:text-sm font-medium bg-gray-100 text-gray-800">
+                  {ClosedGoals.length} Closed
+                </span>
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+                {ClosedGoals.map((goal) => (
                   <GoalCard key={goal.id} goal={goal} isCompleted={true} />
                 ))}
               </div>

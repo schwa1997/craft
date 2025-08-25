@@ -132,12 +132,12 @@
     },
     {
       "id": 3,
-      "title": "AI pool --> Avocado",
+      "title": "AI pool",
       "description": "Learn and output the learning",
       "feeling": 4,
       "createdAt": "2025-07-06",
-      "endedAt": "2025-12-31",
-      "status": "going",
+      "endedAt": "2025-07-31",
+      "status": "closed",
       "reflections": [
         {
           "date": "2025-08-06",
@@ -193,14 +193,9 @@
           "description": "Finally! I have found my favorite way of doing my AI content"
         },
         {
-          "date": "2025-08-01",
+          "date": "2025-07-31",
           "title": "I have changed the direction to oral english online courses",
           "description": "Finally! I have found my favorite way of doing my AI content"
-        },
-        {
-          "date": "2025-08-19",
-          "title": "Acocado Camp is Running",
-          "description": "One week DONE! I think its going to be promising. Gonna start doing content creation for oral English with target audidence "
         }
       ]
     },
@@ -235,10 +230,10 @@
       "id": 5,
       "title": "Posture Study: ‘体态太太’运营",
       "description": "Learn and apply: Posture and Physiotherapy",
-      "feeling": 9,
+      "feeling": 7,
       "createdAt": "2025-07-15",
-      "endedAt": "2025-09-15",
-      "status": "going",
+      "endedAt": "2025-07-29",
+      "status": "closed",
       "reflections": [
         {
           "date": "2025-07-15",
@@ -293,9 +288,9 @@
           "description": "I will use the stratagy of my full-stack plan, and start learning this. The key is learning by doing. I will use the"
         },
         {
-          "date": "2025-08-19",
-          "title": "Learning by doing and sharing",
-          "description": "I think the best way is to apply what i know to my daily correction routine"
+          "date": "2025-07-29",
+          "title": "Last Post",
+          "description": "Closed this goal since i am not spending time on it anymore"
         }
       ]
     },

@@ -39,25 +39,12 @@ export default function StaticEnergyGarden() {
   } | null>(null);
 
   const yearlyData: any = data.records;
-  const yearlyGoals: Record<
-    number,
-    Record<number, MonthlyGoals>
-  > = data.monthlyGoals || {};
   const weeklyReport: WeeklyReport = data.weeklyReport || {};
   const settings: EnergySettings = data.settings;
 
   // Get current month's energy data (month is 1-indexed in JSON)
   const energyData: DailyEnergyRecord[] =
     yearlyData[currentYear]?.[currentMonth + 1] || [];
-
-  // Get current month's goals with proper fallback
-  const currentMonthGoal: MonthlyGoals = yearlyGoals[currentYear]?.[
-    currentMonth + 1
-  ] || {
-    work: 0,
-    life: 0,
-    goals: 0,
-  };
 
   // Calculate progress for each main category
   const progress = {
@@ -91,7 +78,7 @@ export default function StaticEnergyGarden() {
   };
 
   const getPlantHeight = (type: EnergyCategory) => {
-    const goal = currentMonthGoal[type] || 1;
+    const goal = progress[type] || 1;
     const ratio = progress[type] / goal;
     return Math.min(100, ratio * 80 + 20);
   };
@@ -149,9 +136,8 @@ export default function StaticEnergyGarden() {
     calendarDays.push(
       <div
         key={`day-${day}`}
-        className={`bg-white rounded-lg shadow-sm border border-emerald-100 p-1 flex flex-col items-center justify-between h-20 hover:shadow-md transition cursor-pointer ${
-          totalEnergy > 0 ? "opacity-100" : "opacity-60"
-        }`}
+        className={`bg-white rounded-lg shadow-sm border border-emerald-100 p-1 flex flex-col items-center justify-between h-20 hover:shadow-md transition cursor-pointer ${totalEnergy > 0 ? "opacity-100" : "opacity-60"
+          }`}
         onClick={() => {
           setSelectedDay({
             date: dayData.date,
@@ -350,34 +336,27 @@ export default function StaticEnergyGarden() {
             </div>
 
             {/* Progress Summary */}
-            <div className="space-y-4">
-              {(["work", "life", "goals"] as EnergyCategory[]).map((type) => (
-                <div key={type} className="flex items-center">
-                  <div
-                    className="flex-shrink-0 w-3 h-3 rounded-full mr-2"
-                    style={{ backgroundColor: getCategoryColor(type) }}
-                  />
-                  <div className="flex-1">
-                    <div className="flex justify-between text-sm">
-                      <span className="font-medium text-gray-700">
-                        {settings.categories[type].name}
-                      </span>
-                      <span className="text-emerald-600">
-                        {progress[type]}/{currentMonthGoal[type]}
-                      </span>
-                    </div>
-                    <div className="w-full bg-gray-100 rounded-full h-2 mt-1">
-                      <div
-                        className="h-2 rounded-full"
-                        style={{
-                          width: `${getPlantHeight(type)}%`,
-                          backgroundColor: getCategoryColor(type),
-                        }}
-                      />
-                    </div>
-                  </div>
-                </div>
-              ))}
+            <div className="bg-white rounded-xl shadow-sm p-4 border border-emerald-100 mb-4">
+              <h3 className="text-sm font-semibold text-emerald-700 mb-2">Monthly Energy Summary</h3>
+              <div className="w-full h-4 rounded-full bg-gray-100 flex overflow-hidden">
+                {(["work", "life", "goals"] as EnergyCategory[]).map((type) => {
+                  const width = Math.min(progress[type], 100);
+                  return (
+                    <div
+                      key={type}
+                      style={{
+                        width: `${width}%`,
+                        backgroundColor: getCategoryColor(type),
+                      }}
+                    />
+                  );
+                })}
+              </div>
+              <div className="flex justify-between text-xs mt-1 text-gray-600">
+                <span>Work</span>
+                <span>Life</span>
+                <span>Goals</span>
+              </div>
             </div>
           </div>
 
@@ -462,20 +441,6 @@ export default function StaticEnergyGarden() {
                   />
                 </svg>
               </button>
-            </div>
-
-            {/* Mobile Progress Summary */}
-            <div className="grid grid-cols-3 gap-2">
-              {(["work", "life", "goals"] as EnergyCategory[]).map((type) => (
-                <div key={type} className="text-center">
-                  <div className="text-xs text-gray-500 mb-1">
-                    {settings.categories[type].name}
-                  </div>
-                  <div className="text-sm font-semibold text-emerald-700">
-                    {progress[type]}/{currentMonthGoal[type]}
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
 
@@ -592,34 +557,34 @@ export default function StaticEnergyGarden() {
 
                         {weeklyReport[getMondayString(selectedDay.date)]
                           .review && (
-                          <div className="bg-white/70 p-4 rounded-lg border border-white shadow-sm">
-                            <h4 className="font-semibold text-emerald-700 mb-3 flex items-center">
-                              <svg
-                                className="w-4 h-4 mr-2"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-                                />
-                              </svg>
-                              Review
-                            </h4>
-                            <div className="prose prose-sm max-w-none text-gray-700 pl-6">
-                              <ReactMarkdown>
-                                {
-                                  weeklyReport[
-                                    getMondayString(selectedDay.date)
-                                  ].review
-                                }
-                              </ReactMarkdown>
+                            <div className="bg-white/70 p-4 rounded-lg border border-white shadow-sm">
+                              <h4 className="font-semibold text-emerald-700 mb-3 flex items-center">
+                                <svg
+                                  className="w-4 h-4 mr-2"
+                                  fill="none"
+                                  viewBox="0 0 24 24"
+                                  stroke="currentColor"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth={2}
+                                    d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                                  />
+                                </svg>
+                                Review
+                              </h4>
+                              <div className="prose prose-sm max-w-none text-gray-700 pl-6">
+                                <ReactMarkdown>
+                                  {
+                                    weeklyReport[
+                                      getMondayString(selectedDay.date)
+                                    ].review
+                                  }
+                                </ReactMarkdown>
+                              </div>
                             </div>
-                          </div>
-                        )}
+                          )}
                       </>
                     ) : (
                       <div className="text-center py-8">

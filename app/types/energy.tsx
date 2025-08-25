@@ -49,13 +49,6 @@ interface WeeklyPlan {
   review: string;
 }
 
-
-interface MonthlyGoals {
-  goals: number;
-  life: number;
-  work: number;
-}
-
 interface MonthlySummary {
   averages: {
     work: number;
@@ -78,11 +71,6 @@ interface EnergyData {
   };
   weeklyReport?: {
     [date: string]: WeeklyPlan;
-  };
-  monthlyGoals?: {
-    [year: string]: {
-      [month: string]: MonthlyGoals;
-    };
   };
   monthlySummaries?: {
     [year: string]: {

@@ -49,9 +49,9 @@ export function Navigation() {
           <nav className="hidden md:flex items-center space-x-6">
             <NavLink href="/">Home</NavLink>
             <NavLink href="/energy">Energy</NavLink>
-            <NavLink href="/period">Period</NavLink>
             <NavLink href="/goal">Goals</NavLink>
             <NavLink href="/spanish">Spanish</NavLink>
+            <NavLink href="/period">Period</NavLink>
           </nav>
 
           {/* Mobile menu button */}
@@ -72,8 +72,8 @@ export function Navigation() {
         {/* Mobile Navigation - Changed to popover style */}
         <div
           className={`md:hidden absolute right-4 top-16 w-56 rounded-lg bg-white shadow-lg border border-green-100 transition-all duration-200 ease-out ${mobileMenuOpen
-              ? "opacity-100 translate-y-0"
-              : "opacity-0 translate-y-2 pointer-events-none"
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-2 pointer-events-none"
             }`}
         >
           <div className="py-2 space-y-1">
