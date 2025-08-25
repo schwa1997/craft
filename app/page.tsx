@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function ENFPLanding() {
@@ -7,8 +6,17 @@ export default function ENFPLanding() {
   const [elements, setElements] = useState<
     { src: string; top: number; left: number; size: number; rotate: number; duration: number; delay: number }[]
   >([]);
+  const [quote, setQuote] = useState<string>("");
 
   useEffect(() => {
+    // ENFP 风格随机句子
+    const quotes = [
+      "人生是旷野，每一步都值得探索 🌿",
+      "Shoot for the moon, if you land you land on the cloud ✨"
+    ];
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    setQuote(quotes[randomIndex]);
+
     // 随机漂浮小圆球
     const newBalls = Array.from({ length: 12 }).map(() => ({
       top: Math.random() * 100,
@@ -41,73 +49,12 @@ export default function ENFPLanding() {
     setElements(newElements);
   }, []);
 
-  const features = [
-    {
-      title: "Goals Tracker",
-      href: "/goal",
-      emoji: "🎯",
-      top: 10,
-      left: 70,
-      rotate: -6,
-      color: "bg-gradient-to-br from-pink-300 via-purple-300 to-blue-300",
-      shadow: "shadow-lg",
-    },
-    {
-      title: "Energy Garden",
-      href: "/energy",
-      emoji: "🌱",
-      top: 35,
-      left: 60,
-      rotate: 8,
-      color: "bg-gradient-to-br from-green-200 via-green-300 to-green-400",
-      shadow: "shadow-md",
-    },
-    {
-      title: "Spanish Practice",
-      href: "/spanish",
-      emoji: "📝",
-      top: 60,
-      left: 20,
-      rotate: -12,
-      color: "bg-gradient-to-br from-yellow-200 via-yellow-300 to-orange-300",
-      shadow: "shadow-md",
-    },
-    {
-      title: "Period Tracker",
-      href: "/period",
-      emoji: "🌸",
-      top: 60,
-      left: 70,
-      rotate: 10,
-      color: "bg-gradient-to-br from-pink-200 via-pink-300 to-purple-200",
-      shadow: "shadow-lg",
-    },
-  ];
-
-
   return (
-    <main className="relative min-h-screen bg-gradient-to-b from-purple-50 to-pink-50 overflow-hidden">
-      <h1 className="absolute top-10 left-10 text-5xl md:text-7xl font-bold text-purple-700 animate-pulse">
-        🌟 Welcome, 小狗主人!
+    <main className="relative min-h-screen bg-gradient-to-b from-purple-50 to-pink-50 overflow-hidden flex items-center justify-center">
+      {/* 随机句子 */}
+      <h1 className="text-3xl md:text-5xl font-bold text-purple-700 text-center animate-pulse px-4">
+        {quote}
       </h1>
-
-      {/* Features */}
-      {features.map((f) => (
-        <Link
-          key={f.title}
-          href={f.href}
-          className={`absolute top-[${f.top}%] left-[${f.left}%] rotate-[${f.rotate}deg]
-      p-6 md:p-8 rounded-3xl ${f.shadow} cursor-pointer
-      flex flex-col items-center justify-center
-      ${f.color} transition-transform duration-500
-      hover:scale-110 hover:rotate-[-2deg] hover:shadow-2xl
-      animate-float-soft`}
-        >
-          <span className="text-4xl md:text-6xl mb-2">{f.emoji}</span>
-          <span className="text-sm md:text-base font-bold text-white">{f.title}</span>
-        </Link>
-      ))}
-
 
       {/* Floating circles */}
       {balls.map((b, i) => (
@@ -145,7 +92,7 @@ export default function ENFPLanding() {
       {/* 自定义漂浮动画 */}
       <style jsx>{`
         @keyframes float {
-          0% { transform: translateY(0px) translateX(0px) rotate(0  deg); }
+          0% { transform: translateY(0px) translateX(0px) rotate(0deg); }
           50% { transform: translateY(-15px) translateX(5px) rotate(5deg); }
           100% { transform: translateY(0px) translateX(0px) rotate(0deg); }
         }
