@@ -314,6 +314,23 @@
         }
       ],
       "timeline": []
+    },
+    {
+      "id": 7,
+      "title": "Sexy Salad Challenge(2 weeks",
+      "description": "Salad is my new crush and i am in love with it",
+      "feeling": 9,
+      "createdAt": "2025-08-22",
+      "endedAt": "2025-09-08",
+      "status": "going",
+      "reflections": [],
+      "timeline": [
+        {
+          "date": "2025-08-25",
+          "title": "Challenge starting...",
+          "description": "Started a new diet challenge for myself, i think its gonna be fun~"
+        }
+      ]
     }
   ]
 }

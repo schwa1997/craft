@@ -29,9 +29,6 @@
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -52,9 +49,6 @@
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -77,9 +71,6 @@
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -95,7 +86,7 @@
           "date": "2025-07-05",
           "goals": {
             "Gym": {
-              "value": 4
+              "value": 7
             },
             "Spanish": {
               "value": 1
@@ -104,9 +95,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 3
             }
           },
           "work": {
@@ -122,14 +110,11 @@
           "date": "2025-07-06",
           "goals": {
             "Gym": {
-              "value": 4
+              "value": 6
             }
           },
           "life": {
             "Chill": {
-              "value": 2
-            },
-            "Diet": {
               "value": 2
             }
           },
@@ -146,15 +131,12 @@
           "date": "2025-07-07",
           "goals": {
             "Gym": {
-              "value": 3
+              "value": 5
             }
           },
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 2
             }
           },
           "work": {
@@ -170,15 +152,12 @@
           "date": "2025-07-08",
           "goals": {
             "Gym": {
-              "value": 3
+              "value": 5
             }
           },
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 2
             }
           },
           "work": {
@@ -200,9 +179,6 @@
           "life": {
             "Chill": {
               "value": 1
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -223,9 +199,6 @@
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -248,9 +221,6 @@
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -272,9 +242,6 @@
           "life": {
             "Chill": {
               "value": 3
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -296,9 +263,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -323,9 +287,6 @@
           "life": {
             "Chill": {
               "value": 1
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -353,9 +314,6 @@
           "life": {
             "Chill": {
               "value": 1
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -386,9 +344,6 @@
           "life": {
             "Chill": {
               "value": 1
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -413,9 +368,6 @@
           "life": {
             "Chill": {
               "value": 1
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -440,9 +392,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -467,9 +416,6 @@
           "life": {
             "Chill": {
               "value": 10
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -494,9 +440,6 @@
           "life": {
             "Chill": {
               "value": 10
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -521,9 +464,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -550,9 +490,6 @@
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -584,9 +521,6 @@
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -614,9 +548,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -640,9 +571,6 @@
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -668,9 +596,6 @@
           "life": {
             "Chill": {
               "value": 8
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -698,9 +623,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -719,7 +641,7 @@
               "value": 2
             },
             "Gym": {
-              "value": 3
+              "value": 4
             },
             "Spanish": {
               "value": 0
@@ -728,9 +650,6 @@
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 1
             }
           },
           "work": {
@@ -754,9 +673,6 @@
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -782,9 +698,6 @@
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -809,9 +722,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -838,9 +748,6 @@
           "life": {
             "Chill": {
               "value": 3
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -862,9 +769,6 @@
           "life": {
             "Chill": {
               "value": 10
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -886,9 +790,6 @@
           "life": {
             "Chill": {
               "value": 10
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -910,9 +811,6 @@
           "life": {
             "Chill": {
               "value": 10
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -934,9 +832,6 @@
           "life": {
             "Chill": {
               "value": 10
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -958,9 +853,6 @@
           "life": {
             "Chill": {
               "value": 10
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -982,9 +874,6 @@
           "life": {
             "Chill": {
               "value": 8
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1006,9 +895,6 @@
           "life": {
             "Chill": {
               "value": 8
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1030,9 +916,6 @@
           "life": {
             "Chill": {
               "value": 5
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1054,9 +937,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1078,9 +958,6 @@
           "life": {
             "Chill": {
               "value": 1
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1102,9 +979,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1125,9 +999,6 @@
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1150,9 +1021,6 @@
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1174,9 +1042,6 @@
           "life": {
             "Chill": {
               "value": 6
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1197,9 +1062,6 @@
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1222,9 +1084,6 @@
           "life": {
             "Chill": {
               "value": 0
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1246,9 +1105,6 @@
           "life": {
             "Chill": {
               "value": 8
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1269,9 +1125,6 @@
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1297,9 +1150,6 @@
           "life": {
             "Chill": {
               "value": 5
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1324,9 +1174,6 @@
           "life": {
             "Chill": {
               "value": 2
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1346,14 +1193,14 @@
             },
             "Spanish": {
               "value": 1
+            },
+            "Salad": {
+              "value": 1
             }
           },
           "life": {
             "Chill": {
               "value": 3
-            },
-            "Diet": {
-              "value": 0
             }
           },
           "work": {
@@ -1361,7 +1208,7 @@
               "value": 0
             },
             "Work": {
-              "value": 4
+              "value": 3
             }
           }
         },
@@ -1369,23 +1216,23 @@
           "date": "2025-08-23",
           "goals": {
             "Gym": {
-              "value": 1
+              "value": 3
             },
             "Spanish": {
+              "value": 1
+            },
+            "Salad": {
               "value": 1
             }
           },
           "life": {
             "Chill": {
               "value": 1
-            },
-            "Diet": {
-              "value": 2
             }
           },
           "work": {
             "Avocado Camp": {
-              "value": 5
+              "value": 4
             },
             "Work": {
               "value": 0
@@ -1396,17 +1243,17 @@
           "date": "2025-08-24",
           "goals": {
             "Gym": {
-              "value": 2
+              "value": 3
             },
             "Spanish": {
+              "value": 0
+            },
+            "Salad": {
               "value": 0
             }
           },
           "life": {
             "Chill": {
-              "value": 1
-            },
-            "Diet": {
               "value": 1
             }
           },
@@ -1427,13 +1274,13 @@
             },
             "Spanish": {
               "value": 0
+            },
+            "Salad": {
+              "value": 0
             }
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1454,13 +1301,13 @@
             },
             "Spanish": {
               "value": 0
+            },
+            "Salad": {
+              "value": 0
             }
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1481,13 +1328,13 @@
             },
             "Spanish": {
               "value": 0
+            },
+            "Salad": {
+              "value": 0
             }
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1508,13 +1355,13 @@
             },
             "Spanish": {
               "value": 0
+            },
+            "Salad": {
+              "value": 0
             }
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1535,13 +1382,13 @@
             },
             "Spanish": {
               "value": 0
+            },
+            "Salad": {
+              "value": 0
             }
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1562,13 +1409,13 @@
             },
             "Spanish": {
               "value": 0
+            },
+            "Salad": {
+              "value": 0
             }
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1593,9 +1440,6 @@
           },
           "life": {
             "Chill": {
-              "value": 0
-            },
-            "Diet": {
               "value": 0
             }
           },
@@ -1644,17 +1488,17 @@
   "settings": {
     "categories": {
       "goals": {
-        "color": "#FFA5D8",
+        "color": "#e68ab8",
         "name": "Goals",
         "weight": 0.3
       },
       "life": {
-        "color": "#88E8C0",
+        "color": "#8ae68a",
         "name": "Life",
         "weight": 0.3
       },
       "work": {
-        "color": "#7FB8FF",
+        "color": "#8ab8e6",
         "name": "Work",
         "weight": 0.4
       }
@@ -1662,39 +1506,39 @@
     "subcategories": {
       "goals": [
         {
-          "color": "#FFA3D7",
+          "color": "#dd8fca",
           "name": "AI-pool"
         },
         {
-          "color": "#FF85C0",
+          "color": "#cb54ae",
           "name": "Gym"
         },
         {
-          "color": "#E672B0",
+          "color": "#cb5473",
           "name": "Spanish"
         },
         {
-          "color": "#E68AB8",
+          "color": "#ad54cb",
           "name": "体态"
+        },
+        {
+          "color": "#d87fc2 ",
+          "name": "Salad"
         }
       ],
       "life": [
         {
-          "color": "#5CD4A3",
+          "color": "#a6e4b6",
           "name": "Chill"
-        },
-        {
-          "color": "#38B584",
-          "name": "Diet"
         }
       ],
       "work": [
         {
-          "color": "#5C9EFF",
+          "color": "#7fc1d8",
           "name": "Work"
         },
         {
-          "color": "#3A7BD5",
+          "color": "#7fd8c3",
           "name": "Avocado Camp"
         }
       ]
