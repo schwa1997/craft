@@ -12,17 +12,19 @@ export default function ENFPLanding() {
     // ENFP 风格随机句子
     const quotes = [
       "人生是旷野，每一步都值得探索 🌿",
-      "Shoot for the moon, if you land you land on the cloud ✨"
+      "Shoot for the moon, if you land you land on the cloud ✨",
+      "自由比安稳更迷人 🌈",
+      "让心跳带你去未知的地方 ✨",
+      "拥抱疯狂，享受当下 🎈",
     ];
-    const randomIndex = Math.floor(Math.random() * quotes.length);
-    setQuote(quotes[randomIndex]);
+    setQuote(quotes[Math.floor(Math.random() * quotes.length)]);
 
     // 随机漂浮小圆球
     const newBalls = Array.from({ length: 12 }).map(() => ({
       top: Math.random() * 100,
       left: Math.random() * 100,
-      size: Math.random() * 20 + 20, // 20~40px
-      duration: Math.random() * 6 + 4, // 4~10s
+      size: Math.random() * 20 + 20,
+      duration: Math.random() * 6 + 4,
       delay: Math.random() * 2,
     }));
     setBalls(newBalls);
@@ -41,7 +43,7 @@ export default function ENFPLanding() {
       src,
       top: Math.random() * 70 + 10,
       left: Math.random() * 70 + 10,
-      size: Math.random() * 60 + 40, // 40~100px
+      size: Math.random() * 60 + 40,
       rotate: Math.random() * 60 - 30,
       duration: Math.random() * 6 + 4,
       delay: Math.random() * 2,
@@ -51,8 +53,8 @@ export default function ENFPLanding() {
 
   return (
     <main className="relative min-h-screen bg-gradient-to-b from-purple-50 to-pink-50 overflow-hidden flex items-center justify-center">
-      {/* 随机句子 */}
-      <h1 className="text-3xl md:text-5xl font-bold text-purple-700 text-center animate-pulse px-4">
+      {/* 随机句子 Y2K 风格 */}
+      <h1 className="text-3xl md:text-5xl font-extrabold text-center px-4 animate-float-text bg-clip-text text-transparent bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 drop-shadow-md">
         {quote}
       </h1>
 
@@ -89,12 +91,18 @@ export default function ENFPLanding() {
         />
       ))}
 
-      {/* 自定义漂浮动画 */}
       <style jsx>{`
         @keyframes float {
           0% { transform: translateY(0px) translateX(0px) rotate(0deg); }
           50% { transform: translateY(-15px) translateX(5px) rotate(5deg); }
           100% { transform: translateY(0px) translateX(0px) rotate(0deg); }
+        }
+        @keyframes floatText {
+          0%, 100% { transform: translateY(0px); }
+          50% { transform: translateY(-10px); }
+        }
+        .animate-float-text {
+          animation: floatText 4s ease-in-out infinite;
         }
       `}</style>
     </main>
