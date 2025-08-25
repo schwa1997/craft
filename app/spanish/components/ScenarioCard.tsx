@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import PracticeCard from "./PracticeCard";
-import LoadingSpinner from "./LoadingSpinner";
+import LoadingSpinner from "../../components/LoadingSpinner";
 
 interface ScenarioCardProps {
   scenarios: PracticeScenario[];
@@ -34,11 +34,10 @@ export default function ScenarioCard({ scenarios, verb }: ScenarioCardProps) {
           {scenarios.map((scenario, index) => (
             <button
               key={`${scenario.scenario}-${index}`}
-              className={`px-3 py-1 rounded-full text-sm transition-colors ${
-                currentScenarioIndex === index
+              className={`px-3 py-1 rounded-full text-sm transition-colors ${currentScenarioIndex === index
                   ? "bg-green-600 text-white"
                   : "bg-green-100 text-green-800 hover:bg-green-200"
-              }`}
+                }`}
               onClick={() => {
                 setCurrentScenarioIndex(index);
                 setCurrentScenario(null);

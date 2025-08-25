@@ -2,7 +2,7 @@
 
 import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import LoadingSpinner from "../../components/LoadingSpinner";
+import LoadingSpinner from "../../../components/LoadingSpinner";
 import ScenarioCard from "../../components/ScenarioCard";
 import ConjugationsSection from "../../components/ConjugationsSection";
 import data from "../../../../data/spanish.json";
@@ -48,16 +48,15 @@ export default function VerbPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white p-4 md:p-6">
-    
+
       <div className="flex items-center justify-between mb-6">
         <button
           onClick={() => navigateToVerb("previous")}
           disabled={!hasPrevious}
-          className={`p-2 rounded-full ${
-            hasPrevious
+          className={`p-2 rounded-full ${hasPrevious
               ? "text-green-700 hover:bg-green-100"
               : "text-gray-400 cursor-default"
-          }`}
+            }`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -86,11 +85,10 @@ export default function VerbPage() {
         <button
           onClick={() => navigateToVerb("next")}
           disabled={!hasNext}
-          className={`p-2 rounded-full ${
-            hasNext
+          className={`p-2 rounded-full ${hasNext
               ? "text-green-700 hover:bg-green-100"
               : "text-gray-400 cursor-default"
-          }`}
+            }`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -111,21 +109,19 @@ export default function VerbPage() {
 
       <div className="flex mb-6 border-b border-green-200">
         <button
-          className={`px-4 py-2 font-medium ${
-            activeTab === "practice"
+          className={`px-4 py-2 font-medium ${activeTab === "practice"
               ? "text-green-700 border-b-2 border-green-600"
               : "text-green-500 hover:text-green-700"
-          }`}
+            }`}
           onClick={() => setActiveTab("practice")}
         >
           Practice
         </button>
         <button
-          className={`px-4 py-2 font-medium ${
-            activeTab === "conjugations"
+          className={`px-4 py-2 font-medium ${activeTab === "conjugations"
               ? "text-green-700 border-b-2 border-green-600"
               : "text-green-500 hover:text-green-700"
-          }`}
+            }`}
           onClick={() => setActiveTab("conjugations")}
         >
           Conjugations
