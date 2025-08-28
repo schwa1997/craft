@@ -69,7 +69,7 @@ export function Navigation() {
 
         {/* Mobile Nav */}
         <div
-          className={`md:hidden absolute right-4 top-16 w-56 rounded-xl bg-white/90 shadow-lg border border-pink-200 transition-all duration-300 ease-out
+          className={`md:hidden absolute right-4 top-16 w-28 rounded-xl bg-white/90 shadow-lg border border-pink-200 transition-all duration-300 ease-out
           ${mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2 pointer-events-none"}`}
         >
           <div className="py-2 space-y-1">
@@ -182,7 +182,7 @@ function Y2KMobileNavLink({ href, children, onClick }: { href: string; children:
       <img
         src="https://www.clipartmax.com/png/full/126-1261994_hello-kitty-png-icon-hello-kitty-png-icons.png"
         alt="kitty"
-        className={`h-5 w-3 ${shake ? "animate-kitty-shake" : ""}`}
+        className={`h-5 w-5 ${shake ? "animate-kitty-shake" : ""}`}
       />
     </Link>
   );
