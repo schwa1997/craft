@@ -62,7 +62,7 @@ export default function PeriodsPage() {
                     <img
                         src={kittyImages[0]}
                         alt="Spotting"
-                        className="w-10 h-10 rounded-full animate-bounce "
+                        className="w-10 h-10 rounded-full  animate-pulse"
                         title="Spotting"
                     />
                 )}
@@ -70,7 +70,7 @@ export default function PeriodsPage() {
                     <img
                         src={kittyImages[1]}
                         alt="Light"
-                        className="w-10 h-10 rounded-full animate-pulse"
+                        className="w-10 h-10 rounded-full animate-bounce "
                         title="Light"
                     />
                 )}

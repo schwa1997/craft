@@ -40,6 +40,9 @@ export default function ENFPLanding() {
 
     // Y2K 元素
     const y2kImgs = [
+      "https://www.clipartmax.com/png/full/126-1261994_hello-kitty-png-icon-hello-kitty-png-icons.png",
+      "https://www.freeiconspng.com/uploads/hello-kitty-icon-29.png",
+      "",
       "https://static.vecteezy.com/system/resources/thumbnails/049/795/696/small/cute-purple-heart-shape-y2k-3d-kpop-png.png",
       "https://img.icons8.com/?size=512&id=juRF5DiUGr4p&format=png",
       "https://cdn4.iconfinder.com/data/icons/y2k-holographic-elements-3d/512/heart_230214.png",
