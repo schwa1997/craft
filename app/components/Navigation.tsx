@@ -88,31 +88,104 @@ export function Navigation() {
 
         @keyframes bounce-slow { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
         .animate-bounce-slow { animation: bounce-slow 3s ease-in-out infinite; }
+
+        @keyframes kitty-shake {
+          0% { transform: rotate(0deg); }
+          25% { transform: rotate(-15deg); }
+          50% { transform: rotate(15deg); }
+          75% { transform: rotate(-10deg); }
+          100% { transform: rotate(0deg); }
+        }
+        .animate-kitty-shake {
+          animation: kitty-shake 0.6s ease-in-out;
+        }
+
+        @keyframes pink-click {
+          0% { transform: scale(1); opacity: 0.8; }
+          50% { transform: scale(1.3); opacity: 0.4; }
+          100% { transform: scale(1); opacity: 0; }
+        }
+        .pink-click {
+          position: absolute;
+          border-radius: 50%;
+          background: rgba(255, 182, 193, 0.5);
+          animation: pink-click 0.6s ease-out forwards;
+          pointer-events: none;
+          z-index: 50;
+        }
       `}</style>
     </header>
   );
 }
 
+// Desktop link
 function Y2KNavLink({ href, children }: { href: string; children: React.ReactNode }) {
+  const [shake, setShake] = useState(false);
+
+  const handleClick = () => {
+    setShake(true);
+    setTimeout(() => setShake(false), 150);
+  };
+
   return (
     <Link
       href={href}
-      className="relative px-3 py-1.5 text-sm font-extrabold text-pink-500 hover:text-purple-400 transition-all duration-300 group"
+      onClick={handleClick}
+      className={`
+        relative flex items-center space-x-2 px-3 py-1.5 text-sm font-extrabold text-pink-500
+        transition-all duration-150
+        ${shake ? "translate-y-1 brightness-90" : "translate-y-0 brightness-100"}
+      `}
     >
-      <span className="relative z-10">{children}</span>
-      <span className="absolute inset-0 bg-gradient-to-r from-pink-300 via-purple-300 to-cyan-300 rounded-full scale-0 opacity-0 group-hover:scale-110 group-hover:opacity-80 transition-all duration-300 z-0"></span>
+      <span>{children}</span>
+      <img
+        src="https://www.clipartmax.com/png/full/126-1261994_hello-kitty-png-icon-hello-kitty-png-icons.png"
+        alt="kitty"
+        className={`h-5 w-5 ${shake ? "animate-kitty-shake" : ""}`}
+      />
+
+      <style jsx>{`
+        @keyframes kitty-shake {
+          0% { transform: rotate(0deg); }
+          25% { transform: rotate(-15deg); }
+          50% { transform: rotate(15deg); }
+          75% { transform: rotate(-10deg); }
+          100% { transform: rotate(0deg); }
+        }
+        .animate-kitty-shake { animation: kitty-shake 0.6s ease-in-out; }
+      `}</style>
     </Link>
   );
 }
 
+// Mobile link
 function Y2KMobileNavLink({ href, children, onClick }: { href: string; children: React.ReactNode; onClick: () => void }) {
+  const [shake, setShake] = useState(false);
+
+  const handleClick = () => {
+    setShake(true);
+    setTimeout(() => setShake(false), 150);
+    onClick();
+  };
+
   return (
     <Link
       href={href}
-      onClick={onClick}
-      className="block px-4 py-2 text-sm font-bold text-pink-500 hover:bg-gradient-to-r hover:from-pink-200 hover:via-purple-200 hover:to-cyan-200 hover:text-purple-700 rounded-lg transition-all duration-300"
+      onClick={handleClick}
+      className={`
+        flex items-center space-x-2 px-4 py-2 text-sm font-bold text-pink-500 rounded-lg
+        transition-all duration-150
+        ${shake ? "translate-y-1 brightness-90" : "translate-y-0 brightness-100"}
+      `}
     >
       {children}
+      <img
+        src="https://www.clipartmax.com/png/full/126-1261994_hello-kitty-png-icon-hello-kitty-png-icons.png"
+        alt="kitty"
+        className={`h-5 w-5 ${shake ? "animate-kitty-shake" : ""}`}
+      />
     </Link>
   );
 }
+
+// Mobile link

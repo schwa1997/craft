@@ -1270,18 +1270,18 @@
           "date": "2025-08-25",
           "goals": {
             "Gym": {
-              "value": 0
+              "value": 2
             },
             "Spanish": {
-              "value": 0
+              "value": 1
             },
             "Salad": {
-              "value": 0
+              "value": 1
             }
           },
           "life": {
             "Chill": {
-              "value": 0
+              "value": 4
             }
           },
           "work": {
@@ -1289,7 +1289,7 @@
               "value": 0
             },
             "Work": {
-              "value": 0
+              "value": 2
             }
           }
         },
@@ -1297,26 +1297,26 @@
           "date": "2025-08-26",
           "goals": {
             "Gym": {
-              "value": 0
+              "value": 2
             },
             "Spanish": {
-              "value": 0
+              "value": 1
             },
             "Salad": {
-              "value": 0
+              "value": 1
             }
           },
           "life": {
             "Chill": {
-              "value": 0
+              "value": 2
             }
           },
           "work": {
             "Avocado Camp": {
-              "value": 0
+              "value": 1
             },
             "Work": {
-              "value": 0
+              "value": 3
             }
           }
         },
@@ -1324,10 +1324,10 @@
           "date": "2025-08-27",
           "goals": {
             "Gym": {
-              "value": 0
+              "value": 3
             },
             "Spanish": {
-              "value": 0
+              "value": 1
             },
             "Salad": {
               "value": 0
@@ -1335,7 +1335,7 @@
           },
           "life": {
             "Chill": {
-              "value": 0
+              "value": 1
             }
           },
           "work": {
@@ -1343,7 +1343,7 @@
               "value": 0
             },
             "Work": {
-              "value": 0
+              "value": 5
             }
           }
         },
@@ -1483,6 +1483,10 @@
     "2025-08-18": {
       "review": "I had a busy week with my Avocado camp",
       "plan": "I will keep going with my Avocado camp and be more productive for other things\n"
+    },
+    "2025-08-25": {
+      "review": "I had a busy week with my Avocado camp",
+      "plan": "I will work on work fully\n- Start Spanish challenge again \n- Working on Avocado Camp"
     }
   },
   "settings": {

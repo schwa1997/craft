@@ -13,7 +13,6 @@ interface DairyData {
   id: number;
   date: string;
   freeContent: string;
-  formatedContent: FormatedContent;
 }
 
 export default function NounPage() {
@@ -47,11 +46,11 @@ export default function NounPage() {
   // Función para formatear la fecha en español
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
-    const options: Intl.DateTimeFormatOptions = { 
-      weekday: 'long', 
-      year: 'numeric', 
-      month: 'long', 
-      day: 'numeric' 
+    const options: Intl.DateTimeFormatOptions = {
+      weekday: 'long',
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
     };
     return date.toLocaleDateString('es-ES', options);
   };
@@ -66,12 +65,12 @@ export default function NounPage() {
       "enojado": "😠",
       "cansado": "😴",
     };
-     const moodLower = mood.toLowerCase();
+    const moodLower = mood.toLowerCase();
     for (const [key, icon] of Object.entries(moodIcons)) {
-    if (moodLower.includes(key)) {
-      return icon;
+      if (moodLower.includes(key)) {
+        return icon;
+      }
     }
-  }
   };
 
   if (!selectedDiary) {
@@ -96,19 +95,19 @@ export default function NounPage() {
 
         {/* Navegación entre días */}
         <div className="flex justify-between items-center mb-6">
-          <button 
+          <button
             onClick={goToPreviousDay}
             disabled={currentDiaryIndex === 0}
             className={`flex items-center px-4 py-2 rounded-lg ${currentDiaryIndex === 0 ? 'bg-gray-300 text-gray-500' : 'bg-blue-500 text-white hover:bg-blue-600'}`}
           >
             ← Día Anterior
           </button>
-          
+
           <span className="text-lg font-medium text-blue-800 bg-white px-4 py-2 rounded-lg shadow">
             Día {currentDiaryIndex + 1} de {diaries.length}
           </span>
-          
-          <button 
+
+          <button
             onClick={goToNextDay}
             disabled={currentDiaryIndex === diaries.length - 1}
             className={`flex items-center px-4 py-2 rounded-lg ${currentDiaryIndex === diaries.length - 1 ? 'bg-gray-300 text-gray-500' : 'bg-blue-500 text-white hover:bg-blue-600'}`}
@@ -129,36 +128,6 @@ export default function NounPage() {
             <div className="text-sm text-blue-600 mb-1">Fecha</div>
             <div className="text-2xl font-bold text-blue-800">{formatDate(selectedDiary.date)}</div>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            {/* Comida del día */}
-            <div className="bg-yellow-50 p-4 rounded-2xl border border-yellow-200">
-              <div className="flex items-center mb-2">
-                <span className="text-2xl mr-2">🍲</span>
-                <h3 className="text-lg font-semibold text-yellow-800">Comida del Día</h3>
-              </div>
-              <p className="text-yellow-700">{selectedDiary.formatedContent.foodOfTheDay || "No especificado"}</p>
-            </div>
-
-            {/* Actividad del día */}
-            <div className="bg-green-50 p-4 rounded-2xl border border-green-200">
-              <div className="flex items-center mb-2">
-                <span className="text-2xl mr-2">⭐</span>
-                <h3 className="text-lg font-semibold text-green-800">Actividad del Día</h3>
-              </div>
-              <p className="text-green-700">{selectedDiary.formatedContent.thingOfTheDay || "No especificado"}</p>
-            </div>
-          </div>
-
-          {/* Estado de ánimo */}
-          <div className="bg-purple-50 p-4 rounded-2xl border border-purple-200 mb-6">
-            <div className="flex items-center mb-2">
-              <span className="text-2xl mr-2">{getMoodIcon(selectedDiary.formatedContent.moodOfTheDay)}</span>
-              <h3 className="text-lg font-semibold text-purple-800">Estado de Ánimo</h3>
-            </div>
-            <p className="text-purple-700">{selectedDiary.formatedContent.moodOfTheDay || "No especificado"}</p>
-          </div>
-
           {/* Contenido libre */}
           <div className="bg-pink-50 p-4 rounded-2xl border border-pink-200">
             <div className="flex items-center mb-2">
@@ -169,18 +138,6 @@ export default function NounPage() {
               {selectedDiary.freeContent || "No hay entrada para este día."}
             </div>
           </div>
-        </div>
-
-        {/* Notas de aprendizaje */}
-        <div className="mt-8 bg-blue-50 p-4 rounded-2xl border border-blue-200">
-          <h3 className="text-lg font-semibold text-blue-800 mb-2">💡 Palabras Nuevas de Hoy</h3>
-          <p className="text-blue-700">Intenta usar estas palabras en tus conversaciones:</p>
-          <ul className="list-disc list-inside mt-2 text-blue-700">
-            <li>Diario - Journal</li>
-            <li>Comida - Food</li>
-            <li>Actividad - Activity</li>
-            <li>Estado de ánimo - Mood</li>
-          </ul>
         </div>
       </div>
     </div>

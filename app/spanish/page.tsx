@@ -40,9 +40,8 @@ export default function Home() {
                 </span>
               </div>
               <svg
-                className={`w-5 h-5 text-emerald-600 transition-transform ${
-                  showStats ? "rotate-180" : ""
-                }`}
+                className={`w-5 h-5 text-emerald-600 transition-transform ${showStats ? "rotate-180" : ""
+                  }`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -58,34 +57,29 @@ export default function Home() {
 
             {showStats && (
               <div className="p-4 md:p-6 pt-0 space-y-4">
-                {/* Summary Cards */}
                 <div className="space-y-3 md:space-y-4">
-                  <div className="bg-blue-50 rounded-lg p-3 md:p-4 border border-blue-200">
-                    <div className="flex justify-between items-center mb-1">
-                      <span className="text-xs md:text-sm font-medium text-blue-700">
-                        Daily Streak
-                      </span>
-                      <span className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800">
-                        Current
-                      </span>
+                  {Object.entries(userStats).map(([key, value]) => (
+                    <div
+                      key={key}
+                      className="bg-blue-50 rounded-lg p-3 md:p-4 border border-blue-200"
+                    >
+                      <div className="flex justify-between items-center mb-1">
+                        <span className="text-xs md:text-sm font-medium text-blue-700">
+                          {key}
+                        </span>
+                        <span className="text-xs px-2 py-1 rounded-full bg-blue-100 text-blue-800">
+                          Current
+                        </span>
+                      </div>
+                      <p className="text-2xl md:text-3xl font-bold text-blue-700">
+                        {value}
+                      </p>
                     </div>
-                    <p className="text-2xl md:text-3xl font-bold text-blue-700">
-                      {userStats.dailyStreak} days
-                    </p>
-                    <div className="w-full bg-blue-100 rounded-full h-1.5 md:h-2 mt-2">
-                      <div
-                        className="h-1.5 md:h-2 rounded-full bg-blue-500"
-                        style={{
-                          width: `${Math.min(userStats.dailyStreak, 21)}%`,
-                        }}
-                      />
-                    </div>
-                  </div>
+                  ))}
                 </div>
-
-             
               </div>
             )}
+
           </section>
         </div>
 
@@ -106,9 +100,8 @@ export default function Home() {
                 </span>
               </div>
               <svg
-                className={`w-5 h-5 text-emerald-600 transition-transform ${
-                  showVerbs ? "rotate-180" : ""
-                }`}
+                className={`w-5 h-5 text-emerald-600 transition-transform ${showVerbs ? "rotate-180" : ""
+                  }`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -161,9 +154,8 @@ export default function Home() {
                 </span>
               </div>
               <svg
-                className={`w-5 h-5 text-amber-600 transition-transform ${
-                  showNouns ? "rotate-180" : ""
-                }`}
+                className={`w-5 h-5 text-amber-600 transition-transform ${showNouns ? "rotate-180" : ""
+                  }`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -200,24 +192,23 @@ export default function Home() {
             )}
           </section>
 
-           {/* Diaries Section */}
-          <section className="bg-white rounded-xl shadow-sm border border-amber-100 overflow-hidden">
+          {/* Diaries Section */}
+          <section className="bg-white rounded-xl shadow-sm border border-red-100 overflow-hidden">
             <button
               onClick={() => setShowDiaries(!showDiaries)}
-              className="w-full flex items-center justify-between p-4 md:p-6 hover:bg-amber-50 transition-colors"
+              className="w-full flex items-center justify-between p-4 md:p-6 hover:bg-red-50 transition-colors"
             >
               <div className="flex items-center">
-                <h2 className="text-lg md:text-xl font-bold text-amber-700">
-                 Diaries En Espanol
+                <h2 className="text-lg md:text-xl font-bold text-red-700">
+                  Diaries En Espanol
                 </h2>
-                <span className="ml-2 px-2 py-1 md:px-3 md:py-1 rounded-full text-xs md:text-sm font-medium bg-amber-100 text-amber-800">
+                <span className="ml-2 px-2 py-1 md:px-3 md:py-1 rounded-full text-xs md:text-sm font-medium bg-red-100 text-red-800">
                   {diaries.length} Total
                 </span>
               </div>
               <svg
-                className={`w-5 h-5 text-amber-600 transition-transform ${
-                  showDiaries ? "rotate-180" : ""
-                }`}
+                className={`w-5 h-5 text-red-600 transition-transform ${showDiaries ? "rotate-180" : ""
+                  }`}
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -231,7 +222,7 @@ export default function Home() {
               </svg>
             </button>
 
-            {showNouns && (
+            {showDiaries && (
               <div className="p-4 md:p-6 pt-0">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
                   {diaries.map((diary) => (
@@ -240,9 +231,9 @@ export default function Home() {
                       href={`/spanish/dairy/${diary.id}`}
                       className="block transition-transform hover:scale-105"
                     >
-                      <div className="bg-white p-3 rounded-lg shadow-sm hover:shadow-md transition-all h-full border-l-4 border-amber-300 hover:border-amber-500">
+                      <div className="bg-white p-3 rounded-lg shadow-sm hover:shadow-md transition-all h-full border-l-4 border-red-300 hover:border-red-500">
                         <div className="flex items-start justify-between">
-                          <h3 className="font-semibold text-amber-600 hover:text-amber-800">
+                          <h3 className="font-semibold text-red-600 hover:text-red-800">
                             {diary.date}
                           </h3>
                         </div>

@@ -13,8 +13,6 @@ export default function ScenarioCard({ scenarios, verb }: ScenarioCardProps) {
   const [currentScenarioIndex, setCurrentScenarioIndex] = useState(0);
   const [currentScenario, setCurrentScenario] =
     useState<PracticeScenario | null>(null);
-
-  // 当 scenarios 或 currentScenarioIndex 变化时更新当前 scenario
   useEffect(() => {
     if (scenarios.length > 0) {
       setCurrentScenario(scenarios[currentScenarioIndex]);
@@ -23,7 +21,7 @@ export default function ScenarioCard({ scenarios, verb }: ScenarioCardProps) {
 
   if (!scenarios.length)
     return <div className="p-4 text-gray-500">No scenarios available</div>;
-  if (!currentScenario) return <LoadingSpinner />; // 添加一个加载状态
+  if (!currentScenario) return <LoadingSpinner />; 
 
   return (
     <div className="w-full">

@@ -8,7 +8,7 @@
       "practice_scenarios": [
         {
           "scenario": "Making weekend plans",
-          "description": "This scenario involves making plans with friends or family. Pay attention to verb conjugations based on who is speaking (yo, tú, nosotros) and who you're talking to. The subject's gender doesn't affect the verb conjugation for 'ir', but noun agreements in responses might need to match gender (e.g., 'Vamos al parque' vs 'Vamos a la playa').",
+          "description": "This scenario involves making plans with friends or family. \n- Pay attention to verb conjugations based on who is speaking (yo, tú, nosotros) and who you're talking to. \n- The subject's gender doesn't affect the verb conjugation for 'ir', but noun agreements in responses might need to match gender (e. \n-g. \n-, 'Vamos al parque' vs 'Vamos a la playa'). \n-",
           "sentences": [
             {
               "id": 1,
@@ -27,7 +27,7 @@
             },
             {
               "id": 2,
-              "template": "Sí, __ir__ al cine. ¿Quieres venir?",
+              "template": "Sí, __ir__ al cine. \n- ¿Quieres venir?",
               "slots": {
                 "options": [
                   "voy",
@@ -38,7 +38,7 @@
                 "correct": "voy",
                 "explanation": "'Voy' is correct as the speaker is talking about themselves (yo form)"
               },
-              "translation": "Yes, I'm going to the cinema. Do you want to come?"
+              "translation": "Yes, I'm going to the cinema. \n- Do you want to come?"
             },
             {
               "id": 3,
@@ -57,7 +57,7 @@
             },
             {
               "id": 4,
-              "template": "__ir__ a las tres.",
+              "template": "__ir__ a las tres. \n-",
               "slots": {
                 "options": [
                   "Voy",
@@ -68,17 +68,17 @@
                 "correct": "Vamos",
                 "explanation": "'Vamos' continues the nosotros form from the previous question"
               },
-              "translation": "We're going at three."
+              "translation": "We're going at three. \n-"
             }
           ]
         },
         {
           "scenario": "Talking about past outings",
-          "description": "This scenario discusses past activities with different groups. Note that while the verb conjugations don't change for gender, the articles and adjectives referring to places/activities might need to match gender (e.g., 'fui al parque' vs 'fui a la piscina'). For mixed groups, use masculine plural forms.",
+          "description": "This scenario discusses past activities with different groups. \n- Note that while the verb conjugations don't change for gender, the articles and adjectives referring to places/activities might need to match gender (e. \n-g. \n-, 'fui al parque' vs 'fui a la piscina'). \n- For mixed groups, use masculine plural forms. \n-",
           "sentences": [
             {
               "id": 1,
-              "template": "Ayer __ir__ al centro comercial.",
+              "template": "Ayer __ir__ al centro comercial. \n-",
               "slots": {
                 "options": [
                   "fui",
@@ -89,7 +89,7 @@
                 "correct": "fui",
                 "explanation": "'Fui' is the yo form of past tense"
               },
-              "translation": "Yesterday I went to the mall."
+              "translation": "Yesterday I went to the mall. \n-"
             },
             {
               "id": 2,
@@ -108,7 +108,7 @@
             },
             {
               "id": 3,
-              "template": "Mis amigos __ir__ a la playa.",
+              "template": "Mis amigos __ir__ a la playa. \n-",
               "slots": {
                 "options": [
                   "fueron",
@@ -119,11 +119,11 @@
                 "correct": "fueron",
                 "explanation": "'Fueron' is the ellos/ellas form for a group of friends"
               },
-              "translation": "My friends went to the beach."
+              "translation": "My friends went to the beach. \n-"
             },
             {
               "id": 4,
-              "template": "Nosotros __ir__ de compras.",
+              "template": "Nosotros __ir__ de compras. \n-",
               "slots": {
                 "options": [
                   "fuimos",
@@ -134,7 +134,7 @@
                 "correct": "fuimos",
                 "explanation": "'Fuimos' is the nosotros form"
               },
-              "translation": "We went shopping."
+              "translation": "We went shopping. \n-"
             },
             {
               "id": 5,
@@ -160,8 +160,8 @@
             {
               "pronoun": "yo",
               "conjugation": "voy",
-              "sentence": "Voy al mercado los lunes.",
-              "translation": "I go to the market on Mondays."
+              "sentence": "Voy al mercado los lunes. \n-",
+              "translation": "I go to the market on Mondays. \n-"
             },
             {
               "pronoun": "tú",
@@ -172,14 +172,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "va",
-              "sentence": "Ella va a la universidad.",
-              "translation": "She goes to the university."
+              "sentence": "Ella va a la universidad. \n-",
+              "translation": "She goes to the university. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "vamos",
-              "sentence": "Vamos al cine esta noche.",
-              "translation": "We're going to the cinema tonight."
+              "sentence": "Vamos al cine esta noche. \n-",
+              "translation": "We're going to the cinema tonight. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -190,8 +190,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "van",
-              "sentence": "Ellos van al parque los domingos.",
-              "translation": "They go to the park on Sundays."
+              "sentence": "Ellos van al parque los domingos. \n-",
+              "translation": "They go to the park on Sundays. \n-"
             }
           ]
         },
@@ -200,8 +200,8 @@
             {
               "pronoun": "yo",
               "conjugation": "fui",
-              "sentence": "Fui al médico ayer.",
-              "translation": "I went to the doctor yesterday."
+              "sentence": "Fui al médico ayer. \n-",
+              "translation": "I went to the doctor yesterday. \n-"
             },
             {
               "pronoun": "tú",
@@ -212,14 +212,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "fue",
-              "sentence": "Él fue al banco esta mañana.",
-              "translation": "He went to the bank this morning."
+              "sentence": "Él fue al banco esta mañana. \n-",
+              "translation": "He went to the bank this morning. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "fuimos",
-              "sentence": "Fuimos de vacaciones el mes pasado.",
-              "translation": "We went on vacation last month."
+              "sentence": "Fuimos de vacaciones el mes pasado. \n-",
+              "translation": "We went on vacation last month. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -230,8 +230,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "fueron",
-              "sentence": "Ellos fueron al estadio ayer.",
-              "translation": "They went to the stadium yesterday."
+              "sentence": "Ellos fueron al estadio ayer. \n-",
+              "translation": "They went to the stadium yesterday. \n-"
             }
           ]
         },
@@ -240,8 +240,8 @@
             {
               "pronoun": "yo",
               "conjugation": "iré",
-              "sentence": "Iré a España el próximo año.",
-              "translation": "I will go to Spain next year."
+              "sentence": "Iré a España el próximo año. \n-",
+              "translation": "I will go to Spain next year. \n-"
             },
             {
               "pronoun": "tú",
@@ -252,14 +252,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "irá",
-              "sentence": "Mi hermana irá a la universidad.",
-              "translation": "My sister will go to the university."
+              "sentence": "Mi hermana irá a la universidad. \n-",
+              "translation": "My sister will go to the university. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "iremos",
-              "sentence": "Iremos de viaje en diciembre.",
-              "translation": "We will go on a trip in December."
+              "sentence": "Iremos de viaje en diciembre. \n-",
+              "translation": "We will go on a trip in December. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -270,8 +270,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "irán",
-              "sentence": "Los turistas irán al museo mañana.",
-              "translation": "The tourists will go to the museum tomorrow."
+              "sentence": "Los turistas irán al museo mañana. \n-",
+              "translation": "The tourists will go to the museum tomorrow. \n-"
             }
           ]
         },
@@ -280,8 +280,8 @@
             {
               "pronoun": "yo",
               "conjugation": "iba",
-              "sentence": "De niño, iba al parque todos los días.",
-              "translation": "As a child, I used to go to the park every day."
+              "sentence": "De niño, iba al parque todos los días. \n-",
+              "translation": "As a child, I used to go to the park every day. \n-"
             },
             {
               "pronoun": "tú",
@@ -292,14 +292,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "iba",
-              "sentence": "Mi abuela iba al mercado temprano.",
-              "translation": "My grandmother used to go to the market early."
+              "sentence": "Mi abuela iba al mercado temprano. \n-",
+              "translation": "My grandmother used to go to the market early. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "íbamos",
-              "sentence": "Íbamos a la playa cada verano.",
-              "translation": "We used to go to the beach every summer."
+              "sentence": "Íbamos a la playa cada verano. \n-",
+              "translation": "We used to go to the beach every summer. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -310,8 +310,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "iban",
-              "sentence": "Ellos iban al centro los fines de semana.",
-              "translation": "They used to go downtown on weekends."
+              "sentence": "Ellos iban al centro los fines de semana. \n-",
+              "translation": "They used to go downtown on weekends. \n-"
             }
           ]
         },
@@ -320,8 +320,8 @@
             {
               "pronoun": "yo",
               "conjugation": "iría",
-              "sentence": "Iría contigo si tuviera tiempo.",
-              "translation": "I would go with you if I had time."
+              "sentence": "Iría contigo si tuviera tiempo. \n-",
+              "translation": "I would go with you if I had time. \n-"
             },
             {
               "pronoun": "tú",
@@ -332,14 +332,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "iría",
-              "sentence": "Ella iría a la fiesta si la invitaran.",
-              "translation": "She would go to the party if they invited her."
+              "sentence": "Ella iría a la fiesta si la invitaran. \n-",
+              "translation": "She would go to the party if they invited her. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "iríamos",
-              "sentence": "Iríamos al concierto si tuviéramos entradas.",
-              "translation": "We would go to the concert if we had tickets."
+              "sentence": "Iríamos al concierto si tuviéramos entradas. \n-",
+              "translation": "We would go to the concert if we had tickets. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -350,8 +350,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "irían",
-              "sentence": "Ellos irían de excursión si hiciera buen tiempo.",
-              "translation": "They would go hiking if the weather were nice."
+              "sentence": "Ellos irían de excursión si hiciera buen tiempo. \n-",
+              "translation": "They would go hiking if the weather were nice. \n-"
             }
           ]
         },
@@ -360,38 +360,38 @@
             {
               "pronoun": "yo",
               "conjugation": "vaya",
-              "sentence": "Espero que vaya bien en el examen.",
-              "translation": "I hope I do well on the exam."
+              "sentence": "Espero que vaya bien en el examen. \n-",
+              "translation": "I hope I do well on the exam. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "vayas",
-              "sentence": "Quiero que vayas al médico.",
-              "translation": "I want you to go to the doctor."
+              "sentence": "Quiero que vayas al médico. \n-",
+              "translation": "I want you to go to the doctor. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "vaya",
-              "sentence": "Es importante que ella vaya a la reunión.",
-              "translation": "It's important that she goes to the meeting."
+              "sentence": "Es importante que ella vaya a la reunión. \n-",
+              "translation": "It's important that she goes to the meeting. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "vayamos",
-              "sentence": "Es mejor que vayamos temprano.",
-              "translation": "It's better that we go early."
+              "sentence": "Es mejor que vayamos temprano. \n-",
+              "translation": "It's better that we go early. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "vayáis",
-              "sentence": "Dudo que vosotros vayáis a la excursión.",
-              "translation": "I doubt you all will go on the field trip."
+              "sentence": "Dudo que vosotros vayáis a la excursión. \n-",
+              "translation": "I doubt you all will go on the field trip. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "vayan",
-              "sentence": "Es necesario que vayan a la oficina.",
-              "translation": "It's necessary that they go to the office."
+              "sentence": "Es necesario que vayan a la oficina. \n-",
+              "translation": "It's necessary that they go to the office. \n-"
             }
           ]
         },
@@ -400,38 +400,38 @@
             {
               "pronoun": "yo",
               "conjugation": "fuera",
-              "sentence": "Si yo fuera a la fiesta, me divertiría.",
-              "translation": "If I went to the party, I would have fun."
+              "sentence": "Si yo fuera a la fiesta, me divertiría. \n-",
+              "translation": "If I went to the party, I would have fun. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "fueras",
-              "sentence": "Ojalá que tú fueras con nosotros.",
-              "translation": "I wish you would go with us."
+              "sentence": "Ojalá que tú fueras con nosotros. \n-",
+              "translation": "I wish you would go with us. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "fuera",
-              "sentence": "Era posible que él fuera el culpable.",
-              "translation": "It was possible that he was the culprit."
+              "sentence": "Era posible que él fuera el culpable. \n-",
+              "translation": "It was possible that he was the culprit. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "fuéramos",
-              "sentence": "Si fuéramos al concierto, sería genial.",
-              "translation": "If we went to the concert, it would be great."
+              "sentence": "Si fuéramos al concierto, sería genial. \n-",
+              "translation": "If we went to the concert, it would be great. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "fuerais",
-              "sentence": "Dudaba que vosotros fuerais al evento.",
-              "translation": "I doubted that you all would go to the event."
+              "sentence": "Dudaba que vosotros fuerais al evento. \n-",
+              "translation": "I doubted that you all would go to the event. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "fueran",
-              "sentence": "Era improbable que ellos fueran al norte.",
-              "translation": "It was unlikely that they would go north."
+              "sentence": "Era improbable que ellos fueran al norte. \n-",
+              "translation": "It was unlikely that they would go north. \n-"
             }
           ]
         },
@@ -446,8 +446,8 @@
             {
               "pronoun": "usted",
               "conjugation": "vaya",
-              "sentence": "Vaya a la recepción, por favor.",
-              "translation": "Go to the reception, please."
+              "sentence": "Vaya a la recepción, por favor. \n-",
+              "translation": "Go to the reception, please. \n-"
             },
             {
               "pronoun": "nosotros",
@@ -464,8 +464,8 @@
             {
               "pronoun": "ustedes",
               "conjugation": "vayan",
-              "sentence": "Vayan a sus casas.",
-              "translation": "Go to your homes."
+              "sentence": "Vayan a sus casas. \n-",
+              "translation": "Go to your homes. \n-"
             }
           ]
         },
@@ -474,32 +474,32 @@
             {
               "pronoun": "tú",
               "conjugation": "no vayas",
-              "sentence": "No vayas a ese lugar peligroso.",
-              "translation": "Don't go to that dangerous place."
+              "sentence": "No vayas a ese lugar peligroso. \n-",
+              "translation": "Don't go to that dangerous place. \n-"
             },
             {
               "pronoun": "usted",
               "conjugation": "no vaya",
-              "sentence": "No vaya por ese camino.",
-              "translation": "Don't go that way."
+              "sentence": "No vaya por ese camino. \n-",
+              "translation": "Don't go that way. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "no vayamos",
-              "sentence": "No vayamos a la playa hoy.",
-              "translation": "Let's not go to the beach today."
+              "sentence": "No vayamos a la playa hoy. \n-",
+              "translation": "Let's not go to the beach today. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "no vayáis",
-              "sentence": "No vayáis a molestar a los vecinos.",
-              "translation": "Don't go bother the neighbors."
+              "sentence": "No vayáis a molestar a los vecinos. \n-",
+              "translation": "Don't go bother the neighbors. \n-"
             },
             {
               "pronoun": "ustedes",
               "conjugation": "no vayan",
-              "sentence": "No vayan sin permiso.",
-              "translation": "Don't go without permission."
+              "sentence": "No vayan sin permiso. \n-",
+              "translation": "Don't go without permission. \n-"
             }
           ]
         }
@@ -513,7 +513,7 @@
       "practice_scenarios": [
         {
           "scenario": "Language learning",
-          "description": "This scenario involves discussing language abilities and conversations. Pay attention to verb conjugations based on who is speaking and the context. Remember that adjectives describing languages should match the speaker's gender (e.g., 'Hablo español' is neutral, but 'Soy buena en español' vs 'Soy bueno en español').",
+          "description": "This scenario involves discussing language abilities and conversations. \n- Pay attention to verb conjugations based on who is speaking and the context. \n- Remember that adjectives describing languages should match the speaker's gender (e. \n-g. \n-, 'Hablo español' is neutral, but 'Soy buena en español' vs 'Soy bueno en español'). \n-",
           "sentences": [
             {
               "id": 1,
@@ -532,7 +532,7 @@
             },
             {
               "id": 2,
-              "template": "__hablar__ español e inglés.",
+              "template": "__hablar__ español e inglés. \n-",
               "slots": {
                 "options": [
                   "Hablo",
@@ -543,7 +543,7 @@
                 "correct": "Hablo",
                 "explanation": "'Hablo' is correct as the speaker is talking about themselves (yo form)"
               },
-              "translation": "I speak Spanish and English."
+              "translation": "I speak Spanish and English. \n-"
             },
             {
               "id": 3,
@@ -562,7 +562,7 @@
             },
             {
               "id": 4,
-              "template": "__hablar__ con mi madre.",
+              "template": "__hablar__ con mi madre. \n-",
               "slots": {
                 "options": [
                   "Hablé",
@@ -573,17 +573,17 @@
                 "correct": "Hablé",
                 "explanation": "'Hablé' is the yo form of past tense"
               },
-              "translation": "I spoke with my mother."
+              "translation": "I spoke with my mother. \n-"
             }
           ]
         },
         {
           "scenario": "Workplace communication",
-          "description": "This scenario discusses professional communication. Note that while the verb conjugations don't change for gender, professional titles might need to match gender (e.g., 'hablé con el director' vs 'hablé con la directora').",
+          "description": "This scenario discusses professional communication. \n- Note that while the verb conjugations don't change for gender, professional titles might need to match gender (e. \n-g. \n-, 'hablé con el director' vs 'hablé con la directora'). \n-",
           "sentences": [
             {
               "id": 1,
-              "template": "Necesito __hablar__ con el jefe.",
+              "template": "Necesito __hablar__ con el jefe. \n-",
               "slots": {
                 "options": [
                   "hablar",
@@ -594,11 +594,11 @@
                 "correct": "hablar",
                 "explanation": "Infinitive form after 'necesito'"
               },
-              "translation": "I need to speak with the boss."
+              "translation": "I need to speak with the boss. \n-"
             },
             {
               "id": 2,
-              "template": "Ellos __hablar__ con los clientes mañana.",
+              "template": "Ellos __hablar__ con los clientes mañana. \n-",
               "slots": {
                 "options": [
                   "hablan",
@@ -609,11 +609,11 @@
                 "correct": "hablarán",
                 "explanation": "'Hablarán' is future tense for 'ellos'"
               },
-              "translation": "They will speak with the clients tomorrow."
+              "translation": "They will speak with the clients tomorrow. \n-"
             },
             {
               "id": 3,
-              "template": "Nosotros __hablar__ en la reunión.",
+              "template": "Nosotros __hablar__ en la reunión. \n-",
               "slots": {
                 "options": [
                   "hablamos",
@@ -624,7 +624,7 @@
                 "correct": "hablamos",
                 "explanation": "'Hablamos' is present tense for 'nosotros'"
               },
-              "translation": "We speak in the meeting."
+              "translation": "We speak in the meeting. \n-"
             },
             {
               "id": 4,
@@ -650,8 +650,8 @@
             {
               "pronoun": "yo",
               "conjugation": "hablo",
-              "sentence": "Hablo tres idiomas.",
-              "translation": "I speak three languages."
+              "sentence": "Hablo tres idiomas. \n-",
+              "translation": "I speak three languages. \n-"
             },
             {
               "pronoun": "tú",
@@ -662,26 +662,26 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "habla",
-              "sentence": "Ella habla con claridad.",
-              "translation": "She speaks clearly."
+              "sentence": "Ella habla con claridad. \n-",
+              "translation": "She speaks clearly. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hablamos",
-              "sentence": "Hablamos español en casa.",
-              "translation": "We speak Spanish at home."
+              "sentence": "Hablamos español en casa. \n-",
+              "translation": "We speak Spanish at home. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "habláis",
-              "sentence": "Vosotros habláis muy rápido.",
-              "translation": "You all speak very fast."
+              "sentence": "Vosotros habláis muy rápido. \n-",
+              "translation": "You all speak very fast. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hablan",
-              "sentence": "Los profesores hablan con los estudiantes.",
-              "translation": "The teachers speak with the students."
+              "sentence": "Los profesores hablan con los estudiantes. \n-",
+              "translation": "The teachers speak with the students. \n-"
             }
           ]
         },
@@ -690,8 +690,8 @@
             {
               "pronoun": "yo",
               "conjugation": "hablé",
-              "sentence": "Hablé con el director ayer.",
-              "translation": "I spoke with the director yesterday."
+              "sentence": "Hablé con el director ayer. \n-",
+              "translation": "I spoke with the director yesterday. \n-"
             },
             {
               "pronoun": "tú",
@@ -702,14 +702,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "habló",
-              "sentence": "El presidente habló por una hora.",
-              "translation": "The president spoke for an hour."
+              "sentence": "El presidente habló por una hora. \n-",
+              "translation": "The president spoke for an hour. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hablamos",
-              "sentence": "Hablamos sobre el proyecto.",
-              "translation": "We talked about the project."
+              "sentence": "Hablamos sobre el proyecto. \n-",
+              "translation": "We talked about the project. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -720,8 +720,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hablaron",
-              "sentence": "Los niños hablaron con sus padres.",
-              "translation": "The children spoke with their parents."
+              "sentence": "Los niños hablaron con sus padres. \n-",
+              "translation": "The children spoke with their parents. \n-"
             }
           ]
         },
@@ -730,8 +730,8 @@
             {
               "pronoun": "yo",
               "conjugation": "hablaré",
-              "sentence": "Hablaré con él mañana.",
-              "translation": "I will speak with him tomorrow."
+              "sentence": "Hablaré con él mañana. \n-",
+              "translation": "I will speak with him tomorrow. \n-"
             },
             {
               "pronoun": "tú",
@@ -742,14 +742,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hablará",
-              "sentence": "La profesora hablará sobre gramática.",
-              "translation": "The teacher will speak about grammar."
+              "sentence": "La profesora hablará sobre gramática. \n-",
+              "translation": "The teacher will speak about grammar. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hablaremos",
-              "sentence": "Hablaremos con el cliente el lunes.",
-              "translation": "We will speak with the client on Monday."
+              "sentence": "Hablaremos con el cliente el lunes. \n-",
+              "translation": "We will speak with the client on Monday. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -760,8 +760,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hablarán",
-              "sentence": "Los expertos hablarán sobre el tema.",
-              "translation": "The experts will speak about the topic."
+              "sentence": "Los expertos hablarán sobre el tema. \n-",
+              "translation": "The experts will speak about the topic. \n-"
             }
           ]
         },
@@ -770,8 +770,8 @@
             {
               "pronoun": "yo",
               "conjugation": "hablaba",
-              "sentence": "De niño, hablaba mucho en clase.",
-              "translation": "As a child, I used to talk a lot in class."
+              "sentence": "De niño, hablaba mucho en clase. \n-",
+              "translation": "As a child, I used to talk a lot in class. \n-"
             },
             {
               "pronoun": "tú",
@@ -782,26 +782,26 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hablaba",
-              "sentence": "Mi abuelo hablaba de sus viajes.",
-              "translation": "My grandfather used to talk about his travels."
+              "sentence": "Mi abuelo hablaba de sus viajes. \n-",
+              "translation": "My grandfather used to talk about his travels. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hablábamos",
-              "sentence": "Hablábamos por horas cuando éramos jóvenes.",
-              "translation": "We used to talk for hours when we were young."
+              "sentence": "Hablábamos por horas cuando éramos jóvenes. \n-",
+              "translation": "We used to talk for hours when we were young. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "hablabais",
-              "sentence": "Vosotros hablabais mucho en las reuniones.",
-              "translation": "You all used to talk a lot in meetings."
+              "sentence": "Vosotros hablabais mucho en las reuniones. \n-",
+              "translation": "You all used to talk a lot in meetings. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hablaban",
-              "sentence": "Los políticos hablaban sin parar.",
-              "translation": "The politicians used to talk nonstop."
+              "sentence": "Los políticos hablaban sin parar. \n-",
+              "translation": "The politicians used to talk nonstop. \n-"
             }
           ]
         },
@@ -810,8 +810,8 @@
             {
               "pronoun": "yo",
               "conjugation": "hablaría",
-              "sentence": "Hablaría con él si estuviera aquí.",
-              "translation": "I would speak with him if he were here."
+              "sentence": "Hablaría con él si estuviera aquí. \n-",
+              "translation": "I would speak with him if he were here. \n-"
             },
             {
               "pronoun": "tú",
@@ -822,14 +822,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hablaría",
-              "sentence": "Ella hablaría con el director si fuera necesario.",
-              "translation": "She would speak with the director if it were necessary."
+              "sentence": "Ella hablaría con el director si fuera necesario. \n-",
+              "translation": "She would speak with the director if it were necessary. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hablaríamos",
-              "sentence": "Hablaríamos más español si viviéramos en México.",
-              "translation": "We would speak more Spanish if we lived in Mexico."
+              "sentence": "Hablaríamos más español si viviéramos en México. \n-",
+              "translation": "We would speak more Spanish if we lived in Mexico. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -840,8 +840,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hablarían",
-              "sentence": "Ellos hablarían con nosotros si hubiera tiempo.",
-              "translation": "They would speak with us if there were time."
+              "sentence": "Ellos hablarían con nosotros si hubiera tiempo. \n-",
+              "translation": "They would speak with us if there were time. \n-"
             }
           ]
         },
@@ -850,38 +850,38 @@
             {
               "pronoun": "yo",
               "conjugation": "hable",
-              "sentence": "Es importante que hable con claridad.",
-              "translation": "It's important that I speak clearly."
+              "sentence": "Es importante que hable con claridad. \n-",
+              "translation": "It's important that I speak clearly. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "hables",
-              "sentence": "Quiero que hables con el profesor.",
-              "translation": "I want you to speak with the teacher."
+              "sentence": "Quiero que hables con el profesor. \n-",
+              "translation": "I want you to speak with the teacher. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hable",
-              "sentence": "Es necesario que él hable la verdad.",
-              "translation": "It's necessary that he speaks the truth."
+              "sentence": "Es necesario que él hable la verdad. \n-",
+              "translation": "It's necessary that he speaks the truth. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hablemos",
-              "sentence": "Es mejor que hablemos directamente.",
-              "translation": "It's better that we speak directly."
+              "sentence": "Es mejor que hablemos directamente. \n-",
+              "translation": "It's better that we speak directly. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "habléis",
-              "sentence": "Dudo que vosotros habléis con el jefe.",
-              "translation": "I doubt you all will speak with the boss."
+              "sentence": "Dudo que vosotros habléis con el jefe. \n-",
+              "translation": "I doubt you all will speak with the boss. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hablen",
-              "sentence": "Espero que ellos hablen pronto.",
-              "translation": "I hope they speak soon."
+              "sentence": "Espero que ellos hablen pronto. \n-",
+              "translation": "I hope they speak soon. \n-"
             }
           ]
         },
@@ -890,38 +890,38 @@
             {
               "pronoun": "yo",
               "conjugation": "hablara",
-              "sentence": "Si yo hablara mejor inglés, viajaría más.",
-              "translation": "If I spoke better English, I would travel more."
+              "sentence": "Si yo hablara mejor inglés, viajaría más. \n-",
+              "translation": "If I spoke better English, I would travel more. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "hablaras",
-              "sentence": "Ojalá que tú hablaras con ella.",
-              "translation": "I wish you would speak with her."
+              "sentence": "Ojalá que tú hablaras con ella. \n-",
+              "translation": "I wish you would speak with her. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hablara",
-              "sentence": "Era posible que él hablara con el director.",
-              "translation": "It was possible that he spoke with the director."
+              "sentence": "Era posible que él hablara con el director. \n-",
+              "translation": "It was possible that he spoke with the director. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "habláramos",
-              "sentence": "Si habláramos el mismo idioma, sería más fácil.",
-              "translation": "If we spoke the same language, it would be easier."
+              "sentence": "Si habláramos el mismo idioma, sería más fácil. \n-",
+              "translation": "If we spoke the same language, it would be easier. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "hablarais",
-              "sentence": "Dudaba que vosotros hablarais con ellos.",
-              "translation": "I doubted that you all would speak with them."
+              "sentence": "Dudaba que vosotros hablarais con ellos. \n-",
+              "translation": "I doubted that you all would speak with them. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hablaran",
-              "sentence": "Era improbable que ellos hablaran en público.",
-              "translation": "It was unlikely that they would speak in public."
+              "sentence": "Era improbable que ellos hablaran en público. \n-",
+              "translation": "It was unlikely that they would speak in public. \n-"
             }
           ]
         },
@@ -936,8 +936,8 @@
             {
               "pronoun": "usted",
               "conjugation": "hable",
-              "sentence": "Hable con el gerente, por favor.",
-              "translation": "Speak with the manager, please."
+              "sentence": "Hable con el gerente, por favor. \n-",
+              "translation": "Speak with the manager, please. \n-"
             },
             {
               "pronoun": "nosotros",
@@ -954,8 +954,8 @@
             {
               "pronoun": "ustedes",
               "conjugation": "hablen",
-              "sentence": "Hablen con claridad, por favor.",
-              "translation": "Speak clearly, please."
+              "sentence": "Hablen con claridad, por favor. \n-",
+              "translation": "Speak clearly, please. \n-"
             }
           ]
         },
@@ -964,32 +964,32 @@
             {
               "pronoun": "tú",
               "conjugation": "no hables",
-              "sentence": "No hables con la boca llena.",
-              "translation": "Don't speak with your mouth full."
+              "sentence": "No hables con la boca llena. \n-",
+              "translation": "Don't speak with your mouth full. \n-"
             },
             {
               "pronoun": "usted",
               "conjugation": "no hable",
-              "sentence": "No hable tan alto, por favor.",
-              "translation": "Don't speak so loudly, please."
+              "sentence": "No hable tan alto, por favor. \n-",
+              "translation": "Don't speak so loudly, please. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "no hablemos",
-              "sentence": "No hablemos de eso ahora.",
-              "translation": "Let's not talk about that now."
+              "sentence": "No hablemos de eso ahora. \n-",
+              "translation": "Let's not talk about that now. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "no habléis",
-              "sentence": "No habléis durante la película.",
-              "translation": "Don't talk during the movie."
+              "sentence": "No habléis durante la película. \n-",
+              "translation": "Don't talk during the movie. \n-"
             },
             {
               "pronoun": "ustedes",
               "conjugation": "no hablen",
-              "sentence": "No hablen todos a la vez.",
-              "translation": "Don't all speak at once."
+              "sentence": "No hablen todos a la vez. \n-",
+              "translation": "Don't all speak at once. \n-"
             }
           ]
         }
@@ -1003,7 +1003,7 @@
       "practice_scenarios": [
         {
           "scenario": "Dining out",
-          "description": "This scenario involves ordering food and discussing meals. Pay attention to verb conjugations based on who is speaking. Note that food items have gender (e.g., 'el pan' vs 'la fruta') which affects adjective agreement.",
+          "description": "This scenario involves ordering food and discussing meals. \n- Pay attention to verb conjugations based on who is speaking. \n- Note that food items have gender (e. \n-g. \n-, 'el pan' vs 'la fruta') which affects adjective agreement. \n-",
           "sentences": [
             {
               "id": 1,
@@ -1022,7 +1022,7 @@
             },
             {
               "id": 2,
-              "template": "__comer__ una ensalada.",
+              "template": "__comer__ una ensalada. \n-",
               "slots": {
                 "options": [
                   "Como",
@@ -1033,7 +1033,7 @@
                 "correct": "Como",
                 "explanation": "'Como' is correct as the speaker is talking about themselves (yo form)"
               },
-              "translation": "I'm eating a salad."
+              "translation": "I'm eating a salad. \n-"
             },
             {
               "id": 3,
@@ -1052,7 +1052,7 @@
             },
             {
               "id": 4,
-              "template": "__comer__ en un restaurante italiano.",
+              "template": "__comer__ en un restaurante italiano. \n-",
               "slots": {
                 "options": [
                   "Comí",
@@ -1063,17 +1063,17 @@
                 "correct": "Comí",
                 "explanation": "'Comí' is the yo form of past tense"
               },
-              "translation": "I ate at an Italian restaurant."
+              "translation": "I ate at an Italian restaurant. \n-"
             }
           ]
         },
         {
           "scenario": "Healthy eating habits",
-          "description": "This scenario discusses dietary habits and preferences. Remember that food-related adjectives must match the gender of the noun they describe (e.g., 'fruta fresca' vs 'pan integral').",
+          "description": "This scenario discusses dietary habits and preferences. \n- Remember that food-related adjectives must match the gender of the noun they describe (e. \n-g. \n-, 'fruta fresca' vs 'pan integral'). \n-",
           "sentences": [
             {
               "id": 1,
-              "template": "Normalmente __comer__ frutas para el desayuno.",
+              "template": "Normalmente __comer__ frutas para el desayuno. \n-",
               "slots": {
                 "options": [
                   "como",
@@ -1084,11 +1084,11 @@
                 "correct": "como",
                 "explanation": "'Como' is present tense for 'yo' describing a habitual action"
               },
-              "translation": "I normally eat fruits for breakfast."
+              "translation": "I normally eat fruits for breakfast. \n-"
             },
             {
               "id": 2,
-              "template": "Mis hermanos __comer__ demasiados dulces.",
+              "template": "Mis hermanos __comer__ demasiados dulces. \n-",
               "slots": {
                 "options": [
                   "comen",
@@ -1099,11 +1099,11 @@
                 "correct": "comen",
                 "explanation": "'Comen' is present tense for 'ellos'"
               },
-              "translation": "My brothers eat too many sweets."
+              "translation": "My brothers eat too many sweets. \n-"
             },
             {
               "id": 3,
-              "template": "Nosotros __comer__ más verduras la semana pasada.",
+              "template": "Nosotros __comer__ más verduras la semana pasada. \n-",
               "slots": {
                 "options": [
                   "comimos",
@@ -1114,7 +1114,7 @@
                 "correct": "comimos",
                 "explanation": "'Comimos' is past tense for 'nosotros'"
               },
-              "translation": "We ate more vegetables last week."
+              "translation": "We ate more vegetables last week. \n-"
             },
             {
               "id": 4,
@@ -1140,8 +1140,8 @@
             {
               "pronoun": "yo",
               "conjugation": "como",
-              "sentence": "Como una manzana cada mañana.",
-              "translation": "I eat an apple every morning."
+              "sentence": "Como una manzana cada mañana. \n-",
+              "translation": "I eat an apple every morning. \n-"
             },
             {
               "pronoun": "tú",
@@ -1152,26 +1152,26 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "come",
-              "sentence": "Mi abuela come muy saludable.",
-              "translation": "My grandmother eats very healthy."
+              "sentence": "Mi abuela come muy saludable. \n-",
+              "translation": "My grandmother eats very healthy. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "comemos",
-              "sentence": "Comemos juntos los domingos.",
-              "translation": "We eat together on Sundays."
+              "sentence": "Comemos juntos los domingos. \n-",
+              "translation": "We eat together on Sundays. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "coméis",
-              "sentence": "Vosotros coméis muy tarde.",
-              "translation": "You all eat very late."
+              "sentence": "Vosotros coméis muy tarde. \n-",
+              "translation": "You all eat very late. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "comen",
-              "sentence": "Los niños comen en la escuela.",
-              "translation": "The children eat at school."
+              "sentence": "Los niños comen en la escuela. \n-",
+              "translation": "The children eat at school. \n-"
             }
           ]
         },
@@ -1180,8 +1180,8 @@
             {
               "pronoun": "yo",
               "conjugation": "comí",
-              "sentence": "Comí demasiado ayer.",
-              "translation": "I ate too much yesterday."
+              "sentence": "Comí demasiado ayer. \n-",
+              "translation": "I ate too much yesterday. \n-"
             },
             {
               "pronoun": "tú",
@@ -1192,14 +1192,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "comió",
-              "sentence": "El bebé comió toda su comida.",
-              "translation": "The baby ate all his food."
+              "sentence": "El bebé comió toda su comida. \n-",
+              "translation": "The baby ate all his food. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "comimos",
-              "sentence": "Comimos en un lugar nuevo.",
-              "translation": "We ate at a new place."
+              "sentence": "Comimos en un lugar nuevo. \n-",
+              "translation": "We ate at a new place. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -1210,8 +1210,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "comieron",
-              "sentence": "Los invitados comieron todo el pastel.",
-              "translation": "The guests ate all the cake."
+              "sentence": "Los invitados comieron todo el pastel. \n-",
+              "translation": "The guests ate all the cake. \n-"
             }
           ]
         },
@@ -1220,8 +1220,8 @@
             {
               "pronoun": "yo",
               "conjugation": "comeré",
-              "sentence": "Comeré más verduras este año.",
-              "translation": "I will eat more vegetables this year."
+              "sentence": "Comeré más verduras este año. \n-",
+              "translation": "I will eat more vegetables this year. \n-"
             },
             {
               "pronoun": "tú",
@@ -1232,14 +1232,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "comerá",
-              "sentence": "Mi hermana comerá con sus amigas.",
-              "translation": "My sister will eat with her friends."
+              "sentence": "Mi hermana comerá con sus amigas. \n-",
+              "translation": "My sister will eat with her friends. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "comeremos",
-              "sentence": "Comeremos mariscos en la costa.",
-              "translation": "We will eat seafood on the coast."
+              "sentence": "Comeremos mariscos en la costa. \n-",
+              "translation": "We will eat seafood on the coast. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -1250,8 +1250,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "comerán",
-              "sentence": "Los deportistas comerán proteínas después del entrenamiento.",
-              "translation": "The athletes will eat protein after training."
+              "sentence": "Los deportistas comerán proteínas después del entrenamiento. \n-",
+              "translation": "The athletes will eat protein after training. \n-"
             }
           ]
         },
@@ -1260,8 +1260,8 @@
             {
               "pronoun": "yo",
               "conjugation": "comía",
-              "sentence": "De niño, comía muchos dulces.",
-              "translation": "As a child, I used to eat many sweets."
+              "sentence": "De niño, comía muchos dulces. \n-",
+              "translation": "As a child, I used to eat many sweets. \n-"
             },
             {
               "pronoun": "tú",
@@ -1272,26 +1272,26 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "comía",
-              "sentence": "Mi abuela comía muy despacio.",
-              "translation": "My grandmother used to eat very slowly."
+              "sentence": "Mi abuela comía muy despacio. \n-",
+              "translation": "My grandmother used to eat very slowly. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "comíamos",
-              "sentence": "Comíamos en ese restaurante todos los viernes.",
-              "translation": "We used to eat at that restaurant every Friday."
+              "sentence": "Comíamos en ese restaurante todos los viernes. \n-",
+              "translation": "We used to eat at that restaurant every Friday. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "comíais",
-              "sentence": "Vosotros comíais mucho pan antes.",
-              "translation": "You all used to eat a lot of bread before."
+              "sentence": "Vosotros comíais mucho pan antes. \n-",
+              "translation": "You all used to eat a lot of bread before. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "comían",
-              "sentence": "Los campesinos comían lo que cultivaban.",
-              "translation": "The farmers used to eat what they grew."
+              "sentence": "Los campesinos comían lo que cultivaban. \n-",
+              "translation": "The farmers used to eat what they grew. \n-"
             }
           ]
         },
@@ -1300,8 +1300,8 @@
             {
               "pronoun": "yo",
               "conjugation": "comería",
-              "sentence": "Comería sushi todos los días si pudiera.",
-              "translation": "I would eat sushi every day if I could."
+              "sentence": "Comería sushi todos los días si pudiera. \n-",
+              "translation": "I would eat sushi every day if I could. \n-"
             },
             {
               "pronoun": "tú",
@@ -1312,14 +1312,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "comería",
-              "sentence": "Él comería más si no estuviera a dieta.",
-              "translation": "He would eat more if he weren't on a diet."
+              "sentence": "Él comería más si no estuviera a dieta. \n-",
+              "translation": "He would eat more if he weren't on a diet. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "comeríamos",
-              "sentence": "Comeríamos afuera más seguido si tuviéramos dinero.",
-              "translation": "We would eat out more often if we had money."
+              "sentence": "Comeríamos afuera más seguido si tuviéramos dinero. \n-",
+              "translation": "We would eat out more often if we had money. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -1330,8 +1330,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "comerían",
-              "sentence": "Ellos comerían cualquier cosa cuando tenían hambre.",
-              "translation": "They would eat anything when they were hungry."
+              "sentence": "Ellos comerían cualquier cosa cuando tenían hambre. \n-",
+              "translation": "They would eat anything when they were hungry. \n-"
             }
           ]
         },
@@ -1340,38 +1340,38 @@
             {
               "pronoun": "yo",
               "conjugation": "coma",
-              "sentence": "Es importante que coma más frutas.",
-              "translation": "It's important that I eat more fruits."
+              "sentence": "Es importante que coma más frutas. \n-",
+              "translation": "It's important that I eat more fruits. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "comas",
-              "sentence": "Quiero que comas más despacio.",
-              "translation": "I want you to eat more slowly."
+              "sentence": "Quiero que comas más despacio. \n-",
+              "translation": "I want you to eat more slowly. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "coma",
-              "sentence": "Es necesario que el niño coma sus verduras.",
-              "translation": "It's necessary that the child eats his vegetables."
+              "sentence": "Es necesario que el niño coma sus verduras. \n-",
+              "translation": "It's necessary that the child eats his vegetables. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "comamos",
-              "sentence": "Es mejor que comamos en casa hoy.",
-              "translation": "It's better that we eat at home today."
+              "sentence": "Es mejor que comamos en casa hoy. \n-",
+              "translation": "It's better that we eat at home today. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "comáis",
-              "sentence": "Dudo que vosotros comáis temprano.",
-              "translation": "I doubt you all will eat early."
+              "sentence": "Dudo que vosotros comáis temprano. \n-",
+              "translation": "I doubt you all will eat early. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "coman",
-              "sentence": "Espero que ellos coman saludable.",
-              "translation": "I hope they eat healthy."
+              "sentence": "Espero que ellos coman saludable. \n-",
+              "translation": "I hope they eat healthy. \n-"
             }
           ]
         },
@@ -1380,38 +1380,38 @@
             {
               "pronoun": "yo",
               "conjugation": "comiera",
-              "sentence": "Si yo comiera menos azúcar, estaría más saludable.",
-              "translation": "If I ate less sugar, I would be healthier."
+              "sentence": "Si yo comiera menos azúcar, estaría más saludable. \n-",
+              "translation": "If I ate less sugar, I would be healthier. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "comieras",
-              "sentence": "Ojalá que tú comieras con nosotros.",
-              "translation": "I wish you would eat with us."
+              "sentence": "Ojalá que tú comieras con nosotros. \n-",
+              "translation": "I wish you would eat with us. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "comiera",
-              "sentence": "Era importante que él comiera proteínas.",
-              "translation": "It was important that he ate protein."
+              "sentence": "Era importante que él comiera proteínas. \n-",
+              "translation": "It was important that he ate protein. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "comiéramos",
-              "sentence": "Si comiéramos juntos más seguido, sería agradable.",
-              "translation": "If we ate together more often, it would be nice."
+              "sentence": "Si comiéramos juntos más seguido, sería agradable. \n-",
+              "translation": "If we ate together more often, it would be nice. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "comierais",
-              "sentence": "Dudaba que vosotros comierais eso.",
-              "translation": "I doubted that you all would eat that."
+              "sentence": "Dudaba que vosotros comierais eso. \n-",
+              "translation": "I doubted that you all would eat that. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "comieran",
-              "sentence": "Era raro que ellos no comieran carne.",
-              "translation": "It was strange that they didn't eat meat."
+              "sentence": "Era raro que ellos no comieran carne. \n-",
+              "translation": "It was strange that they didn't eat meat. \n-"
             }
           ]
         },
@@ -1426,8 +1426,8 @@
             {
               "pronoun": "usted",
               "conjugation": "coma",
-              "sentence": "Coma más despacio, por favor.",
-              "translation": "Eat more slowly, please."
+              "sentence": "Coma más despacio, por favor. \n-",
+              "translation": "Eat more slowly, please. \n-"
             },
             {
               "pronoun": "nosotros",
@@ -1444,8 +1444,8 @@
             {
               "pronoun": "ustedes",
               "conjugation": "coman",
-              "sentence": "Coman todo lo que deseen.",
-              "translation": "Eat all you want."
+              "sentence": "Coman todo lo que deseen. \n-",
+              "translation": "Eat all you want. \n-"
             }
           ]
         },
@@ -1454,32 +1454,32 @@
             {
               "pronoun": "tú",
               "conjugation": "no comas",
-              "sentence": "No comas tan rápido.",
-              "translation": "Don't eat so fast."
+              "sentence": "No comas tan rápido. \n-",
+              "translation": "Don't eat so fast. \n-"
             },
             {
               "pronoun": "usted",
               "conjugation": "no coma",
-              "sentence": "No coma demasiado azúcar.",
-              "translation": "Don't eat too much sugar."
+              "sentence": "No coma demasiado azúcar. \n-",
+              "translation": "Don't eat too much sugar. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "no comamos",
-              "sentence": "No comamos aquí otra vez.",
-              "translation": "Let's not eat here again."
+              "sentence": "No comamos aquí otra vez. \n-",
+              "translation": "Let's not eat here again. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "no comáis",
-              "sentence": "No comáis antes de nadar.",
-              "translation": "Don't eat before swimming."
+              "sentence": "No comáis antes de nadar. \n-",
+              "translation": "Don't eat before swimming. \n-"
             },
             {
               "pronoun": "ustedes",
               "conjugation": "no coman",
-              "sentence": "No coman con la boca abierta.",
-              "translation": "Don't eat with your mouth open."
+              "sentence": "No coman con la boca abierta. \n-",
+              "translation": "Don't eat with your mouth open. \n-"
             }
           ]
         }
@@ -1493,7 +1493,7 @@
       "practice_scenarios": [
         {
           "scenario": "Discussing living situations",
-          "description": "This scenario involves talking about where people live. Pay attention to verb conjugations based on who is speaking. Note that city/country names may require different prepositions (e.g., 'vivo en Madrid' vs 'vivo en España').",
+          "description": "This scenario involves talking about where people live. \n- Pay attention to verb conjugations based on who is speaking. \n- Note that city/country names may require different prepositions (e. \n-g. \n-, 'vivo en Madrid' vs 'vivo en España'). \n-",
           "sentences": [
             {
               "id": 1,
@@ -1512,7 +1512,7 @@
             },
             {
               "id": 2,
-              "template": "__vivir__ en un apartamento pequeño.",
+              "template": "__vivir__ en un apartamento pequeño. \n-",
               "slots": {
                 "options": [
                   "Vivo",
@@ -1523,7 +1523,7 @@
                 "correct": "Vivo",
                 "explanation": "'Vivo' is correct as the speaker is talking about themselves (yo form)"
               },
-              "translation": "I live in a small apartment."
+              "translation": "I live in a small apartment. \n-"
             },
             {
               "id": 3,
@@ -1542,7 +1542,7 @@
             },
             {
               "id": 4,
-              "template": "__vivir__ allí por cinco años.",
+              "template": "__vivir__ allí por cinco años. \n-",
               "slots": {
                 "options": [
                   "Viví",
@@ -1553,17 +1553,17 @@
                 "correct": "Viví",
                 "explanation": "'Viví' is the yo form of past tense"
               },
-              "translation": "I lived there for five years."
+              "translation": "I lived there for five years. \n-"
             }
           ]
         },
         {
           "scenario": "Future living plans",
-          "description": "This scenario discusses plans for future living arrangements. Note that while the verb conjugations don't change for gender, housing-related nouns might (e.g., 'un piso nuevo' vs 'una casa nueva').",
+          "description": "This scenario discusses plans for future living arrangements. \n- Note that while the verb conjugations don't change for gender, housing-related nouns might (e. \n-g. \n-, 'un piso nuevo' vs 'una casa nueva'). \n-",
           "sentences": [
             {
               "id": 1,
-              "template": "El año que viene __vivir__ en el extranjero.",
+              "template": "El año que viene __vivir__ en el extranjero. \n-",
               "slots": {
                 "options": [
                   "viviré",
@@ -1574,11 +1574,11 @@
                 "correct": "viviré",
                 "explanation": "'Viviré' is future tense for 'yo'"
               },
-              "translation": "Next year I will live abroad."
+              "translation": "Next year I will live abroad. \n-"
             },
             {
               "id": 2,
-              "template": "Mis padres __vivir__ en la playa cuando se retiren.",
+              "template": "Mis padres __vivir__ en la playa cuando se retiren. \n-",
               "slots": {
                 "options": [
                   "vivirán",
@@ -1589,11 +1589,11 @@
                 "correct": "vivirán",
                 "explanation": "'Vivirán' is future tense for 'ellos'"
               },
-              "translation": "My parents will live at the beach when they retire."
+              "translation": "My parents will live at the beach when they retire. \n-"
             },
             {
               "id": 3,
-              "template": "Nosotros __vivir__ juntos algún día.",
+              "template": "Nosotros __vivir__ juntos algún día. \n-",
               "slots": {
                 "options": [
                   "viviremos",
@@ -1604,7 +1604,7 @@
                 "correct": "viviremos",
                 "explanation": "'Viviremos' is future tense for 'nosotros'"
               },
-              "translation": "We will live together someday."
+              "translation": "We will live together someday. \n-"
             },
             {
               "id": 4,
@@ -1630,8 +1630,8 @@
             {
               "pronoun": "yo",
               "conjugation": "vivo",
-              "sentence": "Vivo en el centro de la ciudad.",
-              "translation": "I live in the city center."
+              "sentence": "Vivo en el centro de la ciudad. \n-",
+              "translation": "I live in the city center. \n-"
             },
             {
               "pronoun": "tú",
@@ -1642,26 +1642,26 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "vive",
-              "sentence": "Mi jefe vive en las afueras.",
-              "translation": "My boss lives in the suburbs."
+              "sentence": "Mi jefe vive en las afueras. \n-",
+              "translation": "My boss lives in the suburbs. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "vivimos",
-              "sentence": "Vivimos en un barrio tranquilo.",
-              "translation": "We live in a quiet neighborhood."
+              "sentence": "Vivimos en un barrio tranquilo. \n-",
+              "translation": "We live in a quiet neighborhood. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "vivís",
-              "sentence": "Vosotros vivís en un lugar hermoso.",
-              "translation": "You all live in a beautiful place."
+              "sentence": "Vosotros vivís en un lugar hermoso. \n-",
+              "translation": "You all live in a beautiful place. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "viven",
-              "sentence": "Mis abuelos viven en el campo.",
-              "translation": "My grandparents live in the countryside."
+              "sentence": "Mis abuelos viven en el campo. \n-",
+              "translation": "My grandparents live in the countryside. \n-"
             }
           ]
         },
@@ -1670,8 +1670,8 @@
             {
               "pronoun": "yo",
               "conjugation": "viví",
-              "sentence": "Viví en México por dos años.",
-              "translation": "I lived in Mexico for two years."
+              "sentence": "Viví en México por dos años. \n-",
+              "translation": "I lived in Mexico for two years. \n-"
             },
             {
               "pronoun": "tú",
@@ -1682,14 +1682,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "vivió",
-              "sentence": "Mi tío vivió en Italia cuando era joven.",
-              "translation": "My uncle lived in Italy when he was young."
+              "sentence": "Mi tío vivió en Italia cuando era joven. \n-",
+              "translation": "My uncle lived in Italy when he was young. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "vivimos",
-              "sentence": "Vivimos en ese apartamento el año pasado.",
-              "translation": "We lived in that apartment last year."
+              "sentence": "Vivimos en ese apartamento el año pasado. \n-",
+              "translation": "We lived in that apartment last year. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -1700,8 +1700,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "vivieron",
-              "sentence": "Mis padres vivieron en varias ciudades.",
-              "translation": "My parents lived in several cities."
+              "sentence": "Mis padres vivieron en varias ciudades. \n-",
+              "translation": "My parents lived in several cities. \n-"
             }
           ]
         },
@@ -1710,8 +1710,8 @@
             {
               "pronoun": "yo",
               "conjugation": "viviré",
-              "sentence": "Viviré en una casa más grande algún día.",
-              "translation": "I will live in a bigger house someday."
+              "sentence": "Viviré en una casa más grande algún día. \n-",
+              "translation": "I will live in a bigger house someday. \n-"
             },
             {
               "pronoun": "tú",
@@ -1722,14 +1722,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "vivirá",
-              "sentence": "Mi hermana vivirá en el extranjero.",
-              "translation": "My sister will live abroad."
+              "sentence": "Mi hermana vivirá en el extranjero. \n-",
+              "translation": "My sister will live abroad. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "viviremos",
-              "sentence": "Viviremos juntos cuando nos casemos.",
-              "translation": "We will live together when we get married."
+              "sentence": "Viviremos juntos cuando nos casemos. \n-",
+              "translation": "We will live together when we get married. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -1740,8 +1740,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "vivirán",
-              "sentence": "Los recién casados vivirán en París.",
-              "translation": "The newlyweds will live in Paris."
+              "sentence": "Los recién casados vivirán en París. \n-",
+              "translation": "The newlyweds will live in Paris. \n-"
             }
           ]
         },
@@ -1750,8 +1750,8 @@
             {
               "pronoun": "yo",
               "conjugation": "vivía",
-              "sentence": "De niño, vivía en una granja.",
-              "translation": "As a child, I used to live on a farm."
+              "sentence": "De niño, vivía en una granja. \n-",
+              "translation": "As a child, I used to live on a farm. \n-"
             },
             {
               "pronoun": "tú",
@@ -1762,14 +1762,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "vivía",
-              "sentence": "Mi abuela vivía sola antes de mudarse con nosotros.",
-              "translation": "My grandmother used to live alone before moving in with us."
+              "sentence": "Mi abuela vivía sola antes de mudarse con nosotros. \n-",
+              "translation": "My grandmother used to live alone before moving in with us. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "vivíamos",
-              "sentence": "Vivíamos en una casa más pequeña antes.",
-              "translation": "We used to live in a smaller house before."
+              "sentence": "Vivíamos en una casa más pequeña antes. \n-",
+              "translation": "We used to live in a smaller house before. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -1780,8 +1780,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "vivían",
-              "sentence": "Los indígenas vivían en armonía con la naturaleza.",
-              "translation": "The indigenous people used to live in harmony with nature."
+              "sentence": "Los indígenas vivían en armonía con la naturaleza. \n-",
+              "translation": "The indigenous people used to live in harmony with nature. \n-"
             }
           ]
         },
@@ -1790,8 +1790,8 @@
             {
               "pronoun": "yo",
               "conjugation": "viviría",
-              "sentence": "Viviría en el campo si tuviera trabajo allí.",
-              "translation": "I would live in the countryside if I had work there."
+              "sentence": "Viviría en el campo si tuviera trabajo allí. \n-",
+              "translation": "I would live in the countryside if I had work there. \n-"
             },
             {
               "pronoun": "tú",
@@ -1802,14 +1802,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "viviría",
-              "sentence": "Él viviría con sus padres si necesitaran ayuda.",
-              "translation": "He would live with his parents if they needed help."
+              "sentence": "Él viviría con sus padres si necesitaran ayuda. \n-",
+              "translation": "He would live with his parents if they needed help. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "viviríamos",
-              "sentence": "Viviríamos en una isla si fuéramos ricos.",
-              "translation": "We would live on an island if we were rich."
+              "sentence": "Viviríamos en una isla si fuéramos ricos. \n-",
+              "translation": "We would live on an island if we were rich. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -1820,8 +1820,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "vivirían",
-              "sentence": "Ellos vivirían donde sus hijos vivan.",
-              "translation": "They would live wherever their children live."
+              "sentence": "Ellos vivirían donde sus hijos vivan. \n-",
+              "translation": "They would live wherever their children live. \n-"
             }
           ]
         },
@@ -1830,38 +1830,38 @@
             {
               "pronoun": "yo",
               "conjugation": "viva",
-              "sentence": "Espero que viva muchos años más.",
-              "translation": "I hope I live many more years."
+              "sentence": "Espero que viva muchos años más. \n-",
+              "translation": "I hope I live many more years. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "vivas",
-              "sentence": "Quiero que vivas cerca de mí.",
-              "translation": "I want you to live near me."
+              "sentence": "Quiero que vivas cerca de mí. \n-",
+              "translation": "I want you to live near me. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "viva",
-              "sentence": "Es importante que ella viva independiente.",
-              "translation": "It's important that she lives independently."
+              "sentence": "Es importante que ella viva independiente. \n-",
+              "translation": "It's important that she lives independently. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "vivamos",
-              "sentence": "Es mejor que vivamos juntos.",
-              "translation": "It's better that we live together."
+              "sentence": "Es mejor que vivamos juntos. \n-",
+              "translation": "It's better that we live together. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "viváis",
-              "sentence": "Dudo que vosotros viváis aquí mucho tiempo.",
-              "translation": "I doubt you all will live here for long."
+              "sentence": "Dudo que vosotros viváis aquí mucho tiempo. \n-",
+              "translation": "I doubt you all will live here for long. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "vivan",
-              "sentence": "Espero que ellos vivan felices.",
-              "translation": "I hope they live happily."
+              "sentence": "Espero que ellos vivan felices. \n-",
+              "translation": "I hope they live happily. \n-"
             }
           ]
         },
@@ -1870,38 +1870,38 @@
             {
               "pronoun": "yo",
               "conjugation": "viviera",
-              "sentence": "Si yo viviera en la montaña, tendría más paz.",
-              "translation": "If I lived in the mountains, I would have more peace."
+              "sentence": "Si yo viviera en la montaña, tendría más paz. \n-",
+              "translation": "If I lived in the mountains, I would have more peace. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "vivieras",
-              "sentence": "Ojalá que tú vivieras más cerca.",
-              "translation": "I wish you lived closer."
+              "sentence": "Ojalá que tú vivieras más cerca. \n-",
+              "translation": "I wish you lived closer. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "viviera",
-              "sentence": "Era necesario que él viviera con su familia.",
-              "translation": "It was necessary that he lived with his family."
+              "sentence": "Era necesario que él viviera con su familia. \n-",
+              "translation": "It was necessary that he lived with his family. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "viviéramos",
-              "sentence": "Si viviéramos en el mismo edificio, sería práctico.",
-              "translation": "If we lived in the same building, it would be convenient."
+              "sentence": "Si viviéramos en el mismo edificio, sería práctico. \n-",
+              "translation": "If we lived in the same building, it would be convenient. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "vivierais",
-              "sentence": "Dudaba que vosotros vivierais aquí antes.",
-              "translation": "I doubted that you all lived here before."
+              "sentence": "Dudaba que vosotros vivierais aquí antes. \n-",
+              "translation": "I doubted that you all lived here before. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "vivieran",
-              "sentence": "Era imposible que ellos vivieran sin electricidad.",
-              "translation": "It was impossible that they lived without electricity."
+              "sentence": "Era imposible que ellos vivieran sin electricidad. \n-",
+              "translation": "It was impossible that they lived without electricity. \n-"
             }
           ]
         },
@@ -1916,8 +1916,8 @@
             {
               "pronoun": "usted",
               "conjugation": "viva",
-              "sentence": "Viva según sus principios.",
-              "translation": "Live according to your principles."
+              "sentence": "Viva según sus principios. \n-",
+              "translation": "Live according to your principles. \n-"
             },
             {
               "pronoun": "nosotros",
@@ -1934,8 +1934,8 @@
             {
               "pronoun": "ustedes",
               "conjugation": "vivan",
-              "sentence": "Vivan en armonía con la naturaleza.",
-              "translation": "Live in harmony with nature."
+              "sentence": "Vivan en armonía con la naturaleza. \n-",
+              "translation": "Live in harmony with nature. \n-"
             }
           ]
         },
@@ -1944,32 +1944,32 @@
             {
               "pronoun": "tú",
               "conjugation": "no vivas",
-              "sentence": "No vivas con miedo.",
-              "translation": "Don't live in fear."
+              "sentence": "No vivas con miedo. \n-",
+              "translation": "Don't live in fear. \n-"
             },
             {
               "pronoun": "usted",
               "conjugation": "no viva",
-              "sentence": "No viva solo si no quiere.",
-              "translation": "Don't live alone if you don't want to."
+              "sentence": "No viva solo si no quiere. \n-",
+              "translation": "Don't live alone if you don't want to. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "no vivamos",
-              "sentence": "No vivamos con rencor.",
-              "translation": "Let's not live with resentment."
+              "sentence": "No vivamos con rencor. \n-",
+              "translation": "Let's not live with resentment. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "no viváis",
-              "sentence": "No viváis lejos de vuestra familia.",
-              "translation": "Don't live far from your family."
+              "sentence": "No viváis lejos de vuestra familia. \n-",
+              "translation": "Don't live far from your family. \n-"
             },
             {
               "pronoun": "ustedes",
               "conjugation": "no vivan",
-              "sentence": "No vivan en el pasado.",
-              "translation": "Don't live in the past."
+              "sentence": "No vivan en el pasado. \n-",
+              "translation": "Don't live in the past. \n-"
             }
           ]
         }
@@ -1983,7 +1983,7 @@
       "practice_scenarios": [
         {
           "scenario": "Possessions and characteristics",
-          "description": "This scenario involves discussing what people have or possess, including physical characteristics. Remember that adjectives must match the gender of the subject (e.g., 'Tengo el pelo largo' for female vs 'Tengo el pelo corto' for male).",
+          "description": "This scenario involves discussing what people have or possess, including physical characteristics. \n- Remember that adjectives must match the gender of the subject (e. \n-g. \n-, 'Tengo el pelo largo' for female vs 'Tengo el pelo corto' for male). \n-",
           "sentences": [
             {
               "id": 1,
@@ -2002,7 +2002,7 @@
             },
             {
               "id": 2,
-              "template": "__tener__ dos hermanos y una hermana.",
+              "template": "__tener__ dos hermanos y una hermana. \n-",
               "slots": {
                 "options": [
                   "Tengo",
@@ -2013,7 +2013,7 @@
                 "correct": "Tengo",
                 "explanation": "'Tengo' is correct as the speaker is talking about themselves (yo form)"
               },
-              "translation": "I have two brothers and one sister."
+              "translation": "I have two brothers and one sister. \n-"
             },
             {
               "id": 3,
@@ -2032,7 +2032,7 @@
             },
             {
               "id": 4,
-              "template": "__tener__ tres habitaciones y una cocina grande.",
+              "template": "__tener__ tres habitaciones y una cocina grande. \n-",
               "slots": {
                 "options": [
                   "Tiene",
@@ -2043,17 +2043,17 @@
                 "correct": "Tiene",
                 "explanation": "'Tiene' continues referring to the apartment"
               },
-              "translation": "It has three bedrooms and a large kitchen."
+              "translation": "It has three bedrooms and a large kitchen. \n-"
             }
           ]
         },
         {
           "scenario": "Expressing needs and obligations",
-          "description": "This scenario uses 'tener' to express needs or obligations (tener que). Note that the following verb remains in infinitive form regardless of gender.",
+          "description": "This scenario uses 'tener' to express needs or obligations (tener que). \n- Note that the following verb remains in infinitive form regardless of gender. \n-",
           "sentences": [
             {
               "id": 1,
-              "template": "Hoy __tener__ que trabajar hasta tarde.",
+              "template": "Hoy __tener__ que trabajar hasta tarde. \n-",
               "slots": {
                 "options": [
                   "tengo",
@@ -2064,11 +2064,11 @@
                 "correct": "tengo",
                 "explanation": "'Tengo' is present tense for 'yo' expressing obligation"
               },
-              "translation": "Today I have to work late."
+              "translation": "Today I have to work late. \n-"
             },
             {
               "id": 2,
-              "template": "Mis hijos __tener__ que estudiar para el examen.",
+              "template": "Mis hijos __tener__ que estudiar para el examen. \n-",
               "slots": {
                 "options": [
                   "tienen",
@@ -2079,11 +2079,11 @@
                 "correct": "tienen que",
                 "explanation": "'Tienen que' is the correct phrase for obligation (ellos form)"
               },
-              "translation": "My children have to study for the test."
+              "translation": "My children have to study for the test. \n-"
             },
             {
               "id": 3,
-              "template": "Nosotros __tener__ que comprar comida.",
+              "template": "Nosotros __tener__ que comprar comida. \n-",
               "slots": {
                 "options": [
                   "tenemos",
@@ -2094,7 +2094,7 @@
                 "correct": "tenemos que",
                 "explanation": "'Tenemos que' is the correct phrase for obligation (nosotros form)"
               },
-              "translation": "We have to buy food."
+              "translation": "We have to buy food. \n-"
             },
             {
               "id": 4,
@@ -2120,8 +2120,8 @@
             {
               "pronoun": "yo",
               "conjugation": "tengo",
-              "sentence": "Tengo un perro y dos gatos.",
-              "translation": "I have a dog and two cats."
+              "sentence": "Tengo un perro y dos gatos. \n-",
+              "translation": "I have a dog and two cats. \n-"
             },
             {
               "pronoun": "tú",
@@ -2132,26 +2132,26 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "tiene",
-              "sentence": "Ella tiene los ojos verdes.",
-              "translation": "She has green eyes."
+              "sentence": "Ella tiene los ojos verdes. \n-",
+              "translation": "She has green eyes. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "tenemos",
-              "sentence": "Tenemos una reunión a las tres.",
-              "translation": "We have a meeting at three."
+              "sentence": "Tenemos una reunión a las tres. \n-",
+              "translation": "We have a meeting at three. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "tenéis",
-              "sentence": "Vosotros tenéis mucha suerte.",
-              "translation": "You all have a lot of luck."
+              "sentence": "Vosotros tenéis mucha suerte. \n-",
+              "translation": "You all have a lot of luck. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "tienen",
-              "sentence": "Mis padres tienen una casa en la playa.",
-              "translation": "My parents have a house at the beach."
+              "sentence": "Mis padres tienen una casa en la playa. \n-",
+              "translation": "My parents have a house at the beach. \n-"
             }
           ]
         },
@@ -2160,8 +2160,8 @@
             {
               "pronoun": "yo",
               "conjugation": "tuve",
-              "sentence": "Tuve un accidente ayer.",
-              "translation": "I had an accident yesterday."
+              "sentence": "Tuve un accidente ayer. \n-",
+              "translation": "I had an accident yesterday. \n-"
             },
             {
               "pronoun": "tú",
@@ -2172,14 +2172,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "tuvo",
-              "sentence": "El bebé tuvo fiebre anoche.",
-              "translation": "The baby had a fever last night."
+              "sentence": "El bebé tuvo fiebre anoche. \n-",
+              "translation": "The baby had a fever last night. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "tuvimos",
-              "sentence": "Tuvimos una discusión seria.",
-              "translation": "We had a serious discussion."
+              "sentence": "Tuvimos una discusión seria. \n-",
+              "translation": "We had a serious discussion. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -2190,8 +2190,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "tuvieron",
-              "sentence": "Los estudiantes tuvieron un examen difícil.",
-              "translation": "The students had a difficult exam."
+              "sentence": "Los estudiantes tuvieron un examen difícil. \n-",
+              "translation": "The students had a difficult exam. \n-"
             }
           ]
         },
@@ -2200,8 +2200,8 @@
             {
               "pronoun": "yo",
               "conjugation": "tendré",
-              "sentence": "Tendré una entrevista de trabajo mañana.",
-              "translation": "I will have a job interview tomorrow."
+              "sentence": "Tendré una entrevista de trabajo mañana. \n-",
+              "translation": "I will have a job interview tomorrow. \n-"
             },
             {
               "pronoun": "tú",
@@ -2212,14 +2212,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "tendrá",
-              "sentence": "Mi hermana tendrá un bebé en junio.",
-              "translation": "My sister will have a baby in June."
+              "sentence": "Mi hermana tendrá un bebé en junio. \n-",
+              "translation": "My sister will have a baby in June. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "tendremos",
-              "sentence": "Tendremos visitas este fin de semana.",
-              "translation": "We will have visitors this weekend."
+              "sentence": "Tendremos visitas este fin de semana. \n-",
+              "translation": "We will have visitors this weekend. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -2230,8 +2230,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "tendrán",
-              "sentence": "Ellos tendrán una gran fiesta de aniversario.",
-              "translation": "They will have a big anniversary party."
+              "sentence": "Ellos tendrán una gran fiesta de aniversario. \n-",
+              "translation": "They will have a big anniversary party. \n-"
             }
           ]
         },
@@ -2240,8 +2240,8 @@
             {
               "pronoun": "yo",
               "conjugation": "tenía",
-              "sentence": "De niño, tenía muchos juguetes.",
-              "translation": "As a child, I used to have many toys."
+              "sentence": "De niño, tenía muchos juguetes. \n-",
+              "translation": "As a child, I used to have many toys. \n-"
             },
             {
               "pronoun": "tú",
@@ -2252,14 +2252,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "tenía",
-              "sentence": "Mi abuelo tenía una gran biblioteca.",
-              "translation": "My grandfather used to have a large library."
+              "sentence": "Mi abuelo tenía una gran biblioteca. \n-",
+              "translation": "My grandfather used to have a large library. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "teníamos",
-              "sentence": "Teníamos una cabaña en las montañas.",
-              "translation": "We used to have a cabin in the mountains."
+              "sentence": "Teníamos una cabaña en las montañas. \n-",
+              "translation": "We used to have a cabin in the mountains. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -2270,8 +2270,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "tenían",
-              "sentence": "Los reyes tenían muchos sirvientes.",
-              "translation": "The kings used to have many servants."
+              "sentence": "Los reyes tenían muchos sirvientes. \n-",
+              "translation": "The kings used to have many servants. \n-"
             }
           ]
         },
@@ -2280,8 +2280,8 @@
             {
               "pronoun": "yo",
               "conjugation": "tendría",
-              "sentence": "Tendría más dinero si ahorrara.",
-              "translation": "I would have more money if I saved."
+              "sentence": "Tendría más dinero si ahorrara. \n-",
+              "translation": "I would have more money if I saved. \n-"
             },
             {
               "pronoun": "tú",
@@ -2292,14 +2292,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "tendría",
-              "sentence": "Él tendría más éxito si trabajara más.",
-              "translation": "He would have more success if he worked more."
+              "sentence": "Él tendría más éxito si trabajara más. \n-",
+              "translation": "He would have more success if he worked more. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "tendríamos",
-              "sentence": "Tendríamos una casa más grande si ganáramos más.",
-              "translation": "We would have a bigger house if we earned more."
+              "sentence": "Tendríamos una casa más grande si ganáramos más. \n-",
+              "translation": "We would have a bigger house if we earned more. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -2310,8 +2310,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "tendrían",
-              "sentence": "Ellos tendrían menos problemas si escucharan.",
-              "translation": "They would have fewer problems if they listened."
+              "sentence": "Ellos tendrían menos problemas si escucharan. \n-",
+              "translation": "They would have fewer problems if they listened. \n-"
             }
           ]
         },
@@ -2320,38 +2320,38 @@
             {
               "pronoun": "yo",
               "conjugation": "tenga",
-              "sentence": "Espero que tenga buena salud.",
-              "translation": "I hope I have good health."
+              "sentence": "Espero que tenga buena salud. \n-",
+              "translation": "I hope I have good health. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "tengas",
-              "sentence": "Quiero que tengas éxito.",
-              "translation": "I want you to have success."
+              "sentence": "Quiero que tengas éxito. \n-",
+              "translation": "I want you to have success. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "tenga",
-              "sentence": "Es importante que ella tenga confianza.",
-              "translation": "It's important that she has confidence."
+              "sentence": "Es importante que ella tenga confianza. \n-",
+              "translation": "It's important that she has confidence. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "tengamos",
-              "sentence": "Es mejor que tengamos paciencia.",
-              "translation": "It's better that we have patience."
+              "sentence": "Es mejor que tengamos paciencia. \n-",
+              "translation": "It's better that we have patience. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "tengáis",
-              "sentence": "Dudo que vosotros tengáis razón.",
-              "translation": "I doubt you all are right."
+              "sentence": "Dudo que vosotros tengáis razón. \n-",
+              "translation": "I doubt you all are right. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "tengan",
-              "sentence": "Espero que ellos tengan suerte.",
-              "translation": "I hope they have luck."
+              "sentence": "Espero que ellos tengan suerte. \n-",
+              "translation": "I hope they have luck. \n-"
             }
           ]
         },
@@ -2360,38 +2360,38 @@
             {
               "pronoun": "yo",
               "conjugation": "tuviera",
-              "sentence": "Si yo tuviera más tiempo, viajaría más.",
-              "translation": "If I had more time, I would travel more."
+              "sentence": "Si yo tuviera más tiempo, viajaría más. \n-",
+              "translation": "If I had more time, I would travel more. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "tuvieras",
-              "sentence": "Ojalá que tú tuvieras mi número.",
-              "translation": "I wish you had my number."
+              "sentence": "Ojalá que tú tuvieras mi número. \n-",
+              "translation": "I wish you had my number. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "tuviera",
-              "sentence": "Era necesario que él tuviera cuidado.",
-              "translation": "It was necessary that he had caution."
+              "sentence": "Era necesario que él tuviera cuidado. \n-",
+              "translation": "It was necessary that he had caution. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "tuviéramos",
-              "sentence": "Si tuviéramos más dinero, compraríamos una casa.",
-              "translation": "If we had more money, we would buy a house."
+              "sentence": "Si tuviéramos más dinero, compraríamos una casa. \n-",
+              "translation": "If we had more money, we would buy a house. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "tuvierais",
-              "sentence": "Dudaba que vosotros tuvierais la respuesta.",
-              "translation": "I doubted that you all had the answer."
+              "sentence": "Dudaba que vosotros tuvierais la respuesta. \n-",
+              "translation": "I doubted that you all had the answer. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "tuvieran",
-              "sentence": "Era imposible que ellos tuvieran esa información.",
-              "translation": "It was impossible that they had that information."
+              "sentence": "Era imposible que ellos tuvieran esa información. \n-",
+              "translation": "It was impossible that they had that information. \n-"
             }
           ]
         },
@@ -2406,8 +2406,8 @@
             {
               "pronoun": "usted",
               "conjugation": "tenga",
-              "sentence": "Tenga paciencia, por favor.",
-              "translation": "Have patience, please."
+              "sentence": "Tenga paciencia, por favor. \n-",
+              "translation": "Have patience, please. \n-"
             },
             {
               "pronoun": "nosotros",
@@ -2424,8 +2424,8 @@
             {
               "pronoun": "ustedes",
               "conjugation": "tengan",
-              "sentence": "Tengan un buen día.",
-              "translation": "Have a good day."
+              "sentence": "Tengan un buen día. \n-",
+              "translation": "Have a good day. \n-"
             }
           ]
         },
@@ -2434,32 +2434,32 @@
             {
               "pronoun": "tú",
               "conjugation": "no tengas",
-              "sentence": "No tengas miedo.",
-              "translation": "Don't be afraid."
+              "sentence": "No tengas miedo. \n-",
+              "translation": "Don't be afraid. \n-"
             },
             {
               "pronoun": "usted",
               "conjugation": "no tenga",
-              "sentence": "No tenga dudas.",
-              "translation": "Don't have doubts."
+              "sentence": "No tenga dudas. \n-",
+              "translation": "Don't have doubts. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "no tengamos",
-              "sentence": "No tengamos prisa.",
-              "translation": "Let's not be in a hurry."
+              "sentence": "No tengamos prisa. \n-",
+              "translation": "Let's not be in a hurry. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "no tengáis",
-              "sentence": "No tengáis celos.",
-              "translation": "Don't be jealous."
+              "sentence": "No tengáis celos. \n-",
+              "translation": "Don't be jealous. \n-"
             },
             {
               "pronoun": "ustedes",
               "conjugation": "no tengan",
-              "sentence": "No tengan pena.",
-              "translation": "Don't be shy."
+              "sentence": "No tengan pena. \n-",
+              "translation": "Don't be shy. \n-"
             }
           ]
         }
@@ -2473,11 +2473,11 @@
       "practice_scenarios": [
         {
           "scenario": "Daily activities and tasks",
-          "description": "This scenario involves discussing everyday actions and tasks. Remember that 'hacer' can mean both 'to do' and 'to make' depending on context.",
+          "description": "This scenario involves discussing everyday actions and tasks. \n- Remember that 'hacer' can mean both 'to do' and 'to make' depending on context. \n-",
           "sentences": [
             {
               "id": 1,
-              "template": "Hoy __hacer__ mucho frío.",
+              "template": "Hoy __hacer__ mucho frío. \n-",
               "slots": {
                 "options": [
                   "hace",
@@ -2488,11 +2488,11 @@
                 "correct": "hace",
                 "explanation": "Weather expressions always use third person singular 'hace'"
               },
-              "translation": "Today it's very cold."
+              "translation": "Today it's very cold. \n-"
             },
             {
               "id": 2,
-              "template": "En verano __hacer__ mucho calor aquí.",
+              "template": "En verano __hacer__ mucho calor aquí. \n-",
               "slots": {
                 "options": [
                   "hace",
@@ -2503,7 +2503,7 @@
                 "correct": "hace",
                 "explanation": "Weather expressions always use third person singular 'hace'"
               },
-              "translation": "In summer it's very hot here."
+              "translation": "In summer it's very hot here. \n-"
             },
             {
               "id": 3,
@@ -2522,7 +2522,7 @@
             },
             {
               "id": 4,
-              "template": "__hacer__ ejercicio todas las mañanas.",
+              "template": "__hacer__ ejercicio todas las mañanas. \n-",
               "slots": {
                 "options": [
                   "Hago",
@@ -2533,11 +2533,11 @@
                 "correct": "Hago",
                 "explanation": "'Hago' is correct as the speaker is talking about themselves (yo form)"
               },
-              "translation": "I exercise every morning."
+              "translation": "I exercise every morning. \n-"
             },
             {
               "id": 5,
-              "template": "Mi hermano __hacer__ la cena los viernes.",
+              "template": "Mi hermano __hacer__ la cena los viernes. \n-",
               "slots": {
                 "options": [
                   "hace",
@@ -2548,11 +2548,11 @@
                 "correct": "hace",
                 "explanation": "'Hace' is the él/ella/usted form, referring to the brother"
               },
-              "translation": "My brother makes dinner on Fridays."
+              "translation": "My brother makes dinner on Fridays. \n-"
             },
             {
               "id": 6,
-              "template": "Nosotros __hacer__ los deberes juntos.",
+              "template": "Nosotros __hacer__ los deberes juntos. \n-",
               "slots": {
                 "options": [
                   "hacemos",
@@ -2563,17 +2563,17 @@
                 "correct": "hacemos",
                 "explanation": "'Hacemos' is the nosotros form for 'we do/make'"
               },
-              "translation": "We do homework together."
+              "translation": "We do homework together. \n-"
             }
           ]
         },
         {
           "scenario": "Weather expressions",
-          "description": "This scenario uses 'hacer' in common weather expressions. Note that these are fixed phrases where 'hacer' doesn't conjugate by subject.",
+          "description": "This scenario uses 'hacer' in common weather expressions. \n- Note that these are fixed phrases where 'hacer' doesn't conjugate by subject. \n-",
           "sentences": [
             {
               "id": 1,
-              "template": "Hoy __hacer__ mucho frío.",
+              "template": "Hoy __hacer__ mucho frío. \n-",
               "slots": {
                 "options": [
                   "hace",
@@ -2584,11 +2584,11 @@
                 "correct": "hace",
                 "explanation": "Weather expressions always use third person singular 'hace'"
               },
-              "translation": "Today it's very cold."
+              "translation": "Today it's very cold. \n-"
             },
             {
               "id": 2,
-              "template": "En verano __hacer__ mucho calor aquí.",
+              "template": "En verano __hacer__ mucho calor aquí. \n-",
               "slots": {
                 "options": [
                   "hace",
@@ -2599,7 +2599,7 @@
                 "correct": "hace",
                 "explanation": "Weather expressions always use third person singular 'hace'"
               },
-              "translation": "In summer it's very hot here."
+              "translation": "In summer it's very hot here. \n-"
             },
             {
               "id": 3,
@@ -2618,7 +2618,7 @@
             },
             {
               "id": 4,
-              "template": "Ayer __hacer__ viento todo el día.",
+              "template": "Ayer __hacer__ viento todo el día. \n-",
               "slots": {
                 "options": [
                   "hizo",
@@ -2629,7 +2629,7 @@
                 "correct": "hizo",
                 "explanation": "Past tense weather expressions use 'hizo' (pretérito)"
               },
-              "translation": "Yesterday it was windy all day."
+              "translation": "Yesterday it was windy all day. \n-"
             }
           ]
         }
@@ -2640,8 +2640,8 @@
             {
               "pronoun": "yo",
               "conjugation": "hago",
-              "sentence": "Hago mi tarea por la tarde.",
-              "translation": "I do my homework in the afternoon."
+              "sentence": "Hago mi tarea por la tarde. \n-",
+              "translation": "I do my homework in the afternoon. \n-"
             },
             {
               "pronoun": "tú",
@@ -2652,26 +2652,26 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hace",
-              "sentence": "Ella hace un pastel para la fiesta.",
-              "translation": "She makes a cake for the party."
+              "sentence": "Ella hace un pastel para la fiesta. \n-",
+              "translation": "She makes a cake for the party. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hacemos",
-              "sentence": "Hacemos ejercicio en el parque.",
-              "translation": "We exercise in the park."
+              "sentence": "Hacemos ejercicio en el parque. \n-",
+              "translation": "We exercise in the park. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "hacéis",
-              "sentence": "Vosotros hacéis un buen trabajo.",
-              "translation": "You all do a good job."
+              "sentence": "Vosotros hacéis un buen trabajo. \n-",
+              "translation": "You all do a good job. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hacen",
-              "sentence": "Ellos hacen preguntas interesantes.",
-              "translation": "They ask interesting questions."
+              "sentence": "Ellos hacen preguntas interesantes. \n-",
+              "translation": "They ask interesting questions. \n-"
             }
           ]
         },
@@ -2680,8 +2680,8 @@
             {
               "pronoun": "yo",
               "conjugation": "hice",
-              "sentence": "Hice mi mejor esfuerzo.",
-              "translation": "I did my best."
+              "sentence": "Hice mi mejor esfuerzo. \n-",
+              "translation": "I did my best. \n-"
             },
             {
               "pronoun": "tú",
@@ -2692,14 +2692,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hizo",
-              "sentence": "Él hizo un gran descubrimiento.",
-              "translation": "He made a great discovery."
+              "sentence": "Él hizo un gran descubrimiento. \n-",
+              "translation": "He made a great discovery. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hicimos",
-              "sentence": "Hicimos un viaje inolvidable.",
-              "translation": "We took an unforgettable trip."
+              "sentence": "Hicimos un viaje inolvidable. \n-",
+              "translation": "We took an unforgettable trip. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -2710,8 +2710,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hicieron",
-              "sentence": "Los estudiantes hicieron su presentación.",
-              "translation": "The students did their presentation."
+              "sentence": "Los estudiantes hicieron su presentación. \n-",
+              "translation": "The students did their presentation. \n-"
             }
           ]
         },
@@ -2720,8 +2720,8 @@
             {
               "pronoun": "yo",
               "conjugation": "haré",
-              "sentence": "Mañana haré las compras.",
-              "translation": "Tomorrow I will do the shopping."
+              "sentence": "Mañana haré las compras. \n-",
+              "translation": "Tomorrow I will do the shopping. \n-"
             },
             {
               "pronoun": "tú",
@@ -2732,14 +2732,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hará",
-              "sentence": "Mi madre hará una fiesta sorpresa.",
-              "translation": "My mother will throw a surprise party."
+              "sentence": "Mi madre hará una fiesta sorpresa. \n-",
+              "translation": "My mother will throw a surprise party. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "haremos",
-              "sentence": "Haremos un proyecto juntos.",
-              "translation": "We will do a project together."
+              "sentence": "Haremos un proyecto juntos. \n-",
+              "translation": "We will do a project together. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -2750,8 +2750,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "harán",
-              "sentence": "Ellos harán arreglos en la casa.",
-              "translation": "They will make repairs to the house."
+              "sentence": "Ellos harán arreglos en la casa. \n-",
+              "translation": "They will make repairs to the house. \n-"
             }
           ]
         },
@@ -2760,8 +2760,8 @@
             {
               "pronoun": "yo",
               "conjugation": "hacía",
-              "sentence": "De niño, hacía manualidades.",
-              "translation": "As a child, I used to do crafts."
+              "sentence": "De niño, hacía manualidades. \n-",
+              "translation": "As a child, I used to do crafts. \n-"
             },
             {
               "pronoun": "tú",
@@ -2772,14 +2772,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hacía",
-              "sentence": "Mi abuela hacía el mejor pan.",
-              "translation": "My grandmother used to make the best bread."
+              "sentence": "Mi abuela hacía el mejor pan. \n-",
+              "translation": "My grandmother used to make the best bread. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hacíamos",
-              "sentence": "Hacíamos picnic los domingos.",
-              "translation": "We used to have picnics on Sundays."
+              "sentence": "Hacíamos picnic los domingos. \n-",
+              "translation": "We used to have picnics on Sundays. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -2790,8 +2790,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hacían",
-              "sentence": "Los artesanos hacían todo a mano.",
-              "translation": "Artisans used to make everything by hand."
+              "sentence": "Los artesanos hacían todo a mano. \n-",
+              "translation": "Artisans used to make everything by hand. \n-"
             }
           ]
         },
@@ -2800,8 +2800,8 @@
             {
               "pronoun": "yo",
               "conjugation": "haría",
-              "sentence": "Haría ejercicio si tuviera tiempo.",
-              "translation": "I would exercise if I had time."
+              "sentence": "Haría ejercicio si tuviera tiempo. \n-",
+              "translation": "I would exercise if I had time. \n-"
             },
             {
               "pronoun": "tú",
@@ -2812,14 +2812,14 @@
             {
               "pronoun": "él/ella/usted",
               "conjugation": "haría",
-              "sentence": "Ella haría un pastel si tuviera ingredientes.",
-              "translation": "She would make a cake if she had ingredients."
+              "sentence": "Ella haría un pastel si tuviera ingredientes. \n-",
+              "translation": "She would make a cake if she had ingredients. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "haríamos",
-              "sentence": "Haríamos un viaje si ahorráramos dinero.",
-              "translation": "We would take a trip if we saved money."
+              "sentence": "Haríamos un viaje si ahorráramos dinero. \n-",
+              "translation": "We would take a trip if we saved money. \n-"
             },
             {
               "pronoun": "vosotros",
@@ -2830,8 +2830,8 @@
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "harían",
-              "sentence": "Ellos harían cambios si pudieran.",
-              "translation": "They would make changes if they could."
+              "sentence": "Ellos harían cambios si pudieran. \n-",
+              "translation": "They would make changes if they could. \n-"
             }
           ]
         },
@@ -2840,38 +2840,38 @@
             {
               "pronoun": "yo",
               "conjugation": "haga",
-              "sentence": "Espero que haga buen tiempo mañana.",
-              "translation": "I hope the weather is nice tomorrow."
+              "sentence": "Espero que haga buen tiempo mañana. \n-",
+              "translation": "I hope the weather is nice tomorrow. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "hagas",
-              "sentence": "Quiero que hagas tu mejor esfuerzo.",
-              "translation": "I want you to do your best."
+              "sentence": "Quiero que hagas tu mejor esfuerzo. \n-",
+              "translation": "I want you to do your best. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "haga",
-              "sentence": "Es importante que él haga ejercicio.",
-              "translation": "It's important that he exercises."
+              "sentence": "Es importante que él haga ejercicio. \n-",
+              "translation": "It's important that he exercises. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hagamos",
-              "sentence": "Es necesario que hagamos algo.",
-              "translation": "It's necessary that we do something."
+              "sentence": "Es necesario que hagamos algo. \n-",
+              "translation": "It's necessary that we do something. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "hagáis",
-              "sentence": "Dudo que vosotros hagáis eso.",
-              "translation": "I doubt you all would do that."
+              "sentence": "Dudo que vosotros hagáis eso. \n-",
+              "translation": "I doubt you all would do that. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hagan",
-              "sentence": "Prefiero que hagan silencio.",
-              "translation": "I prefer that they be quiet."
+              "sentence": "Prefiero que hagan silencio. \n-",
+              "translation": "I prefer that they be quiet. \n-"
             }
           ]
         },
@@ -2880,38 +2880,38 @@
             {
               "pronoun": "yo",
               "conjugation": "hiciera",
-              "sentence": "Si yo hiciera más ejercicio, estaría en forma.",
-              "translation": "If I exercised more, I would be in shape."
+              "sentence": "Si yo hiciera más ejercicio, estaría en forma. \n-",
+              "translation": "If I exercised more, I would be in shape. \n-"
             },
             {
               "pronoun": "tú",
               "conjugation": "hicieras",
-              "sentence": "Ojalá que tú hicieras el intento.",
-              "translation": "I wish you would try."
+              "sentence": "Ojalá que tú hicieras el intento. \n-",
+              "translation": "I wish you would try. \n-"
             },
             {
               "pronoun": "él/ella/usted",
               "conjugation": "hiciera",
-              "sentence": "Era mejor que él hiciera su trabajo.",
-              "translation": "It was better that he did his work."
+              "sentence": "Era mejor que él hiciera su trabajo. \n-",
+              "translation": "It was better that he did his work. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "hiciéramos",
-              "sentence": "Si hiciéramos un esfuerzo, lo lograríamos.",
-              "translation": "If we made an effort, we would achieve it."
+              "sentence": "Si hiciéramos un esfuerzo, lo lograríamos. \n-",
+              "translation": "If we made an effort, we would achieve it. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "hicierais",
-              "sentence": "Dudaba que vosotros hicierais la tarea.",
-              "translation": "I doubted that you all did the homework."
+              "sentence": "Dudaba que vosotros hicierais la tarea. \n-",
+              "translation": "I doubted that you all did the homework. \n-"
             },
             {
               "pronoun": "ellos/ustedes",
               "conjugation": "hicieran",
-              "sentence": "Era imposible que ellos hicieran eso.",
-              "translation": "It was impossible that they did that."
+              "sentence": "Era imposible que ellos hicieran eso. \n-",
+              "translation": "It was impossible that they did that. \n-"
             }
           ]
         },
@@ -2926,8 +2926,8 @@
             {
               "pronoun": "usted",
               "conjugation": "haga",
-              "sentence": "Haga el favor de esperar.",
-              "translation": "Please wait."
+              "sentence": "Haga el favor de esperar. \n-",
+              "translation": "Please wait. \n-"
             },
             {
               "pronoun": "nosotros",
@@ -2944,8 +2944,8 @@
             {
               "pronoun": "ustedes",
               "conjugation": "hagan",
-              "sentence": "Hagan una fila, por favor.",
-              "translation": "Form a line, please."
+              "sentence": "Hagan una fila, por favor. \n-",
+              "translation": "Form a line, please. \n-"
             }
           ]
         },
@@ -2954,32 +2954,32 @@
             {
               "pronoun": "tú",
               "conjugation": "no hagas",
-              "sentence": "No hagas ruido.",
-              "translation": "Don't make noise."
+              "sentence": "No hagas ruido. \n-",
+              "translation": "Don't make noise. \n-"
             },
             {
               "pronoun": "usted",
               "conjugation": "no haga",
-              "sentence": "No haga preguntas personales.",
-              "translation": "Don't ask personal questions."
+              "sentence": "No haga preguntas personales. \n-",
+              "translation": "Don't ask personal questions. \n-"
             },
             {
               "pronoun": "nosotros",
               "conjugation": "no hagamos",
-              "sentence": "No hagamos suposiciones.",
-              "translation": "Let's not make assumptions."
+              "sentence": "No hagamos suposiciones. \n-",
+              "translation": "Let's not make assumptions. \n-"
             },
             {
               "pronoun": "vosotros",
               "conjugation": "no hagáis",
-              "sentence": "No hagáis trampa.",
-              "translation": "Don't cheat."
+              "sentence": "No hagáis trampa. \n-",
+              "translation": "Don't cheat. \n-"
             },
             {
               "pronoun": "ustedes",
               "conjugation": "no hagan",
-              "sentence": "No hagan daño a nadie.",
-              "translation": "Don't hurt anyone."
+              "sentence": "No hagan daño a nadie. \n-",
+              "translation": "Don't hurt anyone. \n-"
             }
           ]
         }
@@ -2997,9 +2997,9 @@
           "translation": "manzana",
           "gender": "f",
           "plural": "manzanas",
-          "image": "https://example.com/apple.jpg",
+          "image": "https://example. \n-com/apple. \n-jpg",
           "hint": "Common fruit, red or green",
-          "example": "Como una manzana cada mañana.",
+          "example": "Como una manzana cada mañana. \n-",
           "explanation": "Feminine noun, typically ends with -a"
         },
         {
@@ -3008,8 +3008,8 @@
           "translation": "plátano",
           "gender": "m",
           "plural": "plátanos",
-          "image": "https://example.com/banana.jpg",
-          "example": "Los plátanos son ricos en potasio."
+          "image": "https://example. \n-com/banana. \n-jpg",
+          "example": "Los plátanos son ricos en potasio. \n-"
         },
         {
           "id": "card-3",
@@ -3017,14 +3017,14 @@
           "translation": "pan",
           "gender": "m",
           "plural": "panes",
-          "example": "Compré pan fresco en la panadería."
+          "example": "Compré pan fresco en la panadería. \n-"
         },
         {
           "id": "card-4",
           "word": "milk",
           "translation": "leche",
           "gender": "f",
-          "example": "La leche es buena para los huesos."
+          "example": "La leche es buena para los huesos. \n-"
         },
         {
           "id": "card-5",
@@ -3032,42 +3032,42 @@
           "translation": "huevo",
           "gender": "m",
           "plural": "huevos",
-          "example": "Como dos huevos para el desayuno."
+          "example": "Como dos huevos para el desayuno. \n-"
         },
         {
           "id": "card-6",
           "word": "chicken",
           "translation": "pollo",
           "gender": "m",
-          "example": "El pollo asado es mi favorito."
+          "example": "El pollo asado es mi favorito. \n-"
         },
         {
           "id": "card-7",
           "word": "fish",
           "translation": "pescado",
           "gender": "m",
-          "example": "El pescado es saludable para el corazón."
+          "example": "El pescado es saludable para el corazón. \n-"
         },
         {
           "id": "card-8",
           "word": "rice",
           "translation": "arroz",
           "gender": "m",
-          "example": "El arroz con pollo es un plato típico."
+          "example": "El arroz con pollo es un plato típico. \n-"
         },
         {
           "id": "card-9",
           "word": "pasta",
           "translation": "pasta",
           "gender": "f",
-          "example": "La pasta italiana es muy popular."
+          "example": "La pasta italiana es muy popular. \n-"
         },
         {
           "id": "card-10",
           "word": "coffee",
           "translation": "café",
           "gender": "m",
-          "example": "Tomo café todas las mañanas."
+          "example": "Tomo café todas las mañanas. \n-"
         }
       ]
     },
@@ -3081,9 +3081,9 @@
           "translation": "火腿",
           "gender": "m",
           "plural": "jamones",
-          "image": "https://example.com/jamon.jpg",
+          "image": "https://example. \n-com/jamon. \n-jpg",
           "hint": "西班牙国宝级食物，常配面包",
-          "example": "Me encanta el jamón ibérico con pan con tomate.",
+          "example": "Me encanta el jamón ibérico con pan con tomate. \n-",
           "explanation": "阳性名词，特指西班牙伊比利亚火腿"
         },
         {
@@ -3092,14 +3092,14 @@
           "translation": "三明治",
           "gender": "m",
           "plural": "bocadillos",
-          "example": "Voy a tomar un bocadillo de tortilla en el café."
+          "example": "Voy a tomar un bocadillo de tortilla en el café. \n-"
         },
         {
           "id": "card-3",
           "word": "tortilla española",
           "translation": "西班牙土豆饼",
           "gender": "f",
-          "example": "La tortilla española con cebolla es mi favorita."
+          "example": "La tortilla española con cebolla es mi favorita. \n-"
         },
         {
           "id": "card-4",
@@ -3107,14 +3107,14 @@
           "translation": "油条",
           "gender": "m",
           "plural": "churros",
-          "example": "Los churros con chocolate son típicos para desayunar."
+          "example": "Los churros con chocolate son típicos para desayunar. \n-"
         },
         {
           "id": "card-5",
           "word": "paella",
           "translation": "海鲜饭",
           "gender": "f",
-          "example": "Vamos a comer paella valenciana este domingo."
+          "example": "Vamos a comer paella valenciana este domingo. \n-"
         },
         {
           "id": "card-6",
@@ -3122,49 +3122,49 @@
           "translation": "炸丸子",
           "gender": "f",
           "plural": "croquetas",
-          "example": "Las croquetas de jamón son muy populares en los bares."
+          "example": "Las croquetas de jamón son muy populares en los bares. \n-"
         },
         {
           "id": "card-7",
           "word": "pulpo a la gallega",
           "translation": "加利西亚式章鱼",
           "gender": "m",
-          "example": "El pulpo a la gallega se sirve con patatas y pimentón."
+          "example": "El pulpo a la gallega se sirve con patatas y pimentón. \n-"
         },
         {
           "id": "card-8",
           "word": "café con leche",
           "translation": "拿铁咖啡",
           "gender": "m",
-          "example": "Siempre pido un café con leche después de comer."
+          "example": "Siempre pido un café con leche después de comer. \n-"
         },
         {
           "id": "card-9",
           "word": "tapa",
           "translation": "小吃",
           "gender": "f",
-          "example": "Vamos de tapas esta noche por el barrio de La Latina."
+          "example": "Vamos de tapas esta noche por el barrio de La Latina. \n-"
         },
         {
           "id": "card-10",
           "word": "sangría",
           "translation": "桑格利亚酒",
           "gender": "f",
-          "example": "En verano siempre bebemos sangría en las terrazas."
+          "example": "En verano siempre bebemos sangría en las terrazas. \n-"
         },
         {
           "id": "card-11",
           "word": "pan con tomate",
           "translation": "番茄面包",
           "gender": "m",
-          "example": "El pan con tomate es un desayuno típico en Cataluña."
+          "example": "El pan con tomate es un desayuno típico en Cataluña. \n-"
         },
         {
           "id": "card-12",
           "word": "gazpacho",
           "translation": "冷汤",
           "gender": "m",
-          "example": "El gazpacho es perfecto para los días calurosos de verano."
+          "example": "El gazpacho es perfecto para los días calurosos de verano. \n-"
         },
         {
           "id": "card-13",
@@ -3172,21 +3172,21 @@
           "translation": "辣味土豆块",
           "gender": "f",
           "plural": "patatas bravas",
-          "example": "Las patatas bravas con salsa picante son imprescindibles."
+          "example": "Las patatas bravas con salsa picante son imprescindibles. \n-"
         },
         {
           "id": "card-14",
           "word": "pincho de tortilla",
           "translation": "土豆饼小块",
           "gender": "m",
-          "example": "Pido un pincho de tortilla y una caña en el bar."
+          "example": "Pido un pincho de tortilla y una caña en el bar. \n-"
         },
         {
           "id": "card-15",
           "word": "horchata",
           "translation": "杏仁奶",
           "gender": "f",
-          "example": "En Valencia toman horchata con fartons."
+          "example": "En Valencia toman horchata con fartons. \n-"
         }
       ]
     },
@@ -3200,56 +3200,56 @@
           "translation": "mancuerna",
           "gender": "f",
           "plural": "mancuernas",
-          "example": "Levanto mancuernas para fortalecer los brazos."
+          "example": "Levanto mancuernas para fortalecer los brazos. \n-"
         },
         {
           "id": "card-12",
           "word": "treadmill",
           "translation": "cinta de correr",
           "gender": "f",
-          "example": "Corro en la cinta de correr durante 30 minutos."
+          "example": "Corro en la cinta de correr durante 30 minutos. \n-"
         },
         {
           "id": "card-13",
           "word": "weight",
           "translation": "peso",
           "gender": "m",
-          "example": "Aumenté el peso en mis ejercicios."
+          "example": "Aumenté el peso en mis ejercicios. \n-"
         },
         {
           "id": "card-14",
           "word": "barbell",
           "translation": "barra",
           "gender": "f",
-          "example": "Hago sentadillas con la barra."
+          "example": "Hago sentadillas con la barra. \n-"
         },
         {
           "id": "card-15",
           "word": "exercise",
           "translation": "ejercicio",
           "gender": "m",
-          "example": "Hago ejercicio cinco veces por semana."
+          "example": "Hago ejercicio cinco veces por semana. \n-"
         },
         {
           "id": "card-16",
           "word": "muscle",
           "translation": "músculo",
           "gender": "m",
-          "example": "El descanso es importante para el crecimiento muscular."
+          "example": "El descanso es importante para el crecimiento muscular. \n-"
         },
         {
           "id": "card-17",
           "word": "protein",
           "translation": "proteína",
           "gender": "f",
-          "example": "Consumo proteína después del entrenamiento."
+          "example": "Consumo proteína después del entrenamiento. \n-"
         },
         {
           "id": "card-18",
           "word": "pull-up",
           "translation": "dominada",
           "gender": "f",
-          "example": "Hago diez dominadas cada día."
+          "example": "Hago diez dominadas cada día. \n-"
         },
         {
           "id": "card-19",
@@ -3257,28 +3257,28 @@
           "translation": "flexión",
           "gender": "f",
           "plural": "flexiones",
-          "example": "Las flexiones fortalecen el pecho."
+          "example": "Las flexiones fortalecen el pecho. \n-"
         },
         {
           "id": "card-20",
           "word": "squat",
           "translation": "sentadilla",
           "gender": "f",
-          "example": "Las sentadillas son buenas para las piernas."
+          "example": "Las sentadillas son buenas para las piernas. \n-"
         },
         {
           "id": "card-21",
           "word": "trainer",
           "translation": "entrenador/entrenadora",
           "gender": "m/f",
-          "example": "Mi entrenadora me ayuda con la técnica."
+          "example": "Mi entrenadora me ayuda con la técnica. \n-"
         },
         {
           "id": "card-22",
           "word": "workout",
           "translation": "entrenamiento",
           "gender": "m",
-          "example": "Hoy tuve un entrenamiento intenso."
+          "example": "Hoy tuve un entrenamiento intenso. \n-"
         }
       ]
     },
@@ -3291,84 +3291,84 @@
           "word": "mat",
           "translation": "colchoneta",
           "gender": "f",
-          "example": "Hago Pilates en la colchoneta para mayor comodidad."
+          "example": "Hago Pilates en la colchoneta para mayor comodidad. \n-"
         },
         {
           "id": "card-2",
           "word": "reformer",
           "translation": "reformer",
           "gender": "m",
-          "example": "El reformer es una máquina esencial en Pilates."
+          "example": "El reformer es una máquina esencial en Pilates. \n-"
         },
         {
           "id": "card-3",
           "word": "core",
           "translation": "centro/core",
           "gender": "m",
-          "example": "Pilates fortalece mucho el centro del cuerpo."
+          "example": "Pilates fortalece mucho el centro del cuerpo. \n-"
         },
         {
           "id": "card-4",
           "word": "breath",
           "translation": "respiración",
           "gender": "f",
-          "example": "La respiración controlada es clave en Pilates."
+          "example": "La respiración controlada es clave en Pilates. \n-"
         },
         {
           "id": "card-5",
           "word": "alignment",
           "translation": "alineación",
           "gender": "f",
-          "example": "El instructor corrigió mi alineación durante el ejercicio."
+          "example": "El instructor corrigió mi alineación durante el ejercicio. \n-"
         },
         {
           "id": "card-6",
           "word": "roll-up",
           "translation": "enrollamiento",
           "gender": "m",
-          "example": "El enrollamiento es un ejercicio clásico de Pilates."
+          "example": "El enrollamiento es un ejercicio clásico de Pilates. \n-"
         },
         {
           "id": "card-7",
           "word": "exhalar",
           "translation": "breathout",
           "gender": "v",
-          "example": "Es importante exhalar lentamente durante la relajación."
+          "example": "Es importante exhalar lentamente durante la relajación. \n-"
         },
         {
           "id": "card-8",
           "word": "spine",
           "translation": "columna vertebral",
           "gender": "f",
-          "example": "Pilates mejora la flexibilidad de la columna vertebral."
+          "example": "Pilates mejora la flexibilidad de la columna vertebral. \n-"
         },
         {
           "id": "card-9",
           "word": "hundred",
           "translation": "el cien (ejercicio)",
           "gender": "m",
-          "example": "El cien es un ejercicio de calentamiento en Pilates."
+          "example": "El cien es un ejercicio de calentamiento en Pilates. \n-"
         },
         {
           "id": "card-10",
           "word": "flexibility",
           "translation": "flexibilidad",
           "gender": "f",
-          "example": "Practico Pilates para mejorar mi flexibilidad."
+          "example": "Practico Pilates para mejorar mi flexibilidad. \n-"
         },
         {
           "id": "card-11",
           "word": "control",
           "translation": "control",
           "gender": "m",
-          "example": "Pilates se enfoca en el control de los movimientos."
+          "example": "Pilates se enfoca en el control de los movimientos. \n-"
         },
         {
           "id": "card-12",
           "word": "balance",
           "translation": "equilibrio",
           "gender": "m",
-          "example": "Los ejercicios de equilibrio son fundamentales en Pilates."
+          "example": "Los ejercicios de equilibrio son fundamentales en Pilates. \n-"
         }
       ]
     },
@@ -3381,35 +3381,35 @@
           "word": "vegetables",
           "translation": "verduras",
           "gender": "f",
-          "example": "Las verduras son esenciales para una dieta saludable."
+          "example": "Las verduras son esenciales para una dieta saludable. \n-"
         },
         {
           "id": "card-24",
           "word": "fruit",
           "translation": "fruta",
           "gender": "f",
-          "example": "Como fruta como postre."
+          "example": "Como fruta como postre. \n-"
         },
         {
           "id": "card-25",
           "word": "water",
           "translation": "agua",
           "gender": "f",
-          "example": "Bebo mucha agua durante el día."
+          "example": "Bebo mucha agua durante el día. \n-"
         },
         {
           "id": "card-26",
           "word": "meat",
           "translation": "carne",
           "gender": "f",
-          "example": "La carne roja debe consumirse con moderación."
+          "example": "La carne roja debe consumirse con moderación. \n-"
         },
         {
           "id": "card-27",
           "word": "salad",
           "translation": "ensalada",
           "gender": "f",
-          "example": "Pido una ensalada para el almuerzo."
+          "example": "Pido una ensalada para el almuerzo. \n-"
         }
       ]
     },
@@ -3422,84 +3422,84 @@
           "word": "happy",
           "translation": "feliz",
           "gender": "m/f",
-          "example": "Estoy feliz después de mi entrenamiento."
+          "example": "Estoy feliz después de mi entrenamiento. \n-"
         },
         {
           "id": "card-24",
           "word": "energetic",
           "translation": "enérgico/enérgica",
           "gender": "m/f",
-          "example": "Me siento enérgico por la mañana."
+          "example": "Me siento enérgico por la mañana. \n-"
         },
         {
           "id": "card-25",
           "word": "tired",
           "translation": "cansado/cansada",
           "gender": "m/f",
-          "example": "Estoy cansado después del gimnasio."
+          "example": "Estoy cansado después del gimnasio. \n-"
         },
         {
           "id": "card-26",
           "word": "motivated",
           "translation": "motivado/motivada",
           "gender": "m/f",
-          "example": "Estoy motivada para alcanzar mis metas."
+          "example": "Estoy motivada para alcanzar mis metas. \n-"
         },
         {
           "id": "card-27",
           "word": "stressed",
           "translation": "estresado/estresada",
           "gender": "m/f",
-          "example": "El ejercicio reduce cuando estoy estresado."
+          "example": "El ejercicio reduce cuando estoy estresado. \n-"
         },
         {
           "id": "card-28",
           "word": "sunny",
           "translation": "soleado/soleada",
           "gender": "m/f",
-          "example": "Hace un día soleado para correr afuera."
+          "example": "Hace un día soleado para correr afuera. \n-"
         },
         {
           "id": "card-29",
           "word": "rainy",
           "translation": "lluvioso/lluviosa",
           "gender": "m/f",
-          "example": "Los días lluviosos entreno en casa."
+          "example": "Los días lluviosos entreno en casa. \n-"
         },
         {
           "id": "card-30",
           "word": "windy",
           "translation": "ventoso/ventosa",
           "gender": "m/f",
-          "example": "Está ventoso para hacer ejercicio al aire libre."
+          "example": "Está ventoso para hacer ejercicio al aire libre. \n-"
         },
         {
           "id": "card-31",
           "word": "hot",
           "translation": "caluroso/calurosa",
           "gender": "m/f",
-          "example": "En días calurosos bebo más agua."
+          "example": "En días calurosos bebo más agua. \n-"
         },
         {
           "id": "card-32",
           "word": "cold",
           "translation": "frío/fría",
           "gender": "m/f",
-          "example": "Hace frío temprano por la mañana."
+          "example": "Hace frío temprano por la mañana. \n-"
         },
         {
           "id": "card-33",
           "word": "humid",
           "translation": "húmedo/húmeda",
           "gender": "m/f",
-          "example": "El clima húmedo hace el ejercicio más difícil."
+          "example": "El clima húmedo hace el ejercicio más difícil. \n-"
         },
         {
           "id": "card-34",
           "word": "foggy",
           "translation": "neblinoso/neblinosa",
           "gender": "m/f",
-          "example": "Está neblinoso en la mañana."
+          "example": "Está neblinoso en la mañana. \n-"
         }
       ]
     },
@@ -3511,7 +3511,7 @@
           "id": "card-35",
           "word": "Bueno",
           "translation": "Well/Good",
-          "example": "Bueno, vamos a empezar. (Well, let's get started.)"
+          "example": "Bueno, vamos a empezar. \n- (Well, let's get started. \n-)"
         },
         {
           "id": "card-36",
@@ -3547,13 +3547,13 @@
           "id": "card-41",
           "word": "Pues",
           "translation": "Well/Then",
-          "example": "Pues no lo sé. (Well, I don't know.)"
+          "example": "Pues no lo sé. \n- (Well, I don't know. \n-)"
         },
         {
           "id": "card-42",
           "word": "A ver",
           "translation": "Let's see",
-          "example": "A ver qué pasa. (Let's see what happens.)"
+          "example": "A ver qué pasa. \n- (Let's see what happens. \n-)"
         },
         {
           "id": "card-43",
@@ -3577,7 +3577,7 @@
           "id": "card-46",
           "word": "Anda",
           "translation": "Wow/Really (expression)",
-          "example": "¡Anda! No me lo esperaba. (Wow! I wasn't expecting that.)"
+          "example": "¡Anda! No me lo esperaba. \n- (Wow! I wasn't expecting that. \n-)"
         },
         {
           "id": "card-47",
@@ -3589,7 +3589,7 @@
           "id": "card-48",
           "word": "Ojalá",
           "translation": "I hope/If only",
-          "example": "Ojalá llueva mañana. (I hope it rains tomorrow.)"
+          "example": "Ojalá llueva mañana. \n- (I hope it rains tomorrow. \n-)"
         },
         {
           "id": "card-49",
@@ -3619,31 +3619,31 @@
           "id": "card-52",
           "word": "No pasa nada",
           "translation": "No problem/Don't worry about it",
-          "example": "¿Perdón por llegar tarde? No pasa nada. (Sorry I'm late? No problem.)"
+          "example": "¿Perdón por llegar tarde? No pasa nada. \n- (Sorry I'm late? No problem. \n-)"
         },
         {
           "id": "card-53",
           "word": "¿En serio?",
           "translation": "Seriously?",
-          "example": "Aprobé el examen. ¿En serio? ¡Felicidades! (I passed the exam. Seriously? Congrats!)"
+          "example": "Aprobé el examen. \n- ¿En serio? ¡Felicidades! (I passed the exam. \n- Seriously? Congrats!)"
         },
         {
           "id": "card-54",
           "word": "¡Qué bien!",
           "translation": "How great!/That's great!",
-          "example": "Mañana no trabajo. ¡Qué bien! (I'm not working tomorrow. That's great!)"
+          "example": "Mañana no trabajo. \n- ¡Qué bien! (I'm not working tomorrow. \n- That's great!)"
         },
         {
           "id": "card-55",
           "word": "¡Qué pena!",
           "translation": "What a shame!",
-          "example": "Se canceló el concierto. ¡Qué pena! (The concert was canceled. What a shame!)"
+          "example": "Se canceló el concierto. \n- ¡Qué pena! (The concert was canceled. \n- What a shame!)"
         },
         {
           "id": "card-56",
           "word": "Dame un segundo",
           "translation": "Give me a second",
-          "example": "Dame un segundo mientras termino esto. (Give me a sec while I finish this.)"
+          "example": "Dame un segundo mientras termino esto. \n- (Give me a sec while I finish this. \n-)"
         },
         {
           "id": "card-57",
@@ -3667,13 +3667,13 @@
           "id": "card-60",
           "word": "¡Menos mal!",
           "translation": "Thank goodness!",
-          "example": "Llegaste a tiempo. ¡Menos mal! (You arrived on time. Thank goodness!)"
+          "example": "Llegaste a tiempo. \n- ¡Menos mal! (You arrived on time. \n- Thank goodness!)"
         },
         {
           "id": "card-61",
           "word": "¡Ojo!",
           "translation": "Watch out!/Heads up!",
-          "example": "¡Ojo! El suelo está mojado. (Watch out! The floor is wet.)"
+          "example": "¡Ojo! El suelo está mojado. \n- (Watch out! The floor is wet. \n-)"
         },
         {
           "id": "card-62",
@@ -3709,7 +3709,7 @@
           "id": "card-67",
           "word": "¡Qué lío!",
           "translation": "What a mess!",
-          "example": "Perdí mis llaves otra vez. ¡Qué lío! (I lost my keys again. What a mess!)"
+          "example": "Perdí mis llaves otra vez. \n- ¡Qué lío! (I lost my keys again. \n- What a mess!)"
         },
         {
           "id": "card-68",
@@ -3721,7 +3721,7 @@
           "id": "card-69",
           "word": "¡Vaya!",
           "translation": "Wow!/Oh no! (multi-purpose reaction)",
-          "example": "¡Vaya! No sabía eso. (Wow! I didn't know that.)"
+          "example": "¡Vaya! No sabía eso. \n- (Wow! I didn't know that. \n-)"
         },
         {
           "id": "card-70",
@@ -3733,25 +3733,25 @@
           "id": "card-71",
           "word": "¡No me digas!",
           "translation": "You don't say!/Really?",
-          "example": "Me voy a mudar a Japón. ¡No me digas! (I'm moving to Japan. You don't say!)"
+          "example": "Me voy a mudar a Japón. \n- ¡No me digas! (I'm moving to Japan. \n- You don't say!)"
         },
         {
           "id": "card-72",
           "word": "¡Qué fuerte!",
           "translation": "That's crazy!/That's intense!",
-          "example": "Se casaron después de un mes. ¡Qué fuerte! (They got married after one month. That's crazy!)"
+          "example": "Se casaron después de un mes. \n- ¡Qué fuerte! (They got married after one month. \n- That's crazy!)"
         },
         {
           "id": "card-73",
           "word": "¡Qué mono!",
           "translation": "How cute!",
-          "example": "Mira al bebé durmiendo. ¡Qué mono! (Look at the baby sleeping. How cute!)"
+          "example": "Mira al bebé durmiendo. \n- ¡Qué mono! (Look at the baby sleeping. \n- How cute!)"
         },
         {
           "id": "card-74",
           "word": "¡Mejor que sobre!",
           "translation": "Better to have too much than too little",
-          "example": "¿Pongo más comida? Sí, mejor que sobre. (Should I put more food? Yes, better to have extra.)"
+          "example": "¿Pongo más comida? Sí, mejor que sobre. \n- (Should I put more food? Yes, better to have extra. \n-)"
         }
       ]
     },
@@ -3810,8 +3810,8 @@
         {
           "id": "bp-9",
           "word": "Prepárate para dos discos de dos y medio",
-          "translation": "Get ready for two 2.5kg plates",
-          "example": "Cambio de peso: prepárate para dos discos de dos y medio / Weight change: get ready for two 2.5kg plates"
+          "translation": "Get ready for two 2. \n-5kg plates",
+          "example": "Cambio de peso: prepárate para dos discos de dos y medio / Weight change: get ready for two 2. \n-5kg plates"
         },
         {
           "id": "bp-10",
@@ -3951,7 +3951,7 @@
           "translation": "parada de autobús",
           "gender": "f",
           "plural": "paradas de autobús",
-          "example": "La parada de autobús está al final de la calle."
+          "example": "La parada de autobús está al final de la calle. \n-"
         },
         {
           "id": "card-2",
@@ -3965,126 +3965,126 @@
           "word": "bus driver",
           "translation": "conductor/conductora de autobús",
           "gender": "m/f",
-          "example": "El conductor de autobús fue muy amable."
+          "example": "El conductor de autobús fue muy amable. \n-"
         },
         {
           "id": "card-4",
           "word": "next stop",
           "translation": "próxima parada",
           "gender": "f",
-          "example": "La próxima parada es el centro."
+          "example": "La próxima parada es el centro. \n-"
         },
         {
           "id": "card-5",
           "word": "transfer",
           "translation": "transbordo",
           "gender": "m",
-          "example": "Necesito hacer un transbordo para llegar al aeropuerto."
+          "example": "Necesito hacer un transbordo para llegar al aeropuerto. \n-"
         },
         {
           "id": "card-6",
           "word": "taxi stand",
           "translation": "parada de taxis",
           "gender": "f",
-          "example": "Hay una parada de taxis frente al hotel."
+          "example": "Hay una parada de taxis frente al hotel. \n-"
         },
         {
           "id": "card-7",
           "word": "taxi fare",
           "translation": "tarifa de taxi",
           "gender": "f",
-          "example": "La tarifa de taxi al aeropuerto es fija."
+          "example": "La tarifa de taxi al aeropuerto es fija. \n-"
         },
         {
           "id": "card-8",
           "word": "airport terminal",
           "translation": "terminal del aeropuerto",
           "gender": "f",
-          "example": "La terminal internacional está muy lejos."
+          "example": "La terminal internacional está muy lejos. \n-"
         },
         {
           "id": "card-9",
           "word": "boarding pass",
           "translation": "tarjeta de embarque",
           "gender": "f",
-          "example": "Muestra tu tarjeta de embarque en la puerta."
+          "example": "Muestra tu tarjeta de embarque en la puerta. \n-"
         },
         {
           "id": "card-10",
           "word": "luggage",
           "translation": "equipaje",
           "gender": "m",
-          "example": "Dejé mi equipaje en la consigna."
+          "example": "Dejé mi equipaje en la consigna. \n-"
         },
         {
           "id": "card-11",
           "word": "departures",
           "translation": "salidas",
           "gender": "f",
-          "example": "Las salidas están en el segundo piso."
+          "example": "Las salidas están en el segundo piso. \n-"
         },
         {
           "id": "card-12",
           "word": "arrivals",
           "translation": "llegadas",
           "gender": "f",
-          "example": "Esperaré en la zona de llegadas."
+          "example": "Esperaré en la zona de llegadas. \n-"
         },
         {
           "id": "card-13",
           "word": "passport control",
           "translation": "control de pasaportes",
           "gender": "m",
-          "example": "El control de pasaportes fue rápido."
+          "example": "El control de pasaportes fue rápido. \n-"
         },
         {
           "id": "card-14",
           "word": "customs",
           "translation": "aduana",
           "gender": "f",
-          "example": "Tienes que declarar productos en la aduana."
+          "example": "Tienes que declarar productos en la aduana. \n-"
         },
         {
           "id": "card-15",
           "word": "shuttle bus",
           "translation": "autobús lanzadera",
           "gender": "m",
-          "example": "El autobús lanzadera va al centro cada hora."
+          "example": "El autobús lanzadera va al centro cada hora. \n-"
         },
         {
           "id": "card-16",
           "word": "public transport",
           "translation": "transporte público",
           "gender": "m",
-          "example": "Prefiero el transporte público en la ciudad."
+          "example": "Prefiero el transporte público en la ciudad. \n-"
         },
         {
           "id": "card-17",
           "word": "schedule",
           "translation": "horario",
           "gender": "m",
-          "example": "Consulta el horario de autobuses en la app."
+          "example": "Consulta el horario de autobuses en la app. \n-"
         },
         {
           "id": "card-18",
           "word": "delay",
           "translation": "retraso",
           "gender": "m",
-          "example": "Hay un retraso de 20 minutos en el vuelo."
+          "example": "Hay un retraso de 20 minutos en el vuelo. \n-"
         },
         {
           "id": "card-19",
           "word": "platform",
           "translation": "andén",
           "gender": "m",
-          "example": "El tren sale del andén número 3."
+          "example": "El tren sale del andén número 3. \n-"
         },
         {
           "id": "card-20",
           "word": "one-way ticket",
           "translation": "billete de ida",
           "gender": "m",
-          "example": "Compré un billete de ida al centro."
+          "example": "Compré un billete de ida al centro. \n-"
         }
       ]
     }
@@ -4092,17 +4092,32 @@
   "diaries": [
     {
       "id": 1,
-      "date": "2025-08-19",
-      "freeContent": "Me gusta vida",
-      "formatedContent": {
-        "foodOfTheDay": "Hoy comi pollo y estaba delicioso, tambien he comido cafe con leche y estaba requisimo",
-        "thingOfTheDay": "Tuce un dia excelente: complete todos mis proyectos de trabojo y termine mi planificacion",
-        "moodOfTheDay": "muy feliz"
-      }
+      "date": "2025-08-22",
+      "freeContent": "Lo que hice ayer: -  comi bastenteL un 八宝粥 para desayuno, una enslada en el elmuerzo, un bocaddillo pequeno, y pollo en un bar. \n- Tambien fui al gymnacio - en el trabojo me fue bien. \n- soy intelligente, pero creo que deberia combiar un una mejor emprese, qunque necessito mas experiencia. \n- - en el gimnacio corri y hice spinning. \n- estoy feliz "
+    },
+    {
+      "id": 2,
+      "date": "2025-08-23",
+      "freeContent": "decidi coger la linea 2 de autobus, que cojo todos los dias, hasta la parada final. \n- era una cosa random, pero siempre habia querido hacerlo. \n- luego volvi caminando y vi un supermarcado. \n- Fui a comprar dos ensaladas para llevar a casa. \n- Me las comi viendo mi programma de variedaded facorito. \n- Por la noche, fui al gimnasio y empece mi entrenamiento de respiracion y cavidad toracici. \n- Siento que mi progreso es evidente. \n- "
+    },
+    {
+      "id": 3,
+      "date": "2025-08-25",
+      "freeContent": "ayer decidi comer comida buena para premiarme al final. \n- comi un ensalada y poca comida poco saludable. \n- pero anoche estaba muy cansada, pero fui al gimnacio, estoy encantada po eso. \n- en fin de semana pasado, trabeje en mis cles de ingles, fue divertido hablar con personas. \n- la semana pasada, mi estado de animo estuvo nublado, pero tambien estoy agradecida conmigo misma por el gimnacio y el autocontrol"
+    },
+    {
+      "id": 4,
+      "date": "2025-08-26",
+      "freeContent": "Feliz lunes😊- la verdad es que no me gusta que termine el fin de semana y que empiece otra vez la semana de trabajo. \n-- le cambir mucho la interdaz a mi proyecto, Craft. \n- Me tomo muchos horas. \n- - por seute, hoy pude empezer a trabajar poco a poco. \n- - Fui al comercio y compré pijama pantalón y una bolsa con Hello Kitty. \n-- al termincar, tome al autobus a casa- luego fui al gimnasio hacer HIIT y pilates- Al llegar a casa, me duché, lavé la ropa y vi muchos videos. \n- ¡Jaja, no hice nada más!- me dormi alrededor de las 0:30"
+    },
+    {
+      "id": 5,
+      "date": "2025-08-27",
+      "freeContent": ""
     }
   ],
   "userStats": {
-    "dailyStreak": 5,
-    "Dairies": 3
+    "Dairies": 5,
+    "Challenges": 2
   }
 }

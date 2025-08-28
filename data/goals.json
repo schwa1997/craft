@@ -310,7 +310,11 @@
             "id": "Acabo de...",
             "text": "Acabo de empezar este plan"
           },
-          "metric": {}
+          "metric": {
+            "type": "days strike",
+            "value": 6,
+            "unit": "days"
+          }
         }
       ],
       "timeline": []
@@ -329,6 +333,11 @@
           "date": "2025-08-25",
           "title": "Challenge starting...",
           "description": "Started a new diet challenge for myself, i think its gonna be fun~"
+        },
+        {
+          "date": "2025-08-28",
+          "title": "Going on well...",
+          "description": "I think its the first time i know how to control the diet in a healthy way. . \n- I hope I could maintain this, and i hope my weight can continue going down in a bigger picture "
         }
       ]
     }
