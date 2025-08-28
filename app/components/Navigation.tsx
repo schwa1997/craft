@@ -39,7 +39,7 @@ export function Navigation() {
                   />
                 </svg>
               </div>
-              <span className="text-xl font-extrabold text-pink-500 group-hover:text-purple-400 transition-colors">
+              <span className="text-xl font-extrabold text-pink-500 group-hover:animate-bounce transition-colors">
                 ChanGing
               </span>
               {/* 小星星装饰 */}
@@ -69,7 +69,7 @@ export function Navigation() {
 
         {/* Mobile Nav */}
         <div
-          className={`md:hidden absolute right-4 top-16 w-28 rounded-xl bg-white/90 shadow-lg border border-pink-200 transition-all duration-300 ease-out
+          className={`md:hidden absolute right-4 top-16 w-36 rounded-xl bg-white/90 shadow-lg border border-pink-200 transition-all duration-300 ease-out
           ${mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-2 pointer-events-none"}`}
         >
           <div className="py-2 space-y-1">
@@ -134,7 +134,7 @@ function Y2KNavLink({ href, children }: { href: string; children: React.ReactNod
       className={`
         relative flex items-center space-x-2 px-3 py-1.5 text-sm font-extrabold text-pink-500
         transition-all duration-150
-        ${shake ? "translate-y-1 brightness-90" : "translate-y-0 brightness-100"}
+        ${shake ? "translate-y-1 brightness-90 border-pink-400 border-b-2 rounded-2xl" : "translate-y-0 brightness-100"}
       `}
     >
       <span>{children}</span>
@@ -178,7 +178,7 @@ function Y2KMobileNavLink({ href, children, onClick }: { href: string; children:
         ${shake ? "translate-y-1 brightness-90" : "translate-y-0 brightness-100"}
       `}
     >
-      {children}
+      {children } &nbsp; 
       <img
         src="https://www.clipartmax.com/png/full/126-1261994_hello-kitty-png-icon-hello-kitty-png-icons.png"
         alt="kitty"

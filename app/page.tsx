@@ -33,7 +33,7 @@ export default function ItaCabinet() {
   ];
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-b from-pink-50 to-purple-100 p-8">
+    <main className="min-h-screen flex items-center justify-center bg-[url(https://static.vecteezy.com/system/resources/previews/036/274/514/non_2x/gradient-y2k-background-with-heart-pink-poster-with-blurry-heart-in-center-romantic-color-poster-vector.jpg)] bg-repeat-round p-8">
       {/* Cabinet container */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 w-full p-6 rounded-3xl">
         {/* Each image slot */}

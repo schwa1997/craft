@@ -136,7 +136,7 @@ export default function StaticEnergyGarden() {
     calendarDays.push(
       <div
         key={`day-${day}`}
-        className={`bg-white rounded-lg shadow-sm border border-emerald-100 p-1 flex flex-col items-center justify-between h-20 hover:shadow-md transition cursor-pointer ${
+        className={`bg-white rounded-lg shadow-sm border border-pink-100 p-1 flex flex-col items-center justify-between h-20 hover:shadow-md transition cursor-pointer ${
           totalEnergy > 0 ? "opacity-100" : "opacity-60"
         }`}
         onClick={() => {
@@ -146,7 +146,7 @@ export default function StaticEnergyGarden() {
           });
         }}
       >
-        <span className="text-xs text-emerald-700">{day}</span>
+        <span className="text-xs text-pink-700">{day}</span>
 
         {totalEnergy > 0 ? (
           <div className="w-full flex flex-col gap-1 mt-1">
@@ -276,14 +276,14 @@ export default function StaticEnergyGarden() {
     return monday.toISOString().split("T")[0];
   };
   return (
-    <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white p-4 md:p-6">
+    <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white p-4 md:p-6">
       {/* Header Section */}
 
       <header className="md:mb-8 mb-1 text-center">
-        <h1 className="md:text-4xl text-xl font-bold text-emerald-700 md:mb-2 mb-0">
+        <h1 className="md:text-4xl text-xl font-bold text-pink-700 md:mb-2 mb-0">
           🌱 Energy Garden
         </h1>
-        <p className="text-emerald-600 text-lg hidden md:block">
+        <p className="text-pink-600 text-lg hidden md:block">
           Track your daily energy distribution across work, life, and goals
         </p>
       </header>
@@ -293,14 +293,14 @@ export default function StaticEnergyGarden() {
         {/* Main Calendar Area */}
         <div className="lg:col-span-2 ">
           {/* Mobile Header (visible only on mobile) */}
-          <div className="md:block bg-white rounded-xl shadow-sm  md:p-4 p-1 md:mb-4 mb-1 border border-emerald-100">
+          <div className="md:block bg-white rounded-xl shadow-sm  md:p-4 p-1 md:mb-4 mb-1 border border-pink-100">
             <div className="flex items-center justify-between md:mb-4 mb-1">
               <button
                 onClick={() => handleMonthChange(-1)}
-                className="p-2 rounded-full hover:bg-emerald-50 transition"
+                className="p-2 rounded-full hover:bg-pink-50 transition"
               >
                 <svg
-                  className="w-5 h-5 text-emerald-600"
+                  className="w-5 h-5 text-pink-600"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -313,15 +313,15 @@ export default function StaticEnergyGarden() {
                   />
                 </svg>
               </button>
-              <h2 className="md:text-lg text-sm font-semibold text-emerald-700">
+              <h2 className="md:text-lg text-sm font-semibold text-pink-700">
                 {monthNames[currentMonth]} {currentYear}
               </h2>
               <button
                 onClick={() => handleMonthChange(1)}
-                className="p-2 rounded-full hover:bg-emerald-50 transition"
+                className="p-2 rounded-full hover:bg-pink-50 transition"
               >
                 <svg
-                  className="w-5 h-5 text-emerald-600"
+                  className="w-5 h-5 text-pink-600"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -338,12 +338,12 @@ export default function StaticEnergyGarden() {
           </div>
 
           {/* Calendar Grid */}
-          <div className="bg-white rounded-xl shadow-sm p-4 border border-emerald-100">
+          <div className="bg-white rounded-xl shadow-sm p-4 border border-pink-100">
             <div className="grid grid-cols-7 gap-1 mb-2">
               {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((day) => (
                 <div
                   key={day}
-                  className="text-center text-xs font-medium text-emerald-600 py-1"
+                  className="text-center text-xs font-medium text-pink-600 py-1"
                 >
                   {day.substring(0, 3)}
                 </div>
@@ -355,14 +355,14 @@ export default function StaticEnergyGarden() {
         {/* Left Sidebar - Stats & Controls (hidden on mobile) */}
         <div className="lg:col-span-1 space-y-6">
           {/* Month Navigation */}
-          <div className="bg-white md:text-lg text-sm rounded-xl shadow-sm p-4 border border-emerald-100">
+          <div className="bg-white md:text-lg text-sm rounded-xl shadow-sm p-4 border border-pink-100">
             <div className="flex items-center justify-between md:mb-4 mb-1">
               <button
                 onClick={() => handleMonthChange(-1)}
-                className="p-2 rounded-full hover:bg-emerald-50 transition"
+                className="p-2 rounded-full hover:bg-pink-50 transition"
               >
                 <svg
-                  className="w-5 h-5 text-emerald-600"
+                  className="w-5 h-5 text-pink-600"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -375,15 +375,15 @@ export default function StaticEnergyGarden() {
                   />
                 </svg>
               </button>
-              <h2 className="md:text-lg text-sm font-semibold text-emerald-700">
+              <h2 className="md:text-lg text-sm font-semibold text-pink-700">
                 {monthNames[currentMonth]} {currentYear}
               </h2>
               <button
                 onClick={() => handleMonthChange(1)}
-                className="p-2 rounded-full hover:bg-emerald-50 transition"
+                className="p-2 rounded-full hover:bg-pink-50 transition"
               >
                 <svg
-                  className="w-5 h-5 text-emerald-600"
+                  className="w-5 h-5 text-pink-600"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -399,8 +399,8 @@ export default function StaticEnergyGarden() {
             </div>
 
             {/* Progress Summary */}
-            <div className="bg-white md:text-lg text-sm rounded-xl shadow-sm p-4 border border-emerald-100 md:mb-4 mb-1">
-              <h3 className="text-sm font-semibold text-emerald-700 mb-2">
+            <div className="bg-white md:text-lg text-sm rounded-xl shadow-sm p-4 border border-pink-100 md:mb-4 mb-1">
+              <h3 className="text-sm font-semibold text-pink-700 mb-2">
                 Monthly Energy Summary
               </h3>
               <div className="w-full h-4 rounded-full bg-gray-100 flex overflow-hidden">
@@ -426,8 +426,8 @@ export default function StaticEnergyGarden() {
           </div>
 
           {/* Category Legend */}
-          <div className="bg-white rounded-xl shadow-sm p-4 border border-emerald-100">
-            <h3 className="font-semibold text-emerald-700 mb-3">Categories</h3>
+          <div className="bg-white rounded-xl shadow-sm p-4 border border-pink-100">
+            <h3 className="font-semibold text-pink-700 mb-3">Categories</h3>
             <div className="space-y-3">
               {Object.entries(settings.categories).map(([type, category]) => (
                 <div key={type} className="flex items-start">
@@ -468,7 +468,7 @@ export default function StaticEnergyGarden() {
         <div className="fixed inset-0 bg-transparent flex items-center justify-center p-4 z-50">
           <div className="bg-white rounded-xl p-6 max-w-md w-full max-h-[80vh] overflow-y-auto">
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-lg font-bold text-emerald-700">
+              <h3 className="text-lg font-bold text-pink-700">
                 Weekly Report - Week of{" "}
                 {getMondayOfWeek(selectedDay.date).toLocaleDateString("en-US", {
                   year: "numeric",
@@ -490,10 +490,10 @@ export default function StaticEnergyGarden() {
                 <div className="bg-white/90 backdrop-blur-lg rounded-xl p-6 w-full max-w-md max-h-[80vh] overflow-y-auto border border-white/20 shadow-xl">
                   <div className="flex justify-between items-center mb-4">
                     <div>
-                      <h3 className="text-lg font-bold text-emerald-800">
+                      <h3 className="text-lg font-bold text-pink-800">
                         Weekly Report
                       </h3>
-                      <p className="text-sm text-emerald-600">
+                      <p className="text-sm text-pink-600">
                         Week of{" "}
                         {getMondayOfWeek(selectedDay.date).toLocaleDateString(
                           "en-US",
@@ -507,11 +507,11 @@ export default function StaticEnergyGarden() {
                     </div>
                     <button
                       onClick={() => setSelectedDay(null)}
-                      className="p-1 rounded-full hover:bg-emerald-50 transition-colors"
+                      className="p-1 rounded-full hover:bg-pink-50 transition-colors"
                       aria-label="Close"
                     >
                       <svg
-                        className="w-5 h-5 text-emerald-600"
+                        className="w-5 h-5 text-pink-600"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -531,7 +531,7 @@ export default function StaticEnergyGarden() {
                     {weeklyReport[getMondayString(selectedDay.date)] ? (
                       <>
                         <div className="bg-white/70 p-4 rounded-lg border border-white shadow-sm">
-                          <h4 className="font-semibold text-emerald-700 mb-3 flex items-center">
+                          <h4 className="font-semibold text-pink-700 mb-3 flex items-center">
                             <svg
                               className="w-4 h-4 mr-2"
                               fill="none"
@@ -560,7 +560,7 @@ export default function StaticEnergyGarden() {
                         {weeklyReport[getMondayString(selectedDay.date)]
                           .review && (
                           <div className="bg-white/70 p-4 rounded-lg border border-white shadow-sm">
-                            <h4 className="font-semibold text-emerald-700 mb-3 flex items-center">
+                            <h4 className="font-semibold text-pink-700 mb-3 flex items-center">
                               <svg
                                 className="w-4 h-4 mr-2"
                                 fill="none"
@@ -591,7 +591,7 @@ export default function StaticEnergyGarden() {
                     ) : (
                       <div className="text-center py-8">
                         <svg
-                          className="w-12 h-12 mx-auto text-emerald-200"
+                          className="w-12 h-12 mx-auto text-pink-200"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"

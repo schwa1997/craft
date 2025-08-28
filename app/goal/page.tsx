@@ -15,13 +15,13 @@ export default function HappinessDashboard() {
   );
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white p-4 md:p-6">
+    <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white p-4 md:p-6">
       {/* Header Section */}
       <header className="mb-6 md:mb-8 text-center">
-        <h1 className="text-3xl md:text-4xl font-bold text-emerald-700 mb-2">
+        <h1 className="text-3xl md:text-4xl font-bold text-pink-700 mb-2">
           🌈 Goals Tracker
         </h1>
-        <p className="text-emerald-600 text-base md:text-lg">
+        <p className="text-pink-600 text-base md:text-lg">
           Track your happiness journey
         </p>
       </header>
@@ -31,8 +31,8 @@ export default function HappinessDashboard() {
         {/* Left Sidebar - Stats - Hidden on mobile if no space */}
         <div className="lg:w-1/3 space-y-4 md:space-y-6 order-2 lg:order-1">
           {/* Summary Cards - Compact on mobile */}
-          <div className="bg-white rounded-xl shadow-md p-4 md:p-6 border border-emerald-100">
-            <h3 className="font-semibold text-emerald-700 mb-3 text-sm md:text-base">
+          <div className="bg-white rounded-xl shadow-md p-4 md:p-6 border border-pink-100">
+            <h3 className="font-semibold text-pink-700 mb-3 text-sm md:text-base">
               Progress Overview
             </h3>
             <div className="space-y-4">
@@ -109,7 +109,6 @@ export default function HappinessDashboard() {
 
         {/* Main Goals Area - Takes full width on mobile */}
         <div className="lg:w-2/3 space-y-4 md:space-y-6 order-1 lg:order-2">
-          {/* Active Goals Section */}
           {/* Active Goals Section */}
           {activeGoals.length > 0 && (
             <section className="bg-gradient-to-br from-emerald-50 to-white rounded-xl shadow-md p-4 md:p-6 border border-emerald-200">
