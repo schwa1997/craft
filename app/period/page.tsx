@@ -49,23 +49,50 @@ export default function PeriodsPage() {
             "0"
         )}-${String(day).padStart(2, "0")}`;
         const info = dailyMap[dateStr];
+        const kittyImages = [
+            "https://i.pinimg.com/736x/cc/82/12/cc82128aaa8e1387b665684dd5e63b21.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4Gk-3Or6VWbWvEhBsD8X9r1bl7yzg6BvBN3YxZidAePoelNOp90LXJkNETKyGvdxROJA&usqp=CAU",
+            "https://i.pinimg.com/736x/0c/7f/71/0c7f7117c72c8d72d1200d538ce1af92.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEj45aQN5MyaromlkApyOJKqjaZmk8xRRiDQ&s"
+        ];
 
         const flowIndicator = info?.flow ? (
-            <div className="flex items-center justify-center mt-1">
+            <div className="flex items-center justify-center mt-1 space-x-1">
                 {info.flow === "spotting" && (
-                    <div className="w-2 h-2 bg-pink-200 rounded-full" title="Spotting"></div>
+                    <img
+                        src={kittyImages[0]}
+                        alt="Spotting"
+                        className="w-10 h-10 rounded-full animate-bounce "
+                        title="Spotting"
+                    />
                 )}
                 {info.flow === "light" && (
-                    <div className="w-3 h-3 bg-pink-300 rounded-full" title="Light"></div>
+                    <img
+                        src={kittyImages[1]}
+                        alt="Light"
+                        className="w-10 h-10 rounded-full animate-pulse"
+                        title="Light"
+                    />
                 )}
                 {info.flow === "medium" && (
-                    <div className="w-4 h-4 bg-pink-400 rounded-full shadow-md" title="Medium"></div>
+                    <img
+                        src={kittyImages[2]}
+                        alt="Medium"
+                        className="w-10 h-10 rounded-full shadow-md animate-spin "
+                        title="Medium"
+                    />
                 )}
                 {info.flow === "heavy" && (
-                    <div className="w-5 h-5 bg-pink-600 rounded-full shadow-lg animate-pulse" title="Heavy"></div>
+                    <img
+                        src={kittyImages[3]}
+                        alt="Heavy"
+                        className="w-10 h-10 rounded-full shadow-lg animate-ping"
+                        title="Heavy"
+                    />
                 )}
             </div>
         ) : null;
+
 
         calendarDays.push(
             <div

@@ -182,7 +182,7 @@ function Y2KMobileNavLink({ href, children, onClick }: { href: string; children:
       <img
         src="https://www.clipartmax.com/png/full/126-1261994_hello-kitty-png-icon-hello-kitty-png-icons.png"
         alt="kitty"
-        className={`h-5 w-5 ${shake ? "animate-kitty-shake" : ""}`}
+        className={`h-5 w-3 ${shake ? "animate-kitty-shake" : ""}`}
       />
     </Link>
   );
