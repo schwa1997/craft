@@ -53,10 +53,10 @@ export default function PeriodStats({ data }: PeriodStatsProps) {
     return (
         <div className="my-6 space-y-6">
             {/* Mode Buttons */}
-            <div className="flex items-center gap-2 flex-wrap">
+            <div className="flex gap-2 flex-wrap">
                 <Button
                     variant={mode === "all" ? "default" : "outline"}
-                    className="rounded-full bg-pink-100 text-pink-700 hover:bg-pink-200 min-w-[100px]"
+                    className="rounded-full bg-pink-100 text-pink-700 hover:bg-pink-200 md:min-w-[100px] min-w-[50px]"
                     onClick={() => {
                         setMode("all");
                         setSelectedYear(null);
@@ -66,19 +66,19 @@ export default function PeriodStats({ data }: PeriodStatsProps) {
                 </Button>
                 <Button
                     variant={mode === "year" ? "default" : "outline"}
-                    className="rounded-full bg-pink-100 text-pink-700 hover:bg-pink-200 min-w-[100px]"
+                    className="rounded-full bg-pink-100 text-pink-700 hover:bg-pink-200 md:w-[100px] w-50px"
                     onClick={() => setMode("year")}
                 >
                     By Year
                 </Button>
                 {mode === "year" && (
                     <select
-                        className="ml-2 border border-pink-200 rounded-full px-3 py-1 text-pink-700 font-semibold"
+                        className="ml-2 border border-pink-200 rounded-full px-3 py-1 text-pink-700 font-semibold "
                         value={selectedYear ?? ""}
                         onChange={(e) => setSelectedYear(Number(e.target.value))}
                     >
                         <option value="" disabled>
-                            Select Year
+                            Select
                         </option>
                         {years.map((y) => (
                             <option key={y} value={y}>
@@ -90,23 +90,23 @@ export default function PeriodStats({ data }: PeriodStatsProps) {
             </div>
 
             {/* Statistic Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <Card className="p-6 rounded-2xl shadow-lg text-center">
+            <div className="grid grid-cols-3 gap-4">
+                <Card className="md:p-6 p-2 rounded-2xl shadow-lg text-center">
                     <CardContent>
                         <p className="text-sm text-pink-400">Average Cycle</p>
-                        <p className="text-2xl font-bold text-pink-500">{avgCycle} days</p>
+                        <p className="md:text-2xl text-lg font-bold text-pink-500">{avgCycle} days</p>
                     </CardContent>
                 </Card>
-                <Card className="p-6 rounded-2xl shadow-lg text-center">
+                <Card className="md:p-6 p-1 rounded-2xl shadow-lg text-center">
                     <CardContent>
                         <p className="text-sm text-pink-400">Shortest Cycle</p>
-                        <p className="text-2xl font-bold text-pink-500">{minCycle} days</p>
+                        <p className="md:text-2xl text-lg font-bold text-pink-500">{minCycle} days</p>
                     </CardContent>
                 </Card>
-                <Card className="p-6 rounded-2xl shadow-lg text-center">
+                <Card className="md:p-6 p-1 rounded-2xl shadow-lg text-center">
                     <CardContent>
                         <p className="text-sm text-pink-400">Longest Cycle</p>
-                        <p className="text-2xl font-bold text-pink-500">{maxCycle} days</p>
+                        <p className="md:text-2xl text-lg font-bold text-pink-500">{maxCycle} days</p>
                     </CardContent>
                 </Card>
             </div>
@@ -117,7 +117,7 @@ export default function PeriodStats({ data }: PeriodStatsProps) {
                         Cycle Length Trend {mode === "year" && selectedYear ? `(${selectedYear})` : ""}
                     </p>
                     <ResponsiveContainer width="100%" height={220}>
-                        <LineChart data={cycles}>
+                        <LineChart data={cycles} className="-ml-12">
                             <Line
                                 type="monotone"
                                 dataKey="length"

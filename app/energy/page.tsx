@@ -136,8 +136,9 @@ export default function StaticEnergyGarden() {
     calendarDays.push(
       <div
         key={`day-${day}`}
-        className={`bg-white rounded-lg shadow-sm border border-emerald-100 p-1 flex flex-col items-center justify-between h-20 hover:shadow-md transition cursor-pointer ${totalEnergy > 0 ? "opacity-100" : "opacity-60"
-          }`}
+        className={`bg-white rounded-lg shadow-sm border border-emerald-100 p-1 flex flex-col items-center justify-between h-20 hover:shadow-md transition cursor-pointer ${
+          totalEnergy > 0 ? "opacity-100" : "opacity-60"
+        }`}
         onClick={() => {
           setSelectedDay({
             date: dayData.date,
@@ -278,22 +279,22 @@ export default function StaticEnergyGarden() {
     <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white p-4 md:p-6">
       {/* Header Section */}
 
-      <header className="mb-8 text-center">
-        <h1 className="text-4xl font-bold text-emerald-700 mb-2">
+      <header className="md:mb-8 mb-1 text-center">
+        <h1 className="md:text-4xl text-xl font-bold text-emerald-700 md:mb-2 mb-0">
           🌱 Energy Garden
         </h1>
-        <p className="text-emerald-600 text-lg">
+        <p className="text-emerald-600 text-lg hidden md:block">
           Track your daily energy distribution across work, life, and goals
         </p>
       </header>
 
       {/* Main Content - Two Column Layout on Desktop */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Left Sidebar - Stats & Controls (hidden on mobile) */}
-        <div className="lg:col-span-1 space-y-6 hidden md:block">
-          {/* Month Navigation */}
-          <div className="bg-white rounded-xl shadow-sm p-4 border border-emerald-100">
-            <div className="flex items-center justify-between mb-4">
+        {/* Main Calendar Area */}
+        <div className="lg:col-span-2 ">
+          {/* Mobile Header (visible only on mobile) */}
+          <div className="md:block bg-white rounded-xl shadow-sm  md:p-4 p-1 md:mb-4 mb-1 border border-emerald-100">
+            <div className="flex items-center justify-between md:mb-4 mb-1">
               <button
                 onClick={() => handleMonthChange(-1)}
                 className="p-2 rounded-full hover:bg-emerald-50 transition"
@@ -312,7 +313,69 @@ export default function StaticEnergyGarden() {
                   />
                 </svg>
               </button>
-              <h2 className="text-lg font-semibold text-emerald-700">
+              <h2 className="md:text-lg text-sm font-semibold text-emerald-700">
+                {monthNames[currentMonth]} {currentYear}
+              </h2>
+              <button
+                onClick={() => handleMonthChange(1)}
+                className="p-2 rounded-full hover:bg-emerald-50 transition"
+              >
+                <svg
+                  className="w-5 h-5 text-emerald-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          {/* Calendar Grid */}
+          <div className="bg-white rounded-xl shadow-sm p-4 border border-emerald-100">
+            <div className="grid grid-cols-7 gap-1 mb-2">
+              {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((day) => (
+                <div
+                  key={day}
+                  className="text-center text-xs font-medium text-emerald-600 py-1"
+                >
+                  {day.substring(0, 3)}
+                </div>
+              ))}
+            </div>
+            <div className="grid grid-cols-7 gap-1">{calendarDays}</div>
+          </div>
+        </div>{" "}
+        {/* Left Sidebar - Stats & Controls (hidden on mobile) */}
+        <div className="lg:col-span-1 space-y-6">
+          {/* Month Navigation */}
+          <div className="bg-white md:text-lg text-sm rounded-xl shadow-sm p-4 border border-emerald-100">
+            <div className="flex items-center justify-between md:mb-4 mb-1">
+              <button
+                onClick={() => handleMonthChange(-1)}
+                className="p-2 rounded-full hover:bg-emerald-50 transition"
+              >
+                <svg
+                  className="w-5 h-5 text-emerald-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 19l-7-7 7-7"
+                  />
+                </svg>
+              </button>
+              <h2 className="md:text-lg text-sm font-semibold text-emerald-700">
                 {monthNames[currentMonth]} {currentYear}
               </h2>
               <button
@@ -336,8 +399,10 @@ export default function StaticEnergyGarden() {
             </div>
 
             {/* Progress Summary */}
-            <div className="bg-white rounded-xl shadow-sm p-4 border border-emerald-100 mb-4">
-              <h3 className="text-sm font-semibold text-emerald-700 mb-2">Monthly Energy Summary</h3>
+            <div className="bg-white md:text-lg text-sm rounded-xl shadow-sm p-4 border border-emerald-100 md:mb-4 mb-1">
+              <h3 className="text-sm font-semibold text-emerald-700 mb-2">
+                Monthly Energy Summary
+              </h3>
               <div className="w-full h-4 rounded-full bg-gray-100 flex overflow-hidden">
                 {(["work", "life", "goals"] as EnergyCategory[]).map((type) => {
                   const width = Math.min(progress[type], 100);
@@ -394,69 +459,6 @@ export default function StaticEnergyGarden() {
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-
-        {/* Main Calendar Area */}
-        <div className="lg:col-span-2">
-          {/* Mobile Header (visible only on mobile) */}
-          <div className="md:hidden bg-white rounded-xl shadow-sm p-4 mb-4 border border-emerald-100">
-            <div className="flex items-center justify-between mb-3">
-              <button
-                onClick={() => handleMonthChange(-1)}
-                className="p-2 rounded-full hover:bg-emerald-50 transition"
-              >
-                <svg
-                  className="w-5 h-5 text-emerald-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M15 19l-7-7 7-7"
-                  />
-                </svg>
-              </button>
-              <h2 className="text-lg font-semibold text-emerald-700">
-                {monthNames[currentMonth]} {currentYear}
-              </h2>
-              <button
-                onClick={() => handleMonthChange(1)}
-                className="p-2 rounded-full hover:bg-emerald-50 transition"
-              >
-                <svg
-                  className="w-5 h-5 text-emerald-600"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
-
-          {/* Calendar Grid */}
-          <div className="bg-white rounded-xl shadow-sm p-4 border border-emerald-100">
-            <div className="grid grid-cols-7 gap-1 mb-2">
-              {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((day) => (
-                <div
-                  key={day}
-                  className="text-center text-xs font-medium text-emerald-600 py-1"
-                >
-                  {day.substring(0, 3)}
-                </div>
-              ))}
-            </div>
-            <div className="grid grid-cols-7 gap-1">{calendarDays}</div>
           </div>
         </div>
       </div>
@@ -557,34 +559,34 @@ export default function StaticEnergyGarden() {
 
                         {weeklyReport[getMondayString(selectedDay.date)]
                           .review && (
-                            <div className="bg-white/70 p-4 rounded-lg border border-white shadow-sm">
-                              <h4 className="font-semibold text-emerald-700 mb-3 flex items-center">
-                                <svg
-                                  className="w-4 h-4 mr-2"
-                                  fill="none"
-                                  viewBox="0 0 24 24"
-                                  stroke="currentColor"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-                                  />
-                                </svg>
-                                Review
-                              </h4>
-                              <div className="prose prose-sm max-w-none text-gray-700 pl-6">
-                                <ReactMarkdown>
-                                  {
-                                    weeklyReport[
-                                      getMondayString(selectedDay.date)
-                                    ].review
-                                  }
-                                </ReactMarkdown>
-                              </div>
+                          <div className="bg-white/70 p-4 rounded-lg border border-white shadow-sm">
+                            <h4 className="font-semibold text-emerald-700 mb-3 flex items-center">
+                              <svg
+                                className="w-4 h-4 mr-2"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                                />
+                              </svg>
+                              Review
+                            </h4>
+                            <div className="prose prose-sm max-w-none text-gray-700 pl-6">
+                              <ReactMarkdown>
+                                {
+                                  weeklyReport[
+                                    getMondayString(selectedDay.date)
+                                  ].review
+                                }
+                              </ReactMarkdown>
                             </div>
-                          )}
+                          </div>
+                        )}
                       </>
                     ) : (
                       <div className="text-center py-8">
