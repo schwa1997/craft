@@ -6,38 +6,31 @@
             "days": [
                 {
                     "date": "2015-10-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-10-25",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-10-26",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-10-27",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2015-10-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-10-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-10-30",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -47,38 +40,31 @@
             "days": [
                 {
                     "date": "2015-11-26",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-11-27",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-11-28",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-11-29",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2015-11-30",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-12-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-12-02",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -88,38 +74,31 @@
             "days": [
                 {
                     "date": "2015-12-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-12-29",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-12-30",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-12-31",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-01-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-01-02",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-01-03",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -129,38 +108,31 @@
             "days": [
                 {
                     "date": "2016-02-03",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-02-04",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-02-05",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-02-06",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-02-07",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-02-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-02-09",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -170,38 +142,31 @@
             "days": [
                 {
                     "date": "2016-03-04",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-03-05",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-03-06",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-03-07",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-03-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-03-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-03-10",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -211,38 +176,31 @@
             "days": [
                 {
                     "date": "2016-04-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-04-06",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-04-07",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-04-08",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-04-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-04-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-04-11",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -252,38 +210,31 @@
             "days": [
                 {
                     "date": "2016-05-03",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-05-04",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-05-05",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-05-06",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-05-07",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-05-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-05-09",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -293,38 +244,31 @@
             "days": [
                 {
                     "date": "2016-06-04",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-06-05",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-06-06",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-06-07",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-06-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-06-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-06-10",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -334,38 +278,31 @@
             "days": [
                 {
                     "date": "2016-07-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-07-06",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-07-07",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-07-08",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-07-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-07-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-07-11",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -375,38 +312,31 @@
             "days": [
                 {
                     "date": "2016-08-04",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-08-05",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-08-06",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-08-07",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-08-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-08-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-08-10",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -416,38 +346,31 @@
             "days": [
                 {
                     "date": "2016-09-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-09-06",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-09-07",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-09-08",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-09-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-09-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-09-11",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -457,38 +380,31 @@
             "days": [
                 {
                     "date": "2016-10-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-10-06",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-10-07",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-10-08",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-10-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-10-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-10-11",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -498,38 +414,31 @@
             "days": [
                 {
                     "date": "2016-11-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-11-06",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-11-07",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-11-08",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-11-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-11-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-11-11",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -539,38 +448,31 @@
             "days": [
                 {
                     "date": "2016-12-07",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-12-08",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-12-09",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-12-10",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-12-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-12-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-12-13",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -580,38 +482,31 @@
             "days": [
                 {
                     "date": "2017-01-06",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-01-07",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-01-08",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-01-09",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-01-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-01-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-01-12",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -621,38 +516,31 @@
             "days": [
                 {
                     "date": "2017-02-06",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-02-07",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-02-08",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-02-09",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-02-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-02-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-02-12",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -662,38 +550,31 @@
             "days": [
                 {
                     "date": "2017-02-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-02-26",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-02-27",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-02-28",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-03-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-03-02",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-03-03",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -703,38 +584,31 @@
             "days": [
                 {
                     "date": "2017-03-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-03-19",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-03-20",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-03-21",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-03-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-03-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-03-24",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -744,38 +618,31 @@
             "days": [
                 {
                     "date": "2017-04-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-04-15",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-04-16",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-04-17",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-04-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-04-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-04-20",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -785,38 +652,31 @@
             "days": [
                 {
                     "date": "2017-05-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-05-19",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-05-20",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-05-21",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-05-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-05-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-05-24",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -826,38 +686,31 @@
             "days": [
                 {
                     "date": "2017-06-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-06-11",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-06-12",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-06-13",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-06-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-06-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-06-16",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -867,38 +720,31 @@
             "days": [
                 {
                     "date": "2017-07-31",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-08-01",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-08-02",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-08-03",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-08-04",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-08-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-08-06",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -908,38 +754,31 @@
             "days": [
                 {
                     "date": "2017-09-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-09-06",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-09-07",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-09-08",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-09-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-09-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-09-11",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -949,38 +788,31 @@
             "days": [
                 {
                     "date": "2017-10-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-10-06",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-10-07",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-10-08",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-10-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-10-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-10-11",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -990,38 +822,31 @@
             "days": [
                 {
                     "date": "2017-11-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-11-06",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-11-07",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-11-08",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-11-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-11-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-11-11",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1031,38 +856,31 @@
             "days": [
                 {
                     "date": "2017-12-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-12-06",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-12-07",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2017-12-08",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2017-12-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-12-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2017-12-11",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1072,38 +890,31 @@
             "days": [
                 {
                     "date": "2018-01-07",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-01-08",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-01-09",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-01-10",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-01-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-01-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-01-13",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1113,38 +924,31 @@
             "days": [
                 {
                     "date": "2018-02-07",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-02-08",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-02-09",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-02-10",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-02-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-02-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-02-13",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1154,38 +958,31 @@
             "days": [
                 {
                     "date": "2018-03-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-03-17",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-03-18",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-03-19",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-03-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-03-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-03-22",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1195,38 +992,31 @@
             "days": [
                 {
                     "date": "2018-04-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-04-17",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-04-18",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-04-19",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-04-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-04-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-04-22",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1236,38 +1026,31 @@
             "days": [
                 {
                     "date": "2018-05-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-05-19",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-05-20",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-05-21",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-05-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-05-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-05-24",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1277,38 +1060,31 @@
             "days": [
                 {
                     "date": "2018-06-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-06-16",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-06-17",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-06-18",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-06-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-06-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-06-21",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1318,38 +1094,31 @@
             "days": [
                 {
                     "date": "2018-07-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-07-14",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-07-15",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-07-16",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-07-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-07-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-07-19",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1359,38 +1128,31 @@
             "days": [
                 {
                     "date": "2018-08-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-08-17",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-08-18",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-08-19",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-08-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-08-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-08-22",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1400,38 +1162,31 @@
             "days": [
                 {
                     "date": "2018-09-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-09-14",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-09-15",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-09-16",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-09-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-09-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-09-19",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1441,38 +1196,31 @@
             "days": [
                 {
                     "date": "2018-10-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-10-16",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-10-17",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-10-18",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-10-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-10-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-10-21",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1482,38 +1230,31 @@
             "days": [
                 {
                     "date": "2018-11-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-11-16",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-11-17",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-11-18",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-11-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-11-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-11-21",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1523,38 +1264,31 @@
             "days": [
                 {
                     "date": "2018-12-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-12-17",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-12-18",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2018-12-19",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2018-12-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-12-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2018-12-22",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1564,38 +1298,31 @@
             "days": [
                 {
                     "date": "2019-01-30",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-01-31",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-02-01",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-02-02",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-02-03",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-02-04",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-02-05",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1605,38 +1332,31 @@
             "days": [
                 {
                     "date": "2019-03-07",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-03-08",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-03-09",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-03-10",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-03-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-03-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-03-13",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1646,38 +1366,31 @@
             "days": [
                 {
                     "date": "2019-04-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-04-09",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-04-10",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-04-11",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-04-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-04-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-04-14",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1687,38 +1400,31 @@
             "days": [
                 {
                     "date": "2019-05-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-05-11",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-05-12",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-05-13",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-05-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-05-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-05-16",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1728,38 +1434,31 @@
             "days": [
                 {
                     "date": "2019-06-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-06-09",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-06-10",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-06-11",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-06-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-06-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-06-14",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1769,38 +1468,31 @@
             "days": [
                 {
                     "date": "2019-07-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-07-10",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-07-11",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-07-12",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-07-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-07-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-07-15",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1810,38 +1502,31 @@
             "days": [
                 {
                     "date": "2019-08-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-08-10",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-08-11",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-08-12",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-08-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-08-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-08-15",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1851,38 +1536,31 @@
             "days": [
                 {
                     "date": "2019-09-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-09-14",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-09-15",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-09-16",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-09-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-09-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-09-19",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1892,38 +1570,31 @@
             "days": [
                 {
                     "date": "2019-10-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-10-14",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-10-15",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-10-16",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-10-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-10-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-10-19",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1933,38 +1604,31 @@
             "days": [
                 {
                     "date": "2019-11-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-11-18",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-11-19",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-11-20",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-11-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-11-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-11-23",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -1974,38 +1638,31 @@
             "days": [
                 {
                     "date": "2019-12-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-12-19",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-12-20",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2019-12-21",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2019-12-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-12-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2019-12-24",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2015,38 +1672,31 @@
             "days": [
                 {
                     "date": "2020-01-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-01-11",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-01-12",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-01-13",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-01-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-01-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-01-16",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2056,38 +1706,31 @@
             "days": [
                 {
                     "date": "2020-02-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-02-09",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-02-10",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-02-11",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-02-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-02-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-02-14",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2097,38 +1740,31 @@
             "days": [
                 {
                     "date": "2020-03-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-03-16",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-03-17",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-03-18",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-03-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-03-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-03-21",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2138,38 +1774,31 @@
             "days": [
                 {
                     "date": "2020-04-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-04-19",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-04-20",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-04-21",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-04-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-04-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-04-24",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2179,38 +1808,31 @@
             "days": [
                 {
                     "date": "2020-05-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-05-22",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-05-23",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-05-24",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-05-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-05-26",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-05-27",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2220,38 +1842,31 @@
             "days": [
                 {
                     "date": "2020-06-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-06-16",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-06-17",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-06-18",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-06-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-06-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-06-21",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2261,38 +1876,31 @@
             "days": [
                 {
                     "date": "2020-07-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-07-18",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-07-19",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-07-20",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-07-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-07-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-07-23",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2302,38 +1910,31 @@
             "days": [
                 {
                     "date": "2020-08-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-08-17",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-08-18",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-08-19",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-08-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-08-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-08-22",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2343,38 +1944,31 @@
             "days": [
                 {
                     "date": "2020-09-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-09-10",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-09-11",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-09-12",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-09-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-09-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-09-15",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2384,38 +1978,31 @@
             "days": [
                 {
                     "date": "2020-10-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-10-13",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-10-14",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-10-15",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-10-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-10-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-10-18",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2425,38 +2012,31 @@
             "days": [
                 {
                     "date": "2020-11-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-11-15",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-11-16",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-11-17",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-11-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-11-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-11-20",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2466,38 +2046,31 @@
             "days": [
                 {
                     "date": "2020-12-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-12-16",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-12-17",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2020-12-18",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2020-12-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-12-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2020-12-21",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2507,38 +2080,31 @@
             "days": [
                 {
                     "date": "2021-01-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-01-26",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-01-27",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-01-28",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-01-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-01-30",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-01-31",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2548,38 +2114,31 @@
             "days": [
                 {
                     "date": "2021-02-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-02-26",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-02-27",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-02-28",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-03-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-03-02",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-03-03",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2589,38 +2148,31 @@
             "days": [
                 {
                     "date": "2021-03-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-03-29",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-03-30",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-03-31",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-04-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-04-02",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-04-03",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2630,38 +2182,31 @@
             "days": [
                 {
                     "date": "2021-04-27",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-04-28",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-04-29",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-04-30",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-05-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-05-02",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-05-03",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2671,38 +2216,31 @@
             "days": [
                 {
                     "date": "2021-05-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-05-26",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-05-27",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-05-28",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-05-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-05-30",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-05-31",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2712,38 +2250,31 @@
             "days": [
                 {
                     "date": "2021-06-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-06-25",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-06-26",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-06-27",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-06-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-06-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-06-30",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2753,38 +2284,31 @@
             "days": [
                 {
                     "date": "2021-07-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-07-26",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-07-27",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-07-28",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-07-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-07-30",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-07-31",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2794,38 +2318,31 @@
             "days": [
                 {
                     "date": "2021-08-27",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-08-28",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-08-29",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-08-30",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-08-31",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-09-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-09-02",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2835,38 +2352,31 @@
             "days": [
                 {
                     "date": "2021-09-26",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-09-27",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-09-28",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-09-29",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-09-30",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-10-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-10-02",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2876,38 +2386,31 @@
             "days": [
                 {
                     "date": "2021-10-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-10-24",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-10-25",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-10-26",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-10-27",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-10-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-10-29",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2917,38 +2420,31 @@
             "days": [
                 {
                     "date": "2021-11-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-11-20",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-11-21",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-11-22",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-11-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-11-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-11-25",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2958,38 +2454,31 @@
             "days": [
                 {
                     "date": "2021-12-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-12-17",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-12-18",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2021-12-19",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2021-12-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-12-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2021-12-22",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -2999,38 +2488,31 @@
             "days": [
                 {
                     "date": "2022-01-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-01-11",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-01-12",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-01-13",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-01-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-01-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-01-16",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3040,38 +2522,31 @@
             "days": [
                 {
                     "date": "2022-02-07",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-02-08",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-02-09",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-02-10",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-02-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-02-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-02-13",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3081,38 +2556,31 @@
             "days": [
                 {
                     "date": "2022-03-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-03-19",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-03-20",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-03-21",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-03-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-03-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-03-24",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3122,38 +2590,31 @@
             "days": [
                 {
                     "date": "2022-04-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-04-23",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-04-24",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-04-25",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-04-26",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-04-27",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-04-28",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3163,38 +2624,31 @@
             "days": [
                 {
                     "date": "2022-05-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-05-21",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-05-22",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-05-23",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-05-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-05-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-05-26",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3204,38 +2658,31 @@
             "days": [
                 {
                     "date": "2022-06-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-06-25",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-06-26",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-06-27",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-06-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-06-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-06-30",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3245,38 +2692,31 @@
             "days": [
                 {
                     "date": "2022-07-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-07-23",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-07-24",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-07-25",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-07-26",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-07-27",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-07-28",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3286,38 +2726,31 @@
             "days": [
                 {
                     "date": "2022-08-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-08-20",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-08-21",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-08-22",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-08-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-08-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-08-25",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3327,38 +2760,31 @@
             "days": [
                 {
                     "date": "2022-09-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-09-21",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-09-22",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-09-23",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-09-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-09-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-09-26",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3368,38 +2794,31 @@
             "days": [
                 {
                     "date": "2022-10-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-10-21",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-10-22",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-10-23",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-10-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-10-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-10-26",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3409,38 +2828,31 @@
             "days": [
                 {
                     "date": "2022-11-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-11-23",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-11-24",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-11-25",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-11-26",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-11-27",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-11-28",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3450,38 +2862,31 @@
             "days": [
                 {
                     "date": "2022-12-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-12-25",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-12-26",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2022-12-27",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2022-12-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-12-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2022-12-30",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3491,38 +2896,31 @@
             "days": [
                 {
                     "date": "2023-01-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-01-25",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-01-26",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-01-27",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-01-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-01-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-01-30",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3532,38 +2930,31 @@
             "days": [
                 {
                     "date": "2023-02-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-02-26",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-02-27",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-02-28",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-03-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-03-02",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-03-03",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3573,38 +2964,31 @@
             "days": [
                 {
                     "date": "2023-03-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-03-30",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-03-31",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-04-01",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-04-02",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-04-03",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-04-04",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3614,38 +2998,31 @@
             "days": [
                 {
                     "date": "2023-05-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-05-10",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-05-11",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-05-12",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-05-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-05-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-05-15",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3655,38 +3032,31 @@
             "days": [
                 {
                     "date": "2023-06-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-06-11",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-06-12",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-06-13",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-06-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-06-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-06-16",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3696,38 +3066,31 @@
             "days": [
                 {
                     "date": "2023-07-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-07-13",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-07-14",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-07-15",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-07-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-07-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-07-18",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3737,38 +3100,31 @@
             "days": [
                 {
                     "date": "2023-08-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-08-13",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-08-14",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-08-15",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-08-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-08-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-08-18",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3778,38 +3134,31 @@
             "days": [
                 {
                     "date": "2023-09-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-09-12",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-09-13",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-09-14",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-09-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-09-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-09-17",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3819,38 +3168,31 @@
             "days": [
                 {
                     "date": "2023-10-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-10-14",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-10-15",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-10-16",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-10-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-10-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-10-19",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3860,38 +3202,31 @@
             "days": [
                 {
                     "date": "2023-11-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-11-12",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-11-13",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-11-14",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-11-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-11-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-11-17",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3901,38 +3236,31 @@
             "days": [
                 {
                     "date": "2023-12-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-12-11",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-12-12",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2023-12-13",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2023-12-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-12-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2023-12-16",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3942,38 +3270,31 @@
             "days": [
                 {
                     "date": "2024-01-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-01-09",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-01-10",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-01-11",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-01-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-01-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-01-14",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -3983,38 +3304,31 @@
             "days": [
                 {
                     "date": "2024-02-06",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-02-07",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-02-08",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-02-09",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-02-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-02-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-02-12",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4024,38 +3338,31 @@
             "days": [
                 {
                     "date": "2024-03-03",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-03-04",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-03-05",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-03-06",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-03-07",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-03-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-03-09",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4065,38 +3372,31 @@
             "days": [
                 {
                     "date": "2024-04-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-04-09",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-04-10",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-04-11",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-04-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-04-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-04-14",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4106,38 +3406,31 @@
             "days": [
                 {
                     "date": "2024-05-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-05-12",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-05-13",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-05-14",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-05-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-05-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-05-17",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4147,38 +3440,31 @@
             "days": [
                 {
                     "date": "2024-06-10",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-06-11",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-06-12",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-06-13",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-06-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-06-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-06-16",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4188,38 +3474,31 @@
             "days": [
                 {
                     "date": "2024-07-11",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-07-12",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-07-13",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-07-14",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-07-15",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-07-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-07-17",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4229,38 +3508,31 @@
             "days": [
                 {
                     "date": "2024-08-12",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-08-13",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-08-14",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-08-15",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-08-16",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-08-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-08-18",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4270,38 +3542,31 @@
             "days": [
                 {
                     "date": "2024-09-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-09-18",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-09-19",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-09-20",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-09-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-09-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-09-23",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4311,38 +3576,31 @@
             "days": [
                 {
                     "date": "2024-10-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-10-19",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-10-20",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-10-21",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-10-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-10-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-10-24",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4352,38 +3610,31 @@
             "days": [
                 {
                     "date": "2024-11-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-11-20",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-11-21",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-11-22",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-11-23",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-11-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-11-25",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4393,38 +3644,31 @@
             "days": [
                 {
                     "date": "2024-12-20",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-12-21",
-                    "flow": "heavy",
-                    "mood": "😵"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-12-22",
-                    "flow": "heavy",
-                    "mood": "😐"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2024-12-23",
-                    "flow": "medium",
-                    "mood": "🙂"
+                    "flow": "medium"
                 },
                 {
                     "date": "2024-12-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-12-25",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2024-12-26",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4434,38 +3678,31 @@
             "days": [
                 {
                     "date": "2015-10-24",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-10-25",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-10-26",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-10-27",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2015-10-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-10-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-10-30",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4475,38 +3712,31 @@
             "days": [
                 {
                     "date": "2015-11-26",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-11-27",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-11-28",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-11-29",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2015-11-30",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-12-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-12-02",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4516,38 +3746,31 @@
             "days": [
                 {
                     "date": "2015-12-28",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2015-12-29",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-12-30",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2015-12-31",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-01-01",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-01-02",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-01-03",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4557,38 +3780,31 @@
             "days": [
                 {
                     "date": "2016-02-03",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-02-04",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-02-05",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2016-02-06",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2016-02-07",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-02-08",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2016-02-09",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4598,38 +3814,31 @@
             "days": [
                 {
                     "date": "2025-01-29",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-01-30",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-01-31",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-02-01",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2025-02-02",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-02-03",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-02-04",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4639,38 +3848,31 @@
             "days": [
                 {
                     "date": "2025-03-09",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-03-10",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-03-11",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-03-12",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2025-03-13",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-03-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-03-15",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4680,38 +3882,31 @@
             "days": [
                 {
                     "date": "2025-04-14",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-04-15",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-04-16",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-04-17",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2025-04-18",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-04-19",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-04-20",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4721,38 +3916,31 @@
             "days": [
                 {
                     "date": "2025-05-17",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-05-18",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-05-19",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-05-20",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2025-05-21",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-05-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-05-23",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4762,38 +3950,31 @@
             "days": [
                 {
                     "date": "2025-06-22",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-06-23",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-06-24",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-06-25",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2025-06-26",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-06-27",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-06-28",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4803,38 +3984,31 @@
             "days": [
                 {
                     "date": "2025-07-31",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-08-01",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-08-02",
-                    "flow": "heavy",
-                    "mood": "😊"
+                    "flow": "heavy"
                 },
                 {
                     "date": "2025-08-03",
-                    "flow": "medium",
-                    "mood": "😊"
+                    "flow": "medium"
                 },
                 {
                     "date": "2025-08-04",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-08-05",
-                    "flow": "light",
-                    "mood": "😊"
+                    "flow": "light"
                 },
                 {
                     "date": "2025-08-06",
-                    "flow": "spotting",
-                    "mood": "😊"
+                    "flow": "spotting"
                 }
             ]
         },
@@ -4844,8 +4018,15 @@
             "days": [
                 {
                     "date": "2025-09-02",
-                    "flow": "spotting",
-                    "mood": "😅"
+                    "flow": "spotting"
+                },
+                {
+                    "date": "2025-09-03",
+                    "flow": "light"
+                },
+                {
+                    "date": "2025-09-04",
+                    "flow": "heavy"
                 }
             ]
         }

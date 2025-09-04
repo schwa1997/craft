@@ -1461,10 +1461,10 @@
           "date": "2025-09-01",
           "goals": {
             "Gym": {
-              "value": 0
+              "value": 3
             },
             "Spanish": {
-              "value": 0
+              "value": 1
             },
             "Salad": {
               "value": 0
@@ -1472,7 +1472,7 @@
           },
           "life": {
             "Chill": {
-              "value": 0
+              "value": 1
             }
           },
           "work": {
@@ -1480,7 +1480,7 @@
               "value": 0
             },
             "Work": {
-              "value": 0
+              "value": 5
             }
           }
         },
@@ -1488,10 +1488,10 @@
           "date": "2025-09-02",
           "goals": {
             "Gym": {
-              "value": 0
+              "value": 2
             },
             "Spanish": {
-              "value": 0
+              "value": 1
             },
             "Salad": {
               "value": 0
@@ -1499,7 +1499,7 @@
           },
           "life": {
             "Chill": {
-              "value": 0
+              "value": 2
             }
           },
           "work": {
@@ -1507,7 +1507,7 @@
               "value": 0
             },
             "Work": {
-              "value": 0
+              "value": 5
             }
           }
         },
@@ -1526,7 +1526,7 @@
           },
           "life": {
             "Chill": {
-              "value": 0
+              "value": 5
             }
           },
           "work": {
@@ -1534,7 +1534,7 @@
               "value": 0
             },
             "Work": {
-              "value": 0
+              "value": 5
             }
           }
         },
